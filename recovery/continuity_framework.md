@@ -58,17 +58,6 @@ When receiving that command, the agent must not ask the user for a custom closeo
 5. Refresh affected `_SUMMARY.md` files when summaries are affected; inspect curated `Active Work`, `Needs Attention`, and task-status sections; patch stale curated notes manually.
 6. Run the narrowest meaningful verification after the task/state/handoff/summary edits. For structural scaffold changes this normally includes tests, local coherence, recovery smoke checks, and Architecture-to-Reality Audit for governance/template changes.
 7. Replace any `pending verification` placeholders with real verification output, or explicitly record remaining verification as a blocker before stopping.
-8. If the authoritative task is `COMPLETED`, `ACCEPTED`, or fully reconciled `CLOSED`, or an authoritative milestone is explicitly marked persistence-eligible, create a machine-readable `briefforge.public-closeout.v1` signal with the exact task-owned paths and run `python3 tools/public_persistence.py <signal> --root .`. The helper must enforce `publication/public-source-policy.json`, reject unrelated dirt, conflicts, overlapping writers, divergence, secrets, unresolved rights, and unexpected paths, and stage only eligible exact paths.
-
-Persistence outcomes are precise:
-
-- `REMOTE_SAVED`: all eligible public-source changes were committed, pushed, and verified at remote parity.
-- `REMOTE_SAVED_WITH_LOCAL_ONLY_MATERIAL`: eligible public changes were saved remotely and identified restricted/runtime paths remain local only.
-- `LOCAL_ONLY_COMPLETION`: the closeout changed only non-publishable material, so no Git commit was appropriate.
-- `REMOTE_SAVE_PENDING`: the local commit is retained, but push failed; follow the reported exact recovery action.
-- `PUBLICATION_BLOCKED`: no commit is allowed because a guard failed or publication status is unresolved.
-
-`BLOCKED`, `PARTIAL`, `FAILED`, `INCOMPLETE`, and `WAITING_DECISION` are not persistence triggers. A no-op eligible closeout reports that no commit was needed. Repeated execution of one closure identity must remain idempotent. Restricted material is never described as remotely safeguarded.
 
 This standard closeout replaces ad hoc user-provided closeout procedures. User instructions may narrow scope or add checks, but they should not be required to restate the standard task/state/handoff/summary/verification sequence.
 

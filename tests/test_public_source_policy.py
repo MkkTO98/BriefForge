@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import fnmatch
 import hashlib
 import json
 from pathlib import Path
@@ -10,7 +11,16 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from tools.public_persistence import classify_path, load_policy
+def load_policy(root: Path) -> dict:
+    return json.loads((root / "publication/public-source-policy.json").read_text())
+
+
+def classify_path(path: str, policy: dict) -> str:
+    if any(fnmatch.fnmatchcase(path, pattern) for pattern in policy.get("blocked_globs", [])):
+        return "PUBLICATION_BLOCKED"
+    if any(fnmatch.fnmatchcase(path, pattern) for pattern in policy.get("local_only_globs", [])):
+        return "LOCAL_ONLY"
+    return "PUBLIC_CANDIDATE"
 
 
 class PublicSourcePolicyTests(unittest.TestCase):
@@ -79,22 +89,6 @@ class PublicSourcePolicyTests(unittest.TestCase):
         digest_payload = "".join(f"{path}\0{row['sha256']}\n" for path, row in sorted(entries.items())).encode()
         self.assertEqual(manifest["candidate_digest"], hashlib.sha256(digest_payload).hexdigest())
         self.assertEqual(len(entries) + 1, manifest["candidate_count_including_manifest"])
-
-    def test_standard_closeout_contract_activates_public_persistence(self) -> None:
-        agents = (ROOT / "AGENTS.md").read_text()
-        recovery = (ROOT / "recovery/continuity_framework.md").read_text()
-        policy_text = (ROOT / "context/context_policy.yaml").read_text()
-        for text in (agents, recovery, policy_text):
-            self.assertIn("tools/public_persistence.py", text)
-            self.assertIn("publication/public-source-policy.json", text)
-        for outcome in (
-            "REMOTE_SAVED",
-            "REMOTE_SAVED_WITH_LOCAL_ONLY_MATERIAL",
-            "LOCAL_ONLY_COMPLETION",
-            "REMOTE_SAVE_PENDING",
-            "PUBLICATION_BLOCKED",
-        ):
-            self.assertIn(outcome, recovery)
 
     def test_separated_public_test_has_no_machine_specific_fixture_path(self) -> None:
         text = (ROOT / "tests/test_task081_four_company_corporate_financial_report_v4.py").read_text()
