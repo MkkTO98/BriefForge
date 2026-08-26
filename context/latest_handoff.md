@@ -1,51 +1,45 @@
 # Latest Handoff
 
 Project: BriefForge
-Updated: 2026-08-25T02:34:44+02:00
-Status: TASK-082 closed as final-byte `PARTIAL`; no task active.
+Updated: 2026-08-27T00:43:43+02:00
+Status: No task active; automatic verified-milestone closeout is installed and published.
 
 ## Context used
 
-- Corrected InsightForge T-042 is the exclusive numerical and analytical authority.
-- TASK-229/T-042 lacks authenticated issuer-presentation relationships.
-- TASK-079/TASK-080/TASK-081 are preserved historical releases.
+- `AGENTS.md`, `tools/git_autopush.py`, and `tests/test_git_autopush.py`.
+- `recovery/continuity_framework.md`, `context/context_policy.yaml`, and bounded recovery output.
+- Existing no-active-task pointers and the TASK-082 final-byte `PARTIAL` boundary.
 
 ## Outcome
 
-TASK-082 produced a separate standardized V5 report for Meta, Alphabet, Amazon, and Microsoft. The bounded report component passed financial/source and browser review. Whole-task completion is blocked because upstream evidence cannot authenticate issuer-native statement hierarchy; V5 therefore uses qualified flat analytical peer rows and omits unauthenticated `hierarchy_level`/`row_kind` fields.
+No task artifact was active, so none was invented for closeout. BriefForge now instructs agents to invoke the existing exact-path milestone helper automatically after a completed, verified task or significant verified milestone. The instruction itself records standing human approval for the ordinary `origin/main` push, excludes partial/blocked/failed/exploratory/unverified work, requires unrelated paths to remain unstaged, requires push failures to be reported as `LOCAL_ONLY`, and yields to a later explicit no-commit/no-push instruction.
 
-## Canonical identities
-
-- Entry: `artifacts/presentations/TASK-082-four-company-standardized-corporate-report-v5/index.html`
-- Entry SHA-256: `fc2e00ad450cf1ba7fa6299a45ceccf873c0ea8bc7dfeed42c7c575f548cc118`
-- Manifest identity: `25287662c347a0b8b1c497f42965579863de7f9a32c16df4358d1924d4cfcda7`
-- Binding identity: `8c6fd3bdc3107d4c91d0a7a450b5edab38813995c135d3858a0b56d0670a9889`
-- Package identity: `815de53b5141b91e4466d08373ced79c0d5c6f8e726e1040e7890a832e6ceed9`
-- Publication identity: `ac187e87847992e63e593c5f69365f711d51b82260914ff9d240a3b1f7f9d064`
-- Final inventory: 28 files; readback found zero missing or mismatched files.
+The instruction milestone was committed as `8b4263c731f1cd7197f4939397d9e8519908b202` and published to `origin/main`. Existing helper and focused test bytes were unchanged by that commit. TASK-082 remains closed as final-byte `PARTIAL`; its product, authority, rights, and predecessor-preservation boundaries are unchanged.
 
 ## Files changed
 
-- V5 renderer, builder, source verifier, finalizer, tests, and generated presentation package.
-- `state/{active_goal,project_state,recent_changes,known_issues}.md`.
-- `context/latest_handoff.md` and affected folder summaries.
-- No predecessor release artifact, Git repository, remote, deployment, service, or non-loopback listener was changed.
+- `AGENTS.md` for standing automatic milestone activation.
+- `context/latest_handoff.md` and `context/_SUMMARY.md` for this standard closeout.
+
+No product source, presentation package, existing task artifact, helper, focused helper test, decision, or architecture file changed.
 
 ## Tests/checks
 
-- TASK-079 through TASK-082 focused suite: 40/40 PASS under `-W error`.
-- Source verifier: PASS; 7,612 rendered source instances and zero unresolved references.
-- Replay: 15 core files byte-identical.
-- Browser: 48 routes × 4 configurations = 192 measurements; zero overflow/errors; keyboard focus and print PASS.
-- Independent verdicts: financial/source PASS; browser PASS; candidate hierarchy-integrity PASS with zero invented relationships; whole-task hierarchy-authority BLOCK.
-- Final manifest and binding identities recomputed valid; every bound file matched.
+- `python3 -m unittest tests.test_git_autopush -v`: 3/3 PASS after handoff and summary installation.
+- `python3 tools/check_coherence.py --project . --json`: zero blocks; two pre-existing informational warnings (`state/architecture.md` ledger shape and stale generated `context/active_context.md`).
+- `python3 tools/context_health.py --project . --json`: zero blocks; the same two informational warnings; handoff remains below its warning threshold.
+- `python3 tools/recover_session.py --project . --json`: PASS; recovered no active task, the automatic-closeout handoff, zero current blockers, and the exact resume procedure.
+- Instruction milestone no-change replay: no new commit; `origin/main` remained equal to local HEAD.
 
-## Remaining risks
+## Blockers and risks
 
-- Do not call TASK-082 COMPLETE without upstream issuer-presentation authority and full exact-byte reclosure.
-- Rights remain `internal_local_analysis_only`; external redistribution is unauthorized.
-- Full discovery remains red: 794 tests, 2 failures, 31 errors in TASK-070/TASK-077 surfaces. With no authenticated clean pre-task baseline in this non-Git tree, repository-wide failure provenance is unproven. Do not repair it under TASK-082.
+- No blocker remains for automatic milestone closeout.
+- TASK-082 must not be called COMPLETE without new issuer-presentation authority and full exact-byte reclosure.
+- Rights remain `internal_local_analysis_only`; external redistribution remains unauthorized.
+- Historical unrelated full-discovery failures remain outside this closeout.
 
-## Resume
+## Next
 
-Start from the final binding. Any candidate-byte change invalidates source, browser, review, replay, manifest, and binding evidence.
+No task is active. Obtain explicit authority before starting a successor or changing bound TASK-082 bytes.
+
+Exact resume command: `python3 tools/recover_session.py --project . --json`
