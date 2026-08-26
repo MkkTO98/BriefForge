@@ -101,7 +101,7 @@ When completing a task, follow the project `context/context_policy.yaml` task-co
 - Refresh only affected folder `_SUMMARY.md` files when possible, not the whole project by default.
 - Inspect refreshed summaries for stale curated sections such as `Active Work`, `Needs Attention`, and task status notes; patch them manually if needed.
 - Run final verification after task/state/handoff/summary edits.
-- After a genuine milestone is verified and push authority is explicit, run `python3 tools/git_autopush.py --project . --message "<milestone commit message>" --commit --push --yes-push --paths <authorized milestone paths...>`; unrelated paths must remain unstaged.
+- After a completed task or significant milestone has produced repository changes and passed all required verification, automatically run `python3 tools/git_autopush.py --project . --message "<accurate milestone commit message>" --commit --push --yes-push --paths <exact authorized milestone paths...>`. This instruction records standing human approval for that ordinary exact-path commit and push to `origin/main`; do not request approval again. Never invoke it for partial, blocked, failed, exploratory, or unverified work, and leave unrelated paths unstaged. If the push fails after committing, preserve the local commit and report `LOCAL_ONLY`. An explicit later user instruction not to commit or push overrides this rule.
 
 Every substantive handoff should include:
 
