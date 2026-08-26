@@ -1,0 +1,23 @@
+dependencies:
+  new_project:
+    depends_on:
+      - setup_questionnaire
+      - sufficiency_policy
+      - shared_template
+      - decision_artifacts
+  model_routing:
+    depends_on:
+      - models/registry.yaml
+      - models/routing.yaml
+      - models/selection_policy.yaml
+      - hardware/profile.yaml
+  context_building:
+    depends_on:
+      - folder_summaries
+      - state_files
+      - decision_artifacts
+  dry_run:
+    depends_on:
+      - simulation/dry_run_policy.yaml
+      - permissions/escalation_rules.yaml
+      - risk_classification

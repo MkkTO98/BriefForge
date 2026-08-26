@@ -1,0 +1,250 @@
+{
+  "extensions": [],
+  "identity": "candidate:case-1",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "CandidatePresentationPackageRecord",
+  "semantic": {
+    "audiences": [
+      {
+        "description": "Research reader.",
+        "id": "audience:candidate-research-c1"
+      }
+    ],
+    "brief_ref": "brief:case-1",
+    "comparison_universes": [
+      {
+        "authority_ref": "authority:knowledge-method",
+        "description": "Two retained demographic indicators under one upstream method.",
+        "id": "comparison-universe:c1"
+      }
+    ],
+    "distribution": {
+      "authority_ref": "authority:release",
+      "designation": "public-test",
+      "id": "distribution:c1-public"
+    },
+    "exhibits": [
+      {
+        "id": "exhibit:c1-table",
+        "kind": "static-table",
+        "purpose_ref": "purpose:candidate-c1",
+        "value_ids": [
+          "value:fertility-correlation",
+          "value:urban-correlation"
+        ]
+      },
+      {
+        "id": "exhibit:c1-key-number",
+        "kind": "key-number",
+        "purpose_ref": "purpose:candidate-c1",
+        "value_ids": [
+          "value:fertility-correlation"
+        ]
+      }
+    ],
+    "fallbacks": [
+      {
+        "complete": true,
+        "id": "fallback:c1-static",
+        "kind": "static"
+      },
+      {
+        "complete": true,
+        "id": "fallback:c1-print",
+        "kind": "print"
+      }
+    ],
+    "material_refs": [
+      "material:case-1"
+    ],
+    "non_scope": "No selector, recalculation, ranking, or live update.",
+    "obligations": [
+      {
+        "authority_ref": "authority:presentation",
+        "id": "obligation:c1-caveat-coencounter",
+        "kind": "co-encounter",
+        "target_refs": [
+          "statement:c1-finding",
+          "statement:c1-caveat",
+          "statement:c1-uncertainty"
+        ]
+      }
+    ],
+    "organizing_purpose": {
+      "brief_purpose_ref": "purpose:brief-c1",
+      "id": "purpose:candidate-c1",
+      "statement": "Present a bounded demographic/correlation résumé\nof reviewed evidence."
+    },
+    "relations": [
+      {
+        "authority_ref": "authority:knowledge-method",
+        "id": "relation:c1-uncertainty-limits",
+        "kind": "limits-target",
+        "source_ref": "statement:c1-uncertainty",
+        "target_ref": "statement:c1-finding"
+      },
+      {
+        "authority_ref": "authority:knowledge-method",
+        "id": "relation:c1-caveat-limits",
+        "kind": "limits-target",
+        "source_ref": "statement:c1-caveat",
+        "target_ref": "statement:c1-finding"
+      }
+    ],
+    "renderer_requirements": [
+      {
+        "capability": "static-html-svg",
+        "fallback_refs": [
+          "fallback:c1-static"
+        ],
+        "id": "requirement:c1-static",
+        "mandatory": true,
+        "permitted_transformations": [
+          "mechanical-number-format",
+          "static-layout"
+        ]
+      },
+      {
+        "capability": "table",
+        "fallback_refs": [
+          "fallback:c1-static"
+        ],
+        "id": "requirement:c1-table",
+        "mandatory": true,
+        "permitted_transformations": [
+          "static-layout"
+        ]
+      },
+      {
+        "capability": "print",
+        "fallback_refs": [
+          "fallback:c1-print"
+        ],
+        "id": "requirement:c1-print",
+        "mandatory": true,
+        "permitted_transformations": [
+          "print-layout"
+        ]
+      },
+      {
+        "capability": "standalone-offline",
+        "fallback_refs": [
+          "fallback:c1-static"
+        ],
+        "id": "requirement:c1-standalone",
+        "mandatory": true,
+        "permitted_transformations": []
+      }
+    ],
+    "scope": "Static fixed-evidence report.",
+    "sections": [
+      {
+        "children": [
+          "section:c1-evidence",
+          "section:c1-limits"
+        ],
+        "id": "section:c1-root",
+        "title": "Demographic correlation report"
+      },
+      {
+        "children": [
+          "statement:c1-finding",
+          "statement:c1-evidence",
+          "statement:c1-method"
+        ],
+        "id": "section:c1-evidence",
+        "title": "Evidence"
+      },
+      {
+        "children": [
+          "statement:c1-uncertainty",
+          "statement:c1-caveat"
+        ],
+        "id": "section:c1-limits",
+        "title": "Limits"
+      }
+    ],
+    "selection_sets": [],
+    "statements": [
+      {
+        "attention": "primary",
+        "authority_ref": "authority:insight-question",
+        "communication_functions": [
+          "orient",
+          "compare"
+        ],
+        "comparison_universe_ref": "comparison-universe:c1",
+        "id": "statement:c1-finding",
+        "posture": "accepted-finding",
+        "purpose_ref": "purpose:candidate-c1",
+        "requires_comparison_universe": true,
+        "text": "The strongest retained association in this bounded comparison is the fertility correlation.",
+        "upstream_refs": [
+          "external:insight-question",
+          "external:knowledge-coefficients"
+        ],
+        "value_ref": "value:fertility-correlation"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:knowledge-method",
+        "communication_functions": [
+          "substantiate"
+        ],
+        "id": "statement:c1-evidence",
+        "posture": "reusable-evidence",
+        "purpose_ref": "purpose:candidate-c1",
+        "text": "The retained fertility coefficient is -0.731.",
+        "upstream_refs": [
+          "external:knowledge-coefficients"
+        ],
+        "value_ref": "value:fertility-correlation"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:knowledge-method",
+        "communication_functions": [
+          "method"
+        ],
+        "id": "statement:c1-method",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-c1",
+        "text": "Coefficients were computed upstream using a bounded Spearman method.",
+        "upstream_refs": [
+          "external:knowledge-coefficients"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:knowledge-method",
+        "communication_functions": [
+          "qualify"
+        ],
+        "id": "statement:c1-uncertainty",
+        "posture": "uncertainty",
+        "purpose_ref": "purpose:candidate-c1",
+        "text": "Association is not causal attribution.",
+        "upstream_refs": [
+          "external:knowledge-coefficients"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:knowledge-method",
+        "communication_functions": [
+          "limit"
+        ],
+        "id": "statement:c1-caveat",
+        "posture": "caveat",
+        "purpose_ref": "purpose:candidate-c1",
+        "text": "The comparison universe is the retained reduced fixture only.",
+        "upstream_refs": [
+          "external:knowledge-coefficients"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "extensions": [],
+  "identity": "material:case-3",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PortablePresentationMaterialRecord",
+  "semantic": {
+    "authorities": [
+      {
+        "id": "authority:macro-upstream",
+        "owner_identity": "fixture:SyntheticMacroAuthority",
+        "role": "upstream-semantic-authority",
+        "scope": "generic-materialized-macro-evidence"
+      },
+      {
+        "id": "authority:company-upstream",
+        "owner_identity": "fixture:SyntheticCompanyAuthority",
+        "role": "upstream-semantic-authority",
+        "scope": "fictional-company-material"
+      },
+      {
+        "id": "authority:presentation-c3",
+        "owner_identity": "project:BriefForge",
+        "role": "presentation-author",
+        "scope": "presentation-only"
+      },
+      {
+        "id": "authority:validation-c3",
+        "owner_identity": "project:BriefForge",
+        "role": "validation-authority",
+        "scope": "state-validation"
+      },
+      {
+        "id": "authority:release-c3",
+        "owner_identity": "fixture:SyntheticReleaseAuthority",
+        "role": "release-authority",
+        "scope": "public-synthetic-release"
+      }
+    ],
+    "consistency_assertions": [
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "consistency:c3",
+        "known_conflict": false,
+        "source_value_refs": [
+          "value:c3-baseline",
+          "value:c3-supply",
+          "value:c3-demand"
+        ],
+        "state": "consistent"
+      }
+    ],
+    "evidence_snapshots": [
+      {
+        "content_fingerprint": "sha256:synthetic-case3",
+        "id": "snapshot:synthetic-c3",
+        "provenance_ref": "provenance:synthetic-c3",
+        "version": "1"
+      }
+    ],
+    "external_references": [
+      {
+        "authority_ref": "authority:company-upstream",
+        "id": "external:cinder-atlas-components",
+        "provenance_ref": "provenance:synthetic-c3",
+        "reference_kind": "fictional-company",
+        "snapshot_ref": "snapshot:synthetic-c3",
+        "upstream_object_identity": "fictional:CinderAtlasComponents"
+      },
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "external:macro-snapshot-c3",
+        "provenance_ref": "provenance:synthetic-c3",
+        "reference_kind": "generic-macro-material",
+        "snapshot_ref": "snapshot:synthetic-c3",
+        "upstream_object_identity": "synthetic-macro:snapshot-1"
+      }
+    ],
+    "provenance": [
+      {
+        "authority_ref": "authority:macro-upstream",
+        "citation": "Entirely synthetic company–macro fixture.",
+        "id": "provenance:synthetic-c3"
+      }
+    ],
+    "required_value_ids": [
+      "value:c3-baseline",
+      "value:c3-supply",
+      "value:c3-demand"
+    ],
+    "semantic_types": [
+      {
+        "description": "Synthetic materialized exposure index.",
+        "id": "type:synthetic-exposure-index"
+      }
+    ],
+    "state_validations": [
+      {
+        "authority_ref": "authority:validation-c3",
+        "id": "state-validation:baseline",
+        "snapshot_ref": "snapshot:synthetic-c3",
+        "snapshot_version": "1",
+        "state_ref": "state:baseline"
+      },
+      {
+        "authority_ref": "authority:validation-c3",
+        "id": "state-validation:supply",
+        "snapshot_ref": "snapshot:synthetic-c3",
+        "snapshot_version": "1",
+        "state_ref": "state:supply-tightness"
+      },
+      {
+        "authority_ref": "authority:validation-c3",
+        "id": "state-validation:demand",
+        "snapshot_ref": "snapshot:synthetic-c3",
+        "snapshot_version": "1",
+        "state_ref": "state:demand-slowdown"
+      }
+    ],
+    "units": [
+      {
+        "description": "Synthetic index points.",
+        "id": "unit:synthetic-index-points"
+      }
+    ],
+    "values": [
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "value:c3-baseline",
+        "payload": {
+          "coefficient": "10",
+          "scale": 0
+        },
+        "semantic_type_ref": "type:synthetic-exposure-index",
+        "source_ref": "external:macro-snapshot-c3",
+        "unit_ref": "unit:synthetic-index-points",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "value:c3-supply",
+        "payload": {
+          "coefficient": "18",
+          "scale": 0
+        },
+        "semantic_type_ref": "type:synthetic-exposure-index",
+        "source_ref": "external:macro-snapshot-c3",
+        "unit_ref": "unit:synthetic-index-points",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "value:c3-demand",
+        "payload": {
+          "coefficient": "6",
+          "scale": 0
+        },
+        "semantic_type_ref": "type:synthetic-exposure-index",
+        "source_ref": "external:macro-snapshot-c3",
+        "unit_ref": "unit:synthetic-index-points",
+        "value_state": "present"
+      }
+    ]
+  }
+}

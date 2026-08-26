@@ -1,0 +1,137 @@
+# Folder Summary: artifacts/reports
+
+## Purpose
+Reports preserve review, audit, investigation, architecture-to-reality, implementation, or synthesis findings that need to remain inspectable after the session.
+
+## Contains
+<!-- PROJECTFORGE:BEGIN-CONTAINS -->
+- `.gitkeep`
+- `R-20260701-canonical-presentation-package.md`
+- `R-20260701-constitution-freeze.md`
+- `R-20260701-constitutional-architecture-falsification-review.md`
+- `R-20260701-constitutional-architecture-revision.md`
+- `R-20260701-constitutional-architecture.md`
+- `R-20260701-constitutional-expressiveness-proof.md`
+- `R-20260701-constitutional-methodology-recommendation.md`
+- `R-20260701-final-constitutional-adversarial-review.md`
+- `R-20260701-final-semantic-investigation.md`
+- `R-20260701-implementation-constitution.md`
+- `R-20260702-architectural-validation-plan.md`
+- `R-20260702-implementation-architecture-extraction.md`
+- `R-20260702-runtime-representation-architecture.md`
+- `R-20260702-task-001-012-implementation-milestone-review.md`
+- `R-20260703-briefforge-v0.2-operational-milestone.md`
+- `R-20260703-communication-intent-experimental-layer.md`
+- `R-20260703-communication-intent-renderer-experiment.md`
+- `R-20260708-BriefForge-naming-normalization.md`
+- `R-20260708-adpm-adversarial-validation.md`
+- `R-20260708-adpm-component-responsibilities.md`
+- `R-20260708-adpm-lifecycle-architecture.md`
+- `R-20260708-adpm-representation-architecture-evaluation.md`
+- `R-20260708-adpm-representation-recommendations.md`
+- `R-20260708-adpm-stability-assessment.md`
+- `R-20260708-architectural-decision-package-model.md`
+- `R-20260708-briefforge-improvement-roadmap.md`
+- `R-20260708-briefforge-metaharvest-usability-review.md`
+- `R-20260713-demographic-correlation-browser-report.md`
+- `R-20260716-architecture-reality-audit.md`
+- `R-20260716-bcrp-candidate-authoring-and-lifecycle-compatibility.md`
+- `R-20260716-bcrp-lifecycle-authority-and-legacy-compatibility.md`
+- `R-20260716-bcrp-vertical-slice-implementation.md`
+- `R-20260716-current-state-capability-reconciliation.md`
+- `R-20260716-initial-representation-profile-and-golden-corpus-acceptance.md`
+- `R-20260716-publication-boundary-intake-portability-lifecycle-foundations.md`
+- `R-20260716-semantic-authority-evidence-states-interaction-renderer-fallback-foundations.md`
+- `R-20260716-semantic-representation-contract-and-layered-validation-planning.md`
+- `R-20260716-task-048-publication-release-representation-gap.md`
+- `R-20260716-task-049-append-only-publication-lifecycle-event-profile-and-corpus-proof.md`
+- `R-20260716-task-050-bcrp-publication-release-authority-production-and-lifecycle-proof.md`
+- `R-20260717-architecture-reality-audit.md`
+- `R-20260717-task-051-bcrp-renderer-compatibility-plan-production-and-fail-closed-proof.md`
+- `R-20260717-task-052-controlled-renderer-invocation-and-publication-artifact-evidence-boundary-proof.md`
+- `R-20260730-architecture-reality-audit.md`
+- `R-20260731-architecture-reality-audit.md`
+- `R-20260731-task-053-publication-artifact-semantic-conformance-and-audit-link-proof.md`
+- `R-20260731-task-054-publication-manifest-authority-and-artifact-admission-proof.md`
+- `R-20260731-task-055-publication-distribution-authorization-and-controlled-delivery-proof.md`
+- `R-20260731-task-056-deployment-and-publication-success-authority-boundary-proof.md`
+- `R-20260731-task-057-bounded-browser-render-verification-blocker.md`
+- `R-20260801-architecture-reality-audit.md`
+- `R-20260801-task-058-browser-request-closure-architecture-review.md`
+- `R-20260801-task-059-current-capability-and-mission-fit-assessment.md`
+- `R-20260801-task-059-next-workstream-recommendation.md`
+- `R-20260801-task-060-architecture-reality-audit.md`
+- `R-20260801-task-060-pre-implementation-architecture-review.md`
+- `R-20260801-task-060-representative-static-html-projection-and-semantic-conformance-capability.md`
+- `R-20260801-task-061-architecture-reality-audit.md`
+- `R-20260801-task-061-representative-accepted-chain-brief-pilot.md`
+- `R-20260801-task-061-source-admission-assessment.md`
+- `R-20260801-task-061-source-admission-inventory.json`
+- `R-20260801-task-062-architecture-reality-audit.md`
+- `R-20260801-task-062-representative-profile-terminal-authority-reconciliation.md`
+- `R-20260801-task-062-terminal-authority-incompatibility-diagnosis.md`
+- `R-20260801-task-063-adversarial-results.json`
+- `R-20260801-task-063-architecture-reality-audit.md`
+- `R-20260801-task-063-frozen-editorial-scope-and-mapping.json`
+- `R-20260801-task-063-independent-reconciliation-review.md`
+- `R-20260801-task-063-representative-accepted-chain-pilot-reexecution.md`
+- `R-20260801-task-063-source-revalidation.json`
+- `R-20260801-task-064-architecture-reality-audit.md`
+- `R-20260801-task-064-completion.md`
+- `R-20260801-task-064-editorial-closure-and-table-contract.md`
+- `R-20260801-task-064-editorial-closure-ledger.json`
+- `R-20260801-task-064-independent-editorial-and-mapping-review.md`
+- `R-20260801-task-064-local-contract-verification.json`
+- `R-20260801-task-064-mutation-accounting.json`
+- `R-20260801-task-064-pre-release-editorial-gate.json`
+- `R-20260801-task-064-seven-row-paired-table-contract.json`
+- `R-20260801-task-064-source-to-candidate-authoring-blueprint.json`
+- `R-20260801-task-064-task063-editorial-failure-diagnosis.md`
+- `R-20260801-task-064-task063-pre-release-gate-comparison.json`
+- `R-20260801-task-065-architecture-reality-audit.md`
+- `R-20260801-task-065-completion.md`
+- `R-20260801-task-065-mutation-accounting.json`
+- `R-20260801-task-065-pre-authoring-interface-contradiction.json`
+- `R-20260801-task-065-source-and-contract-admission.json`
+- `R-20260801-task-066-capacity-contradiction-matrix.json`
+- `R-20260801-task-066-final-independent-architecture-review.md`
+- `R-20260801-task-066-independent-architecture-review-round1.md`
+- `R-20260801-task-066-independent-architecture-review-round2.md`
+- `R-20260801-task-066-route-a-falsification-and-route-b-analysis.md`
+- `R-20260801-task-066-task064-scope-and-capacity-clarification.md`
+- `R-20260802-architecture-reality-audit.md`
+- `R-20260802-task-066-completion.md`
+- `R-20260802-task-066-mutation-accounting.json`
+- `R-20260802-task-067-blocked-closeout.md`
+- `R-20260802-task-067-bounded-implementation-map.json`
+- `R-20260802-task-067-pre-task-filesystem-manifest.json`
+- `R-20260802-task-067-prechange-manifest-selector-source-closure.json`
+- `R-20260808-architecture-reality-audit.md`
+- `R-20260808-task-067-completion.md`
+- `R-20260808-task-067-final-filesystem-reconciliation.json`
+- `R-20260808-task-067-final-independent-adversarial-review.md`
+- `R-20260808-task-067-independent-architecture-review-round1.md`
+- `R-20260808-task-068-final-filesystem-reconciliation.json`
+- `R-20260808-task-068-phase1-authority-gate-reconciliation.md`
+- `R-20260808-task-068-pre-task-filesystem-manifest.json`
+- `R-20260808-task-069-candidate-semantic-acceptance.json`
+- `R-20260808-task-069-final-filesystem-reconciliation.json`
+- `R-20260808-task-069-pre-attempt-gate.json`
+- `R-20260808-task-069-pre-task-filesystem-manifest.json`
+- `R-20260808-task-069-sole-attempt-adjudication.md`
+- `R-20260808-task-070-causal-authentication.md`
+- `R-20260808-task-070-completion.md`
+- `R-20260808-task-070-final-filesystem-reconciliation.json`
+- `R-20260808-task-070-independent-review-1-durability-recovery.md`
+- `R-20260808-task-070-independent-review-2-attempt-authority.md`
+- `R-20260808-task-070-independent-review-3-semantic-preservation.md`
+- `R-20260824-task-080-bounded-source-sufficiency.json`
+- `R-20260824-task-080-completion.md`
+- `R-20260824-task-080-independent-review.json`
+<!-- PROJECTFORGE:END-CONTAINS -->
+
+## Active Work
+- No task is active. TASK-080 completion, source sufficiency, and independent review are preserved in the listed TASK-080 reports.
+
+## Needs Attention
+- Preserve the historical v6 review evidence and immutable 34-record aggregate. TASK-071 and real Candidate-to-Manifest execution remain deferred and unauthorized; no successor is active or implied.

@@ -1,0 +1,623 @@
+{
+  "cases": [
+    {
+      "case_id": "T031-DNK-private-credit-broad-money",
+      "case_specific_explanations": [
+        "both indicators share a GDP denominator",
+        "non-contemporaneous monetary and credit-system linkage remains possible",
+        "modeled-estimation and administrative-reporting construction may contribute"
+      ],
+      "classification": "weakens materially",
+      "common_threats": [
+        "raw level co-movement may reflect gradual time movement rather than contemporaneous annual-change co-movement",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window and source-revision sensitivity",
+        "no admitted significance, lag, regime, mechanism, or causal evidence"
+      ],
+      "content_class": "faithfully projected external analytical content",
+      "dependence_notes": [
+        "shares Denmark and private-credit series exposure with T-038",
+        "uses the same WDI/Pearson/first-difference method family and a nearly identical time window as every other case"
+      ],
+      "evidence_role": "core governed inquiry",
+      "first_difference": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "coefficient": "-0.083567273412",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference"
+      },
+      "geography": "Denmark",
+      "order": 1,
+      "raw": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "coefficient": "0.316082156476",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "trend_diagnostics": {
+          "availability": "embedded_in_published_raw_package_and_reported_by_t031",
+          "predominant_trend_attribution_established": false,
+          "series_a_vs_time_index": "0.757137531509",
+          "series_b_vs_time_index": "0.521453951784"
+        }
+      },
+      "relationship": "Domestic credit to private sector (% of GDP) versus broad money (% of GDP)",
+      "source_inclusion_role": "core_published_production_inquiry_evidence",
+      "source_task": "T-031",
+      "strongest_defensible_conclusion": "The accepted positive level association does not persist as comparable same-period annual-change co-movement; the cause of attenuation is not identified."
+    },
+    {
+      "case_id": "T033-NOR-fossil-nonhydro-renewables",
+      "case_specific_explanations": [
+        "both indicators are shares of total electricity production",
+        "hydroelectric generation is omitted from the non-hydro renewable indicator",
+        "weather, hydrology, capacity, policy, and compositional substitution remain unresolved"
+      ],
+      "classification": "weakens materially",
+      "common_threats": [
+        "raw level co-movement may reflect gradual time movement rather than contemporaneous annual-change co-movement",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window, missing-observation, and revision sensitivity",
+        "no admitted significance, lag, regime, mechanism, or causal evidence"
+      ],
+      "content_class": "faithfully projected external analytical content",
+      "dependence_notes": [
+        "shares both Norway electricity indicators and overlapping years with two T-035 mortality cases",
+        "uses the same WDI/Pearson/first-difference method family as every other case"
+      ],
+      "evidence_role": "core governed inquiry",
+      "first_difference": {
+        "aligned_count": 31,
+        "aligned_period": "1991-2021",
+        "coefficient": "-0.204185174675",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference"
+      },
+      "geography": "Norway",
+      "order": 2,
+      "raw": {
+        "aligned_count": 32,
+        "aligned_period": "1990-2021",
+        "coefficient": "0.315942832953",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "trend_diagnostics": {
+          "availability": "embedded_in_published_raw_package_and_reported_by_t033",
+          "predominant_trend_attribution_established": false,
+          "series_a_vs_time_index": "0.64921014377",
+          "series_b_vs_time_index": "0.804092533899"
+        }
+      },
+      "relationship": "Electricity production from fossil sources (% of total) versus non-hydro renewable sources (% of total)",
+      "source_inclusion_role": "core_published_production_inquiry_evidence",
+      "source_task": "T-033",
+      "strongest_defensible_conclusion": "The positive level association is not preserved as positive annual-change co-movement, but sign change does not establish reversal or substitution."
+    },
+    {
+      "case_id": "T035-C1-NOR-life-expectancy-under5-mortality",
+      "case_specific_explanations": [
+        "both health indicators may share modeled-data and administrative-reporting processes",
+        "long-run health-system and socioeconomic improvement can move both levels without matching annual shocks",
+        "unmeasured demographic and health-system factors remain unresolved"
+      ],
+      "classification": "weakens materially",
+      "common_threats": [
+        "strong raw level co-movement need not imply comparable annual-change co-movement",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window and source-revision sensitivity",
+        "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+      ],
+      "content_class": "faithfully projected external analytical content",
+      "dependence_notes": [
+        "one of three result-informed T-035 C1 relationships sharing Norway, under-5 mortality, method, transformation, and overlapping years",
+        "selected from the same bounded numerical curation exercise as the other two T-035 rows"
+      ],
+      "evidence_role": "context-only relationship",
+      "first_difference": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "coefficient": "-0.207863151096",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference"
+      },
+      "geography": "Norway",
+      "order": 3,
+      "raw": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "coefficient": "-0.951151571489",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "trend_diagnostics": {
+          "availability": "not_reported_in_published_t035_record",
+          "predominant_trend_attribution_established": false
+        }
+      },
+      "relationship": "Life expectancy at birth versus under-5 mortality",
+      "source_inclusion_role": "context_only_result_informed_curation",
+      "source_task": "T-035",
+      "strongest_defensible_conclusion": "The very strong negative level coefficient is much smaller in annual changes; the published evidence does not identify whether trend, measurement, noise, or omitted factors explain the attenuation."
+    },
+    {
+      "case_id": "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "case_specific_explanations": [
+        "electricity-share denominator and composition effects",
+        "weather and hydro-output variation",
+        "energy variables are contextual correlates rather than admitted mortality mechanisms"
+      ],
+      "classification": "weakens materially",
+      "common_threats": [
+        "raw level co-movement need not imply comparable annual-change co-movement",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window, missing-ending-year, and source-revision sensitivity",
+        "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+      ],
+      "content_class": "faithfully projected external analytical content",
+      "dependence_notes": [
+        "shares Norway, under-5 mortality, curation procedure, method, and years with the other T-035 C1 rows",
+        "shares the non-hydro renewable series and overlapping years with T-033"
+      ],
+      "evidence_role": "context-only relationship",
+      "first_difference": {
+        "aligned_count": 31,
+        "aligned_period": "1991-2021",
+        "coefficient": "0.3855860099",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference"
+      },
+      "geography": "Norway",
+      "order": 4,
+      "raw": {
+        "aligned_count": 32,
+        "aligned_period": "1990-2021",
+        "coefficient": "-0.652623909096",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "trend_diagnostics": {
+          "availability": "not_reported_in_published_t035_record",
+          "predominant_trend_attribution_established": false
+        }
+      },
+      "relationship": "Non-hydro renewable electricity share versus under-5 mortality",
+      "source_inclusion_role": "context_only_result_informed_curation",
+      "source_task": "T-035",
+      "strongest_defensible_conclusion": "The coefficient changes sign across level and annual-change estimands; this weakens the raw interpretation but does not establish reversal or an energy-to-mortality mechanism."
+    },
+    {
+      "case_id": "T035-C1-NOR-fossil-under5-mortality",
+      "case_specific_explanations": [
+        "electricity-share denominator and composition effects",
+        "weather, hydro-output, policy, and generation-mix variation",
+        "energy variables are contextual correlates rather than admitted mortality mechanisms"
+      ],
+      "classification": "weakens materially",
+      "common_threats": [
+        "raw level co-movement need not imply comparable annual-change co-movement",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window, missing-ending-year, and source-revision sensitivity",
+        "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+      ],
+      "content_class": "faithfully projected external analytical content",
+      "dependence_notes": [
+        "shares Norway, under-5 mortality, curation procedure, method, and years with the other T-035 C1 rows",
+        "shares the fossil electricity series and overlapping years with T-033"
+      ],
+      "evidence_role": "context-only relationship",
+      "first_difference": {
+        "aligned_count": 33,
+        "aligned_period": "1991-2023",
+        "coefficient": "-0.083376899169",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference"
+      },
+      "geography": "Norway",
+      "order": 5,
+      "raw": {
+        "aligned_count": 34,
+        "aligned_period": "1990-2023",
+        "coefficient": "-0.618717118858",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "trend_diagnostics": {
+          "availability": "not_reported_in_published_t035_record",
+          "predominant_trend_attribution_established": false
+        }
+      },
+      "relationship": "Fossil electricity share versus under-5 mortality",
+      "source_inclusion_role": "context_only_result_informed_curation",
+      "source_task": "T-035",
+      "strongest_defensible_conclusion": "The negative level coefficient becomes numerically much smaller in annual changes; this does not establish absence, independence, or a mortality mechanism."
+    },
+    {
+      "case_id": "T036-SWE-private-credit-mobile-subscriptions",
+      "case_specific_explanations": [
+        "mobile-adoption saturation and nonlinear diffusion",
+        "credit cycles may be unrelated to annual subscription changes",
+        "income, technology, regulation, pricing, and demographics remain omitted"
+      ],
+      "classification": "weakens materially",
+      "common_threats": [
+        "parallel long-run development can produce level co-movement without strong annual-change co-movement",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window and source-revision sensitivity",
+        "no admitted significance, lag, nonlinearity, regime, mechanism, or causal evidence"
+      ],
+      "content_class": "faithfully projected external analytical content",
+      "dependence_notes": [
+        "shares private-credit indicator family with T-031 and T-038 but uses a different country or paired series",
+        "uses the same WDI/Pearson/first-difference method family and overlapping decades as every other case"
+      ],
+      "evidence_role": "qualified analytical byproduct",
+      "first_difference": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "coefficient": "0.161115218727",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference"
+      },
+      "geography": "Sweden",
+      "order": 6,
+      "raw": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "coefficient": "0.937758474347",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "trend_diagnostics": {
+          "availability": "embedded_in_published_raw_package_and_reported_by_t036",
+          "predominant_trend_attribution_established": false,
+          "series_a_vs_time_index": "0.910525305233",
+          "series_b_vs_time_index": "0.935643810072"
+        }
+      },
+      "relationship": "Domestic credit to private sector (% of GDP) versus mobile cellular subscriptions (per 100 people)",
+      "source_inclusion_role": "qualified_analytical_byproduct",
+      "source_task": "T-036",
+      "strongest_defensible_conclusion": "The very strong positive level coefficient is not preserved as comparably strong annual-change co-movement; T-036 retains this analytical byproduct while remaining checkpoint-nonconforming."
+    },
+    {
+      "case_id": "T038-DNK-agricultural-land-private-credit",
+      "case_specific_explanations": [
+        "agricultural-land structural change and private-credit financial deepening",
+        "private-credit-to-GDP denominator and financial-cycle variation",
+        "policy and institutional shifts remain unresolved"
+      ],
+      "classification": "weakens materially",
+      "common_threats": [
+        "opposing long-run structural movement can produce level co-movement without annual-change persistence",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window, missing-2024, outlier, and source-revision sensitivity",
+        "no admitted significance, lag, regime, mechanism, or causal evidence"
+      ],
+      "content_class": "faithfully projected external analytical content",
+      "dependence_notes": [
+        "shares Denmark and private-credit series exposure with T-031",
+        "selection was inherited from T-036's published ranking rather than independently regenerated"
+      ],
+      "evidence_role": "core governed inquiry",
+      "first_difference": {
+        "aligned_count": 33,
+        "aligned_period": "1991-2023",
+        "coefficient": "0.058190335423",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference"
+      },
+      "geography": "Denmark",
+      "order": 7,
+      "raw": {
+        "aligned_count": 34,
+        "aligned_period": "1990-2023",
+        "coefficient": "-0.667417505516",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "trend_diagnostics": {
+          "availability": "embedded_in_published_raw_package_and_reported_by_t038",
+          "predominant_trend_attribution_established": false,
+          "series_a_vs_time_index": "-0.828711001501",
+          "series_b_vs_time_index": "0.777005621284"
+        }
+      },
+      "relationship": "Agricultural land (% of land area) versus domestic credit to private sector (% of GDP)",
+      "source_inclusion_role": "core_published_production_inquiry_evidence",
+      "source_task": "T-038",
+      "strongest_defensible_conclusion": "The negative level coefficient is not preserved as comparable annual-change co-movement; sign change does not establish reversal, and strict compliance applies only to this inherited-selection inquiry."
+    }
+  ],
+  "classification_rule": {
+    "analytical": "faithfully projected external analytical content",
+    "provenance": "provenance or obligation material",
+    "structural": "BriefForge-authored structural or presentational text"
+  },
+  "content_authorities": [
+    {
+      "id": "authority:insightforge-t039-analytical-content",
+      "owner_identity": "project:InsightForge",
+      "role": "presentation-content-authority",
+      "scope": "exact admitted T-039 analytical content at source snapshot source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689"
+    },
+    {
+      "id": "authority:briefforge-task063-presentation-structure",
+      "owner_identity": "project:BriefForge",
+      "role": "presentation-content-authority",
+      "scope": "non-analytical organization, headings, introduction, deterministic ordering, table projection, provenance display, and publication presentation"
+    }
+  ],
+  "disposition": {
+    "architecture_change_justified": false,
+    "architecture_remains_frozen": true,
+    "briefforge_modified": false,
+    "finding_created_or_accepted": false,
+    "forecast_or_recommendation_created": false,
+    "hypothesis_created_or_accepted": false,
+    "new_method_or_transformation_added": false,
+    "signal_created_or_accepted": false,
+    "strongest_actionable_output": "analytical practice guidance for interpreting strong raw-level correlations",
+    "thesis_created_or_accepted": false,
+    "upstream_obligation_created": false
+  },
+  "evidence_hierarchy": {
+    "context_only_case_count": 3,
+    "context_only_cases": [
+      "T035-C1-NOR-life-expectancy-under5-mortality",
+      "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "T035-C1-NOR-fossil-under5-mortality"
+    ],
+    "context_only_rows_do_not_enlarge_core_governed_sample": true,
+    "core_case_count": 3,
+    "core_cases": [
+      "T031-DNK-private-credit-broad-money",
+      "T033-NOR-fossil-nonhydro-renewables",
+      "T038-DNK-agricultural-land-private-credit"
+    ],
+    "qualified_case_count": 1,
+    "qualified_cases": [
+      "T036-SWE-private-credit-mobile-subscriptions"
+    ]
+  },
+  "exclusions": [
+    {
+      "item": "raw data, databases, fresh retrieval, and recomputation",
+      "reason": "outside admitted T-039 source boundary"
+    },
+    {
+      "item": "unselected C1 or C3 results and any eighth relationship",
+      "reason": "outside frozen accepted selection"
+    },
+    {
+      "item": "pooled inference, causal mechanism, statistical significance, general-law, forecasting, recommendation, or investment claims",
+      "reason": "not established by admitted source"
+    },
+    {
+      "item": "operational publication authorities in displayed semantics",
+      "reason": "operational authority is non-semantic and must remain planned-zero"
+    }
+  ],
+  "experimental_brief_candidate": {
+    "accepted_finding": false,
+    "bounded_headline": "Seven selected WDI relationships show one recurring warning: level correlations weaken materially in same-year annual changes.",
+    "evidence_frontier_limitation": "The admitted frontier has raw and first-difference Pearson evidence only; no significance, stationarity, rolling, lagged, rank, regression, partial-correlation, subperiod, break, regime, or robustness family is admitted.",
+    "exact_case_scope": "Three core governed Production Inquiry cases, one qualified checkpoint-nonconforming analytical byproduct, and three context-only result-informed T-035 comparisons.",
+    "governance_and_selection_qualifications": "The rows are small, selected, nonrandom, and dependent. T-035 does not enlarge the core governed sample; T-036 remains qualified; T-038 uses inherited selection.",
+    "most_important_counterinterpretation": "Attenuation may coexist with meaningful long-run level relationships and does not identify trend, spuriousness, reversal, absence, or any predominant cause.",
+    "reader_interpretation_change": "Read a strong raw correlation as a prompt for transformation-aware challenge, not as self-sufficient evidence of stable contemporaneous co-movement or mechanism.",
+    "repeated_pattern": "All seven rows have smaller absolute first-difference Pearson coefficients; four change sign; all are classified weakens materially.",
+    "unresolved_questions": [
+      "Which explanation dominates in each case?",
+      "Do lagged, nonlinear, subperiod, break, regime, or revision-aware analyses alter interpretation?",
+      "How sensitive are results to windows, missing years, and outliers?"
+    ]
+  },
+  "freeze_result": "complete and non-cherry-picked",
+  "inclusion_rule": "Include all seven explicit T-039 relationship cases, both coefficients and states for every case, all accepted classifications, the exact 3/1/3 evidence hierarchy, all governing qualifications, dependence, selection, provenance, and obligations.",
+  "mandatory_intro": "This BriefForge presentation organizes accepted InsightForge T-039 findings without recomputing, reassessing, or changing their analytical authority.",
+  "mandatory_synthesis": {
+    "all_cases_have_smaller_absolute_first_difference_coefficient": true,
+    "analytical_practice_guidance": [
+      "Treat a strong raw correlation as a question generator, not as evidence of a stable short-run relationship.",
+      "Verify source ownership, package identity, method, transformation, aligned periods, counts, and missingness before interpretation.",
+      "Compare raw and transformation-aware evidence before writing a mechanism or decision narrative.",
+      "Describe attenuation as weakening of the raw interpretation, not as proof of spuriousness, reversal, absence, or a predominant trend cause.",
+      "Inspect time-index diagnostics, denominator and composition risks, measurement construction, and coverage when they are admitted, while preserving their diagnostic limits.",
+      "Preserve case-specific alternatives and cross-case dependence instead of counting relationship rows as independent replications.",
+      "Escalate only to admitted evidence capable of discriminating lag, nonlinearity, subperiod, break, regime, outlier, significance, revision, or mechanism alternatives.",
+      "Stop when the available evidence only repeats the same raw-versus-first-difference contrast without adding discrimination."
+    ],
+    "case_specific_explanations": {
+      "T031": [
+        "shared GDP denominator",
+        "monetary/credit linkage and lags"
+      ],
+      "T033": [
+        "electricity-total denominator",
+        "hydro omission",
+        "generation substitution",
+        "weather and hydrology"
+      ],
+      "T035_energy_health": [
+        "electricity composition",
+        "weather and hydro output",
+        "energy variables are not admitted mortality mechanisms"
+      ],
+      "T035_health": [
+        "modeled health-data processes",
+        "long-run health-system improvement"
+      ],
+      "T036": [
+        "mobile diffusion and saturation",
+        "credit cycles",
+        "technology and regulation"
+      ],
+      "T038": [
+        "land-use structural change",
+        "private-credit/GDP denominator",
+        "financial cycles and institutions"
+      ]
+    },
+    "causality_or_mechanism_established": false,
+    "common_explanations_that_survive": [
+      "gradual common or opposing time movement can create level co-movement without comparable annual-change co-movement",
+      "measurement construction, ratios, denominators, and common modeled or administrative processes can affect raw relationships",
+      "first differencing changes the estimand and may amplify noise",
+      "finite-window, missingness, source-revision, and outlier sensitivity remain unresolved",
+      "lagged, nonlinear, regime-dependent, and structural-break relationships are not tested by contemporaneous Pearson coefficients",
+      "omitted common or separate drivers remain viable"
+    ],
+    "dependence_clusters": [
+      {
+        "cluster": "common upstream and method family",
+        "dependence": "All use annual WDI series, KnowledgeForge Pearson packages, first-difference Pearson companions, and overlapping Nordic windows near 1990-2024.",
+        "members": "all seven cases"
+      },
+      {
+        "cluster": "T-035 C1 curation",
+        "dependence": "Same result-informed selection exercise, target, geography, method, transformation, and overlapping years.",
+        "members": [
+          "T035-C1-NOR-life-expectancy-under5-mortality",
+          "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "T035-C1-NOR-fossil-under5-mortality"
+        ]
+      },
+      {
+        "cluster": "Norway electricity",
+        "dependence": "The T-035 energy rows reuse the fossil or non-hydro renewable series present in T-033 and share electricity-composition exposures.",
+        "members": [
+          "T033-NOR-fossil-nonhydro-renewables",
+          "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "T035-C1-NOR-fossil-under5-mortality"
+        ]
+      },
+      {
+        "cluster": "private credit",
+        "dependence": "All include the private-credit indicator family; T-031 and T-038 also share Denmark.",
+        "members": [
+          "T031-DNK-private-credit-broad-money",
+          "T036-SWE-private-credit-mobile-subscriptions",
+          "T038-DNK-agricultural-land-private-credit"
+        ]
+      },
+      {
+        "cluster": "selection lineage",
+        "dependence": "T-038 selection was inherited from the T-036 coefficient-independent ranking, although T-036 itself lacked a durable pre-result checkpoint.",
+        "members": [
+          "T036-SWE-private-credit-mobile-subscriptions",
+          "T038-DNK-agricultural-land-private-credit"
+        ]
+      }
+    ],
+    "estimand_boundary": "Raw and first-difference coefficients answer different estimands: same-period co-movement in levels versus same-period co-movement in annual changes. Attenuation is a transformation-aware reassessment, not a corrected estimate of the same quantity.",
+    "independent_replication_established": false,
+    "observed_pattern": "Every explicitly included relationship has a smaller absolute first-difference coefficient than raw coefficient and was published with the qualitative classification weakens materially.",
+    "predominant_shared_trend_cause_established": false,
+    "replicated_pattern_scope": "repeated_descriptive_attenuation_under_one_transformation_family",
+    "replication_interpretation": "The repeated observation is credible as a workflow-level warning across heterogeneous relationships, but not as seven independent replications of one economic law or one causal explanation.",
+    "sign_change_case_count": 4,
+    "sign_change_cases": [
+      "T031-DNK-private-credit-broad-money",
+      "T033-NOR-fossil-nonhydro-renewables",
+      "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "T038-DNK-agricultural-land-private-credit"
+    ],
+    "stationarity_established": false,
+    "what_first_differencing_does_not_rule_out": [
+      "a valid bounded descriptive relationship in levels",
+      "lagged or lead relationships",
+      "nonlinear relationships",
+      "subperiod or regime-dependent relationships",
+      "structural breaks",
+      "a substantive mechanism not identified by these correlations",
+      "measurement, denominator, composition, and omitted-variable explanations",
+      "finite-window or revision sensitivity",
+      "statistical significance or insignificance, because no significance evidence is admitted",
+      "stationarity or nonstationarity, because first differencing does not prove stationarity",
+      "causality, reversal, absence, independence, or a predominant cause"
+    ],
+    "what_first_differencing_rules_out": [
+      "For these published finite windows, the raw coefficient cannot also be described as comparably strong same-period annual-change co-movement."
+    ]
+  },
+  "schema": "briefforge-task063-frozen-editorial-scope:1.0.0",
+  "sections": [
+    {
+      "class": "BriefForge-authored structural or presentational text",
+      "id": "section:task063-root",
+      "order": 1,
+      "title": "When Level Correlations Weaken in Annual Changes: Seven Accepted InsightForge Comparisons"
+    },
+    {
+      "class": "BriefForge-authored structural or presentational text",
+      "id": "section:task063-comparisons",
+      "order": 2,
+      "title": "Seven accepted raw-to-first-difference comparisons"
+    },
+    {
+      "class": "BriefForge-authored structural or presentational text",
+      "id": "section:task063-interpretation",
+      "order": 3,
+      "title": "Interpretation, qualifications, and provenance"
+    }
+  ],
+  "selection_and_corpus_bias_assessment": {
+    "candidate_universe": "A narrow admitted inventory of WDI annual-scalar raw Pearson relationships with first-difference companions; not a random sample of economic relationships.",
+    "generalization_beyond_current_corpus_supported": false,
+    "high_trend_selection_risk": "Several governed rows had high admitted time-index associations, making trend-sensitive cases salient; disproportionate examination cannot be estimated from this selected corpus.",
+    "insightforge_selection_modes": [
+      "manual/coefficient-independent T-031",
+      "manual/coefficient-independent T-033",
+      "result-informed curation T-035",
+      "execution-trace coefficient-independent but checkpoint-nonconforming T-036",
+      "strict-checkpointed inherited ranking T-038"
+    ],
+    "population_frequency_estimated": false,
+    "repeated_weakening_may_reflect_candidate_universe": true,
+    "sample_is_small_selected_and_nonrandom": true,
+    "upstream_result_conditioning": "The admitted packages arose from bounded upstream campaigns and acceptance gates; package availability is not neutral population sampling."
+  },
+  "source_commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+  "source_snapshot_identity": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "status": "frozen-before-authoring",
+  "table": {
+    "columns": [
+      "Relationship case",
+      "Raw Pearson coefficient",
+      "Raw state",
+      "First-difference Pearson coefficient",
+      "First-difference state"
+    ],
+    "count": 1,
+    "encounter_order": [
+      "T031-DNK-private-credit-broad-money",
+      "T033-NOR-fossil-nonhydro-renewables",
+      "T035-C1-NOR-life-expectancy-under5-mortality",
+      "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "T035-C1-NOR-fossil-under5-mortality",
+      "T036-SWE-private-credit-mobile-subscriptions",
+      "T038-DNK-agricultural-land-private-credit"
+    ],
+    "kind": "fixed-static-table",
+    "row_count": 7
+  },
+  "task_id": "TASK-063",
+  "title": "When Level Correlations Weaken in Annual Changes: Seven Accepted InsightForge Comparisons"
+}

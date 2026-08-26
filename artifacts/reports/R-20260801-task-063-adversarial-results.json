@@ -1,0 +1,202 @@
+{
+  "accepted_chain_untouched": true,
+  "check_count": 32,
+  "checks": [
+    {
+      "check": "omitted in-scope statement",
+      "detected": true,
+      "expected_detection": "omitted-in-scope-statement",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "altered classification",
+      "detected": true,
+      "expected_detection": "classification-drift",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "altered numeric value",
+      "detected": true,
+      "expected_detection": "numeric-or-rounding-drift",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "silent rounding",
+      "detected": true,
+      "expected_detection": "numeric-or-rounding-drift",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "altered unit",
+      "detected": true,
+      "expected_detection": "unit-type-or-state-drift",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "altered value type",
+      "detected": true,
+      "expected_detection": "unit-type-or-state-drift",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "altered value state",
+      "detected": true,
+      "expected_detection": "unit-type-or-state-drift",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "missing qualification",
+      "detected": true,
+      "expected_detection": "qualification-missing-or-misattached",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "misattached qualification",
+      "detected": true,
+      "expected_detection": "qualification-missing-or-misattached",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "missing provenance",
+      "detected": true,
+      "expected_detection": "provenance-or-obligation-incomplete",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "missing obligation",
+      "detected": true,
+      "expected_detection": "provenance-or-obligation-incomplete",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "altered evidence role",
+      "detected": true,
+      "expected_detection": "evidence-role-drift",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "reordered hierarchy",
+      "detected": true,
+      "expected_detection": "hierarchy-order",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "unauthorized analytical prose",
+      "detected": true,
+      "expected_detection": "unauthorized-or-duplicate-analytical-prose",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "HTML mutation",
+      "detected": true,
+      "expected_detection": "html-byte-mutation",
+      "validator": "accepted artifact digest binding + independent reconciler"
+    },
+    {
+      "check": "operational authority rendered",
+      "detected": true,
+      "expected_detection": "operational-authority-leak",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "missing terminal authority",
+      "detected": true,
+      "expected_detection": "terminal-authority-missing-substituted-or-role",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "substituted terminal authority",
+      "detected": true,
+      "expected_detection": "terminal-authority-missing-substituted-or-role",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "incorrect operational role binding",
+      "detected": true,
+      "expected_detection": "terminal-authority-missing-substituted-or-role",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "wrong renderer profile",
+      "detected": true,
+      "expected_detection": "wrong-renderer-or-projection-profile",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "wrong projection profile",
+      "detected": true,
+      "expected_detection": "wrong-renderer-or-projection-profile",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "wrong Manifest dispatch",
+      "detected": true,
+      "expected_detection": "wrong-manifest-dispatch",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "missing authorization",
+      "detected": true,
+      "expected_detection": "missing-authorization",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "Release/HTML identity disagreement",
+      "detected": true,
+      "expected_detection": "release-identity-disagreement",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "delivered bytes differ",
+      "detected": true,
+      "expected_detection": "delivered-or-served-byte-disagreement",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "served bytes differ",
+      "detected": true,
+      "expected_detection": "delivered-or-served-byte-disagreement",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "successor routed as historical material",
+      "detected": true,
+      "expected_detection": "wrong-manifest-dispatch",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "incomplete terminal evidence presented as success",
+      "detected": true,
+      "expected_detection": "incomplete-terminal-evidence",
+      "validator": "independent-persisted-closure-reconciler"
+    },
+    {
+      "check": "source commit mismatch",
+      "detected": true,
+      "expected_detection": "Git commit-object admission failure",
+      "validator": "existing Git immutable-object lookup"
+    },
+    {
+      "check": "source artifact mismatch",
+      "detected": true,
+      "expected_detection": "SHA-256 mismatch",
+      "validator": "existing source-closure digest verifier"
+    },
+    {
+      "check": "direct privileged-record construction",
+      "detected": true,
+      "expected_detection": "accepted authoring interface rejects BCRPRecord in RecordDraft position",
+      "validator": "existing author_candidate_bundle interface"
+    },
+    {
+      "check": "reused authorization",
+      "detected": true,
+      "expected_detection": "single exclusive consumption commitment already exists",
+      "validator": "existing controlled-invocation consumption ledger"
+    }
+  ],
+  "schema": "briefforge-task063-adversarial-results:1.0.0",
+  "status": "PASS",
+  "task_id": "TASK-063",
+  "temporary_mutations_persisted": false
+}

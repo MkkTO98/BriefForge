@@ -1,0 +1,131 @@
+{
+  "extensions": [],
+  "identity": "material:case-1",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PortablePresentationMaterialRecord",
+  "semantic": {
+    "authorities": [
+      {
+        "id": "authority:insight-question",
+        "owner_identity": "project:InsightForge",
+        "role": "upstream-semantic-authority",
+        "scope": "question-and-interpretation"
+      },
+      {
+        "id": "authority:knowledge-method",
+        "owner_identity": "project:KnowledgeForge",
+        "role": "upstream-evidence-authority",
+        "scope": "coefficients-method-provenance"
+      },
+      {
+        "id": "authority:presentation",
+        "owner_identity": "project:BriefForge",
+        "role": "presentation-author",
+        "scope": "presentation-only"
+      },
+      {
+        "id": "authority:validation",
+        "owner_identity": "project:BriefForge",
+        "role": "validation-authority",
+        "scope": "BCRP-L0-L6"
+      },
+      {
+        "id": "authority:release",
+        "owner_identity": "person:synthetic-governor",
+        "role": "release-authority",
+        "scope": "public-test-release"
+      }
+    ],
+    "consistency_assertions": [
+      {
+        "authority_ref": "authority:knowledge-method",
+        "id": "consistency:c1-reviewed",
+        "known_conflict": false,
+        "source_value_refs": [
+          "value:fertility-correlation",
+          "value:urban-correlation"
+        ],
+        "state": "consistent"
+      }
+    ],
+    "evidence_snapshots": [
+      {
+        "content_fingerprint": "sha256:public-reduced-fixture",
+        "id": "snapshot:task039-reduced",
+        "provenance_ref": "provenance:task039-public",
+        "version": "1"
+      }
+    ],
+    "external_references": [
+      {
+        "authority_ref": "authority:insight-question",
+        "id": "external:insight-question",
+        "provenance_ref": "provenance:task039-public",
+        "reference_kind": "upstream-question",
+        "snapshot_ref": "snapshot:task039-reduced",
+        "upstream_object_identity": "InsightForge:T-035-question"
+      },
+      {
+        "authority_ref": "authority:knowledge-method",
+        "id": "external:knowledge-coefficients",
+        "provenance_ref": "provenance:task039-public",
+        "reference_kind": "upstream-reviewed-evidence",
+        "snapshot_ref": "snapshot:task039-reduced",
+        "upstream_object_identity": "KnowledgeForge:TASK-039-reduced-method"
+      }
+    ],
+    "provenance": [
+      {
+        "authority_ref": "authority:knowledge-method",
+        "citation": "World Bank public indicators as retained in reduced TASK-039 evidence; Spearman coefficients precomputed upstream.",
+        "id": "provenance:task039-public"
+      }
+    ],
+    "required_value_ids": [
+      "value:fertility-correlation",
+      "value:urban-correlation"
+    ],
+    "semantic_types": [
+      {
+        "description": "Exact retained Spearman rank coefficient.",
+        "id": "type:spearman-coefficient"
+      }
+    ],
+    "state_validations": [],
+    "units": [
+      {
+        "description": "Dimensionless coefficient.",
+        "id": "unit:dimensionless"
+      }
+    ],
+    "values": [
+      {
+        "authority_ref": "authority:knowledge-method",
+        "id": "value:fertility-correlation",
+        "payload": {
+          "coefficient": "-731",
+          "scale": 3
+        },
+        "semantic_type_ref": "type:spearman-coefficient",
+        "source_ref": "external:knowledge-coefficients",
+        "unit_ref": "unit:dimensionless",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:knowledge-method",
+        "id": "value:urban-correlation",
+        "payload": {
+          "coefficient": "4280",
+          "scale": 4
+        },
+        "semantic_type_ref": "type:spearman-coefficient",
+        "source_ref": "external:knowledge-coefficients",
+        "unit_ref": "unit:dimensionless",
+        "value_state": "present"
+      }
+    ]
+  }
+}

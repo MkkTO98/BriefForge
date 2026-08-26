@@ -1,0 +1,31 @@
+context_manifest:
+  purpose: "Machine-readable map of the files agents should consider first."
+  context_loading_hierarchy:
+    priority_1:
+      - state/active_goal.md
+      - state/project_state.md
+      - state/architecture.md
+      - context/latest_handoff.md
+    priority_2:
+      - active task files under artifacts/tasks/
+      - relevant decision records under artifacts/decisions/
+      - relevant folder _SUMMARY.md files
+    priority_3:
+      - broader documentation
+      - reports
+      - design notes
+      - roadmap files
+      - historical artifacts
+  required_for_file_changes:
+    - CONSTITUTION.md
+    - state/active_goal.md
+    - state/project_state.md
+    - state/architecture.md
+  generated_outputs:
+    - context/active_context.md
+    - context/compressed_context.md
+  notes:
+    - "Start with Priority 1 and expand incrementally only when justified."
+    - "Repository-wide exploration is not default startup behavior."
+    - "context/active_context.md is generated for a task/model target; do not treat stale copies as startup context."
+    - "Update this manifest when project structure changes substantially."

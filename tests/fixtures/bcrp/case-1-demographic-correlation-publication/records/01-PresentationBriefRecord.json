@@ -1,0 +1,23 @@
+{
+  "extensions": [],
+  "identity": "brief:case-1",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PresentationBriefRecord",
+  "semantic": {
+    "audiences": [
+      {
+        "description": "Research reader requiring visible methods and caveats.",
+        "id": "audience:research-reader-c1"
+      }
+    ],
+    "non_scope": "No analysis, live data, ranking, or exploration.",
+    "organizing_purpose": {
+      "id": "purpose:brief-c1",
+      "statement": "Present a bounded demographic/correlation résumé to explain already reviewed evidence."
+    },
+    "scope": "Fixed-evidence standalone communication."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "candidate_sha256": "5045c8cc9d800f3c183c15c4562efe09206b984a8d0a5489345311e13308cc26",
+  "entries": [
+    {
+      "bytes": 11043,
+      "path": "src/briefforge/bcrp/registry.py",
+      "role": "production",
+      "sha256": "651f5465c49da789d952a835e74aa4490ae4b94e8aeb57a280eca5a42acb4074"
+    },
+    {
+      "bytes": 21021,
+      "path": "src/briefforge/bcrp_paired_derivation_evidence_v2.py",
+      "role": "production",
+      "sha256": "7d51ee3c98b3ad760b509baeb324727c4bc525de401cdd3fa6cc33b8532c5e0f"
+    },
+    {
+      "bytes": 18657,
+      "path": "src/briefforge/bcrp_paired_semantic_interpretation_v2.py",
+      "role": "production",
+      "sha256": "6658c7dd7b98d84bf32c51203ad9b40ddffed6d043579b76b07a5540d959b4b0"
+    },
+    {
+      "bytes": 26660,
+      "path": "src/briefforge/bcrp_paired_terminal_admission.py",
+      "role": "production",
+      "sha256": "d0d1cae8c9b5daf67735ec7486dc75c9105f71067c67ca20eabec14c4ed5ad30"
+    },
+    {
+      "bytes": 123038,
+      "path": "src/briefforge/bcrp_renderer_compatibility_planning_v2.py",
+      "role": "production",
+      "sha256": "266ef0a19affacace39d889b4f7283f386de3f643d281dd290eeb65ef2dd03bc"
+    },
+    {
+      "bytes": 16359,
+      "path": "src/briefforge/task076_contracts.py",
+      "role": "production",
+      "sha256": "e06e85f4b29b853075c644bc673b1e02c3574075c8d01f57b8bfc7d1cb8c9629"
+    },
+    {
+      "bytes": 61305,
+      "path": "tests/test_task073_native_governance.py",
+      "role": "test",
+      "sha256": "28b2728585127c6b805dfb4709b1f3d6ae91bfd3e1763f3efa073f57b70a7501"
+    },
+    {
+      "bytes": 9998,
+      "path": "tests/test_task077_capability_v2.py",
+      "role": "test",
+      "sha256": "31aab1d1cfa1634630628b02794e3338b5460306a8a0a2a4493a65d4f5de74e8"
+    },
+    {
+      "bytes": 29305,
+      "path": "tests/test_task077_frozen_fixture_production_matrix.py",
+      "role": "test",
+      "sha256": "8b6086356c9e3ba9e6a040e3526219c5d3c08ad5f0dc50f09055b015922e5bc7"
+    },
+    {
+      "bytes": 8823,
+      "path": "tests/test_task077_interpretation_envelope.py",
+      "role": "test",
+      "sha256": "ec7d9f16e49be5ee1a2d6ce44f76d18c38dadbdc38ea3a1090248686592b8637"
+    },
+    {
+      "bytes": 27047,
+      "path": "tests/test_task077_plan_v2.py",
+      "role": "test",
+      "sha256": "87de089435b93136580773008be260863f4a68bd00d45192ac2c29043435f51e"
+    }
+  ],
+  "entries_sha256": "8fe0fb309c0ebcd0a7ff514598c5af8a6e34af38a2000c938969d900bc0a59a9",
+  "entry_count": 11,
+  "identity": "briefforge:task077-final-implementation-test-candidate-manifest",
+  "ordering": "path-list-fixed",
+  "scope": "implementation-and-test-final-reviewed-candidate",
+  "task": "TASK-077",
+  "version": "1.0.0"
+}

@@ -1,0 +1,219 @@
+{
+  "extensions": [],
+  "identity": "material:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PortablePresentationMaterialRecord",
+  "semantic": {
+    "authorities": [
+      {
+        "id": "authority:synthetic-upstream",
+        "owner_identity": "fixture:SyntheticComparisonSource",
+        "role": "upstream-semantic-authority",
+        "scope": "fictional-observations"
+      },
+      {
+        "id": "authority:synthetic-evidence",
+        "owner_identity": "fixture:SyntheticEvidenceStore",
+        "role": "upstream-evidence-authority",
+        "scope": "fictional-values"
+      },
+      {
+        "id": "authority:recommendation",
+        "owner_identity": "fixture:SyntheticDecisionOwner",
+        "role": "recommendation-authority",
+        "scope": "bounded-synthetic-recommendation"
+      },
+      {
+        "id": "authority:personal",
+        "owner_identity": "person:FictionalAnalyst",
+        "role": "personal-author",
+        "scope": "personal-annotation-only"
+      },
+      {
+        "id": "authority:presentation",
+        "owner_identity": "project:BriefForge",
+        "role": "presentation-author",
+        "scope": "presentation-only"
+      },
+      {
+        "id": "authority:validation-c2",
+        "owner_identity": "project:BriefForge",
+        "role": "validation-authority",
+        "scope": "BCRP-L0-L6"
+      },
+      {
+        "id": "authority:release-c2",
+        "owner_identity": "fixture:SyntheticReleaseAuthority",
+        "role": "release-authority",
+        "scope": "public-synthetic-release"
+      },
+      {
+        "id": "authority:suppression",
+        "owner_identity": "fixture:SyntheticDisclosureOwner",
+        "role": "suppression-authority",
+        "scope": "withheld-placeholder"
+      }
+    ],
+    "consistency_assertions": [
+      {
+        "detection_authority_ref": "authority:synthetic-evidence",
+        "id": "consistency:c2-conflict",
+        "known_conflict": true,
+        "resolution_authority_ref": "authority:recommendation",
+        "source_value_refs": [
+          "value:conflict-source-a",
+          "value:conflict-source-b"
+        ],
+        "state": "conflicting"
+      }
+    ],
+    "evidence_snapshots": [
+      {
+        "content_fingerprint": "sha256:synthetic-case2",
+        "id": "snapshot:synthetic-c2",
+        "provenance_ref": "provenance:synthetic-c2",
+        "version": "1"
+      }
+    ],
+    "external_references": [
+      {
+        "authority_ref": "authority:synthetic-upstream",
+        "id": "external:aster-vale-tools",
+        "provenance_ref": "provenance:synthetic-c2",
+        "reference_kind": "fictional-company",
+        "snapshot_ref": "snapshot:synthetic-c2",
+        "upstream_object_identity": "fictional:AsterValeTools"
+      },
+      {
+        "authority_ref": "authority:synthetic-upstream",
+        "id": "external:boreal-kite-systems",
+        "provenance_ref": "provenance:synthetic-c2",
+        "reference_kind": "fictional-company",
+        "snapshot_ref": "snapshot:synthetic-c2",
+        "upstream_object_identity": "fictional:BorealKiteSystems"
+      }
+    ],
+    "provenance": [
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "citation": "Entirely synthetic retained fixture.",
+        "id": "provenance:synthetic-c2"
+      }
+    ],
+    "required_value_ids": [
+      "value:aster-zero",
+      "value:aster-small-nonzero",
+      "value:boreal-missing",
+      "value:boreal-unavailable",
+      "value:boreal-suppressed",
+      "value:not-applicable",
+      "value:conflict-source-a",
+      "value:conflict-source-b"
+    ],
+    "semantic_types": [
+      {
+        "description": "Synthetic comparison index; no financial semantics.",
+        "id": "type:synthetic-index"
+      }
+    ],
+    "state_validations": [],
+    "units": [
+      {
+        "description": "Synthetic points.",
+        "id": "unit:synthetic-points"
+      }
+    ],
+    "values": [
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "id": "value:aster-zero",
+        "payload": {
+          "coefficient": "0",
+          "scale": 0
+        },
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:aster-vale-tools",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "explicit-zero"
+      },
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "display": {
+          "rounded_text": "0.0"
+        },
+        "id": "value:aster-small-nonzero",
+        "payload": {
+          "coefficient": "4",
+          "scale": 3
+        },
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:aster-vale-tools",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "id": "value:boreal-missing",
+        "reason": "Synthetic source did not provide it.",
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:boreal-kite-systems",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "missing-not-provided"
+      },
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "id": "value:boreal-unavailable",
+        "reason": "Synthetic source declares unavailable.",
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:boreal-kite-systems",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "unavailable"
+      },
+      {
+        "authority_ref": "authority:suppression",
+        "id": "value:boreal-suppressed",
+        "reason": "Synthetic withheld placeholder; no sensitive payload.",
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:boreal-kite-systems",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "suppressed-withheld"
+      },
+      {
+        "authority_ref": "authority:synthetic-upstream",
+        "id": "value:not-applicable",
+        "reason": "Metric does not apply in this synthetic comparison.",
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:boreal-kite-systems",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "not-applicable"
+      },
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "id": "value:conflict-source-a",
+        "payload": {
+          "coefficient": "41",
+          "scale": 0
+        },
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:aster-vale-tools",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "id": "value:conflict-source-b",
+        "payload": {
+          "coefficient": "43",
+          "scale": 0
+        },
+        "semantic_type_ref": "type:synthetic-index",
+        "source_ref": "external:boreal-kite-systems",
+        "unit_ref": "unit:synthetic-points",
+        "value_state": "present"
+      }
+    ]
+  }
+}

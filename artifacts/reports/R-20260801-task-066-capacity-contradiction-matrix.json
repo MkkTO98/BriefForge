@@ -1,0 +1,355 @@
+{
+  "already_sufficient_surfaces": [
+    {
+      "evidence": "open semantic bodies, exact decimals, composition, relations and obligations; TASK-064 abstract-capacity finding",
+      "implication": "no twelfth kind or BCRP major-version change",
+      "state": "sufficient",
+      "surface": "generic BCRP core record kinds"
+    },
+    {
+      "evidence": "6 sections fit 2..8 and root+five leaves fit depth two",
+      "implication": "only local child capacity/types change in successor",
+      "state": "sufficient",
+      "surface": "section count and depth"
+    },
+    {
+      "evidence": "one exhibit, seven cases, fourteen values, five obligations and eight provenance objects fit current object-count bounds",
+      "implication": "topology/fields, not object totals, are blockers",
+      "state": "sufficient",
+      "surface": "object totals"
+    },
+    {
+      "evidence": "primary_ref/comparison_ref can bind two values",
+      "implication": "successor adds relationship ownership, state metadata and rendering",
+      "state": "partially sufficient",
+      "surface": "pair references"
+    },
+    {
+      "evidence": "coefficient and scale up to 18 carry numeric values",
+      "implication": "lexical preservation and leading-zero admission remain new",
+      "state": "sufficient",
+      "surface": "numeric decimal magnitude"
+    },
+    {
+      "evidence": "conditionals are resolved before authoring",
+      "implication": "no runtime conditional engine",
+      "state": "sufficient",
+      "surface": "conditional composition"
+    },
+    {
+      "evidence": "TASK-062 eight operational authorities, lifecycle fingerprints and terminal chronology remain valid",
+      "implication": "successor reuses authority classes with fresh exact v3 authorizations; no displayed operational authority",
+      "state": "sufficient",
+      "surface": "authority/lifecycle separation"
+    },
+    {
+      "evidence": "TASK-062 demonstrates closed explicit dispatch",
+      "implication": "add one tuple only; no registry/plugin/range",
+      "state": "sufficient pattern, new tuple absent",
+      "surface": "fixed versioning pattern"
+    }
+  ],
+  "mismatch_count": 14,
+  "mismatches": [
+    {
+      "accepted_task062_constraint": "legacy admission used by TASK-062",
+      "backward_compatibility_implications": "old 32-limit remains exact for TASK-062",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "total capacity"
+      ],
+      "exact_current_limit_or_behavior": "2..32 statements",
+      "meaning_or_traceability_endangered_by_compression": "mandatory identity, destination, attachment and encounter-order closure",
+      "minimum_capability_necessary": "admit exactly bounded maximum 76 ordered statement identities; no headroom is authorized because no broader need is evidenced",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "no",
+      "required_cardinality_or_structure": "76 exact identities; 74 if both conditionals omitted",
+      "requirement": "total statement identity capacity",
+      "requirement_id": "CAP-001",
+      "schema_change_required": "cardinality versioning",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/statement_contract/ledger_statement_index`; gate \u00a7Editorial closure requirements"
+    },
+    {
+      "accepted_task062_constraint": "legacy section admission used by TASK-062",
+      "backward_compatibility_implications": "old section limits remain exact for TASK-062",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "local section capacity"
+      ],
+      "exact_current_limit_or_behavior": "maximum 17 children and 16 statements per leaf",
+      "meaning_or_traceability_endangered_by_compression": "exact six-section hierarchy, destination, and encounter order",
+      "minimum_capability_necessary": "at least and bounded maximum 32 children and 32 statements in one leaf; no headroom is authorized",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "no",
+      "required_cardinality_or_structure": "interpretation 27/29 children; limitations 32",
+      "requirement": "local section child and leaf capacity",
+      "requirement_id": "CAP-002",
+      "schema_change_required": "cardinality versioning",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/deterministic_section_hierarchy`"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 admits section, statement, or sole exhibit children only",
+      "backward_compatibility_implications": "TASK-062 DTO and generic closure remain unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "schema expressiveness",
+        "provenance",
+        "obligation attachment"
+      ],
+      "exact_current_limit_or_behavior": "other semantic kinds are rejected or rendered later in generic closure",
+      "meaning_or_traceability_endangered_by_compression": "authored placement and explicit source/exclusion duties",
+      "minimum_capability_necessary": "versioned child union admitting provenance and obligation references",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "provenance and obligations at exact authored section destination",
+      "requirement": "typed non-statement section children",
+      "requirement_id": "CAP-003",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/deterministic_section_hierarchy/5/children`"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 relation admission",
+      "backward_compatibility_implications": "old 16-edge route remains unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "relation topology",
+        "total capacity"
+      ],
+      "exact_current_limit_or_behavior": "1..16 relations",
+      "meaning_or_traceability_endangered_by_compression": "target-specific interpretive limitations",
+      "minimum_capability_necessary": "bounded maximum 27 exact relation edges; no unsupported headroom",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "27 exact directed edges",
+      "requirement": "qualification edge cardinality",
+      "requirement_id": "CAP-004",
+      "schema_change_required": "cardinality versioning",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/qualification_targets`"
+    },
+    {
+      "accepted_task062_constraint": "relation count must equal qualification count; source_ref unique",
+      "backward_compatibility_implications": "old unique-source invariant remains exact in TASK-062",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "relation topology"
+      ],
+      "exact_current_limit_or_behavior": "one outgoing edge per qualification source",
+      "meaning_or_traceability_endangered_by_compression": "one qualification must govern row plus both values without duplicated or weakened source identity",
+      "minimum_capability_necessary": "one-to-many edges; uniqueness by (kind,source,target); bounded maximum 3 targets per source, exactly the demonstrated frontier",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "10 sources fan out to 27 targets",
+      "requirement": "one-to-many qualification topology",
+      "requirement_id": "CAP-005",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/qualification_targets`"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 targets observation statements only; no governed edge order",
+      "backward_compatibility_implications": "historical relation DTO remains unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "relation topology",
+        "schema expressiveness"
+      ],
+      "exact_current_limit_or_behavior": "values and exhibit are not admissible targets",
+      "meaning_or_traceability_endangered_by_compression": "row/value/table-specific limitation topology and deterministic auditability",
+      "minimum_capability_necessary": "closed target union {statement,value,exhibit} and deterministic target order",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "targets include statements, fourteen values and table; ordered exact attachment",
+      "requirement": "qualification target domain and ordered attachment",
+      "requirement_id": "CAP-006",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/qualification_targets`; paired-table contract row qualification fields"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 closed kind allowlist",
+      "backward_compatibility_implications": "old three-kind vocabulary remains exact",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "schema expressiveness",
+        "obligation attachment"
+      ],
+      "exact_current_limit_or_behavior": "label, qualification-required, source-display",
+      "meaning_or_traceability_endangered_by_compression": "distinct preservation, exclusion and future-work duties",
+      "minimum_capability_necessary": "versioned five-kind closed vocabulary; no free-form kinds",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "five meanings: preserve-source-meaning, source-display, qualification-display, exclusion-display, future-work-language",
+      "requirement": "obligation vocabulary",
+      "requirement_id": "CAP-007",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/obligation_attachments`; rejected draft only corroborates intended kinds"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 target_refs bound",
+      "backward_compatibility_implications": "historical bound unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "obligation attachment",
+        "total capacity"
+      ],
+      "exact_current_limit_or_behavior": "1..16 targets per obligation",
+      "meaning_or_traceability_endangered_by_compression": "exact duty-to-semantic-object accountability",
+      "minimum_capability_necessary": "bounded maximum 82 exact, non-transitive targets on one obligation; exact duplicate and closure validation",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "target counts 82,1,7,1,1; exact non-transitive targets",
+      "requirement": "per-obligation target capacity",
+      "requirement_id": "CAP-008",
+      "schema_change_required": "cardinality versioning",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/obligation_attachments`"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 provenance exact schema",
+      "backward_compatibility_implications": "old provenance DTO and rendering unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "provenance",
+        "schema expressiveness"
+      ],
+      "exact_current_limit_or_behavior": "id,citation,authority_ref only; no targets",
+      "meaning_or_traceability_endangered_by_compression": "source identity, package lineage, exact directed attachment and auditability",
+      "minimum_capability_necessary": "versioned provenance schema; bounded maximum 92 targets and 2 package refs per object; exact demonstrated frontier",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "8 objects; source object has commit,snapshot,target rule and 92 targets; row objects have locator,2 package IDs,3 targets",
+      "requirement": "provenance metadata and topology",
+      "requirement_id": "CAP-009",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 blueprint `/provenance_attachments`"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 strict value schema and renderer",
+      "backward_compatibility_implications": "historical numeric rendering remains byte-stable",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "value metadata",
+        "schema expressiveness"
+      ],
+      "exact_current_limit_or_behavior": "metadata absent; nonzero leading-zero coefficients rejected; renderer derives payload/scale text",
+      "meaning_or_traceability_endangered_by_compression": "sign, precision, transformation state, aligned sample, method and package identity",
+      "minimum_capability_necessary": "versioned PairedValue carrying value_state fixed to present, exact lexical and typed metadata; 2 values per row, max 32 total",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "14 values with value_state=present, lexical coefficient, transformation, period,count,method,package and exact decimal",
+      "requirement": "value metadata and exact lexical preservation",
+      "requirement_id": "CAP-010",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 paired-table contract `/rows/*/raw` and `/first_difference`"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 exhibit and case exact schemas",
+      "backward_compatibility_implications": "TASK-062 case/slot table remains unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "table ownership",
+        "schema expressiveness"
+      ],
+      "exact_current_limit_or_behavior": "exhibit: id,kind,purpose_ref,case_bindings,value_ids; case: id,order,primary_ref,comparison_ref",
+      "meaning_or_traceability_endangered_by_compression": "relationship ownership, label, row identity and state cells",
+      "minimum_capability_necessary": "versioned PairedTable/PairedRow schema; generic capability 1..16 rows, exactly 2 values per row, 5 fixed columns",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "one table; 5 governed columns; 7 relationship rows; stable row/relationship identities and two paired values",
+      "requirement": "relationship-owned table schema",
+      "requirement_id": "CAP-011",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 paired-table contract `/column_ids`, `/headings`, `/row_ids`, `/cell_contract`"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 representative renderer fixed loop/headings",
+      "backward_compatibility_implications": "new renderer identity; old renderer/source closure and bytes unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "rendering behavior",
+        "table ownership"
+      ],
+      "exact_current_limit_or_behavior": "two slot-owned rows per case => 14 rows; headings case+slot,value/state,unit,type,source",
+      "meaning_or_traceability_endangered_by_compression": "pairing and relationship-level comparison; old output repeats TASK-063 defect",
+      "minimum_capability_necessary": "new fixed renderer emits exactly one row per PairedRow with governed headings/cells",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "one tr per relationship and exact five headings",
+      "requirement": "paired-table renderer realization",
+      "requirement_id": "CAP-012",
+      "schema_change_required": "no beyond CAP-011",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 paired-table contract and gate \u00a7Paired-table requirements"
+    },
+    {
+      "accepted_task062_constraint": "TASK-062 renderer generic remaining-semantic-content section",
+      "backward_compatibility_implications": "old generic closure unchanged",
+      "closure_state": "closed-conflict",
+      "conflict_classes": [
+        "table ownership",
+        "provenance",
+        "relation topology",
+        "rendering behavior"
+      ],
+      "exact_current_limit_or_behavior": "support exists only as generic later closure, not row-owned or row-adjacent",
+      "meaning_or_traceability_endangered_by_compression": "prevents qualifications and evidence roles from appearing detached or ambiguous",
+      "minimum_capability_necessary": "explicit row-support links and deterministic row-adjacent rendering",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "classification,role,qualification,provenance,period,count keyed to exact row/value closure",
+      "requirement": "row-owned supporting semantics",
+      "requirement_id": "CAP-013",
+      "schema_change_required": "yes",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-064 table contract `/cell_contract/*/{classification,evidence_role,qualification,provenance}`"
+    },
+    {
+      "accepted_task062_constraint": "current fixed selectors know only historical tuples",
+      "backward_compatibility_implications": "retain every historical tuple/source closure; reject cross-products and subclasses",
+      "closure_state": "closed-enablement-required",
+      "conflict_classes": [
+        "lifecycle or authority"
+      ],
+      "exact_current_limit_or_behavior": "unknown/mixed tuples rejected; no v3 tuple exists",
+      "meaning_or_traceability_endangered_by_compression": "authority identity, historical meaning, byte stability and cross-version non-substitution",
+      "minimum_capability_necessary": "one additive exact v3 tuple across profile,schema,projection,renderer,assessor,Manifest; no alias/range/fallback",
+      "profile_only_change_sufficient": "no",
+      "projection_change_required": true,
+      "renderer_change_required": "yes",
+      "required_cardinality_or_structure": "new semantics must never be interpreted by historical profile/renderer; old evidence must remain exact",
+      "requirement": "closed version dispatch and complete route identity",
+      "requirement_id": "CAP-014",
+      "schema_change_required": "version identity fields only",
+      "semantic_preserving_compression_could_eliminate": "no",
+      "task064_origin": "TASK-062 decision/profile and TASK-065 compatibility classification"
+    }
+  ],
+  "procedural_non_mismatch_exclusion": "TASK-065 rejected-script marker/cwd defect is procedural evidence, not a semantic capacity mismatch",
+  "route_a_result": "falsified: no complete semantics-preserving mapping exists under current profile/schema/projection/renderer",
+  "route_b_requirement": "coordinated versioned profile/schema/projection/renderer/conformance/dispatch capability; no BCRP core-kind change",
+  "schema": "briefforge-task066-capacity-contradiction-matrix:1.0.0",
+  "source_scope": "TASK-064 authoritative editorial contract versus TASK-062 accepted terminal route, as established and expanded from TASK-065",
+  "status": "complete",
+  "task_id": "TASK-066"
+}

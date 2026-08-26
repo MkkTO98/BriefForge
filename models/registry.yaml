@@ -1,0 +1,36 @@
+models:
+  hermes_default:
+    provider: hermes
+    interface: active_hermes_session
+    installed: true
+    roles: [planner, reviewer, bootstrapper, orchestrator]
+    strengths: [general_reasoning, instruction_following, orchestration, adaptive_questioning]
+    size_class: session_default
+    context_window: managed_by_hermes
+
+  qwen_coder:
+    provider: local
+    interface: ollama_or_local_runtime
+    installed: unknown
+    roles: [coder, debugger]
+    strengths: [code_generation, code_editing]
+    size_class: unknown
+    context_window: unknown
+
+  small_summarizer:
+    provider: local
+    interface: ollama_or_local_runtime
+    installed: unknown
+    roles: [summarizer, folder_summary_updater]
+    strengths: [cheap_summarization, routine_compression]
+    size_class: small
+    context_window: unknown
+
+  codex_supervisor:
+    provider: openai
+    interface: hermes_provider_or_codex_cli
+    installed: external
+    roles: [supervisor, architecture_review, hard_debugging]
+    strengths: [high_quality_reasoning, complex_code_review]
+    size_class: remote
+    context_window: external

@@ -1,0 +1,478 @@
+{
+  "extensions": [],
+  "identity": "candidate:case-3",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "CandidatePresentationPackageRecord",
+  "semantic": {
+    "audiences": [
+      {
+        "description": "Bounded macro relationship reader.",
+        "id": "audience:candidate-macro-c3"
+      }
+    ],
+    "brief_ref": "brief:case-3",
+    "distribution": {
+      "authority_ref": "authority:release-c3",
+      "designation": "public-synthetic",
+      "id": "distribution:c3-public"
+    },
+    "exhibits": [
+      {
+        "id": "exhibit:c3-state-index",
+        "kind": "state-key-number",
+        "purpose_ref": "purpose:candidate-c3",
+        "value_ids": [
+          "value:c3-baseline",
+          "value:c3-supply",
+          "value:c3-demand"
+        ]
+      }
+    ],
+    "fallbacks": [
+      {
+        "complete": true,
+        "id": "fallback:c3-static",
+        "kind": "static"
+      },
+      {
+        "complete": true,
+        "id": "fallback:c3-print",
+        "kind": "print"
+      }
+    ],
+    "material_refs": [
+      "material:case-3"
+    ],
+    "non_scope": "No computation or open-ended exploration.",
+    "obligations": [
+      {
+        "authority_ref": "authority:presentation-c3",
+        "id": "obligation:c3-state-visible",
+        "kind": "state-identity-visible",
+        "target_refs": [
+          "selection:c3"
+        ]
+      }
+    ],
+    "organizing_purpose": {
+      "brief_purpose_ref": "purpose:brief-c3",
+      "id": "purpose:candidate-c3",
+      "statement": "Communicate finite synthetic company–macro narratives."
+    },
+    "relations": [
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "relation:c3-uncertainty",
+        "kind": "limits-target",
+        "source_ref": "statement:c3-uncertainty",
+        "target_ref": "statement:c3-finding"
+      },
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "relation:c3-caveat-baseline",
+        "kind": "limits-target",
+        "source_ref": "statement:c3-caveat-baseline",
+        "target_ref": "statement:baseline-conclusion"
+      },
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "relation:c3-caveat-supply",
+        "kind": "limits-target",
+        "source_ref": "statement:c3-caveat-supply",
+        "target_ref": "statement:supply-hypothesis"
+      },
+      {
+        "authority_ref": "authority:macro-upstream",
+        "id": "relation:c3-caveat-demand",
+        "kind": "limits-target",
+        "source_ref": "statement:c3-caveat-demand",
+        "target_ref": "statement:demand-scenario"
+      }
+    ],
+    "renderer_requirements": [
+      {
+        "capability": "state-identity-visibility",
+        "fallback_refs": [
+          "fallback:c3-static"
+        ],
+        "id": "requirement:c3-selection",
+        "mandatory": true,
+        "permitted_transformations": [
+          "bounded-state-navigation",
+          "static-state-enumeration"
+        ]
+      },
+      {
+        "capability": "print",
+        "fallback_refs": [
+          "fallback:c3-print"
+        ],
+        "id": "requirement:c3-print",
+        "mandatory": true,
+        "permitted_transformations": [
+          "print-layout"
+        ]
+      },
+      {
+        "capability": "standalone-offline",
+        "fallback_refs": [
+          "fallback:c3-static"
+        ],
+        "id": "requirement:c3-standalone",
+        "mandatory": true,
+        "permitted_transformations": []
+      }
+    ],
+    "scope": "Three finite prevalidated states.",
+    "sections": [
+      {
+        "children": [
+          "statement:c3-finding",
+          "statement:c3-method",
+          "statement:baseline-conclusion",
+          "statement:supply-hypothesis",
+          "statement:demand-scenario",
+          "statement:c3-uncertainty",
+          "statement:c3-caveat-baseline",
+          "statement:c3-caveat-supply",
+          "statement:c3-caveat-demand"
+        ],
+        "id": "section:c3-root",
+        "title": "FICTIONAL Cinder Atlas Components"
+      }
+    ],
+    "selection_sets": [
+      {
+        "authority_ref": "authority:macro-upstream",
+        "default_state_ref": "state:baseline",
+        "id": "selection:c3",
+        "invariant_statement_ids": [
+          "statement:c3-finding",
+          "statement:c3-method",
+          "statement:c3-uncertainty"
+        ],
+        "projections": [
+          {
+            "caveat_ids": [
+              "statement:c3-caveat-baseline"
+            ],
+            "evidence_refs": [
+              "snapshot:synthetic-c3",
+              "external:macro-snapshot-c3"
+            ],
+            "evidence_snapshot_ref": "snapshot:synthetic-c3",
+            "id": "projection:baseline",
+            "obligation_ids": [
+              "obligation:c3-state-visible"
+            ],
+            "print_expression": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:baseline-conclusion",
+              "statement:c3-caveat-baseline"
+            ],
+            "renderer_requirement_ids": [
+              "requirement:c3-selection",
+              "requirement:c3-print",
+              "requirement:c3-standalone"
+            ],
+            "state_ref": "state:baseline",
+            "statement_ids": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:baseline-conclusion",
+              "statement:c3-caveat-baseline"
+            ],
+            "static_expression": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:baseline-conclusion",
+              "statement:c3-caveat-baseline"
+            ],
+            "title": "Baseline",
+            "uncertainty_ids": [
+              "statement:c3-uncertainty"
+            ],
+            "validated_snapshot_version": "1",
+            "validation_ref": "state-validation:baseline",
+            "value_ids": [
+              "value:c3-baseline"
+            ]
+          },
+          {
+            "caveat_ids": [
+              "statement:c3-caveat-supply"
+            ],
+            "evidence_refs": [
+              "snapshot:synthetic-c3",
+              "external:macro-snapshot-c3"
+            ],
+            "evidence_snapshot_ref": "snapshot:synthetic-c3",
+            "id": "projection:supply-tightness",
+            "obligation_ids": [
+              "obligation:c3-state-visible"
+            ],
+            "print_expression": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:supply-hypothesis",
+              "statement:c3-caveat-supply"
+            ],
+            "renderer_requirement_ids": [
+              "requirement:c3-selection",
+              "requirement:c3-print",
+              "requirement:c3-standalone"
+            ],
+            "state_ref": "state:supply-tightness",
+            "statement_ids": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:supply-hypothesis",
+              "statement:c3-caveat-supply"
+            ],
+            "static_expression": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:supply-hypothesis",
+              "statement:c3-caveat-supply"
+            ],
+            "title": "Supply Tightness",
+            "uncertainty_ids": [
+              "statement:c3-uncertainty"
+            ],
+            "validated_snapshot_version": "1",
+            "validation_ref": "state-validation:supply",
+            "value_ids": [
+              "value:c3-supply"
+            ]
+          },
+          {
+            "caveat_ids": [
+              "statement:c3-caveat-demand"
+            ],
+            "evidence_refs": [
+              "snapshot:synthetic-c3",
+              "external:macro-snapshot-c3"
+            ],
+            "evidence_snapshot_ref": "snapshot:synthetic-c3",
+            "id": "projection:demand-slowdown",
+            "obligation_ids": [
+              "obligation:c3-state-visible"
+            ],
+            "print_expression": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:demand-scenario",
+              "statement:c3-caveat-demand"
+            ],
+            "renderer_requirement_ids": [
+              "requirement:c3-selection",
+              "requirement:c3-print",
+              "requirement:c3-standalone"
+            ],
+            "state_ref": "state:demand-slowdown",
+            "statement_ids": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:demand-scenario",
+              "statement:c3-caveat-demand"
+            ],
+            "static_expression": [
+              "statement:c3-finding",
+              "statement:c3-method",
+              "statement:c3-uncertainty",
+              "statement:demand-scenario",
+              "statement:c3-caveat-demand"
+            ],
+            "title": "Demand Slowdown",
+            "uncertainty_ids": [
+              "statement:c3-uncertainty"
+            ],
+            "validated_snapshot_version": "1",
+            "validation_ref": "state-validation:demand",
+            "value_ids": [
+              "value:c3-demand"
+            ]
+          }
+        ],
+        "state_ids": [
+          "state:baseline",
+          "state:supply-tightness",
+          "state:demand-slowdown"
+        ],
+        "states": [
+          {
+            "id": "state:baseline",
+            "label": "Baseline"
+          },
+          {
+            "id": "state:supply-tightness",
+            "label": "Supply tightness"
+          },
+          {
+            "id": "state:demand-slowdown",
+            "label": "Demand slowdown"
+          }
+        ]
+      }
+    ],
+    "statements": [
+      {
+        "attention": "primary",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "orient"
+        ],
+        "id": "statement:c3-finding",
+        "posture": "accepted-finding",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "Accepted synthetic finding: exposure differs across the three retained states.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "method"
+        ],
+        "id": "statement:c3-method",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "All three states are separately materialized and prevalidated.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "primary",
+        "authority_ref": "authority:company-upstream",
+        "communication_functions": [
+          "explain"
+        ],
+        "compatible_state_refs": [
+          "state:baseline"
+        ],
+        "id": "statement:baseline-conclusion",
+        "posture": "interpretation",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "Baseline narrative is compatible only with baseline.",
+        "upstream_refs": [
+          "external:cinder-atlas-components",
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "primary",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "explore-bounded"
+        ],
+        "compatible_state_refs": [
+          "state:supply-tightness"
+        ],
+        "id": "statement:supply-hypothesis",
+        "posture": "hypothesis",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "Hypothesis: synthetic supply tightness increases exposure.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "primary",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "explore-bounded"
+        ],
+        "compatible_state_refs": [
+          "state:demand-slowdown"
+        ],
+        "id": "statement:demand-scenario",
+        "posture": "scenario",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "Scenario: synthetic demand slowdown reduces exposure.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "qualify"
+        ],
+        "id": "statement:c3-uncertainty",
+        "posture": "uncertainty",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "These are prevalidated synthetic narratives, not forecasts.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "limit"
+        ],
+        "compatible_state_refs": [
+          "state:baseline"
+        ],
+        "id": "statement:c3-caveat-baseline",
+        "posture": "caveat",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "Baseline caveat applies only to baseline.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "limit"
+        ],
+        "compatible_state_refs": [
+          "state:supply-tightness"
+        ],
+        "id": "statement:c3-caveat-supply",
+        "posture": "caveat",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "Supply-tightness caveat applies only to that state.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:macro-upstream",
+        "communication_functions": [
+          "limit"
+        ],
+        "compatible_state_refs": [
+          "state:demand-slowdown"
+        ],
+        "id": "statement:c3-caveat-demand",
+        "posture": "caveat",
+        "purpose_ref": "purpose:candidate-c3",
+        "text": "Demand-slowdown caveat applies only to that state.",
+        "upstream_refs": [
+          "external:macro-snapshot-c3"
+        ]
+      }
+    ]
+  }
+}

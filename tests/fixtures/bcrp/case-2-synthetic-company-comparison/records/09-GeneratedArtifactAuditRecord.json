@@ -1,0 +1,38 @@
+{
+  "extensions": [],
+  "identity": "artifact-audit:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "GeneratedArtifactAuditRecord",
+  "semantic": {
+    "artifact": {
+      "digest": "sha256:case2-artifact",
+      "files": [
+        "index.html"
+      ],
+      "id": "artifact:c2-html",
+      "version": "1"
+    },
+    "audit_links_pass": true,
+    "expressed_caveat_refs": [
+      "statement:c2-caveat"
+    ],
+    "expressed_statement_ids": [
+      "statement:c2-observation",
+      "statement:c2-evidence",
+      "statement:c2-interpretation",
+      "statement:c2-recommendation",
+      "statement:c2-personal",
+      "statement:c2-caveat",
+      "statement:c2-uncertainty"
+    ],
+    "invocation_time": "2026-07-16T11:03:00Z",
+    "plan_ref": "renderer-plan:case-2",
+    "ready_fingerprint": "87222f35b33003cd6d70707fe272650258dcea3068dee55e8f4c3e893d646caa",
+    "ready_ref": "ready:case-2",
+    "release_ref": "release:case-2",
+    "renderer_capability_ref": "renderer-capability:case-2"
+  }
+}

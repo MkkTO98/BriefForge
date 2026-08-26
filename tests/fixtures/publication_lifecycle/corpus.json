@@ -1,0 +1,3048 @@
+{
+  "cases": [
+    {
+      "events": [],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "ambiguous-current-release"
+      ],
+      "expected_valid": false,
+      "id": "ambiguous-current-state",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-competitor",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-12T09:00:00Z",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "replacement",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+              "identity": "release:orchard-v3"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "competing-successor"
+      ],
+      "expected_valid": false,
+      "id": "competing-successors",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        },
+        {
+          "fingerprint": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v3",
+          "identity": "release:orchard-v3",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-11T08:30:00Z",
+          "semantic_publication_version": "3.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-old-withdrawal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-02-11T10:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "conflicting-terminal-events"
+      ],
+      "expected_valid": false,
+      "id": "conflicting-events",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:parallel-a",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-03-01T10:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:orchard-correction"
+            ],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:parallel-b",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-03-01T10:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:orchard-correction"
+            ],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "ambiguous-event-position"
+      ],
+      "expected_valid": false,
+      "id": "conflicting-events-at-predecessor-position",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": "release:orchard-v2",
+      "expected_finding_codes": [],
+      "expected_valid": true,
+      "id": "correction-supersession",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "missing-successor-release"
+      ],
+      "expected_valid": false,
+      "id": "correction-without-new-release",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:foreign-causal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-04-01T00:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "publication_identity": "publication:foreign-causal",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "4444444444444444444444444444444444444444444444444444444444444444",
+              "identity": "release:foreign-causal"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:foreign-causal"
+            ],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "cross-publication-event"
+      ],
+      "expected_valid": false,
+      "id": "cross-publication-predecessor-event",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "4444444444444444444444444444444444444444444444444444444444444444",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:foreign-causal",
+          "identity": "release:foreign-causal",
+          "publication_identity": "publication:foreign-causal",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "4444444444444444444444444444444444444444444444444444444444444444",
+              "identity": "release:foreign-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "cross-publication-release"
+      ],
+      "expected_valid": false,
+      "id": "cross-publication-successor",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "4444444444444444444444444444444444444444444444444444444444444444",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:foreign-v2",
+          "identity": "release:foreign-v2",
+          "publication_identity": "publication:foreign-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orphan-mask",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-04-01T00:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "release-graph-root-cardinality"
+      ],
+      "expected_valid": false,
+      "id": "disconnected-release-catalog",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "duplicate-event-identity"
+      ],
+      "expected_valid": false,
+      "id": "duplicate-event-identity",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "empty-release-catalog"
+      ],
+      "expected_valid": false,
+      "id": "empty-release-catalog",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": []
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-withdrawal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-02-10T08:59:59Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:orchard-correction"
+            ],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "event-time-contradiction"
+      ],
+      "expected_valid": false,
+      "id": "event-time-contradiction",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [],
+      "expected_current_release": "release:meadow-initial",
+      "expected_finding_codes": [],
+      "expected_valid": true,
+      "id": "initial-release-only",
+      "publication_domain": "publication:meadow-water-note",
+      "releases": [
+        {
+          "fingerprint": "1111111111111111111111111111111111111111111111111111111111111111",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:meadow-initial",
+          "identity": "release:meadow-initial",
+          "publication_identity": "publication:meadow-water-note",
+          "publication_time": "2026-04-01T12:00:00Z",
+          "semantic_publication_version": "2026.1"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": {
+            "not": "a-list"
+          },
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "admission-error"
+      ],
+      "expected_valid": false,
+      "id": "malformed-extension-list",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "missing-authority"
+      ],
+      "expected_valid": false,
+      "id": "missing-authority",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "invalid-event-identity"
+      ],
+      "expected_valid": false,
+      "id": "missing-event-identity",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "invalid-event-time"
+      ],
+      "expected_valid": false,
+      "id": "missing-event-time",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "missing-policy"
+      ],
+      "expected_valid": false,
+      "id": "missing-policy",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "missing-authority"
+      ],
+      "expected_valid": false,
+      "id": "missing-role",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "missing-target-release"
+      ],
+      "expected_valid": false,
+      "id": "missing-target-release",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-second-replacement",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-03-01T09:00:00Z",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:orchard-correction"
+            ],
+            "predecessor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "replacement",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+              "identity": "release:orchard-v3"
+            },
+            "target_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": "release:orchard-v3",
+      "expected_finding_codes": [],
+      "expected_valid": true,
+      "id": "multi-hop-supersession",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v3",
+          "identity": "release:orchard-v3",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-03-01T08:30:00Z",
+          "semantic_publication_version": "3.0.0"
+        },
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "release-fingerprint-mismatch"
+      ],
+      "expected_valid": false,
+      "id": "mutated-predecessor-release",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "8888888888888888888888888888888888888888888888888888888888888888",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-withdrawal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-03-01T10:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:not-present"
+            ],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "unknown-predecessor-event"
+      ],
+      "expected_valid": false,
+      "id": "predecessor-event-contradiction",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "self-supersession"
+      ],
+      "expected_valid": false,
+      "id": "self-supersession",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:library-withdrawal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-05-04T09:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:library-replacement"
+            ],
+            "publication_identity": "publication:library-safety-bulletin",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "3333333333333333333333333333333333333333333333333333333333333333",
+              "identity": "release:library-revised"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:library-replacement",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-05-03T09:00:00Z",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "2222222222222222222222222222222222222222222222222222222222222222",
+              "identity": "release:library-original"
+            },
+            "publication_identity": "publication:library-safety-bulletin",
+            "reason_classification": "replacement",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "3333333333333333333333333333333333333333333333333333333333333333",
+              "identity": "release:library-revised"
+            },
+            "target_release": {
+              "fingerprint": "2222222222222222222222222222222222222222222222222222222222222222",
+              "identity": "release:library-original"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [],
+      "expected_valid": true,
+      "id": "successor-withdrawn",
+      "publication_domain": "publication:library-safety-bulletin",
+      "releases": [
+        {
+          "fingerprint": "2222222222222222222222222222222222222222222222222222222222222222",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:library-original",
+          "identity": "release:library-original",
+          "publication_identity": "publication:library-safety-bulletin",
+          "publication_time": "2026-05-01T08:00:00Z",
+          "semantic_publication_version": "edition-alpha"
+        },
+        {
+          "fingerprint": "3333333333333333333333333333333333333333333333333333333333333333",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:library-revised",
+          "identity": "release:library-revised",
+          "publication_identity": "publication:library-safety-bulletin",
+          "publication_time": "2026-05-03T08:00:00Z",
+          "semantic_publication_version": "edition-beta"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-reverse",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-03-01T00:00:00Z",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:orchard-correction"
+            ],
+            "predecessor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "replacement",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "target_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "supersession-cycle"
+      ],
+      "expected_valid": false,
+      "id": "supersession-cycle",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "release-fingerprint-mismatch"
+      ],
+      "expected_valid": false,
+      "id": "target-fingerprint-mismatch",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "undeclared_authority": true
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "admission-error"
+      ],
+      "expected_valid": false,
+      "id": "undeclared-semantic-key",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:attacker",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "unauthorized-event-authority"
+      ],
+      "expected_valid": false,
+      "id": "unknown-authority-identity",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "expiration",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "unsupported-event-type"
+      ],
+      "expected_valid": false,
+      "id": "unknown-event-type",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.1.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "admission-error"
+      ],
+      "expected_valid": false,
+      "id": "unknown-profile-version",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [
+            {
+              "authority_ref": "authority-assertion:publication-council",
+              "character": "semantic",
+              "criticality": "required",
+              "name": "unknown-authority",
+              "owner_namespace": "example.invalid",
+              "payload": {
+                "grant": true
+              },
+              "preservation": "must-preserve",
+              "scope": "event",
+              "target_refs": [
+                "lifecycle-event:orchard-correction"
+              ],
+              "validation_contract": "example:unknown:1.0.0",
+              "version": "1.0.0"
+            }
+          ],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "unknown-required-extension"
+      ],
+      "expected_valid": false,
+      "id": "unknown-required-extension",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "invalid-release-binding"
+      ],
+      "expected_valid": false,
+      "id": "unsupported-bcrp-profile-version",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.99.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "events": [],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "ambiguous-current-release"
+      ],
+      "expected_valid": false,
+      "id": "version-order-not-authority",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "7777777777777777777777777777777777777777777777777777777777777777",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-lexically-old",
+          "identity": "release:orchard-lexically-old",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-04-01T00:00:00Z",
+          "semantic_publication_version": "0.0.1"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:library-withdrawal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-05-04T09:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:library-replacement"
+            ],
+            "publication_identity": "publication:library-safety-bulletin",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "3333333333333333333333333333333333333333333333333333333333333333",
+              "identity": "release:library-revised"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-stale",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-stale",
+            "event_time": "2026-03-02T10:00:00Z",
+            "event_type": "staleness-declaration",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:library-replacement"
+            ],
+            "publication_identity": "publication:library-safety-bulletin",
+            "reason_classification": "currency-concern",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "3333333333333333333333333333333333333333333333333333333333333333",
+              "identity": "release:library-revised"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "conflicting-terminal-events"
+      ],
+      "expected_valid": false,
+      "id": "withdrawal-and-staleness-conflict",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "correction",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        },
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-withdrawal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-03-01T10:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [
+              "lifecycle-event:orchard-correction"
+            ],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "6666666666666666666666666666666666666666666666666666666666666666",
+              "identity": "release:orchard-v2"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "release-fingerprint-mismatch"
+      ],
+      "expected_valid": false,
+      "id": "withdrawal-payload-tampering",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-withdrawal",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "target-ineligible-withdrawn",
+            "event_time": "2026-03-01T10:00:00Z",
+            "event_type": "withdrawal",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "Publication authority withdrew future active use.",
+            "target_release": {
+              "fingerprint": "5555555555555555555555555555555555555555555555555555555555555555",
+              "identity": "release:absent"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "unknown-release"
+      ],
+      "expected_valid": false,
+      "id": "withdrawal-unknown-release",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "events": [
+        {
+          "extensions": [],
+          "identity": "lifecycle-event:orchard-correction",
+          "profile": {
+            "identity": "briefforge-publication-lifecycle-event-profile",
+            "version": "1.0.0"
+          },
+          "record_kind": "PublicationLifecycleEventRecord",
+          "semantic": {
+            "authority": {
+              "identity": "authority-assertion:publication-council",
+              "owner": "authority-owner:publication-council",
+              "role": "publication-lifecycle-authority"
+            },
+            "distribution_consequence": "predecessor-ineligible-successor-current",
+            "event_time": "2026-02-10T10:00:00+01:00",
+            "event_type": "supersession",
+            "policy_identity": "lifecycle-policy:editorial-2026",
+            "predecessor_event_refs": [],
+            "predecessor_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            },
+            "publication_identity": "publication:orchard-climate-brief",
+            "reason_classification": "authority-withdrawal",
+            "reason_detail": "A governed evidence correction required a new semantic release.",
+            "successor_release": {
+              "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "identity": "release:orchard-v2"
+            },
+            "target_release": {
+              "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "identity": "release:orchard-v1"
+            }
+          }
+        }
+      ],
+      "expected_current_release": null,
+      "expected_finding_codes": [
+        "invalid-event-reason"
+      ],
+      "expected_valid": false,
+      "id": "wrong-supersession-reason",
+      "publication_domain": "publication:orchard-climate-brief",
+      "releases": [
+        {
+          "fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v1",
+          "identity": "release:orchard-v1",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-01-10T09:00:00Z",
+          "semantic_publication_version": "1.0.0"
+        },
+        {
+          "fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "fingerprint_algorithm": "sha256",
+          "fingerprint_canonicalization": "bcrp-semantic-canonicalization:1.0.0",
+          "fingerprint_domain": "release-semantic",
+          "fingerprint_profile_identity": "briefforge-core-representation-profile",
+          "fingerprint_profile_version": "1.0.0",
+          "fingerprint_root_identity": "release:orchard-v2",
+          "identity": "release:orchard-v2",
+          "publication_identity": "publication:orchard-climate-brief",
+          "publication_time": "2026-02-10T08:30:00Z",
+          "semantic_publication_version": "2.0.0"
+        }
+      ]
+    }
+  ],
+  "expectation_authority": "independent-static-corpus:1.0.0",
+  "profile": {
+    "identity": "briefforge-publication-lifecycle-event-profile",
+    "version": "1.0.0"
+  }
+}

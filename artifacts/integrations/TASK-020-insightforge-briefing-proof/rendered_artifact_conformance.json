@@ -1,0 +1,19 @@
+{
+  "adapter_identity": {
+    "adapter_id": "minimal-html-renderer",
+    "name": "Minimal HTML Renderer",
+    "owner": "BriefForge architecture proof",
+    "version": "0.1.0"
+  },
+  "conforms": true,
+  "findings": [],
+  "package_identity": {
+    "non_scope": "No automatic report generation, AI generation, analysis, data ownership, renderer-internal dependency, template, dashboard, portal, browser application, CSS, JavaScript, visualization, API, networking, or bidirectional coupling.",
+    "package_id": "briefforge-task-020-insightforge-finding-proof",
+    "purpose_summary": "A minimal one-way integration proof presenting an existing reviewed InsightForge finding without BriefForge changing the analytical conclusion.",
+    "scope": "Presentation-level organization of one existing InsightForge finding, its confidence, caveats, evidence ownership, and reproducibility method.",
+    "title": "InsightForge finding memo: Eurostat Germany and France quarterly GDP direction of change, 2023 Q1 to 2023 Q2"
+  },
+  "semantic_fingerprint": "19e3cf57c9f3dd252f7612043b2f65ec8f0ebce15461e140f8354700cbb8929a",
+  "validation_policy_id": "briefforge-constitutional-validation-policy:v1"
+}

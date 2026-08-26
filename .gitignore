@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Logs and runtime outputs
+logs/raw/*
+logs/derived/*
+logs/index/*
+logs/agents/*
+!logs/raw/.gitkeep
+!logs/derived/.gitkeep
+!logs/index/.gitkeep
+!logs/agents/.gitkeep
+
+# Agent queues
+question_queue/pending/*
+question_queue/answered/*
+question_queue/archive/*
+!question_queue/pending/.gitkeep
+!question_queue/answered/.gitkeep
+!question_queue/archive/.gitkeep
+
+# Generated projects and generated context reports
+/generated/
+context/active_context.md
+context/context_audit.json
+context/context_audit.md
+context/context_manifest.json
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Rights-aware public-source boundary
+# These files remain unchanged locally and are not public Git source.
+/artifacts/external-release-handoffs/
+/artifacts/inputs/
+/artifacts/presentations/
+/artifacts/publications/
+/artifacts/replays/
+/artifacts/verification/
+/artifacts/reports/R-20260824-task-078-*
+/artifacts/reports/R-20260824-task-079-*
+/artifacts/reports/R-20260824-task-080-*
+/artifacts/reports/task081-*
+/artifacts/reports/task082-*
+/hardware/profile.yaml
+/src/briefforge/task078_four_company_report.py
+/src/briefforge/task079_four_company_deep_report_v2.py
+/src/briefforge/task080_four_company_financial_usability_report_v3.py
+/tests/test_task078_four_company_browser_report.py
+/tests/test_task079_four_company_deep_browser_report_v2.py
+/tests/test_task080_four_company_financial_usability_report_v3.py
+/tests/test_task082_four_company_standardized_corporate_report_v5.py
+/tools/build_task078_report.py
+/tools/build_task079_report_v2.py
+/tools/task079_brave_visual_qa.js
+/tools/build_task080_report_v3.py
+/tools/finalize_task080_qa.py
+/tools/task080_brave_visual_qa.js
+/tools/verify_task080_financial_content.py
+/tools/build_task081_report_v4.py
+/tools/verify_task081_source_instances.py
+/tools/build_task082_report_v5.py
+/tools/finalize_task082_publication.py
+/tools/verify_task082_source_instances.py

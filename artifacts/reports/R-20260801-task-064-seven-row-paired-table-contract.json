@@ -1,0 +1,561 @@
+{
+  "canonical_relationship_order": [
+    "T031-DNK-private-credit-broad-money",
+    "T033-NOR-fossil-nonhydro-renewables",
+    "T035-C1-NOR-life-expectancy-under5-mortality",
+    "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+    "T035-C1-NOR-fossil-under5-mortality",
+    "T036-SWE-private-credit-mobile-subscriptions",
+    "T038-DNK-agricultural-land-private-credit"
+  ],
+  "coefficient_count": 14,
+  "column_count": 5,
+  "completeness_result": "complete",
+  "governed_columns": [
+    {
+      "cell_semantics": "one stable relationship identity and source-authored relationship label",
+      "column_id": "column:relationship-case",
+      "heading": "Relationship case"
+    },
+    {
+      "cell_semantics": "exact source lexical coefficient only",
+      "column_id": "column:raw-pearson-coefficient",
+      "heading": "Raw Pearson coefficient"
+    },
+    {
+      "cell_semantics": "raw transformation state with exact aligned period and count",
+      "column_id": "column:raw-state",
+      "heading": "Raw state"
+    },
+    {
+      "cell_semantics": "exact source lexical coefficient only",
+      "column_id": "column:first-difference-pearson-coefficient",
+      "heading": "First-difference Pearson coefficient"
+    },
+    {
+      "cell_semantics": "first_difference transformation state with exact aligned period and count",
+      "column_id": "column:first-difference-state",
+      "heading": "First-difference state"
+    }
+  ],
+  "invariants": [
+    "exactly-one-table",
+    "exactly-five-governed-columns-in-listed-order",
+    "exactly-seven-body-rows",
+    "exactly-one-stable-relationship-identity-per-row",
+    "exactly-one-raw-and-one-first-difference-value-per-row",
+    "exactly-fourteen-coefficients-total",
+    "no-coefficient-as-relationship-row",
+    "no-generic-value-slot-row-identity",
+    "canonical-relationship-order",
+    "exact-lexical-sign-and-precision",
+    "matching-period-and-aligned-count",
+    "preserved-evidence-role",
+    "attached-qualification",
+    "attached-provenance",
+    "no-six-or-eight-row-contract",
+    "no-cross-paired-coefficients",
+    "no-duplicated-relationship"
+  ],
+  "row_count": 7,
+  "row_identity_rule": "relationship identity, never coefficient/value-slot identity",
+  "rows": [
+    {
+      "classification": "weakens materially",
+      "completeness_result": "complete",
+      "evidence_role": "core governed inquiry",
+      "first_difference": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "exact_decimal_payload": {
+          "coefficient": "-0083567273412",
+          "scale": 12
+        },
+        "lexical_representation": "-0.083567273412",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference",
+        "unit": "unitless",
+        "value_id": "value:task065-01-first-difference",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "geography": "Denmark",
+      "intended_candidate_element_identities": [
+        "statement:task065-row-01",
+        "value:task065-01-raw",
+        "value:task065-01-first-difference",
+        "row:T031-DNK-private-credit-broad-money"
+      ],
+      "intended_rendered_location": "table:task065-comparisons/body/row/1",
+      "provenance_locators": [
+        "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/0",
+        "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-first-difference-pearson-companion-v1"
+      ],
+      "qualification_statement_ref": "statement:task065-qualification-01",
+      "qualification_targets": [
+        "statement:task065-row-01",
+        "value:task065-01-raw",
+        "value:task065-01-first-difference"
+      ],
+      "raw": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "exact_decimal_payload": {
+          "coefficient": "0316082156476",
+          "scale": 12
+        },
+        "lexical_representation": "0.316082156476",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "unit": "unitless",
+        "value_id": "value:task065-01-raw",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "relationship_identity": "T031-DNK-private-credit-broad-money",
+      "relationship_label": "Domestic credit to private sector (% of GDP) versus broad money (% of GDP)",
+      "row_id": "row:T031-DNK-private-credit-broad-money",
+      "row_order": 1,
+      "source_inclusion_role": "core_published_production_inquiry_evidence",
+      "source_inquiry": "T-031",
+      "supporting_candidate_locations": {
+        "classification": "statement:task065-row-01",
+        "evidence_role": "statement:task065-row-01",
+        "periods_and_counts": "Raw state and First-difference state cells",
+        "provenance": "provenance:t039-row-01",
+        "qualification": "statement:task065-qualification-01"
+      }
+    },
+    {
+      "classification": "weakens materially",
+      "completeness_result": "complete",
+      "evidence_role": "core governed inquiry",
+      "first_difference": {
+        "aligned_count": 31,
+        "aligned_period": "1991-2021",
+        "exact_decimal_payload": {
+          "coefficient": "-0204185174675",
+          "scale": 12
+        },
+        "lexical_representation": "-0.204185174675",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference",
+        "unit": "unitless",
+        "value_id": "value:task065-02-first-difference",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "geography": "Norway",
+      "intended_candidate_element_identities": [
+        "statement:task065-row-02",
+        "value:task065-02-raw",
+        "value:task065-02-first-difference",
+        "row:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "intended_rendered_location": "table:task065-comparisons/body/row/2",
+      "provenance_locators": [
+        "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/1",
+        "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-first-difference-pearson-companion-v1"
+      ],
+      "qualification_statement_ref": "statement:task065-qualification-02",
+      "qualification_targets": [
+        "statement:task065-row-02",
+        "value:task065-02-raw",
+        "value:task065-02-first-difference"
+      ],
+      "raw": {
+        "aligned_count": 32,
+        "aligned_period": "1990-2021",
+        "exact_decimal_payload": {
+          "coefficient": "0315942832953",
+          "scale": 12
+        },
+        "lexical_representation": "0.315942832953",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "unit": "unitless",
+        "value_id": "value:task065-02-raw",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "relationship_identity": "T033-NOR-fossil-nonhydro-renewables",
+      "relationship_label": "Electricity production from fossil sources (% of total) versus non-hydro renewable sources (% of total)",
+      "row_id": "row:T033-NOR-fossil-nonhydro-renewables",
+      "row_order": 2,
+      "source_inclusion_role": "core_published_production_inquiry_evidence",
+      "source_inquiry": "T-033",
+      "supporting_candidate_locations": {
+        "classification": "statement:task065-row-02",
+        "evidence_role": "statement:task065-row-02",
+        "periods_and_counts": "Raw state and First-difference state cells",
+        "provenance": "provenance:t039-row-02",
+        "qualification": "statement:task065-qualification-02"
+      }
+    },
+    {
+      "classification": "weakens materially",
+      "completeness_result": "complete",
+      "evidence_role": "context-only relationship",
+      "first_difference": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "exact_decimal_payload": {
+          "coefficient": "-0207863151096",
+          "scale": 12
+        },
+        "lexical_representation": "-0.207863151096",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference",
+        "unit": "unitless",
+        "value_id": "value:task065-03-first-difference",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "geography": "Norway",
+      "intended_candidate_element_identities": [
+        "statement:task065-row-03",
+        "value:task065-03-raw",
+        "value:task065-03-first-difference",
+        "row:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "intended_rendered_location": "table:task065-comparisons/body/row/3",
+      "provenance_locators": [
+        "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/2",
+        "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-first-difference-pearson-companion-v1"
+      ],
+      "qualification_statement_ref": "statement:task065-qualification-03",
+      "qualification_targets": [
+        "statement:task065-row-03",
+        "value:task065-03-raw",
+        "value:task065-03-first-difference"
+      ],
+      "raw": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "exact_decimal_payload": {
+          "coefficient": "-0951151571489",
+          "scale": 12
+        },
+        "lexical_representation": "-0.951151571489",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "unit": "unitless",
+        "value_id": "value:task065-03-raw",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "relationship_identity": "T035-C1-NOR-life-expectancy-under5-mortality",
+      "relationship_label": "Life expectancy at birth versus under-5 mortality",
+      "row_id": "row:T035-C1-NOR-life-expectancy-under5-mortality",
+      "row_order": 3,
+      "source_inclusion_role": "context_only_result_informed_curation",
+      "source_inquiry": "T-035",
+      "supporting_candidate_locations": {
+        "classification": "statement:task065-row-03",
+        "evidence_role": "statement:task065-row-03",
+        "periods_and_counts": "Raw state and First-difference state cells",
+        "provenance": "provenance:t039-row-03",
+        "qualification": "statement:task065-qualification-03"
+      }
+    },
+    {
+      "classification": "weakens materially",
+      "completeness_result": "complete",
+      "evidence_role": "context-only relationship",
+      "first_difference": {
+        "aligned_count": 31,
+        "aligned_period": "1991-2021",
+        "exact_decimal_payload": {
+          "coefficient": "03855860099",
+          "scale": 10
+        },
+        "lexical_representation": "0.3855860099",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference",
+        "unit": "unitless",
+        "value_id": "value:task065-04-first-difference",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "geography": "Norway",
+      "intended_candidate_element_identities": [
+        "statement:task065-row-04",
+        "value:task065-04-raw",
+        "value:task065-04-first-difference",
+        "row:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "intended_rendered_location": "table:task065-comparisons/body/row/4",
+      "provenance_locators": [
+        "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/3",
+        "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-first-difference-pearson-companion-v1"
+      ],
+      "qualification_statement_ref": "statement:task065-qualification-04",
+      "qualification_targets": [
+        "statement:task065-row-04",
+        "value:task065-04-raw",
+        "value:task065-04-first-difference"
+      ],
+      "raw": {
+        "aligned_count": 32,
+        "aligned_period": "1990-2021",
+        "exact_decimal_payload": {
+          "coefficient": "-0652623909096",
+          "scale": 12
+        },
+        "lexical_representation": "-0.652623909096",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "unit": "unitless",
+        "value_id": "value:task065-04-raw",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "relationship_identity": "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "relationship_label": "Non-hydro renewable electricity share versus under-5 mortality",
+      "row_id": "row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "row_order": 4,
+      "source_inclusion_role": "context_only_result_informed_curation",
+      "source_inquiry": "T-035",
+      "supporting_candidate_locations": {
+        "classification": "statement:task065-row-04",
+        "evidence_role": "statement:task065-row-04",
+        "periods_and_counts": "Raw state and First-difference state cells",
+        "provenance": "provenance:t039-row-04",
+        "qualification": "statement:task065-qualification-04"
+      }
+    },
+    {
+      "classification": "weakens materially",
+      "completeness_result": "complete",
+      "evidence_role": "context-only relationship",
+      "first_difference": {
+        "aligned_count": 33,
+        "aligned_period": "1991-2023",
+        "exact_decimal_payload": {
+          "coefficient": "-0083376899169",
+          "scale": 12
+        },
+        "lexical_representation": "-0.083376899169",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference",
+        "unit": "unitless",
+        "value_id": "value:task065-05-first-difference",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "geography": "Norway",
+      "intended_candidate_element_identities": [
+        "statement:task065-row-05",
+        "value:task065-05-raw",
+        "value:task065-05-first-difference",
+        "row:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "intended_rendered_location": "table:task065-comparisons/body/row/5",
+      "provenance_locators": [
+        "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/4",
+        "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-first-difference-pearson-companion-v1"
+      ],
+      "qualification_statement_ref": "statement:task065-qualification-05",
+      "qualification_targets": [
+        "statement:task065-row-05",
+        "value:task065-05-raw",
+        "value:task065-05-first-difference"
+      ],
+      "raw": {
+        "aligned_count": 34,
+        "aligned_period": "1990-2023",
+        "exact_decimal_payload": {
+          "coefficient": "-0618717118858",
+          "scale": 12
+        },
+        "lexical_representation": "-0.618717118858",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "unit": "unitless",
+        "value_id": "value:task065-05-raw",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "relationship_identity": "T035-C1-NOR-fossil-under5-mortality",
+      "relationship_label": "Fossil electricity share versus under-5 mortality",
+      "row_id": "row:T035-C1-NOR-fossil-under5-mortality",
+      "row_order": 5,
+      "source_inclusion_role": "context_only_result_informed_curation",
+      "source_inquiry": "T-035",
+      "supporting_candidate_locations": {
+        "classification": "statement:task065-row-05",
+        "evidence_role": "statement:task065-row-05",
+        "periods_and_counts": "Raw state and First-difference state cells",
+        "provenance": "provenance:t039-row-05",
+        "qualification": "statement:task065-qualification-05"
+      }
+    },
+    {
+      "classification": "weakens materially",
+      "completeness_result": "complete",
+      "evidence_role": "qualified analytical byproduct",
+      "first_difference": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "exact_decimal_payload": {
+          "coefficient": "0161115218727",
+          "scale": 12
+        },
+        "lexical_representation": "0.161115218727",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference",
+        "unit": "unitless",
+        "value_id": "value:task065-06-first-difference",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "geography": "Sweden",
+      "intended_candidate_element_identities": [
+        "statement:task065-row-06",
+        "value:task065-06-raw",
+        "value:task065-06-first-difference",
+        "row:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "intended_rendered_location": "table:task065-comparisons/body/row/6",
+      "provenance_locators": [
+        "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/5",
+        "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-first-difference-pearson-companion-v1"
+      ],
+      "qualification_statement_ref": "statement:task065-qualification-06",
+      "qualification_targets": [
+        "statement:task065-row-06",
+        "value:task065-06-raw",
+        "value:task065-06-first-difference"
+      ],
+      "raw": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "exact_decimal_payload": {
+          "coefficient": "0937758474347",
+          "scale": 12
+        },
+        "lexical_representation": "0.937758474347",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "unit": "unitless",
+        "value_id": "value:task065-06-raw",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "relationship_identity": "T036-SWE-private-credit-mobile-subscriptions",
+      "relationship_label": "Domestic credit to private sector (% of GDP) versus mobile cellular subscriptions (per 100 people)",
+      "row_id": "row:T036-SWE-private-credit-mobile-subscriptions",
+      "row_order": 6,
+      "source_inclusion_role": "qualified_analytical_byproduct",
+      "source_inquiry": "T-036",
+      "supporting_candidate_locations": {
+        "classification": "statement:task065-row-06",
+        "evidence_role": "statement:task065-row-06",
+        "periods_and_counts": "Raw state and First-difference state cells",
+        "provenance": "provenance:t039-row-06",
+        "qualification": "statement:task065-qualification-06"
+      }
+    },
+    {
+      "classification": "weakens materially",
+      "completeness_result": "complete",
+      "evidence_role": "core governed inquiry",
+      "first_difference": {
+        "aligned_count": 33,
+        "aligned_period": "1991-2023",
+        "exact_decimal_payload": {
+          "coefficient": "0058190335423",
+          "scale": 12
+        },
+        "lexical_representation": "0.058190335423",
+        "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-first-difference-pearson-companion-v1",
+        "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+        "transformation_state": "first_difference",
+        "unit": "unitless",
+        "value_id": "value:task065-07-first-difference",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "geography": "Denmark",
+      "intended_candidate_element_identities": [
+        "statement:task065-row-07",
+        "value:task065-07-raw",
+        "value:task065-07-first-difference",
+        "row:T038-DNK-agricultural-land-private-credit"
+      ],
+      "intended_rendered_location": "table:task065-comparisons/body/row/7",
+      "provenance_locators": [
+        "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/6",
+        "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-first-difference-pearson-companion-v1"
+      ],
+      "qualification_statement_ref": "statement:task065-qualification-07",
+      "qualification_targets": [
+        "statement:task065-row-07",
+        "value:task065-07-raw",
+        "value:task065-07-first-difference"
+      ],
+      "raw": {
+        "aligned_count": 34,
+        "aligned_period": "1990-2023",
+        "exact_decimal_payload": {
+          "coefficient": "-0667417505516",
+          "scale": 12
+        },
+        "lexical_representation": "-0.667417505516",
+        "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+        "package_id": "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-pearson-correlation-v1",
+        "transformation_state": "raw",
+        "unit": "unitless",
+        "value_id": "value:task065-07-raw",
+        "value_state": "present",
+        "value_type": "Pearson coefficient"
+      },
+      "relationship_identity": "T038-DNK-agricultural-land-private-credit",
+      "relationship_label": "Agricultural land (% of land area) versus domestic credit to private sector (% of GDP)",
+      "row_id": "row:T038-DNK-agricultural-land-private-credit",
+      "row_order": 7,
+      "source_inclusion_role": "core_published_production_inquiry_evidence",
+      "source_inquiry": "T-038",
+      "supporting_candidate_locations": {
+        "classification": "statement:task065-row-07",
+        "evidence_role": "statement:task065-row-07",
+        "periods_and_counts": "Raw state and First-difference state cells",
+        "provenance": "provenance:t039-row-07",
+        "qualification": "statement:task065-qualification-07"
+      }
+    }
+  ],
+  "schema": "briefforge-task064-seven-row-paired-table-contract-v1",
+  "status": "complete",
+  "supporting_field_rule": "Classification, evidence role, qualifications, and provenance remain governed but attach to the exact row through the listed Candidate statement/provenance locations; they are not silently discarded or overloaded into the five cells.",
+  "table_count": 1,
+  "table_identity": "table:task065-comparisons",
+  "table_kind": "fixed-static-table",
+  "task_id": "TASK-064"
+}

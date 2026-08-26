@@ -1,0 +1,86 @@
+{
+  "format": "briefforge-bcrp-json-bundle-v1",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "records": [
+    {
+      "identity": "brief:case-1",
+      "location": "records/01-PresentationBriefRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "PresentationBriefRecord",
+      "transport_sha256": "52d26aa8fa60065536bbc5258e3b7c4601edc6e0852a5c21090fd1ba4c88042d"
+    },
+    {
+      "identity": "material:case-1",
+      "location": "records/02-PortablePresentationMaterialRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "PortablePresentationMaterialRecord",
+      "transport_sha256": "3ae1d83bee7ead64806bf8f31360bee87b99c8ae8ab5b78e3885d411619211c6"
+    },
+    {
+      "identity": "candidate:case-1",
+      "location": "records/03-CandidatePresentationPackageRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "CandidatePresentationPackageRecord",
+      "transport_sha256": "c7c8caa9378cce11af7050a01835f785a49dca4f3dfe73621d8338c2813a271d"
+    },
+    {
+      "identity": "judgment:case-1",
+      "location": "records/04-ValidationJudgmentRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "ValidationJudgmentRecord",
+      "transport_sha256": "51fa8b0770b12f9fdc2acfb1677236f92883c4408884bd28a996df1a06ec5ae9"
+    },
+    {
+      "identity": "ready:case-1",
+      "location": "records/05-ReadyPresentationPackageRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "ReadyPresentationPackageRecord",
+      "transport_sha256": "315e607e8eac7e0a3fe70cbec2599fda20e16b8dda6a2b4e4c86e8883f5cc002"
+    },
+    {
+      "identity": "release:case-1",
+      "location": "records/06-PublicationReleaseRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "PublicationReleaseRecord",
+      "transport_sha256": "7c4055ae4b806b0c8f7cdde69861d7f16e38764e0c20d32b1850b342226e745b"
+    },
+    {
+      "identity": "renderer-capability:case-1",
+      "location": "records/07-RendererCapabilityDeclarationRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "RendererCapabilityDeclarationRecord",
+      "transport_sha256": "d314a06a2ccca4dc8e379daee5d07acd872b47f7b42636b3d577e9237aafa292"
+    },
+    {
+      "identity": "renderer-plan:case-1",
+      "location": "records/08-RendererCompatibilityPlanRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "RendererCompatibilityPlanRecord",
+      "transport_sha256": "f803d48b7e7a8b731e5f9a79cc5b6110f94ed2fa2c017354bce7189d16ba734b"
+    },
+    {
+      "identity": "artifact-audit:case-1",
+      "location": "records/09-GeneratedArtifactAuditRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "GeneratedArtifactAuditRecord",
+      "transport_sha256": "60b5e269de0bb92739ae0ed2be054ce9c870e78782dde4fa1f289ace1435f10c"
+    },
+    {
+      "identity": "artifact-conformance:case-1",
+      "location": "records/10-SemanticArtifactConformanceRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "SemanticArtifactConformanceRecord",
+      "transport_sha256": "ac50eed7aa9654164b15eb3082f05e1ace26a48aff6ac0f54e82cc7d1622aeb5"
+    },
+    {
+      "identity": "manifest:case-1",
+      "location": "records/11-PublicationManifestRecord.json",
+      "profile_version": "1.0.0",
+      "record_kind": "PublicationManifestRecord",
+      "transport_sha256": "add55926d56b7c6d6eb42b121e8d55c6b7c0aa9a1757c3e45d0dc13f47f0a47d"
+    }
+  ]
+}

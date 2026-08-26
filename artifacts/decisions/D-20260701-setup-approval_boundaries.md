@@ -1,0 +1,27 @@
+# Decision: Setup - approval_boundaries
+
+Date: 2026-07-01
+Status: Accepted
+Severity: L3
+Section: governance
+Scope: local project
+Owner: project-owned
+
+## Question
+Any project-specific approval boundaries beyond destructive actions, external publication, remote pushes, paid resources, credentials/production data, major scope changes, and architecture changes beyond existing doctrine?
+
+## Decision
+Architecture changes beyond the initial constitutional report, adoption of rendering/runtime technology, creation of implementation tasks, cross-project authority changes, portal integration, production deployment, external publication, paid resources, credentials, and git push require explicit approval.
+
+## Rationale
+Captured during project initialization so future humans and agents do not need hidden chat history to understand the setup choice.
+
+## Alternatives considered
+- Defer: allowed when the answer is not required for bootstrap.
+- Record now: used when the setup answer affects current scaffolding, safety, scope, architecture, or operating behavior.
+
+## Consequences
+Agents must consult this artifact before asking the same setup question again. If status is Deferred and the issue becomes blocking, create a question in `question_queue/pending/` or a superseding decision artifact.
+
+## Approval boundary
+This setup decision does not grant authority for destructive actions, external publication, remote pushes, paid resources, credential/production-data handling, major scope changes, or architecture changes beyond existing project doctrine.

@@ -1,0 +1,306 @@
+{
+  "accepted_interface_constraints": {
+    "case_binding_exact_schema": [
+      "id",
+      "order",
+      "primary_ref",
+      "comparison_ref"
+    ],
+    "exhibit_exact_schema": [
+      "id",
+      "kind",
+      "purpose_ref",
+      "case_bindings",
+      "value_ids"
+    ],
+    "obligation_kind_allowlist": [
+      "label",
+      "qualification-required",
+      "source-display"
+    ],
+    "provenance_exact_schema": [
+      "id",
+      "citation",
+      "authority_ref"
+    ],
+    "relations": {
+      "actual_required_edges": 27,
+      "exact_schema": [
+        "id",
+        "kind",
+        "source_ref",
+        "target_ref",
+        "authority_ref"
+      ],
+      "max": 16,
+      "min": 1,
+      "source_refs_must_be_unique": true
+    },
+    "renderer_requirement_count": 7,
+    "renderer_table_behavior": {
+      "actual_body_rows_for_seven_relationships": 14,
+      "body_rows_per_case": 2,
+      "headings": [
+        "Case + slot",
+        "Value / state",
+        "Unit",
+        "Type",
+        "Source"
+      ],
+      "source": "src/briefforge/representative_renderer.py"
+    },
+    "sections": {
+      "actual": [
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 5,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-root",
+          "with_both_conditionals_included": 5
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 7,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-framing",
+          "with_both_conditionals_included": 7
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 8,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-comparisons",
+          "with_both_conditionals_included": 8
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 27,
+          "base_within_child_bound": false,
+          "included_within_child_bound": false,
+          "section_id": "section:task065-interpretation",
+          "with_both_conditionals_included": 29
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 32,
+          "base_within_child_bound": false,
+          "included_within_child_bound": false,
+          "section_id": "section:task065-limitations",
+          "with_both_conditionals_included": 32
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 6,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-provenance-and-obligations",
+          "with_both_conditionals_included": 6
+        }
+      ],
+      "leaf_statements_max": 16,
+      "max": 8,
+      "min": 2,
+      "per_section_children_max": 17
+    },
+    "source": "src/briefforge/representative_projection.py::_admit, reached by src/briefforge_terminal_profile/projection.py::admit_terminal_representative_release_content",
+    "statements": {
+      "actual_if_included": 76,
+      "actual_minimum_if_both_conditionals_omitted": 74,
+      "max": 32,
+      "min": 2
+    }
+  },
+  "authoritative_contract": {
+    "coefficients": 14,
+    "column_count": 5,
+    "conditional_items": 2,
+    "excluded_items": 3,
+    "ledger_items": 109,
+    "mandatory_items": 104,
+    "obligations": 5,
+    "provenance_attachments": 8,
+    "qualification_edges": 27,
+    "relationship_rows": 7,
+    "sections": 6,
+    "statement_identities_nonconditional": 74,
+    "statement_identities_total": 76,
+    "table_count": 1
+  },
+  "blocking_findings": [
+    {
+      "accepted": "at most 32",
+      "actual_included": 76,
+      "actual_minimum": 74,
+      "blocked": true,
+      "expected": "preserve 74 mandatory/nonconditional statement identities even if both conditional statements are omitted; 76 if included",
+      "id": "statement-cardinality"
+    },
+    {
+      "accepted": "at most 17 children and 16 statements per leaf",
+      "actual": [
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 5,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-root",
+          "with_both_conditionals_included": 5
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 7,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-framing",
+          "with_both_conditionals_included": 7
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 8,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-comparisons",
+          "with_both_conditionals_included": 8
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 27,
+          "base_within_child_bound": false,
+          "included_within_child_bound": false,
+          "section_id": "section:task065-interpretation",
+          "with_both_conditionals_included": 29
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 32,
+          "base_within_child_bound": false,
+          "included_within_child_bound": false,
+          "section_id": "section:task065-limitations",
+          "with_both_conditionals_included": 32
+        },
+        {
+          "accepted_leaf_statement_max": 16,
+          "accepted_max_children": 17,
+          "base_child_count": 6,
+          "base_within_child_bound": true,
+          "included_within_child_bound": true,
+          "section_id": "section:task065-provenance-and-obligations",
+          "with_both_conditionals_included": 6
+        }
+      ],
+      "blocked": true,
+      "expected": "preserve exact TASK-064 hierarchy and encounter order",
+      "id": "section-child-cardinality"
+    },
+    {
+      "accepted": "section children may be only sections, statements, or sole exhibit",
+      "blocked": true,
+      "expected": "preserve provenance and obligation children in provenance-and-obligations section",
+      "id": "nonstatement-section-children"
+    },
+    {
+      "accepted": "at most 16 relations and unique source_ref per relation",
+      "blocked": true,
+      "expected": "preserve 27 exact target edges with reciprocal targeting",
+      "id": "qualification-edge-cardinality-and-source-uniqueness"
+    },
+    {
+      "accepted_kind_allowlist": [
+        "label",
+        "qualification-required",
+        "source-display"
+      ],
+      "blocked": true,
+      "expected": [
+        "obligation:preserve-source-meaning-task065",
+        "obligation:display-source-task065",
+        "obligation:qualification-attachment-task065",
+        "obligation:display-exclusions-task065",
+        "obligation:future-work-language-task065"
+      ],
+      "id": "obligation-enum"
+    },
+    {
+      "accepted_renderer": {
+        "fixed_columns": [
+          "Case + slot",
+          "Value / state",
+          "Unit",
+          "Type",
+          "Source"
+        ],
+        "row_ownership": "coefficient slot",
+        "rows": 14
+      },
+      "blocked": true,
+      "expected": {
+        "coefficients_paired_per_row": 2,
+        "columns": [
+          "Relationship case",
+          "Raw Pearson coefficient",
+          "Raw state",
+          "First-difference Pearson coefficient",
+          "First-difference state"
+        ],
+        "relationship_rows": 7
+      },
+      "id": "five-column-seven-row-table"
+    },
+    {
+      "accepted": "strict exhibit and case schemas omit these fields",
+      "blocked": true,
+      "expected": "relationship identity/label, transformation state, period, aligned count, governed column identities/headings preserved",
+      "id": "table-metadata-schema"
+    },
+    {
+      "accepted": "provenance schema permits only id, citation, authority_ref",
+      "blocked": true,
+      "expected": "exact target refs, commit/snapshot and package attachments",
+      "id": "provenance-topology-schema"
+    },
+    {
+      "accepted": "strict value schema excludes these fields",
+      "blocked": true,
+      "expected": "lexical form, transformation, period, aligned count, method and package identity preserved",
+      "id": "value-metadata-schema"
+    },
+    {
+      "actual": "rejected draft creates marker first and runs git show with BriefForge non-Git cwd",
+      "blocked": true,
+      "expected": "single-use authoring only after all prerequisites and immutable source load from InsightForge Git repository",
+      "id": "unexecuted-draft-unsuitable"
+    }
+  ],
+  "candidate_created": false,
+  "classification": "TASK-064 representational-capacity conclusion does not fit the existing accepted TASK-062 terminal profile and renderer without excluded capability changes",
+  "earliest_invalid_boundary": "Phase 1 accepted-interface admission before Candidate authoring",
+  "gate": "NOT RECONCILED",
+  "independent_review": {
+    "candidate_or_chain_executed": false,
+    "conclusion": "Multiple independent hard incompatibilities confirmed; do not construct Candidate or change production capabilities inside TASK-065.",
+    "review_method": "independent delegated read-only accepted-interface review",
+    "status": "BLOCKED"
+  },
+  "promotion_attempted": false,
+  "release_created": false,
+  "required_disposition": "Close TASK-065 BLOCKED / NOT RECONCILED before Candidate authoring. Preserve TASK-064 and all historical evidence unchanged. No successor activation.",
+  "schema": "briefforge-task065-pre-authoring-interface-contradiction:1.0.0",
+  "single_use_marker_created": false,
+  "status": "BLOCKED",
+  "task_id": "TASK-065",
+  "terminal_chain_started": false
+}

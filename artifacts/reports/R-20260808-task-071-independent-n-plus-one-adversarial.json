@@ -1,0 +1,28 @@
+{
+  "all_rejected": true,
+  "baseline_candidate_fingerprint": "b1c29473241648c68dfb7bb737715645b396c149094eeb70cef34feb52fb95b2",
+  "format": "briefforge-task071-independent-n-plus-one-adversarial-v1",
+  "mutation_count": 5,
+  "mutations": {
+    "add_undeclared_profile_field": {
+      "rejected": true,
+      "rejection_class": "noncanonical-or-surplus-profile-bytes"
+    },
+    "duplicate_one_paired_value": {
+      "rejected": true,
+      "rejection_class": "PairedProfileRejected"
+    },
+    "forge_extension_target": {
+      "rejected": true,
+      "rejection_class": "BundleLoadError"
+    },
+    "reverse_physical_record_order": {
+      "rejected": true,
+      "rejection_class": "noncanonical-or-surplus-profile-bytes"
+    },
+    "swap_first_two_authored_statements": {
+      "rejected": true,
+      "rejection_class": "PairedProfileRejected"
+    }
+  }
+}

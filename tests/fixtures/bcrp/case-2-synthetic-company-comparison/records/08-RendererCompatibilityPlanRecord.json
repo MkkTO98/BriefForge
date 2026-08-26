@@ -1,0 +1,23 @@
+{
+  "extensions": [],
+  "identity": "renderer-plan:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "RendererCompatibilityPlanRecord",
+  "semantic": {
+    "declared_transformations": [
+      "static-layout",
+      "print-layout"
+    ],
+    "fallbacks": [
+      "fallback:c2-table",
+      "fallback:c2-print"
+    ],
+    "mode": "static",
+    "ready_ref": "ready:case-2",
+    "renderer_capability_ref": "renderer-capability:case-2",
+    "supported": true
+  }
+}

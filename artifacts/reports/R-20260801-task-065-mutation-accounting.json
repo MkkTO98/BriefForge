@@ -1,0 +1,50 @@
+{
+  "schema": "briefforge-task065-mutation-accounting:1.0.0",
+  "task_id": "TASK-065",
+  "baseline_manifest": "/tmp/briefforge-after-task064-20260801.json",
+  "baseline_path_count": 887,
+  "baseline_helper_reported_digest": "03761aa66c6684c1efb872ac252b00523fd9a7d84ee5aa69ad8b66f9e9636372",
+  "expected_final_manifest": "/tmp/briefforge-after-task065-20260801.json",
+  "classifications": [
+    {"path": "artifacts/decisions/D-20260801-task-065-pre-authoring-terminal-profile-gap.md", "change": "addition", "class": "TASK-065 durable fail-closed decision"},
+    {"path": "artifacts/pilots/task065", "change": "addition", "class": "TASK-065 investigation-evidence directory"},
+    {"path": "artifacts/pilots/task065/rejected-unexecuted-candidate-gate-draft.py", "change": "addition", "class": "rejected unexecuted investigation draft; no Candidate created"},
+    {"path": "artifacts/reports/R-20260801-task-065-architecture-reality-audit.md", "change": "addition", "class": "TASK-065 closeout audit"},
+    {"path": "artifacts/reports/R-20260801-task-065-completion.md", "change": "addition", "class": "TASK-065 canonical blocked completion report"},
+    {"path": "artifacts/reports/R-20260801-task-065-mutation-accounting.json", "change": "addition", "class": "TASK-065 exact filesystem mutation classification"},
+    {"path": "artifacts/reports/R-20260801-task-065-pre-authoring-interface-contradiction.json", "change": "addition", "class": "machine-readable accepted-interface blocker evidence"},
+    {"path": "artifacts/reports/R-20260801-task-065-source-and-contract-admission.json", "change": "addition", "class": "source/contract revalidation and corrected Phase-1 admission status"},
+    {"path": "artifacts/tasks/TASK-065-fresh-representative-candidate-authoring-under-editorial-closure-and-paired-table-gate.md", "change": "addition", "class": "TASK-065 activation and blocked outcome authority"},
+    {"path": "artifacts/decisions/_SUMMARY.md", "change": "modification", "class": "affected folder navigation and current disposition"},
+    {"path": "artifacts/pilots/_SUMMARY.md", "change": "modification", "class": "affected folder navigation and rejected-draft warning"},
+    {"path": "artifacts/reports/_SUMMARY.md", "change": "modification", "class": "affected folder navigation and current disposition"},
+    {"path": "artifacts/tasks/_SUMMARY.md", "change": "modification", "class": "affected folder navigation and current disposition"},
+    {"path": "context/_SUMMARY.md", "change": "modification", "class": "affected context navigation"},
+    {"path": "context/active_context.md", "change": "modification", "class": "bounded TASK-065 recovery context"},
+    {"path": "context/context_audit.json", "change": "modification", "class": "generated TASK-065 context audit"},
+    {"path": "context/context_audit.md", "change": "modification", "class": "generated TASK-065 context audit narrative"},
+    {"path": "context/context_manifest.json", "change": "modification", "class": "generated TASK-065 context manifest"},
+    {"path": "context/latest_handoff.md", "change": "modification", "class": "TASK-065 continuity closeout"},
+    {"path": "state/_SUMMARY.md", "change": "modification", "class": "affected state navigation"},
+    {"path": "state/active_goal.md", "change": "modification", "class": "clear active task after blocked closeout"},
+    {"path": "state/architecture.md", "change": "modification", "class": "architecture-to-reality correction distinguishing generic capacity from terminal-profile compatibility"},
+    {"path": "state/project_state.md", "change": "modification", "class": "current TASK-065 blocked state"},
+    {"path": "state/recent_changes.md", "change": "modification", "class": "bounded current-change pointer"}
+  ],
+  "expected_counts": {
+    "additions": 9,
+    "modifications": 15,
+    "deletions": 0,
+    "type_or_symlink_changes": 0,
+    "classified_changed_paths": 24,
+    "unexpected_differences": 0
+  },
+  "forbidden_scope_expectation": {
+    "production_changes": 0,
+    "test_changes": 0,
+    "fixture_changes": 0,
+    "task063_changes": 0,
+    "task064_changes": 0,
+    "sibling_project_changes": 0
+  }
+}

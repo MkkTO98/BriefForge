@@ -1,0 +1,30 @@
+escalation_rules:
+  clarification_severity_levels:
+    L1_silent_autonomy:
+      description: "Agent may proceed and record assumption if needed."
+      examples: [minor_naming, formatting, local_comment]
+    L2_batched_question:
+      description: "Nonblocking clarification. Add to question queue."
+      examples: [style_preference, documentation_layout]
+    L3_blocking_question:
+      description: "Pause current task until clarified."
+      examples: [database_layer_choice, schema_contract, dependency_policy]
+    L4_emergency_stop:
+      description: "Stop immediately and require human approval."
+      examples: [destructive_command, credential_exposure, force_push, production_delete]
+  escalation_paths:
+    capability_failure:
+      - local_reviewer
+      - stronger_local_model
+      - openai_codex_or_premium_model
+      - human
+    permission_or_safety:
+      - human
+  git:
+    auto_commit_after_passing_validation: true
+    push_requires_human_approval: true
+    force_push_forbidden_by_default: true
+  specialized_agent_creation:
+    request_before_creation: true
+    auto_generate_after_approval: true
+    silent_creation_allowed: false

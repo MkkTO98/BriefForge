@@ -1,0 +1,8 @@
+{
+  "authoring_input_sha256": "9da7f50bf57eafe8a8443dc2aeb48d52d0986c7959b2dd6fc833c746c65459c3",
+  "authority_path": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/governance/candidate-authoring-authority/attempt:task071-representative-campaign-002.authority.json",
+  "authority_sha256": "9870ff3aca5630de86a97de815415b9d183782e7255a0340640b47e9a226fe04",
+  "expected_semantic_closure_sha256": "ed0d50ca4633db9d55846af949cfe1f1dc147412aefe0f418710738f69f81df0",
+  "prepared_state_path": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/state/candidate-authoring-ledger/attempt:task071-representative-campaign-002/00-PREPARED_NOT_CONSUMED.json",
+  "state": "PREPARED_NOT_CONSUMED"
+}

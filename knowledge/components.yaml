@@ -1,0 +1,28 @@
+components:
+  projectforge_core:
+    description: "Reusable project initializer and scaffold policy system."
+    owns:
+      - tools/new_project.py
+      - config/setup_questionnaire.yaml
+      - config/sufficiency_policy.yaml
+    risk_level: medium
+  context_system:
+    description: "Builds small sufficient context bundles and maintains folder summaries."
+    owns:
+      - context/
+      - tools/build_context.py
+      - tools/update_context_summaries.py
+    risk_level: medium
+  dry_run_system:
+    description: "Preflight and dry-run policy for file, command, git, and structural changes."
+    owns:
+      - simulation/
+      - tools/dry_run.py
+    risk_level: high
+  metrics_system:
+    description: "JSONL-based observations used to improve agents, tasks, tools, skills, and model routing."
+    owns:
+      - metrics/
+      - tools/record_metric.py
+      - tools/analyze_metrics.py
+    risk_level: low

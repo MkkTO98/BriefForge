@@ -1,0 +1,23 @@
+{
+  "extensions": [],
+  "identity": "brief:case-3",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PresentationBriefRecord",
+  "semantic": {
+    "audiences": [
+      {
+        "description": "Reader of bounded company–macro communication.",
+        "id": "audience:macro-reader-c3"
+      }
+    ],
+    "non_scope": "No calculation, wildcard, live query, or arbitrary exploration.",
+    "organizing_purpose": {
+      "id": "purpose:brief-c3",
+      "statement": "Communicate three prevalidated narratives for fictional Cinder Atlas Components."
+    },
+    "scope": "Finite prevalidated selection."
+  }
+}

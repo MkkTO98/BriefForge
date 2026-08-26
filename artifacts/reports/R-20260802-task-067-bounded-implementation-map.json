@@ -1,0 +1,621 @@
+{
+  "artifact_identity": "briefforge:task067-bounded-implementation-map:1.0.0",
+  "decision": "CREATE VERSIONED TERMINAL CAPABILITY",
+  "mismatch_coverage": {
+    "CAP-001": {
+      "matrix_entry": 1,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-002": {
+      "matrix_entry": 2,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-003": {
+      "matrix_entry": 3,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-004": {
+      "matrix_entry": 4,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-005": {
+      "matrix_entry": 5,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-006": {
+      "matrix_entry": 6,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-007": {
+      "matrix_entry": 7,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-008": {
+      "matrix_entry": 8,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-009": {
+      "matrix_entry": 9,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-010": {
+      "matrix_entry": 10,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-011": {
+      "matrix_entry": 11,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-012": {
+      "matrix_entry": 12,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-013": {
+      "matrix_entry": 13,
+      "required_proof": "schema/projection/conformance adversarial rejection"
+    },
+    "CAP-014": {
+      "matrix_entry": 14,
+      "required_proof": "exact versioned profile and closed dispatch/admission rejection"
+    }
+  },
+  "planned_paths": [
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "all frozen identity and layer-separation requirements",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Isolated exact public surface for the v3 paired-terminal capability",
+      "path": "src/briefforge_paired_terminal_profile/__init__.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "CAP-001..CAP-010,CAP-012,CAP-013",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Closed immutable paired semantic/projection DTOs and exact structural validator",
+      "path": "src/briefforge_paired_terminal_profile/schema.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "CAP-011,CAP-014",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Exact profile/authority/release-plan admission boundary",
+      "path": "src/briefforge_paired_terminal_profile/profile.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "CAP-001..CAP-014",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Deterministic lossless semantic-to-profile projection and mapping trace",
+      "path": "src/briefforge_paired_terminal_profile/projection.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "CAP-010..CAP-014",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Fixed deterministic escaped static-HTML renderer for exact v3 input",
+      "path": "src/briefforge_paired_terminal_profile/renderer.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "CAP-013,CAP-014",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Exact one-act authorization, bounded replay, immutable invocation evidence",
+      "path": "src/briefforge_paired_terminal_profile/controlled_invocation.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "CAP-001..CAP-014",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Renderer-independent parsed semantic conformance",
+      "path": "src/briefforge_paired_terminal_profile/semantic_conformance.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "production",
+      "governing_requirement": "CAP-014",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "Exact version-aware paired-terminal Manifest admission/verification layer",
+      "path": "src/briefforge_paired_terminal_profile/manifest_admission.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "production",
+      "governing_requirement": "CAP-014; archived prechange bytes required; every existing route behavior preserved",
+      "must_not_affect": [
+        "TASK-062 package and behavior",
+        "historical profiles/routes",
+        "BCRP eleven-kind model"
+      ],
+      "necessity": "One closed third selector branch for exact paired invocation/conformance authorization tuple",
+      "path": "src/briefforge_terminal_profile/manifest_admission.py",
+      "verification": [
+        "focused TASK-067 tests",
+        "TASK-060/TASK-062 compatibility",
+        "full suite",
+        "independent review"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "test",
+      "governing_requirement": "TASK-067 Phase 7 adversarial proof",
+      "must_not_affect": [
+        "existing fixtures and test semantics"
+      ],
+      "necessity": "Source-neutral hand-authored minimum and complete-seven-row test inputs",
+      "path": "tests/paired_terminal_fixture.py",
+      "verification": [
+        "RED before production",
+        "focused GREEN",
+        "full suite"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "test",
+      "governing_requirement": "TASK-067 Phase 7 adversarial proof",
+      "must_not_affect": [
+        "existing fixtures and test semantics"
+      ],
+      "necessity": "Schema bounds, fourteen mismatch classes, mapping and semantic-loss attacks",
+      "path": "tests/test_task067_schema_projection.py",
+      "verification": [
+        "RED before production",
+        "focused GREEN",
+        "full suite"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "test",
+      "governing_requirement": "TASK-067 Phase 7 adversarial proof",
+      "must_not_affect": [
+        "existing fixtures and test semantics"
+      ],
+      "necessity": "Renderer bytes, escaping, deterministic replay, authorization and filesystem attacks",
+      "path": "tests/test_task067_renderer_invocation.py",
+      "verification": [
+        "RED before production",
+        "focused GREEN",
+        "full suite"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "test",
+      "governing_requirement": "TASK-067 Phase 7 adversarial proof",
+      "must_not_affect": [
+        "existing fixtures and test semantics"
+      ],
+      "necessity": "Independent conformance disagreement and exact Manifest tuple/admission attacks",
+      "path": "tests/test_task067_conformance_manifest.py",
+      "verification": [
+        "RED before production",
+        "focused GREEN",
+        "full suite"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "test",
+      "governing_requirement": "TASK-067 Phase 7 adversarial proof",
+      "must_not_affect": [
+        "existing fixtures and test semantics"
+      ],
+      "necessity": "TASK-062 preservation, import/kind/forbidden/dangerous-call/no-domain-leak boundaries",
+      "path": "tests/test_task067_compatibility_boundaries.py",
+      "verification": [
+        "RED before production",
+        "focused GREEN",
+        "full suite"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Durable exact 909-path TASK-066 endpoint baseline",
+      "path": "artifacts/reports/R-20260802-task-067-pre-task-filesystem-manifest.json",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Exact immutable source closure for sole pre-existing source edit",
+      "path": "artifacts/reports/R-20260802-task-067-prechange-manifest-selector-source-closure.json",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "This path map and CAP-001..014 coverage",
+      "path": "artifacts/reports/R-20260802-task-067-bounded-implementation-map.json",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add/modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Lifecycle activation, execution evidence, final status",
+      "path": "artifacts/tasks/TASK-067-versioned-terminal-profile-and-paired-table-capability-implementation.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Executed test/check outputs and capability proof",
+      "path": "artifacts/reports/R-20260802-task-067-implementation-and-verification.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Adversarial review before corrections",
+      "path": "artifacts/reports/R-20260802-task-067-independent-architecture-review-round1.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Fresh post-correction review",
+      "path": "artifacts/reports/R-20260802-task-067-final-independent-architecture-review.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Formal architecture-to-reality audit",
+      "path": "artifacts/reports/R-20260802-task-067-architecture-reality-audit.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "add",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Final exact changed-path classification",
+      "path": "artifacts/reports/R-20260802-task-067-mutation-accounting.json",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Activate then close TASK-067",
+      "path": "state/active_goal.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Record capability endpoint and authority boundary",
+      "path": "state/project_state.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify-if-needed",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Add only verified paired-terminal capability layer",
+      "path": "state/architecture.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Exact recovery endpoint",
+      "path": "context/latest_handoff.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Context health output if helper updates it",
+      "path": "context/context_audit.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Task inventory and active/completed state",
+      "path": "artifacts/tasks/_SUMMARY.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Report inventory",
+      "path": "artifacts/reports/_SUMMARY.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify-if-needed",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "No specification semantics change; inventory only if changed",
+      "path": "artifacts/specifications/_SUMMARY.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify-if-needed",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "TASK-066 decision remains authoritative; status pointer only",
+      "path": "artifacts/decisions/_SUMMARY.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    },
+    {
+      "action": "modify",
+      "class": "governance",
+      "governing_requirement": "TASK-067 lifecycle, audit, accounting and closeout",
+      "must_not_affect": [
+        "accepted historical artifacts except current pointers/summaries/backlog"
+      ],
+      "necessity": "Retire implemented successor and add at most one evidence-based recommendation",
+      "path": "artifacts/decision_support_backlog.md",
+      "verification": [
+        "coherence",
+        "context health",
+        "architecture audit",
+        "manifest accounting"
+      ]
+    }
+  ],
+  "post_slice_decision": "Stop and reconcile if frozen requirements conflict; otherwise implement only these bounded layers and verify before closeout.",
+  "production_boundary": {
+    "existing_source_edits": [
+      "src/briefforge_terminal_profile/manifest_admission.py"
+    ],
+    "forbidden": [
+      "generic registry",
+      "runtime renderer selection",
+      "template injection",
+      "historical fallback",
+      "source/domain-specific production logic",
+      "Candidate or publication-chain execution"
+    ],
+    "new_module_count": 8
+  },
+  "status": "active"
+}

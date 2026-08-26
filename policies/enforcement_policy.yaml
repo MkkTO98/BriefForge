@@ -1,0 +1,26 @@
+enforcement:
+  mode: soft_block
+  principle: >
+    Block violations that can corrupt execution, safety, or traceability. Warn on
+    issues that reduce quality but do not make the run unsafe.
+
+  block:
+    - invalid_dry_run_schema_for_required_dry_run
+    - missing_required_state_file
+    - missing_permissions_policy
+    - missing_decision_artifact_for_deferred_blocker
+    - forbidden_command_pattern
+    - git_push_without_human_approval
+    - generated_project_contains_full_workspace_tree_unless_meta_project
+
+  warn:
+    - stale_folder_summary
+    - missing_metrics_rollup
+    - unused_agent_file
+    - dead_skill_candidate
+    - missing_optional_model_route
+    - missing_workspace_root_path
+
+  advisory:
+    - old_logs_ready_for_retention_review
+    - project_specific_template_candidate

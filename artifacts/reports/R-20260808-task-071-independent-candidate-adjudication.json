@@ -1,0 +1,72 @@
+{
+  "attachment_and_target_closure_exact": true,
+  "attempt_id": "attempt:task071-representative-campaign-002",
+  "authored_statement_order_exact": true,
+  "authoring_receipt_sha256": "51d2c7712915aa98011fa93a03a3429a4ae90b4b3f3f8911c467280351c4b798",
+  "authority_sha256": "9870ff3aca5630de86a97de815415b9d183782e7255a0340640b47e9a226fe04",
+  "candidate_fingerprint": "b1c29473241648c68dfb7bb737715645b396c149094eeb70cef34feb52fb95b2",
+  "candidate_id": "candidate:task071-cross-inquiry",
+  "candidate_location": "artifacts/pilots/candidate-authoring-output/attempt:task071-representative-campaign-002",
+  "candidate_semantic_sha256": "b1c29473241648c68dfb7bb737715645b396c149094eeb70cef34feb52fb95b2",
+  "canonical_candidate_semantic_roundtrip": true,
+  "canonical_physical_order": true,
+  "canonical_profile_roundtrip": true,
+  "construction_repeated": false,
+  "exactly_one_consumption": true,
+  "fingerprint_file_sha256": "34976737eb19ea11903f79f37bbac2f3ab3d242677894862ee079b1cd3158cf1",
+  "format": "briefforge-task071-independent-candidate-adjudication-v1",
+  "inventory_sha256": "c5032937785592c2327ad3b5dc70089f8ac4ee0769c741cd77d6bac3d00a4302",
+  "ledger_treatments": {
+    "all_passed": true,
+    "expected": 109,
+    "observed": 109
+  },
+  "no_missing_duplicate_surplus_or_undeclared_content": true,
+  "paired_rows": {
+    "all_passed": true,
+    "expected": 7,
+    "observed": 7
+  },
+  "profile_sha256": "62cbe5294b123c9b4043e9f721a1b2585c70a5380e2121a39e8558b5c73b1898",
+  "record_identities": {
+    "CandidatePresentationPackageRecord": "candidate:task071-cross-inquiry",
+    "PortablePresentationMaterialRecord": "material:task071-t039",
+    "PresentationBriefRecord": "brief:task071-cross-inquiry"
+  },
+  "record_kinds": [
+    "CandidatePresentationPackageRecord",
+    "PortablePresentationMaterialRecord",
+    "PresentationBriefRecord"
+  ],
+  "recovery_performed": true,
+  "result": "ACCEPTED",
+  "semantic_closure_sha256": "ed0d50ca4633db9d55846af949cfe1f1dc147412aefe0f418710738f69f81df0",
+  "stage_receipt_sha256": "51d2c7712915aa98011fa93a03a3429a4ae90b4b3f3f8911c467280351c4b798",
+  "state_sequence": [
+    "PREPARED_NOT_CONSUMED",
+    "INVOKED_CONSUMED",
+    "AUTHORED_OUTPUT_DURABLY_STAGED",
+    "VALIDATION_PENDING",
+    "VALIDATED_ACCEPTED"
+  ],
+  "statement_order_sha256": "896527d6d2e95f2b1f8eedc32f6bf3154177505071b87b9e2164df22db5b1f36",
+  "technical_findings": 0,
+  "technical_layers": [
+    "L0",
+    "L1",
+    "L2"
+  ],
+  "terminal_dual_evidence_exact": true,
+  "terminal_state_sha256": "59683876d932dd685be2ac526d21a546d213af025a29b0e86f0be4d8299b95e0",
+  "topology": {
+    "governed_columns": 5,
+    "obligations": 5,
+    "paired_rows": 7,
+    "paired_values": 14,
+    "provenance": 8,
+    "qualifications": 27,
+    "sections": 6,
+    "statements": 76
+  },
+  "validation_evidence_sha256": "53b81aa80166e272a86f07b1f1f660b3234018b84caa1983048adf2d9b989b6b"
+}

@@ -1,0 +1,27 @@
+{
+  "extensions": [],
+  "identity": "manifest:case-3",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PublicationManifestRecord",
+  "semantic": {
+    "artifact_audit_refs": [
+      "artifact-audit:case-3"
+    ],
+    "conformance_refs": [
+      "artifact-conformance:case-3"
+    ],
+    "fictional_notice": "Cinder Atlas Components is fictional.",
+    "generated_label": "FICTIONAL company–macro selection",
+    "lifecycle_status": "active",
+    "manifest_time": "2026-07-16T12:05:00Z",
+    "optional_catalogue": {
+      "owner": "AtlasForge",
+      "required": false
+    },
+    "projection_version": "1.0.0",
+    "release_ref": "release:case-3"
+  }
+}

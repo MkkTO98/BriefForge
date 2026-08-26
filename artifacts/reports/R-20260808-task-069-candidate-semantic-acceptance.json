@@ -1,0 +1,47 @@
+{
+  "attempt_consumed": true,
+  "authoring_call_attempted": true,
+  "authoring_call_count": 1,
+  "blocking_findings": [
+    {
+      "message": "returned bundle is not exactly the three Candidate-stage records",
+      "type": "ValueError"
+    }
+  ],
+  "candidate_created": true,
+  "candidate_identity": "candidate:task065-cross-inquiry",
+  "candidate_persisted": false,
+  "preflight": {
+    "authenticated_source_objects": 13,
+    "canonical_bytes_independently_validated": false,
+    "draft_stage_inspection": {
+      "extension_count": 1,
+      "forbidden_state_or_invocation_keys": [],
+      "lifecycle_extension_names": [],
+      "passed": true,
+      "record_count": 3,
+      "record_identities": [
+        "brief:task065-cross-inquiry",
+        "material:task065-t039",
+        "candidate:task065-cross-inquiry"
+      ]
+    },
+    "extension_reconstructed_exactly": true,
+    "resolved_task064_locators": 130,
+    "source_commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+    "status": "PASS",
+    "topology": {
+      "columns": 5,
+      "obligations": 5,
+      "provenance": 8,
+      "qualifications": 27,
+      "rows": 7,
+      "sections": 6,
+      "statements": 76,
+      "values": 14
+    }
+  },
+  "schema": "briefforge-task069-candidate-semantic-acceptance:1.0.0",
+  "status": "BLOCKED",
+  "task_id": "TASK-069"
+}

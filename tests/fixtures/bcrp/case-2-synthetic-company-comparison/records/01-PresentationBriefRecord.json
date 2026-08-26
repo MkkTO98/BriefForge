@@ -1,0 +1,23 @@
+{
+  "extensions": [],
+  "identity": "brief:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PresentationBriefRecord",
+  "semantic": {
+    "audiences": [
+      {
+        "description": "Synthetic decision reader.",
+        "id": "audience:decision-c2"
+      }
+    ],
+    "non_scope": "No real companies, securities, finance ontology, or live data.",
+    "organizing_purpose": {
+      "id": "purpose:brief-c2",
+      "statement": "Compare two conspicuously fictional companies for bounded decision support."
+    },
+    "scope": "Fictional fixed-evidence comparison."
+  }
+}

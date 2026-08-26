@@ -1,0 +1,219 @@
+{
+  "closure_identity": "briefforge:task060-historical-source-closure:1.0.0",
+  "closure_version": "1.0.0",
+  "domains": {
+    "assessor": "briefforge-representative-assessor-closure-v1",
+    "renderer": "briefforge-representative-renderer-closure-v1"
+  },
+  "file_count": 39,
+  "files": [
+    {
+      "byte_length": 3201,
+      "path": "__init__.py",
+      "sha256": "93ac46576df6116e3eb75a03c01c4343f5dcfd9c15cb2cddc032984c1959b40a"
+    },
+    {
+      "byte_length": 2216,
+      "path": "_controlled_renderer_worker.py",
+      "sha256": "d56bc795f94aa31849872ca4090502425b2767a5538cf06d171721ea52fdce52"
+    },
+    {
+      "byte_length": 2054,
+      "path": "_representative_renderer_worker.py",
+      "sha256": "5f84d32761c2bd134a006d8bd316199e380015184f949f67914c0420a2d8fa50"
+    },
+    {
+      "byte_length": 1792,
+      "path": "bcrp/__init__.py",
+      "sha256": "946d3152a301dafe0c14242710f979ff8851fbfc7589e45e500e33fd146070f7"
+    },
+    {
+      "byte_length": 6330,
+      "path": "bcrp/authoring.py",
+      "sha256": "ed63393d010ff3bc1a12737518f9e1ea3cef06adfe4af8df4937ec25ef7ff90e"
+    },
+    {
+      "byte_length": 12800,
+      "path": "bcrp/canonical.py",
+      "sha256": "d38f29d5389b622ce7e35b6e08992f0d82f4d9d88207e6ecbdcf62d2844efe91"
+    },
+    {
+      "byte_length": 9783,
+      "path": "bcrp/corpus.py",
+      "sha256": "5fbb093cfb91a1586bae5a6d4631559303a900bc5b809bf177afe1d8f46c140f"
+    },
+    {
+      "byte_length": 4380,
+      "path": "bcrp/graph.py",
+      "sha256": "be9c8acf1f71ad7f76ad2dacb8486db21cbd253a79fb75b1d51a93b0fecd48b1"
+    },
+    {
+      "byte_length": 9387,
+      "path": "bcrp/loader.py",
+      "sha256": "39f4c00157d2f0ac5387771ff5355afe3324da00beb204ea82f3899975f99d9a"
+    },
+    {
+      "byte_length": 4064,
+      "path": "bcrp/model.py",
+      "sha256": "da1e0f4cd511114f09dd6200d2f54c751520d2e2b21ffd011ef58f0d37a894ba"
+    },
+    {
+      "byte_length": 14032,
+      "path": "bcrp/structure.py",
+      "sha256": "26a76d1359b8119ffdfce33135d48efd6900d67f2dcfd51ad9dcb86f6a6dd89d"
+    },
+    {
+      "byte_length": 29889,
+      "path": "bcrp/validation.py",
+      "sha256": "29a848dd8327d48db713198b412a06cb4837c956a18999cf9ef4dc61cfabf694"
+    },
+    {
+      "byte_length": 32547,
+      "path": "bcrp_legacy_compatibility.py",
+      "sha256": "c3314b8eabe9dd374275da0387ac2fb97a67007b436967471b52b8db9910cd24"
+    },
+    {
+      "byte_length": 48209,
+      "path": "bounded_loopback_deployment.py",
+      "sha256": "50b78984eda7f39632bf4f68b65b043404c98f639e734156a8f702fc41cbe6ee"
+    },
+    {
+      "byte_length": 10003,
+      "path": "builder.py",
+      "sha256": "f4e2ccdc819621eea228e9dc8cdefa9aa64b5958f125d5bf7778ed612b1bec32"
+    },
+    {
+      "byte_length": 9430,
+      "path": "communication_intent_experiment.py",
+      "sha256": "2185de28be6b35406c47d8da81f70aae90be0e358b7965ce0c9a6ec80e4f20b0"
+    },
+    {
+      "byte_length": 20942,
+      "path": "communication_intent_renderer_experiment.py",
+      "sha256": "2e3ab71c508c896129c0acebd0815c0d6f1d9cf332519fb3a0123660bf2cff7a"
+    },
+    {
+      "byte_length": 72345,
+      "path": "controlled_renderer_invocation.py",
+      "sha256": "56e7514a62a4ba8799c21a39f5dcaf4f2a36c696d0c39d5b66c8ae57a5331649"
+    },
+    {
+      "byte_length": 1953,
+      "path": "downstream.py",
+      "sha256": "9a06a2b73873b9adb2b0e47dfaa6cbb407a543e87b691ca17b64128bce2dd7ce"
+    },
+    {
+      "byte_length": 22850,
+      "path": "presentation_models.py",
+      "sha256": "e7dc60aca8ec01e62c9883c5dd473fdf1148ebf4f334f7755a83322f8c53cb22"
+    },
+    {
+      "byte_length": 2218,
+      "path": "promotion.py",
+      "sha256": "7de9c268be39aaf70fda8635c24ca487cf86a79ea6b57981a80e351a5f21c313"
+    },
+    {
+      "byte_length": 65723,
+      "path": "publication_distribution_delivery.py",
+      "sha256": "0fb997bcb4944eac44ecb4493979be35a43246d9a78caffc505c25962036f0c7"
+    },
+    {
+      "byte_length": 1174,
+      "path": "publication_lifecycle/__init__.py",
+      "sha256": "ea83b53ab7dd0c3a07ec56e37e3de65d29ff22dddb172f6b41daa26d72aa3e01"
+    },
+    {
+      "byte_length": 5899,
+      "path": "publication_lifecycle/canonical.py",
+      "sha256": "93fbfd234b984902dfdb2686bd91bff6097f4064a23852b2632585989843728a"
+    },
+    {
+      "byte_length": 3162,
+      "path": "publication_lifecycle/loader.py",
+      "sha256": "7ac24f6f66c6c231c1a37e0a9017480c9499b25fd6498b7cb57204aca68e9547"
+    },
+    {
+      "byte_length": 8992,
+      "path": "publication_lifecycle/model.py",
+      "sha256": "0a4e7579fd3d7734c4e401deab6472a8339f1033185678cd35e4528438799d5f"
+    },
+    {
+      "byte_length": 24567,
+      "path": "publication_lifecycle/validation.py",
+      "sha256": "c683e7190d58d57027709dd0974a463b3b0809b2825791f06e7317d4f38aba26"
+    },
+    {
+      "byte_length": 64917,
+      "path": "publication_manifest_admission.py",
+      "sha256": "1e85add1531df4d6c93cc1bc6b3117aedc3b80fb2a9589f016662119501f28d4"
+    },
+    {
+      "byte_length": 38795,
+      "path": "publication_release.py",
+      "sha256": "60c04b1406c6561fd3bf5ab9d8784a72214a954c55b136802236acfa16d44abe"
+    },
+    {
+      "byte_length": 53860,
+      "path": "renderer_adapter.py",
+      "sha256": "0b80df02911a8f77163228911c6ecc1688fa10f79f7c20c2b336d82738009a93"
+    },
+    {
+      "byte_length": 52587,
+      "path": "renderer_compatibility_planning.py",
+      "sha256": "5fa98c8fbb0049db02f81ca0b894d0d5cf4df790276e82f8c3d41fcfa30c315c"
+    },
+    {
+      "byte_length": 42146,
+      "path": "representative_controlled_invocation.py",
+      "sha256": "96dbda2ee62e02171a83fc6319aa7b285f22796df13010216d21da38b2e8a0eb"
+    },
+    {
+      "byte_length": 34101,
+      "path": "representative_projection.py",
+      "sha256": "ee1f7d7453fd42b09ac720ff31189988321da2921c13a6d467564a4fd772ff28"
+    },
+    {
+      "byte_length": 7928,
+      "path": "representative_renderer.py",
+      "sha256": "1ba90611f6d648b3b84bcd580c55fa22016cb3b1cbde60689ace30abaa8d2160"
+    },
+    {
+      "byte_length": 63230,
+      "path": "representative_semantic_conformance.py",
+      "sha256": "d3aebcba0d2323257d400daf89e26eb44fe05af274e3a7953064c199df8ac3cd"
+    },
+    {
+      "byte_length": 2786,
+      "path": "runtime.py",
+      "sha256": "39e58db00cac4c2f8db6325081974669e33851089fea1ac17a4a9b66ef5f4e22"
+    },
+    {
+      "byte_length": 85129,
+      "path": "semantic_artifact_conformance.py",
+      "sha256": "e19fac7386ae7b575fdb41cf9aec2a089c48528032bc0d31cc0133d75e2d0873"
+    },
+    {
+      "byte_length": 36909,
+      "path": "technical_publication_verification.py",
+      "sha256": "5d4c95a99d28e52ebadd81a497cfc802ec25906c3da21a9c104a84c1baf62e69"
+    },
+    {
+      "byte_length": 7238,
+      "path": "validation.py",
+      "sha256": "c85a2da57020a430f6cff53d61d90199e52943007035bf24dbccfa373c0f19e0"
+    }
+  ],
+  "historical_digests": {
+    "assessor": "2f283d69dfb19d690c6f62dca52ab5078e823595ade4cb5282245c01e1b7774c",
+    "renderer": "b58779afa0377044b9daeff3f6fbbcdc08fc560103e8a589a71b50334ebd9226"
+  },
+  "interpreter": {
+    "cache_tag": "cpython-312",
+    "executable_realpath": "/usr/bin/python3.12",
+    "implementation": "cpython",
+    "version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]"
+  },
+  "manifest_sha256": "2e9532f68c43c62a26863001b574f2f175d5a0a36332204a3eefea2ea558c5a1",
+  "ordering": "ascending-relative-posix-path",
+  "source_root": "src/briefforge"
+}

@@ -1,0 +1,17 @@
+memory_retention:
+  purpose: Prevent logs, summaries, and decisions from becoming unusable clutter.
+  principles:
+    - Decisions are durable unless explicitly superseded.
+    - Raw logs may be compressed or archived after they are summarized.
+    - Deprecated decisions must not be deleted; move or mark them superseded.
+    - Context files should favor current truth over historical noise.
+
+  defaults:
+    archive_raw_logs_after_days: 90
+    compress_old_run_summaries_after_days: 180
+    review_deferred_decisions_after_days: 30
+    keep_metrics_events_days: 365
+
+  folders:
+    archive: memory/archive/
+    deprecated_decisions: memory/deprecated_decisions/

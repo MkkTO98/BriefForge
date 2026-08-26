@@ -1,0 +1,24 @@
+{
+  "extensions": [],
+  "identity": "renderer-plan:case-3",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "RendererCompatibilityPlanRecord",
+  "semantic": {
+    "declared_transformations": [
+      "bounded-state-navigation",
+      "static-state-enumeration",
+      "print-layout"
+    ],
+    "fallbacks": [
+      "fallback:c3-static",
+      "fallback:c3-print"
+    ],
+    "mode": "native-selection",
+    "ready_ref": "ready:case-3",
+    "renderer_capability_ref": "renderer-capability:case-3",
+    "supported": true
+  }
+}

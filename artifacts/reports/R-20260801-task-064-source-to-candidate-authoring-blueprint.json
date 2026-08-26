@@ -1,0 +1,1959 @@
+{
+  "analytical_authority_boundaries": {
+    "briefforge_owns": [
+      "presentation structure, stable Candidate element identities, attachment topology and closure checks"
+    ],
+    "operational_authorities_displayed": false,
+    "upstream_t039_owns": [
+      "all coefficients, periods, counts, classifications, evidence roles, dependence, selection limits, qualifications, exclusions, guidance and future-work questions"
+    ]
+  },
+  "authoring_identity_rule": "A later task must create fresh TASK-065 identities; no TASK-063 identity may be reused.",
+  "candidate_creation_authorized": false,
+  "checks_after_candidate_authoring_before_promotion": [
+    "independent ledger-to-Candidate reconciliation has zero missing, weakened, duplicated, misattached, or unsupported items",
+    "Candidate has exactly seven relationship row identities and each owns exactly two planned value refs",
+    "all exact lexical values, signs, scales, periods, counts, roles, classifications and ordering match the table contract",
+    "all qualifications, exclusions, provenance, and obligations are attached",
+    "BCRP L0-L2 validation passes without repair",
+    "no operational authority appears in displayed semantics"
+  ],
+  "checks_after_promotion_before_release_construction": [
+    "Candidate fingerprint equals the independently reviewed fingerprint",
+    "Judgment binds that exact Candidate and accepted policy",
+    "Ready binds the same Candidate/Judgment without semantic mutation",
+    "repeat ledger/table reconciliation against promoted Candidate remains exact",
+    "stop on any drift; successful renderer or terminal-chain capability cannot compensate"
+  ],
+  "closure_checks_before_candidate_authoring": [
+    "all 109 ledger items closed",
+    "all 104 mandatory items have exact Candidate and rendered destinations",
+    "all 2 conditional and 3 excluded items have evidence-backed status and explicit destination/boundary placement",
+    "every source-coverage-register domain resolves to one or more ledger items",
+    "table contract is one table, five columns, seven relationship rows, fourteen paired coefficients",
+    "no TASK-063 identity or historical artifact is selected as mutable input",
+    "all ledger provenance and obligation declarations reciprocally match the exact non-transitive target inventories in this blueprint"
+  ],
+  "completion_result": "complete",
+  "conditional_composition": [
+    {
+      "condition": "Include only if a bounded methodological appendix presents the admitted lens assessment; otherwise omit both statement and child edge while retaining methodological limits and no-new-evidence boundary.",
+      "ledger_item_id": "closure:lens-assessment",
+      "parent_if_included": "section:task065-interpretation",
+      "statement_id": "statement:task065-lens-boundary-if-used"
+    },
+    {
+      "condition": "Include only if a source-authored descriptive range summary accompanies the exact table; otherwise omit both statement and child edge because all fourteen exact coefficients remain displayed.",
+      "ledger_item_id": "closure:descriptive-coefficient-ranges",
+      "parent_if_included": "section:task065-interpretation",
+      "statement_id": "statement:task065-coefficient-ranges-if-used"
+    }
+  ],
+  "deterministic_section_hierarchy": [
+    {
+      "children": [
+        "section:task065-framing",
+        "section:task065-comparisons",
+        "section:task065-interpretation",
+        "section:task065-limitations",
+        "section:task065-provenance-and-obligations"
+      ],
+      "order": 1,
+      "section_id": "section:task065-root",
+      "title_source": "closure:title"
+    },
+    {
+      "children": [
+        "statement:task065-introduction",
+        "statement:task065-inquiry-denmark-finance",
+        "statement:task065-inquiry-norway-energy",
+        "statement:task065-cross-inquiry-synthesis",
+        "statement:task065-seven-case-resolution",
+        "statement:task065-evidence-hierarchy",
+        "statement:task065-four-sign-changes"
+      ],
+      "order": 2,
+      "section_id": "section:task065-framing"
+    },
+    {
+      "children": [
+        "table:task065-comparisons",
+        "statement:task065-row-01",
+        "statement:task065-row-02",
+        "statement:task065-row-03",
+        "statement:task065-row-04",
+        "statement:task065-row-05",
+        "statement:task065-row-06",
+        "statement:task065-row-07"
+      ],
+      "order": 3,
+      "section_id": "section:task065-comparisons"
+    },
+    {
+      "children": [
+        "statement:task065-estimand-boundary",
+        "statement:task065-dependence",
+        "statement:task065-selection-boundary",
+        "statement:task065-selected-universe",
+        "statement:task065-limited-corpus",
+        "statement:task065-practice-guidance",
+        "statement:task065-counterinterpretation",
+        "statement:task065-first-differencing-rules-out",
+        "statement:task065-first-differencing-open-01",
+        "statement:task065-first-differencing-open-02",
+        "statement:task065-first-differencing-open-03",
+        "statement:task065-first-differencing-open-04",
+        "statement:task065-first-differencing-open-05",
+        "statement:task065-first-differencing-open-06",
+        "statement:task065-first-differencing-open-07",
+        "statement:task065-first-differencing-open-08",
+        "statement:task065-surviving-explanations",
+        "statement:task065-upstream-conditioning",
+        "statement:task065-selection-modes",
+        "statement:task065-high-trend-selection-risk",
+        "statement:task065-candidate-universe-reflection",
+        "statement:task065-no-population-frequency",
+        "statement:task065-no-generalization",
+        "statement:task065-confidence-exact-cross-inquiry-pattern",
+        "statement:task065-confidence-procedural-lesson",
+        "statement:task065-confidence-causal-explanation",
+        "statement:task065-confidence-generalization-beyond-current-corpus"
+      ],
+      "order": 4,
+      "section_id": "section:task065-interpretation"
+    },
+    {
+      "children": [
+        "statement:task065-methodological-limits",
+        "statement:task065-prohibited-pooled",
+        "statement:task065-prohibited-causal",
+        "statement:task065-prohibited-forecast",
+        "statement:task065-prohibited-general-law",
+        "statement:task065-prohibited-significance",
+        "statement:task065-prohibited-investment",
+        "statement:task065-prohibited-stationarity",
+        "statement:task065-prohibited-reversal-null",
+        "statement:task065-unresolved-questions",
+        "statement:task065-disposition",
+        "statement:task065-qualification-01",
+        "statement:task065-qualification-02",
+        "statement:task065-qualification-03",
+        "statement:task065-qualification-04",
+        "statement:task065-qualification-05",
+        "statement:task065-qualification-06",
+        "statement:task065-qualification-07",
+        "statement:task065-governance-01",
+        "statement:task065-governance-02",
+        "statement:task065-governance-03",
+        "statement:task065-governance-04",
+        "statement:task065-governance-05",
+        "statement:task065-governance-06",
+        "statement:task065-governance-07",
+        "statement:task065-trend-diagnostics-01",
+        "statement:task065-trend-diagnostics-02",
+        "statement:task065-trend-diagnostics-03",
+        "statement:task065-trend-diagnostics-04",
+        "statement:task065-trend-diagnostics-05",
+        "statement:task065-trend-diagnostics-06",
+        "statement:task065-trend-diagnostics-07"
+      ],
+      "order": 5,
+      "section_id": "section:task065-limitations"
+    },
+    {
+      "children": [
+        "statement:task065-evidence-boundary",
+        "provenance:t039-source-snapshot-task065",
+        "obligation:preserve-source-meaning-task065",
+        "obligation:display-source-task065",
+        "obligation:qualification-attachment-task065",
+        "obligation:display-exclusions-task065"
+      ],
+      "order": 6,
+      "section_id": "section:task065-provenance-and-obligations"
+    }
+  ],
+  "encounter_order_rule": "Root hierarchy order is fixed; within comparisons, the table and relationship rows use the exact canonical relationship order from the table contract. No sort by coefficient, sign, magnitude, task label, or value identity is permitted. Conditional statements are absent by default and acquire their listed parent edge only when their exact ledger condition is affirmatively selected before Candidate authoring.",
+  "existing_bcrp_capacity_assessment": {
+    "basis": [
+      "PortablePresentationMaterialRecord represents fourteen exact decimal values, evidence snapshots, provenance, external references and authorities.",
+      "CandidatePresentationPackageRecord represents ordered sections, statements, relations, obligations, renderer requirements, fallbacks and finite selections.",
+      "Stable relationship row statements can pair two exact value refs and qualifications/provenance can target those row/value identities.",
+      "BCRP structural validation admits exact decimals and ordered composition without adding a record kind or domain-specific schema."
+    ],
+    "limitation": "This task proves semantic representational capacity only. It does not prove a renderer mapping, create a Candidate, or authorize projection/rendering. A later pilot must independently prove that its Candidate and Plan preserve the seven-row contract.",
+    "result": "sufficient"
+  },
+  "ledger_destination_index": [
+    {
+      "candidate_destination": "section:task065-root",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:title",
+      "rendered_destination": "document title"
+    },
+    {
+      "candidate_destination": "statement:task065-introduction",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:intro-framing",
+      "rendered_destination": "introductory paragraph"
+    },
+    {
+      "candidate_destination": "statement:task065-inquiry-denmark-finance",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:inquiry-denmark-finance",
+      "rendered_destination": "inquiry framing before table"
+    },
+    {
+      "candidate_destination": "statement:task065-inquiry-norway-energy",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:inquiry-norway-energy",
+      "rendered_destination": "inquiry framing before table"
+    },
+    {
+      "candidate_destination": "statement:task065-cross-inquiry-synthesis",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:cross-inquiry-synthesis",
+      "rendered_destination": "executive conclusion and synthesis section"
+    },
+    {
+      "candidate_destination": "statement:task065-estimand-boundary",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:transformation-estimand",
+      "rendered_destination": "interpretation section and table qualification"
+    },
+    {
+      "candidate_destination": "statement:task065-dependence",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:dependence",
+      "rendered_destination": "dependence section"
+    },
+    {
+      "candidate_destination": "statement:task065-selection-boundary",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:selection-nonrandom",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-selected-universe",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:selected-universe",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-limited-corpus",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:limited-corpus",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-methodological-limits",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:methodological-limits",
+      "rendered_destination": "limitations section"
+    },
+    {
+      "candidate_destination": "statement:task065-unresolved-questions",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:follow-up",
+      "rendered_destination": "unresolved questions section"
+    },
+    {
+      "candidate_destination": "provenance:t039-source-snapshot-task065",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:source-provenance",
+      "rendered_destination": "source note and per-row provenance"
+    },
+    {
+      "candidate_destination": "statement:task065-evidence-boundary",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:evidence-boundary-exclusions",
+      "rendered_destination": "scope and method note"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-pooled",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-pooled-inference",
+      "rendered_destination": "limitations section"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-causal",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-causal-interpretation",
+      "rendered_destination": "limitations section"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-forecast",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-forecasting-interpretation",
+      "rendered_destination": "limitations and disposition section"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-general-law",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-general-law",
+      "rendered_destination": "limitations section"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-significance",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-significance",
+      "rendered_destination": "limitations section"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-investment",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-investment",
+      "rendered_destination": "limitations and disposition section"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-stationarity",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-stationarity",
+      "rendered_destination": "limitations section"
+    },
+    {
+      "candidate_destination": "statement:task065-prohibited-reversal-null",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-reversal-absence",
+      "rendered_destination": "limitations section"
+    },
+    {
+      "candidate_destination": "statement:task065-practice-guidance",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:analytical-practice-guidance",
+      "rendered_destination": "practice guidance section"
+    },
+    {
+      "candidate_destination": "statement:task065-disposition",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:disposition",
+      "rendered_destination": "final disposition note"
+    },
+    {
+      "candidate_destination": "statement:task065-row-01",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "relationship:T031-DNK-private-credit-broad-money",
+      "rendered_destination": "table:task065-comparisons/row:T031-DNK-private-credit-broad-money/column:relationship-case"
+    },
+    {
+      "candidate_destination": "value:task065-01-raw",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T031-DNK-private-credit-broad-money:raw",
+      "rendered_destination": "table:task065-comparisons/row:T031-DNK-private-credit-broad-money/columns:raw-coefficient+raw-state"
+    },
+    {
+      "candidate_destination": "value:task065-01-first-difference",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T031-DNK-private-credit-broad-money:first-difference",
+      "rendered_destination": "table:task065-comparisons/row:T031-DNK-private-credit-broad-money/columns:first-difference-coefficient+first-difference-state"
+    },
+    {
+      "candidate_destination": "statement:task065-row-01",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "classification:T031-DNK-private-credit-broad-money",
+      "rendered_destination": "supporting row note for row:T031-DNK-private-credit-broad-money"
+    },
+    {
+      "candidate_destination": "statement:task065-row-01",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "evidence-role:T031-DNK-private-credit-broad-money",
+      "rendered_destination": "supporting row note for row:T031-DNK-private-credit-broad-money"
+    },
+    {
+      "candidate_destination": "statement:task065-qualification-01",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "qualification:T031-DNK-private-credit-broad-money",
+      "rendered_destination": "qualification block keyed to row:T031-DNK-private-credit-broad-money"
+    },
+    {
+      "candidate_destination": "statement:task065-row-02",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "relationship:T033-NOR-fossil-nonhydro-renewables",
+      "rendered_destination": "table:task065-comparisons/row:T033-NOR-fossil-nonhydro-renewables/column:relationship-case"
+    },
+    {
+      "candidate_destination": "value:task065-02-raw",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T033-NOR-fossil-nonhydro-renewables:raw",
+      "rendered_destination": "table:task065-comparisons/row:T033-NOR-fossil-nonhydro-renewables/columns:raw-coefficient+raw-state"
+    },
+    {
+      "candidate_destination": "value:task065-02-first-difference",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T033-NOR-fossil-nonhydro-renewables:first-difference",
+      "rendered_destination": "table:task065-comparisons/row:T033-NOR-fossil-nonhydro-renewables/columns:first-difference-coefficient+first-difference-state"
+    },
+    {
+      "candidate_destination": "statement:task065-row-02",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "classification:T033-NOR-fossil-nonhydro-renewables",
+      "rendered_destination": "supporting row note for row:T033-NOR-fossil-nonhydro-renewables"
+    },
+    {
+      "candidate_destination": "statement:task065-row-02",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "evidence-role:T033-NOR-fossil-nonhydro-renewables",
+      "rendered_destination": "supporting row note for row:T033-NOR-fossil-nonhydro-renewables"
+    },
+    {
+      "candidate_destination": "statement:task065-qualification-02",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "qualification:T033-NOR-fossil-nonhydro-renewables",
+      "rendered_destination": "qualification block keyed to row:T033-NOR-fossil-nonhydro-renewables"
+    },
+    {
+      "candidate_destination": "statement:task065-row-03",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "relationship:T035-C1-NOR-life-expectancy-under5-mortality",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-life-expectancy-under5-mortality/column:relationship-case"
+    },
+    {
+      "candidate_destination": "value:task065-03-raw",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T035-C1-NOR-life-expectancy-under5-mortality:raw",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-life-expectancy-under5-mortality/columns:raw-coefficient+raw-state"
+    },
+    {
+      "candidate_destination": "value:task065-03-first-difference",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T035-C1-NOR-life-expectancy-under5-mortality:first-difference",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-life-expectancy-under5-mortality/columns:first-difference-coefficient+first-difference-state"
+    },
+    {
+      "candidate_destination": "statement:task065-row-03",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "classification:T035-C1-NOR-life-expectancy-under5-mortality",
+      "rendered_destination": "supporting row note for row:T035-C1-NOR-life-expectancy-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-row-03",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "evidence-role:T035-C1-NOR-life-expectancy-under5-mortality",
+      "rendered_destination": "supporting row note for row:T035-C1-NOR-life-expectancy-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-qualification-03",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "qualification:T035-C1-NOR-life-expectancy-under5-mortality",
+      "rendered_destination": "qualification block keyed to row:T035-C1-NOR-life-expectancy-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-row-04",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-nonhydro-renewables-under5-mortality/column:relationship-case"
+    },
+    {
+      "candidate_destination": "value:task065-04-raw",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:raw",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-nonhydro-renewables-under5-mortality/columns:raw-coefficient+raw-state"
+    },
+    {
+      "candidate_destination": "value:task065-04-first-difference",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:first-difference",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-nonhydro-renewables-under5-mortality/columns:first-difference-coefficient+first-difference-state"
+    },
+    {
+      "candidate_destination": "statement:task065-row-04",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "classification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "rendered_destination": "supporting row note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-row-04",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "evidence-role:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "rendered_destination": "supporting row note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-qualification-04",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "rendered_destination": "qualification block keyed to row:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-row-05",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "relationship:T035-C1-NOR-fossil-under5-mortality",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-fossil-under5-mortality/column:relationship-case"
+    },
+    {
+      "candidate_destination": "value:task065-05-raw",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T035-C1-NOR-fossil-under5-mortality:raw",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-fossil-under5-mortality/columns:raw-coefficient+raw-state"
+    },
+    {
+      "candidate_destination": "value:task065-05-first-difference",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T035-C1-NOR-fossil-under5-mortality:first-difference",
+      "rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-fossil-under5-mortality/columns:first-difference-coefficient+first-difference-state"
+    },
+    {
+      "candidate_destination": "statement:task065-row-05",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "classification:T035-C1-NOR-fossil-under5-mortality",
+      "rendered_destination": "supporting row note for row:T035-C1-NOR-fossil-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-row-05",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "evidence-role:T035-C1-NOR-fossil-under5-mortality",
+      "rendered_destination": "supporting row note for row:T035-C1-NOR-fossil-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-qualification-05",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "qualification:T035-C1-NOR-fossil-under5-mortality",
+      "rendered_destination": "qualification block keyed to row:T035-C1-NOR-fossil-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-row-06",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "relationship:T036-SWE-private-credit-mobile-subscriptions",
+      "rendered_destination": "table:task065-comparisons/row:T036-SWE-private-credit-mobile-subscriptions/column:relationship-case"
+    },
+    {
+      "candidate_destination": "value:task065-06-raw",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T036-SWE-private-credit-mobile-subscriptions:raw",
+      "rendered_destination": "table:task065-comparisons/row:T036-SWE-private-credit-mobile-subscriptions/columns:raw-coefficient+raw-state"
+    },
+    {
+      "candidate_destination": "value:task065-06-first-difference",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T036-SWE-private-credit-mobile-subscriptions:first-difference",
+      "rendered_destination": "table:task065-comparisons/row:T036-SWE-private-credit-mobile-subscriptions/columns:first-difference-coefficient+first-difference-state"
+    },
+    {
+      "candidate_destination": "statement:task065-row-06",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "classification:T036-SWE-private-credit-mobile-subscriptions",
+      "rendered_destination": "supporting row note for row:T036-SWE-private-credit-mobile-subscriptions"
+    },
+    {
+      "candidate_destination": "statement:task065-row-06",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "evidence-role:T036-SWE-private-credit-mobile-subscriptions",
+      "rendered_destination": "supporting row note for row:T036-SWE-private-credit-mobile-subscriptions"
+    },
+    {
+      "candidate_destination": "statement:task065-qualification-06",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "qualification:T036-SWE-private-credit-mobile-subscriptions",
+      "rendered_destination": "qualification block keyed to row:T036-SWE-private-credit-mobile-subscriptions"
+    },
+    {
+      "candidate_destination": "statement:task065-row-07",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "relationship:T038-DNK-agricultural-land-private-credit",
+      "rendered_destination": "table:task065-comparisons/row:T038-DNK-agricultural-land-private-credit/column:relationship-case"
+    },
+    {
+      "candidate_destination": "value:task065-07-raw",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T038-DNK-agricultural-land-private-credit:raw",
+      "rendered_destination": "table:task065-comparisons/row:T038-DNK-agricultural-land-private-credit/columns:raw-coefficient+raw-state"
+    },
+    {
+      "candidate_destination": "value:task065-07-first-difference",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "value:T038-DNK-agricultural-land-private-credit:first-difference",
+      "rendered_destination": "table:task065-comparisons/row:T038-DNK-agricultural-land-private-credit/columns:first-difference-coefficient+first-difference-state"
+    },
+    {
+      "candidate_destination": "statement:task065-row-07",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "classification:T038-DNK-agricultural-land-private-credit",
+      "rendered_destination": "supporting row note for row:T038-DNK-agricultural-land-private-credit"
+    },
+    {
+      "candidate_destination": "statement:task065-row-07",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "evidence-role:T038-DNK-agricultural-land-private-credit",
+      "rendered_destination": "supporting row note for row:T038-DNK-agricultural-land-private-credit"
+    },
+    {
+      "candidate_destination": "statement:task065-qualification-07",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "qualification:T038-DNK-agricultural-land-private-credit",
+      "rendered_destination": "qualification block keyed to row:T038-DNK-agricultural-land-private-credit"
+    },
+    {
+      "candidate_destination": "statement:task065-evidence-boundary",
+      "inclusion_status": "excluded",
+      "ledger_item_id": "closure:exclude-unselected-results",
+      "rendered_destination": "scope and evidence-boundary note"
+    },
+    {
+      "candidate_destination": "statement:task065-evidence-boundary",
+      "inclusion_status": "excluded",
+      "ledger_item_id": "closure:exclude-new-relationships",
+      "rendered_destination": "scope and evidence-boundary note"
+    },
+    {
+      "candidate_destination": "statement:task065-evidence-boundary",
+      "inclusion_status": "excluded",
+      "ledger_item_id": "closure:exclude-new-method",
+      "rendered_destination": "scope and evidence-boundary note"
+    },
+    {
+      "candidate_destination": "statement:task065-seven-case-resolution",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:seven-case-count-resolution",
+      "rendered_destination": "scope note before table"
+    },
+    {
+      "candidate_destination": "statement:task065-evidence-hierarchy",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:evidence-hierarchy-aggregate",
+      "rendered_destination": "scope and evidence hierarchy section"
+    },
+    {
+      "candidate_destination": "statement:task065-four-sign-changes",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:four-sign-changes",
+      "rendered_destination": "synthesis section"
+    },
+    {
+      "candidate_destination": "statement:task065-counterinterpretation",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:counterinterpretation",
+      "rendered_destination": "interpretation section"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-rules-out",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-rules-out",
+      "rendered_destination": "interpretation section"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-01",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-01",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-02",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-02",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-03",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-03",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-04",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-04",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-05",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-05",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-06",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-06",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-07",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-07",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-first-differencing-open-08",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:first-differencing-open-08",
+      "rendered_destination": "interpretation limits list"
+    },
+    {
+      "candidate_destination": "statement:task065-surviving-explanations",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:surviving-common-explanations",
+      "rendered_destination": "interpretation section"
+    },
+    {
+      "candidate_destination": "statement:task065-upstream-conditioning",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:upstream-result-conditioning",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-selection-modes",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:selection-modes",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-high-trend-selection-risk",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:high-trend-selection-risk",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-candidate-universe-reflection",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:candidate-universe-reflection",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-no-population-frequency",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-population-frequency",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-no-generalization",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:no-generalization",
+      "rendered_destination": "selection and corpus boundary section"
+    },
+    {
+      "candidate_destination": "statement:task065-confidence-exact-cross-inquiry-pattern",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:confidence-exact-cross-inquiry-pattern",
+      "rendered_destination": "confidence section"
+    },
+    {
+      "candidate_destination": "statement:task065-confidence-procedural-lesson",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:confidence-procedural-lesson",
+      "rendered_destination": "confidence section"
+    },
+    {
+      "candidate_destination": "statement:task065-confidence-causal-explanation",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:confidence-causal-explanation",
+      "rendered_destination": "confidence section"
+    },
+    {
+      "candidate_destination": "statement:task065-confidence-generalization-beyond-current-corpus",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "closure:confidence-generalization-beyond-current-corpus",
+      "rendered_destination": "confidence section"
+    },
+    {
+      "candidate_destination": "statement:task065-governance-01",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "governance:T031-DNK-private-credit-broad-money",
+      "rendered_destination": "supporting governance note for row:T031-DNK-private-credit-broad-money"
+    },
+    {
+      "candidate_destination": "statement:task065-trend-diagnostics-01",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "trend-diagnostics:T031-DNK-private-credit-broad-money",
+      "rendered_destination": "supporting diagnostic note for row:T031-DNK-private-credit-broad-money"
+    },
+    {
+      "candidate_destination": "statement:task065-governance-02",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "governance:T033-NOR-fossil-nonhydro-renewables",
+      "rendered_destination": "supporting governance note for row:T033-NOR-fossil-nonhydro-renewables"
+    },
+    {
+      "candidate_destination": "statement:task065-trend-diagnostics-02",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "trend-diagnostics:T033-NOR-fossil-nonhydro-renewables",
+      "rendered_destination": "supporting diagnostic note for row:T033-NOR-fossil-nonhydro-renewables"
+    },
+    {
+      "candidate_destination": "statement:task065-governance-03",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "governance:T035-C1-NOR-life-expectancy-under5-mortality",
+      "rendered_destination": "supporting governance note for row:T035-C1-NOR-life-expectancy-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-trend-diagnostics-03",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "trend-diagnostics:T035-C1-NOR-life-expectancy-under5-mortality",
+      "rendered_destination": "supporting diagnostic note for row:T035-C1-NOR-life-expectancy-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-governance-04",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "governance:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "rendered_destination": "supporting governance note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-trend-diagnostics-04",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "trend-diagnostics:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "rendered_destination": "supporting diagnostic note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-governance-05",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "governance:T035-C1-NOR-fossil-under5-mortality",
+      "rendered_destination": "supporting governance note for row:T035-C1-NOR-fossil-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-trend-diagnostics-05",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "trend-diagnostics:T035-C1-NOR-fossil-under5-mortality",
+      "rendered_destination": "supporting diagnostic note for row:T035-C1-NOR-fossil-under5-mortality"
+    },
+    {
+      "candidate_destination": "statement:task065-governance-06",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "governance:T036-SWE-private-credit-mobile-subscriptions",
+      "rendered_destination": "supporting governance note for row:T036-SWE-private-credit-mobile-subscriptions"
+    },
+    {
+      "candidate_destination": "statement:task065-trend-diagnostics-06",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "trend-diagnostics:T036-SWE-private-credit-mobile-subscriptions",
+      "rendered_destination": "supporting diagnostic note for row:T036-SWE-private-credit-mobile-subscriptions"
+    },
+    {
+      "candidate_destination": "statement:task065-governance-07",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "governance:T038-DNK-agricultural-land-private-credit",
+      "rendered_destination": "supporting governance note for row:T038-DNK-agricultural-land-private-credit"
+    },
+    {
+      "candidate_destination": "statement:task065-trend-diagnostics-07",
+      "inclusion_status": "mandatory",
+      "ledger_item_id": "trend-diagnostics:T038-DNK-agricultural-land-private-credit",
+      "rendered_destination": "supporting diagnostic note for row:T038-DNK-agricultural-land-private-credit"
+    },
+    {
+      "candidate_destination": "statement:task065-lens-boundary-if-used",
+      "inclusion_status": "conditionally-included",
+      "ledger_item_id": "closure:lens-assessment",
+      "rendered_destination": "optional methodological appendix only if included"
+    },
+    {
+      "candidate_destination": "statement:task065-coefficient-ranges-if-used",
+      "inclusion_status": "conditionally-included",
+      "ledger_item_id": "closure:descriptive-coefficient-ranges",
+      "rendered_destination": "optional table summary only if included"
+    }
+  ],
+  "obligation_attachments": [
+    {
+      "obligation_id": "obligation:preserve-source-meaning-task065",
+      "target_rule": "Exact non-transitive ledger-declared targets; no root or parent edge substitutes for a listed attachment.",
+      "targets": [
+        "section:task065-root",
+        "statement:task065-candidate-universe-reflection",
+        "statement:task065-coefficient-ranges-if-used",
+        "statement:task065-confidence-causal-explanation",
+        "statement:task065-confidence-exact-cross-inquiry-pattern",
+        "statement:task065-confidence-generalization-beyond-current-corpus",
+        "statement:task065-confidence-procedural-lesson",
+        "statement:task065-counterinterpretation",
+        "statement:task065-cross-inquiry-synthesis",
+        "statement:task065-dependence",
+        "statement:task065-disposition",
+        "statement:task065-estimand-boundary",
+        "statement:task065-evidence-hierarchy",
+        "statement:task065-first-differencing-open-01",
+        "statement:task065-first-differencing-open-02",
+        "statement:task065-first-differencing-open-03",
+        "statement:task065-first-differencing-open-04",
+        "statement:task065-first-differencing-open-05",
+        "statement:task065-first-differencing-open-06",
+        "statement:task065-first-differencing-open-07",
+        "statement:task065-first-differencing-open-08",
+        "statement:task065-first-differencing-rules-out",
+        "statement:task065-four-sign-changes",
+        "statement:task065-governance-01",
+        "statement:task065-governance-02",
+        "statement:task065-governance-03",
+        "statement:task065-governance-04",
+        "statement:task065-governance-05",
+        "statement:task065-governance-06",
+        "statement:task065-governance-07",
+        "statement:task065-high-trend-selection-risk",
+        "statement:task065-inquiry-denmark-finance",
+        "statement:task065-inquiry-norway-energy",
+        "statement:task065-introduction",
+        "statement:task065-lens-boundary-if-used",
+        "statement:task065-limited-corpus",
+        "statement:task065-methodological-limits",
+        "statement:task065-no-generalization",
+        "statement:task065-no-population-frequency",
+        "statement:task065-practice-guidance",
+        "statement:task065-prohibited-causal",
+        "statement:task065-prohibited-forecast",
+        "statement:task065-prohibited-general-law",
+        "statement:task065-prohibited-investment",
+        "statement:task065-prohibited-pooled",
+        "statement:task065-prohibited-reversal-null",
+        "statement:task065-prohibited-significance",
+        "statement:task065-prohibited-stationarity",
+        "statement:task065-row-01",
+        "statement:task065-row-02",
+        "statement:task065-row-03",
+        "statement:task065-row-04",
+        "statement:task065-row-05",
+        "statement:task065-row-06",
+        "statement:task065-row-07",
+        "statement:task065-selected-universe",
+        "statement:task065-selection-boundary",
+        "statement:task065-selection-modes",
+        "statement:task065-seven-case-resolution",
+        "statement:task065-surviving-explanations",
+        "statement:task065-trend-diagnostics-01",
+        "statement:task065-trend-diagnostics-02",
+        "statement:task065-trend-diagnostics-03",
+        "statement:task065-trend-diagnostics-04",
+        "statement:task065-trend-diagnostics-05",
+        "statement:task065-trend-diagnostics-06",
+        "statement:task065-trend-diagnostics-07",
+        "statement:task065-upstream-conditioning",
+        "value:task065-01-first-difference",
+        "value:task065-01-raw",
+        "value:task065-02-first-difference",
+        "value:task065-02-raw",
+        "value:task065-03-first-difference",
+        "value:task065-03-raw",
+        "value:task065-04-first-difference",
+        "value:task065-04-raw",
+        "value:task065-05-first-difference",
+        "value:task065-05-raw",
+        "value:task065-06-first-difference",
+        "value:task065-06-raw",
+        "value:task065-07-first-difference",
+        "value:task065-07-raw"
+      ]
+    },
+    {
+      "obligation_id": "obligation:display-source-task065",
+      "target_rule": "Exact non-transitive ledger-declared targets; no root or parent edge substitutes for a listed attachment.",
+      "targets": [
+        "provenance:t039-source-snapshot-task065"
+      ]
+    },
+    {
+      "obligation_id": "obligation:qualification-attachment-task065",
+      "target_rule": "Exact non-transitive ledger-declared targets; no root or parent edge substitutes for a listed attachment.",
+      "targets": [
+        "statement:task065-qualification-01",
+        "statement:task065-qualification-02",
+        "statement:task065-qualification-03",
+        "statement:task065-qualification-04",
+        "statement:task065-qualification-05",
+        "statement:task065-qualification-06",
+        "statement:task065-qualification-07"
+      ]
+    },
+    {
+      "obligation_id": "obligation:display-exclusions-task065",
+      "target_rule": "Exact non-transitive ledger-declared targets; no root or parent edge substitutes for a listed attachment.",
+      "targets": [
+        "statement:task065-evidence-boundary"
+      ]
+    },
+    {
+      "obligation_id": "obligation:future-work-language-task065",
+      "target_rule": "Exact non-transitive ledger-declared targets; no root or parent edge substitutes for a listed attachment.",
+      "targets": [
+        "statement:task065-unresolved-questions"
+      ]
+    }
+  ],
+  "provenance_attachments": [
+    {
+      "provenance_id": "provenance:t039-source-snapshot-task065",
+      "source_commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+      "source_snapshot": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+      "target_rule": "Exact non-transitive ledger-declared targets; each destination is individually provenance-bound.",
+      "targets": [
+        "provenance:t039-source-snapshot-task065",
+        "section:task065-root",
+        "statement:task065-candidate-universe-reflection",
+        "statement:task065-coefficient-ranges-if-used",
+        "statement:task065-confidence-causal-explanation",
+        "statement:task065-confidence-exact-cross-inquiry-pattern",
+        "statement:task065-confidence-generalization-beyond-current-corpus",
+        "statement:task065-confidence-procedural-lesson",
+        "statement:task065-counterinterpretation",
+        "statement:task065-cross-inquiry-synthesis",
+        "statement:task065-dependence",
+        "statement:task065-disposition",
+        "statement:task065-estimand-boundary",
+        "statement:task065-evidence-boundary",
+        "statement:task065-evidence-hierarchy",
+        "statement:task065-first-differencing-open-01",
+        "statement:task065-first-differencing-open-02",
+        "statement:task065-first-differencing-open-03",
+        "statement:task065-first-differencing-open-04",
+        "statement:task065-first-differencing-open-05",
+        "statement:task065-first-differencing-open-06",
+        "statement:task065-first-differencing-open-07",
+        "statement:task065-first-differencing-open-08",
+        "statement:task065-first-differencing-rules-out",
+        "statement:task065-four-sign-changes",
+        "statement:task065-governance-01",
+        "statement:task065-governance-02",
+        "statement:task065-governance-03",
+        "statement:task065-governance-04",
+        "statement:task065-governance-05",
+        "statement:task065-governance-06",
+        "statement:task065-governance-07",
+        "statement:task065-high-trend-selection-risk",
+        "statement:task065-inquiry-denmark-finance",
+        "statement:task065-inquiry-norway-energy",
+        "statement:task065-introduction",
+        "statement:task065-lens-boundary-if-used",
+        "statement:task065-limited-corpus",
+        "statement:task065-methodological-limits",
+        "statement:task065-no-generalization",
+        "statement:task065-no-population-frequency",
+        "statement:task065-practice-guidance",
+        "statement:task065-prohibited-causal",
+        "statement:task065-prohibited-forecast",
+        "statement:task065-prohibited-general-law",
+        "statement:task065-prohibited-investment",
+        "statement:task065-prohibited-pooled",
+        "statement:task065-prohibited-reversal-null",
+        "statement:task065-prohibited-significance",
+        "statement:task065-prohibited-stationarity",
+        "statement:task065-qualification-01",
+        "statement:task065-qualification-02",
+        "statement:task065-qualification-03",
+        "statement:task065-qualification-04",
+        "statement:task065-qualification-05",
+        "statement:task065-qualification-06",
+        "statement:task065-qualification-07",
+        "statement:task065-row-01",
+        "statement:task065-row-02",
+        "statement:task065-row-03",
+        "statement:task065-row-04",
+        "statement:task065-row-05",
+        "statement:task065-row-06",
+        "statement:task065-row-07",
+        "statement:task065-selected-universe",
+        "statement:task065-selection-boundary",
+        "statement:task065-selection-modes",
+        "statement:task065-seven-case-resolution",
+        "statement:task065-surviving-explanations",
+        "statement:task065-trend-diagnostics-01",
+        "statement:task065-trend-diagnostics-02",
+        "statement:task065-trend-diagnostics-03",
+        "statement:task065-trend-diagnostics-04",
+        "statement:task065-trend-diagnostics-05",
+        "statement:task065-trend-diagnostics-06",
+        "statement:task065-trend-diagnostics-07",
+        "statement:task065-unresolved-questions",
+        "statement:task065-upstream-conditioning",
+        "value:task065-01-first-difference",
+        "value:task065-01-raw",
+        "value:task065-02-first-difference",
+        "value:task065-02-raw",
+        "value:task065-03-first-difference",
+        "value:task065-03-raw",
+        "value:task065-04-first-difference",
+        "value:task065-04-raw",
+        "value:task065-05-first-difference",
+        "value:task065-05-raw",
+        "value:task065-06-first-difference",
+        "value:task065-06-raw",
+        "value:task065-07-first-difference",
+        "value:task065-07-raw"
+      ]
+    },
+    {
+      "package_ids": [
+        "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-first-difference-pearson-companion-v1"
+      ],
+      "provenance_id": "provenance:t039-row-01",
+      "source_locator": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/0",
+      "targets": [
+        "statement:task065-row-01",
+        "value:task065-01-raw",
+        "value:task065-01-first-difference"
+      ]
+    },
+    {
+      "package_ids": [
+        "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-first-difference-pearson-companion-v1"
+      ],
+      "provenance_id": "provenance:t039-row-02",
+      "source_locator": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/1",
+      "targets": [
+        "statement:task065-row-02",
+        "value:task065-02-raw",
+        "value:task065-02-first-difference"
+      ]
+    },
+    {
+      "package_ids": [
+        "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-first-difference-pearson-companion-v1"
+      ],
+      "provenance_id": "provenance:t039-row-03",
+      "source_locator": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/2",
+      "targets": [
+        "statement:task065-row-03",
+        "value:task065-03-raw",
+        "value:task065-03-first-difference"
+      ]
+    },
+    {
+      "package_ids": [
+        "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-first-difference-pearson-companion-v1"
+      ],
+      "provenance_id": "provenance:t039-row-04",
+      "source_locator": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/3",
+      "targets": [
+        "statement:task065-row-04",
+        "value:task065-04-raw",
+        "value:task065-04-first-difference"
+      ]
+    },
+    {
+      "package_ids": [
+        "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-first-difference-pearson-companion-v1"
+      ],
+      "provenance_id": "provenance:t039-row-05",
+      "source_locator": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/4",
+      "targets": [
+        "statement:task065-row-05",
+        "value:task065-05-raw",
+        "value:task065-05-first-difference"
+      ]
+    },
+    {
+      "package_ids": [
+        "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-first-difference-pearson-companion-v1"
+      ],
+      "provenance_id": "provenance:t039-row-06",
+      "source_locator": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/5",
+      "targets": [
+        "statement:task065-row-06",
+        "value:task065-06-raw",
+        "value:task065-06-first-difference"
+      ]
+    },
+    {
+      "package_ids": [
+        "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-pearson-correlation-v1",
+        "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-first-difference-pearson-companion-v1"
+      ],
+      "provenance_id": "provenance:t039-row-07",
+      "source_locator": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json#/cases/6",
+      "targets": [
+        "statement:task065-row-07",
+        "value:task065-07-raw",
+        "value:task065-07-first-difference"
+      ]
+    }
+  ],
+  "qualification_targets": {
+    "statement:task065-dependence": [
+      "statement:task065-cross-inquiry-synthesis",
+      "table:task065-comparisons"
+    ],
+    "statement:task065-methodological-limits": [
+      "statement:task065-cross-inquiry-synthesis",
+      "statement:task065-practice-guidance"
+    ],
+    "statement:task065-qualification-01": [
+      "statement:task065-row-01",
+      "value:task065-01-raw",
+      "value:task065-01-first-difference"
+    ],
+    "statement:task065-qualification-02": [
+      "statement:task065-row-02",
+      "value:task065-02-raw",
+      "value:task065-02-first-difference"
+    ],
+    "statement:task065-qualification-03": [
+      "statement:task065-row-03",
+      "value:task065-03-raw",
+      "value:task065-03-first-difference"
+    ],
+    "statement:task065-qualification-04": [
+      "statement:task065-row-04",
+      "value:task065-04-raw",
+      "value:task065-04-first-difference"
+    ],
+    "statement:task065-qualification-05": [
+      "statement:task065-row-05",
+      "value:task065-05-raw",
+      "value:task065-05-first-difference"
+    ],
+    "statement:task065-qualification-06": [
+      "statement:task065-row-06",
+      "value:task065-06-raw",
+      "value:task065-06-first-difference"
+    ],
+    "statement:task065-qualification-07": [
+      "statement:task065-row-07",
+      "value:task065-07-raw",
+      "value:task065-07-first-difference"
+    ],
+    "statement:task065-selection-boundary": [
+      "statement:task065-cross-inquiry-synthesis",
+      "table:task065-comparisons"
+    ]
+  },
+  "schema": "briefforge-task064-source-to-candidate-authoring-blueprint-v1",
+  "statement_contract": {
+    "deduplication_rule": "An identity may satisfy multiple ledger links only when all links name that exact destination and the complete source-authored meanings remain explicit; summary wording may not erase a mandatory item.",
+    "framing_and_synthesis": [
+      "statement:task065-introduction",
+      "statement:task065-inquiry-denmark-finance",
+      "statement:task065-inquiry-norway-energy",
+      "statement:task065-cross-inquiry-synthesis"
+    ],
+    "ledger_statement_index": [
+      {
+        "ledger_item_ids": [
+          "closure:candidate-universe-reflection"
+        ],
+        "statement_id": "statement:task065-candidate-universe-reflection"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:descriptive-coefficient-ranges"
+        ],
+        "statement_id": "statement:task065-coefficient-ranges-if-used"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:confidence-causal-explanation"
+        ],
+        "statement_id": "statement:task065-confidence-causal-explanation"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:confidence-exact-cross-inquiry-pattern"
+        ],
+        "statement_id": "statement:task065-confidence-exact-cross-inquiry-pattern"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:confidence-generalization-beyond-current-corpus"
+        ],
+        "statement_id": "statement:task065-confidence-generalization-beyond-current-corpus"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:confidence-procedural-lesson"
+        ],
+        "statement_id": "statement:task065-confidence-procedural-lesson"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:counterinterpretation"
+        ],
+        "statement_id": "statement:task065-counterinterpretation"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:cross-inquiry-synthesis"
+        ],
+        "statement_id": "statement:task065-cross-inquiry-synthesis"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:dependence"
+        ],
+        "statement_id": "statement:task065-dependence"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:disposition"
+        ],
+        "statement_id": "statement:task065-disposition"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:transformation-estimand"
+        ],
+        "statement_id": "statement:task065-estimand-boundary"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:evidence-boundary-exclusions",
+          "closure:exclude-unselected-results",
+          "closure:exclude-new-relationships",
+          "closure:exclude-new-method"
+        ],
+        "statement_id": "statement:task065-evidence-boundary"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:evidence-hierarchy-aggregate"
+        ],
+        "statement_id": "statement:task065-evidence-hierarchy"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-01"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-01"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-02"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-02"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-03"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-03"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-04"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-04"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-05"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-05"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-06"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-06"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-07"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-07"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-open-08"
+        ],
+        "statement_id": "statement:task065-first-differencing-open-08"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:first-differencing-rules-out"
+        ],
+        "statement_id": "statement:task065-first-differencing-rules-out"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:four-sign-changes"
+        ],
+        "statement_id": "statement:task065-four-sign-changes"
+      },
+      {
+        "ledger_item_ids": [
+          "governance:T031-DNK-private-credit-broad-money"
+        ],
+        "statement_id": "statement:task065-governance-01"
+      },
+      {
+        "ledger_item_ids": [
+          "governance:T033-NOR-fossil-nonhydro-renewables"
+        ],
+        "statement_id": "statement:task065-governance-02"
+      },
+      {
+        "ledger_item_ids": [
+          "governance:T035-C1-NOR-life-expectancy-under5-mortality"
+        ],
+        "statement_id": "statement:task065-governance-03"
+      },
+      {
+        "ledger_item_ids": [
+          "governance:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+        ],
+        "statement_id": "statement:task065-governance-04"
+      },
+      {
+        "ledger_item_ids": [
+          "governance:T035-C1-NOR-fossil-under5-mortality"
+        ],
+        "statement_id": "statement:task065-governance-05"
+      },
+      {
+        "ledger_item_ids": [
+          "governance:T036-SWE-private-credit-mobile-subscriptions"
+        ],
+        "statement_id": "statement:task065-governance-06"
+      },
+      {
+        "ledger_item_ids": [
+          "governance:T038-DNK-agricultural-land-private-credit"
+        ],
+        "statement_id": "statement:task065-governance-07"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:high-trend-selection-risk"
+        ],
+        "statement_id": "statement:task065-high-trend-selection-risk"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:inquiry-denmark-finance"
+        ],
+        "statement_id": "statement:task065-inquiry-denmark-finance"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:inquiry-norway-energy"
+        ],
+        "statement_id": "statement:task065-inquiry-norway-energy"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:intro-framing"
+        ],
+        "statement_id": "statement:task065-introduction"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:lens-assessment"
+        ],
+        "statement_id": "statement:task065-lens-boundary-if-used"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:limited-corpus"
+        ],
+        "statement_id": "statement:task065-limited-corpus"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:methodological-limits"
+        ],
+        "statement_id": "statement:task065-methodological-limits"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-generalization"
+        ],
+        "statement_id": "statement:task065-no-generalization"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-population-frequency"
+        ],
+        "statement_id": "statement:task065-no-population-frequency"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:analytical-practice-guidance"
+        ],
+        "statement_id": "statement:task065-practice-guidance"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-causal-interpretation"
+        ],
+        "statement_id": "statement:task065-prohibited-causal"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-forecasting-interpretation"
+        ],
+        "statement_id": "statement:task065-prohibited-forecast"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-general-law"
+        ],
+        "statement_id": "statement:task065-prohibited-general-law"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-investment"
+        ],
+        "statement_id": "statement:task065-prohibited-investment"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-pooled-inference"
+        ],
+        "statement_id": "statement:task065-prohibited-pooled"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-reversal-absence"
+        ],
+        "statement_id": "statement:task065-prohibited-reversal-null"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-significance"
+        ],
+        "statement_id": "statement:task065-prohibited-significance"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:no-stationarity"
+        ],
+        "statement_id": "statement:task065-prohibited-stationarity"
+      },
+      {
+        "ledger_item_ids": [
+          "qualification:T031-DNK-private-credit-broad-money"
+        ],
+        "statement_id": "statement:task065-qualification-01"
+      },
+      {
+        "ledger_item_ids": [
+          "qualification:T033-NOR-fossil-nonhydro-renewables"
+        ],
+        "statement_id": "statement:task065-qualification-02"
+      },
+      {
+        "ledger_item_ids": [
+          "qualification:T035-C1-NOR-life-expectancy-under5-mortality"
+        ],
+        "statement_id": "statement:task065-qualification-03"
+      },
+      {
+        "ledger_item_ids": [
+          "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+        ],
+        "statement_id": "statement:task065-qualification-04"
+      },
+      {
+        "ledger_item_ids": [
+          "qualification:T035-C1-NOR-fossil-under5-mortality"
+        ],
+        "statement_id": "statement:task065-qualification-05"
+      },
+      {
+        "ledger_item_ids": [
+          "qualification:T036-SWE-private-credit-mobile-subscriptions"
+        ],
+        "statement_id": "statement:task065-qualification-06"
+      },
+      {
+        "ledger_item_ids": [
+          "qualification:T038-DNK-agricultural-land-private-credit"
+        ],
+        "statement_id": "statement:task065-qualification-07"
+      },
+      {
+        "ledger_item_ids": [
+          "relationship:T031-DNK-private-credit-broad-money",
+          "classification:T031-DNK-private-credit-broad-money",
+          "evidence-role:T031-DNK-private-credit-broad-money"
+        ],
+        "statement_id": "statement:task065-row-01"
+      },
+      {
+        "ledger_item_ids": [
+          "relationship:T033-NOR-fossil-nonhydro-renewables",
+          "classification:T033-NOR-fossil-nonhydro-renewables",
+          "evidence-role:T033-NOR-fossil-nonhydro-renewables"
+        ],
+        "statement_id": "statement:task065-row-02"
+      },
+      {
+        "ledger_item_ids": [
+          "relationship:T035-C1-NOR-life-expectancy-under5-mortality",
+          "classification:T035-C1-NOR-life-expectancy-under5-mortality",
+          "evidence-role:T035-C1-NOR-life-expectancy-under5-mortality"
+        ],
+        "statement_id": "statement:task065-row-03"
+      },
+      {
+        "ledger_item_ids": [
+          "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "classification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "evidence-role:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+        ],
+        "statement_id": "statement:task065-row-04"
+      },
+      {
+        "ledger_item_ids": [
+          "relationship:T035-C1-NOR-fossil-under5-mortality",
+          "classification:T035-C1-NOR-fossil-under5-mortality",
+          "evidence-role:T035-C1-NOR-fossil-under5-mortality"
+        ],
+        "statement_id": "statement:task065-row-05"
+      },
+      {
+        "ledger_item_ids": [
+          "relationship:T036-SWE-private-credit-mobile-subscriptions",
+          "classification:T036-SWE-private-credit-mobile-subscriptions",
+          "evidence-role:T036-SWE-private-credit-mobile-subscriptions"
+        ],
+        "statement_id": "statement:task065-row-06"
+      },
+      {
+        "ledger_item_ids": [
+          "relationship:T038-DNK-agricultural-land-private-credit",
+          "classification:T038-DNK-agricultural-land-private-credit",
+          "evidence-role:T038-DNK-agricultural-land-private-credit"
+        ],
+        "statement_id": "statement:task065-row-07"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:selected-universe"
+        ],
+        "statement_id": "statement:task065-selected-universe"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:selection-nonrandom"
+        ],
+        "statement_id": "statement:task065-selection-boundary"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:selection-modes"
+        ],
+        "statement_id": "statement:task065-selection-modes"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:seven-case-count-resolution"
+        ],
+        "statement_id": "statement:task065-seven-case-resolution"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:surviving-common-explanations"
+        ],
+        "statement_id": "statement:task065-surviving-explanations"
+      },
+      {
+        "ledger_item_ids": [
+          "trend-diagnostics:T031-DNK-private-credit-broad-money"
+        ],
+        "statement_id": "statement:task065-trend-diagnostics-01"
+      },
+      {
+        "ledger_item_ids": [
+          "trend-diagnostics:T033-NOR-fossil-nonhydro-renewables"
+        ],
+        "statement_id": "statement:task065-trend-diagnostics-02"
+      },
+      {
+        "ledger_item_ids": [
+          "trend-diagnostics:T035-C1-NOR-life-expectancy-under5-mortality"
+        ],
+        "statement_id": "statement:task065-trend-diagnostics-03"
+      },
+      {
+        "ledger_item_ids": [
+          "trend-diagnostics:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+        ],
+        "statement_id": "statement:task065-trend-diagnostics-04"
+      },
+      {
+        "ledger_item_ids": [
+          "trend-diagnostics:T035-C1-NOR-fossil-under5-mortality"
+        ],
+        "statement_id": "statement:task065-trend-diagnostics-05"
+      },
+      {
+        "ledger_item_ids": [
+          "trend-diagnostics:T036-SWE-private-credit-mobile-subscriptions"
+        ],
+        "statement_id": "statement:task065-trend-diagnostics-06"
+      },
+      {
+        "ledger_item_ids": [
+          "trend-diagnostics:T038-DNK-agricultural-land-private-credit"
+        ],
+        "statement_id": "statement:task065-trend-diagnostics-07"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:follow-up"
+        ],
+        "statement_id": "statement:task065-unresolved-questions"
+      },
+      {
+        "ledger_item_ids": [
+          "closure:upstream-result-conditioning"
+        ],
+        "statement_id": "statement:task065-upstream-conditioning"
+      }
+    ],
+    "limitations_and_exclusions": [
+      "statement:task065-evidence-boundary",
+      "statement:task065-prohibited-pooled",
+      "statement:task065-prohibited-causal",
+      "statement:task065-prohibited-forecast",
+      "statement:task065-prohibited-general-law",
+      "statement:task065-prohibited-significance",
+      "statement:task065-prohibited-investment",
+      "statement:task065-prohibited-stationarity",
+      "statement:task065-prohibited-reversal-null",
+      "statement:task065-disposition"
+    ],
+    "qualification_statements": [
+      "statement:task065-qualification-01",
+      "statement:task065-qualification-02",
+      "statement:task065-qualification-03",
+      "statement:task065-qualification-04",
+      "statement:task065-qualification-05",
+      "statement:task065-qualification-06",
+      "statement:task065-qualification-07"
+    ],
+    "row_statements": [
+      {
+        "authority_class": "upstream analytical authority",
+        "encounter_order": 1,
+        "meaning": "Relationship identity, source inquiry, classification, evidence role, and strongest defensible conclusion for T031-DNK-private-credit-broad-money",
+        "provenance_ref": "provenance:t039-row-01",
+        "qualification_ref": "statement:task065-qualification-01",
+        "statement_id": "statement:task065-row-01",
+        "table_row_ref": "row:T031-DNK-private-credit-broad-money",
+        "value_refs": [
+          "value:task065-01-raw",
+          "value:task065-01-first-difference"
+        ]
+      },
+      {
+        "authority_class": "upstream analytical authority",
+        "encounter_order": 2,
+        "meaning": "Relationship identity, source inquiry, classification, evidence role, and strongest defensible conclusion for T033-NOR-fossil-nonhydro-renewables",
+        "provenance_ref": "provenance:t039-row-02",
+        "qualification_ref": "statement:task065-qualification-02",
+        "statement_id": "statement:task065-row-02",
+        "table_row_ref": "row:T033-NOR-fossil-nonhydro-renewables",
+        "value_refs": [
+          "value:task065-02-raw",
+          "value:task065-02-first-difference"
+        ]
+      },
+      {
+        "authority_class": "upstream analytical authority",
+        "encounter_order": 3,
+        "meaning": "Relationship identity, source inquiry, classification, evidence role, and strongest defensible conclusion for T035-C1-NOR-life-expectancy-under5-mortality",
+        "provenance_ref": "provenance:t039-row-03",
+        "qualification_ref": "statement:task065-qualification-03",
+        "statement_id": "statement:task065-row-03",
+        "table_row_ref": "row:T035-C1-NOR-life-expectancy-under5-mortality",
+        "value_refs": [
+          "value:task065-03-raw",
+          "value:task065-03-first-difference"
+        ]
+      },
+      {
+        "authority_class": "upstream analytical authority",
+        "encounter_order": 4,
+        "meaning": "Relationship identity, source inquiry, classification, evidence role, and strongest defensible conclusion for T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "provenance_ref": "provenance:t039-row-04",
+        "qualification_ref": "statement:task065-qualification-04",
+        "statement_id": "statement:task065-row-04",
+        "table_row_ref": "row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "value_refs": [
+          "value:task065-04-raw",
+          "value:task065-04-first-difference"
+        ]
+      },
+      {
+        "authority_class": "upstream analytical authority",
+        "encounter_order": 5,
+        "meaning": "Relationship identity, source inquiry, classification, evidence role, and strongest defensible conclusion for T035-C1-NOR-fossil-under5-mortality",
+        "provenance_ref": "provenance:t039-row-05",
+        "qualification_ref": "statement:task065-qualification-05",
+        "statement_id": "statement:task065-row-05",
+        "table_row_ref": "row:T035-C1-NOR-fossil-under5-mortality",
+        "value_refs": [
+          "value:task065-05-raw",
+          "value:task065-05-first-difference"
+        ]
+      },
+      {
+        "authority_class": "upstream analytical authority",
+        "encounter_order": 6,
+        "meaning": "Relationship identity, source inquiry, classification, evidence role, and strongest defensible conclusion for T036-SWE-private-credit-mobile-subscriptions",
+        "provenance_ref": "provenance:t039-row-06",
+        "qualification_ref": "statement:task065-qualification-06",
+        "statement_id": "statement:task065-row-06",
+        "table_row_ref": "row:T036-SWE-private-credit-mobile-subscriptions",
+        "value_refs": [
+          "value:task065-06-raw",
+          "value:task065-06-first-difference"
+        ]
+      },
+      {
+        "authority_class": "upstream analytical authority",
+        "encounter_order": 7,
+        "meaning": "Relationship identity, source inquiry, classification, evidence role, and strongest defensible conclusion for T038-DNK-agricultural-land-private-credit",
+        "provenance_ref": "provenance:t039-row-07",
+        "qualification_ref": "statement:task065-qualification-07",
+        "statement_id": "statement:task065-row-07",
+        "table_row_ref": "row:T038-DNK-agricultural-land-private-credit",
+        "value_refs": [
+          "value:task065-07-raw",
+          "value:task065-07-first-difference"
+        ]
+      }
+    ]
+  },
+  "status": "complete-non-instantiated-after-final-review-remediation",
+  "structural_text_boundaries": {
+    "briefForge_may_author": [
+      "section titles",
+      "table heading placement",
+      "encounter order",
+      "source and qualification labels"
+    ],
+    "briefForge_must_not_author": [
+      "new coefficients or statistics",
+      "new relationship selection",
+      "causal, significance, forecasting, policy, investment, general-law, pooled, stationarity, reversal, absence, independence, or predominant-cause interpretation"
+    ],
+    "rule": "Structural prose may organize and label admitted meaning but may not add analytical content or weaken exclusions."
+  },
+  "table_contract": {
+    "cell_contract": {
+      "row:T031-DNK-private-credit-broad-money": {
+        "first_difference_coefficient": "value:task065-01-first-difference",
+        "first_difference_state": {
+          "aligned_count": 34,
+          "period": "1991-2024",
+          "transformation_state": "first_difference"
+        },
+        "raw_coefficient": "value:task065-01-raw",
+        "raw_state": {
+          "aligned_count": 35,
+          "period": "1990-2024",
+          "transformation_state": "raw"
+        },
+        "relationship_case": "T031-DNK-private-credit-broad-money"
+      },
+      "row:T033-NOR-fossil-nonhydro-renewables": {
+        "first_difference_coefficient": "value:task065-02-first-difference",
+        "first_difference_state": {
+          "aligned_count": 31,
+          "period": "1991-2021",
+          "transformation_state": "first_difference"
+        },
+        "raw_coefficient": "value:task065-02-raw",
+        "raw_state": {
+          "aligned_count": 32,
+          "period": "1990-2021",
+          "transformation_state": "raw"
+        },
+        "relationship_case": "T033-NOR-fossil-nonhydro-renewables"
+      },
+      "row:T035-C1-NOR-fossil-under5-mortality": {
+        "first_difference_coefficient": "value:task065-05-first-difference",
+        "first_difference_state": {
+          "aligned_count": 33,
+          "period": "1991-2023",
+          "transformation_state": "first_difference"
+        },
+        "raw_coefficient": "value:task065-05-raw",
+        "raw_state": {
+          "aligned_count": 34,
+          "period": "1990-2023",
+          "transformation_state": "raw"
+        },
+        "relationship_case": "T035-C1-NOR-fossil-under5-mortality"
+      },
+      "row:T035-C1-NOR-life-expectancy-under5-mortality": {
+        "first_difference_coefficient": "value:task065-03-first-difference",
+        "first_difference_state": {
+          "aligned_count": 34,
+          "period": "1991-2024",
+          "transformation_state": "first_difference"
+        },
+        "raw_coefficient": "value:task065-03-raw",
+        "raw_state": {
+          "aligned_count": 35,
+          "period": "1990-2024",
+          "transformation_state": "raw"
+        },
+        "relationship_case": "T035-C1-NOR-life-expectancy-under5-mortality"
+      },
+      "row:T035-C1-NOR-nonhydro-renewables-under5-mortality": {
+        "first_difference_coefficient": "value:task065-04-first-difference",
+        "first_difference_state": {
+          "aligned_count": 31,
+          "period": "1991-2021",
+          "transformation_state": "first_difference"
+        },
+        "raw_coefficient": "value:task065-04-raw",
+        "raw_state": {
+          "aligned_count": 32,
+          "period": "1990-2021",
+          "transformation_state": "raw"
+        },
+        "relationship_case": "T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      },
+      "row:T036-SWE-private-credit-mobile-subscriptions": {
+        "first_difference_coefficient": "value:task065-06-first-difference",
+        "first_difference_state": {
+          "aligned_count": 34,
+          "period": "1991-2024",
+          "transformation_state": "first_difference"
+        },
+        "raw_coefficient": "value:task065-06-raw",
+        "raw_state": {
+          "aligned_count": 35,
+          "period": "1990-2024",
+          "transformation_state": "raw"
+        },
+        "relationship_case": "T036-SWE-private-credit-mobile-subscriptions"
+      },
+      "row:T038-DNK-agricultural-land-private-credit": {
+        "first_difference_coefficient": "value:task065-07-first-difference",
+        "first_difference_state": {
+          "aligned_count": 33,
+          "period": "1991-2023",
+          "transformation_state": "first_difference"
+        },
+        "raw_coefficient": "value:task065-07-raw",
+        "raw_state": {
+          "aligned_count": 34,
+          "period": "1990-2023",
+          "transformation_state": "raw"
+        },
+        "relationship_case": "T038-DNK-agricultural-land-private-credit"
+      }
+    },
+    "column_ids": [
+      "column:relationship-case",
+      "column:raw-pearson-coefficient",
+      "column:raw-state",
+      "column:first-difference-pearson-coefficient",
+      "column:first-difference-state"
+    ],
+    "hard_rule": "The exhibit has seven relationship-owned rows and fourteen value cells. A value identity is never a row identity.",
+    "headings": [
+      "Relationship case",
+      "Raw Pearson coefficient",
+      "Raw state",
+      "First-difference Pearson coefficient",
+      "First-difference state"
+    ],
+    "row_ids": [
+      "row:T031-DNK-private-credit-broad-money",
+      "row:T033-NOR-fossil-nonhydro-renewables",
+      "row:T035-C1-NOR-life-expectancy-under5-mortality",
+      "row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "row:T035-C1-NOR-fossil-under5-mortality",
+      "row:T036-SWE-private-credit-mobile-subscriptions",
+      "row:T038-DNK-agricultural-land-private-credit"
+    ],
+    "supporting_content_rule": "Classification, evidence role, qualifications, and provenance remain governed but attach to the exact row through the listed Candidate statement/provenance locations; they are not silently discarded or overloaded into the five cells.",
+    "table_identity": "table:task065-comparisons"
+  },
+  "task_id": "TASK-064"
+}

@@ -1,0 +1,193 @@
+{
+  "all_109_treatments_passed": true,
+  "all_7_rows_passed": true,
+  "attachment_counts": {
+    "obligation_targets": 92,
+    "provenance_targets": 113,
+    "qualification_edges": 27,
+    "row_provenance_refs": 7,
+    "row_qualification_refs": 21
+  },
+  "attempt_id": "attempt:task071-representative-campaign-002",
+  "authoring_input_sha256": "9da7f50bf57eafe8a8443dc2aeb48d52d0986c7959b2dd6fc833c746c65459c3",
+  "authority_binding": {
+    "attempt_id": "attempt:task071-representative-campaign-002",
+    "authoring_input_sha256": "9da7f50bf57eafe8a8443dc2aeb48d52d0986c7959b2dd6fc833c746c65459c3",
+    "authority_decision_path": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/decisions/D-20260808-task-071-successor-candidate-attempt-authority-and-identity-lineage.md",
+    "authority_decision_sha256": "a6f9be4c68e0872f759dc01da38e5a0d64278c138d5dc266d70bff90001e6711",
+    "blueprint_fingerprint": "424fd07da96e1e0914385997dcdb9f4f645f1d6228b4d9f9bb93cfdfbe4689ae",
+    "brief_id": "brief:task071-cross-inquiry",
+    "campaign_id": "blueprint:424fd07da96e1e0914385997dcdb9f4f645f1d6228b4d9f9bb93cfdfbe4689ae",
+    "candidate_id": "candidate:task071-cross-inquiry",
+    "cumulative_attempt_number": 2,
+    "expected_semantic_closure_sha256": "ed0d50ca4633db9d55846af949cfe1f1dc147412aefe0f418710738f69f81df0",
+    "ledger_root": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/state/candidate-authoring-ledger",
+    "material_ids": [
+      "material:task071-t039"
+    ],
+    "output_root": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/candidate-authoring-output",
+    "predecessor_attempt_digests": [
+      "05d7d994a64b798417e21b26ba5782cbc31d87a68af39e0a13f282a073e8a70f"
+    ],
+    "predecessor_evidence_paths": [
+      "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task069/.candidate-authoring-single-use"
+    ],
+    "scope": "governed",
+    "semantic_validation_profile": "briefforge:paired-terminal-semantic-closure:1.0.0",
+    "source_snapshot": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+    "task_id": "TASK-071",
+    "validator_identity": "briefforge:bcrp-L0-L2+paired-semantic-closure:1.0.0"
+  },
+  "blueprint_fingerprint_sha256": "424fd07da96e1e0914385997dcdb9f4f645f1d6228b4d9f9bb93cfdfbe4689ae",
+  "campaign_id": "blueprint:424fd07da96e1e0914385997dcdb9f4f645f1d6228b4d9f9bb93cfdfbe4689ae",
+  "canonical_serialization": {
+    "authored_statement_order_key_is_ordered": true,
+    "physical_kind_order": [
+      "CandidatePresentationPackageRecord",
+      "PortablePresentationMaterialRecord",
+      "PresentationBriefRecord"
+    ],
+    "physical_kind_order_authenticated": true,
+    "record_array_key_is_unordered": true,
+    "role_order_is_not_required": true
+  },
+  "contract_artifacts": [
+    {
+      "bytes": 159158,
+      "path": "artifacts/reports/R-20260801-task-064-editorial-closure-ledger.json",
+      "sha256": "2d9d90e6bb5715ab99557b275f02e47fe412f198e2214612f09730bf53eeaa19"
+    },
+    {
+      "bytes": 25213,
+      "path": "artifacts/reports/R-20260801-task-064-seven-row-paired-table-contract.json",
+      "sha256": "167e304114587bc1f21cd77fcfb4ae232fc2e302a83e965de16bd9332d21854d"
+    },
+    {
+      "bytes": 82716,
+      "path": "artifacts/reports/R-20260801-task-064-source-to-candidate-authoring-blueprint.json",
+      "sha256": "424fd07da96e1e0914385997dcdb9f4f645f1d6228b4d9f9bb93cfdfbe4689ae"
+    },
+    {
+      "bytes": 3413,
+      "path": "artifacts/reports/R-20260801-task-064-pre-release-editorial-gate.json",
+      "sha256": "abef2c342500f246caad0c896671404edc84c7fd4cc6f4b1d249aff369092105"
+    },
+    {
+      "bytes": 46118,
+      "path": "artifacts/reports/R-20260801-task-065-source-and-contract-admission.json",
+      "sha256": "06a7cd7cbd4226f174dc5f98c66242d786f6c81cab44d0a661e3e95be108a7a0"
+    }
+  ],
+  "coordinator_route": {
+    "author": "briefforge.candidate_authoring.governed_author_candidate",
+    "caller_supplied_builder": false,
+    "caller_supplied_fault": false,
+    "caller_supplied_validator": false,
+    "recover": "briefforge.candidate_authoring.governed_recover_candidate"
+  },
+  "cumulative_attempt_number": 2,
+  "exact_statement_ledger_composition": true,
+  "exact_statement_order": true,
+  "format": "briefforge-task071-pre-attempt-readiness-v1",
+  "result": "PASS",
+  "semantic_closure_sha256": "ed0d50ca4633db9d55846af949cfe1f1dc147412aefe0f418710738f69f81df0",
+  "source_authentication": {
+    "artifact_count": 13,
+    "artifacts": [
+      {
+        "byte_length": 36866,
+        "passed": true,
+        "path": "artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+        "sha256": "b2e6dce194e6e489c3b5f20ad0896affb2e1175e1fecf15018a7a4e37da5501b"
+      },
+      {
+        "byte_length": 19396,
+        "passed": true,
+        "path": "artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+        "sha256": "5fed49821df242066dca36c9fd60d814950fc34828ab50e48976b9706f4c87a5"
+      },
+      {
+        "byte_length": 2898,
+        "passed": true,
+        "path": "artifacts/decisions/D-20260717-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+        "sha256": "a568ccbcccc7bbdb0e03d34423a9913ffe25f247e7e358a1b1f39f242cf838fd"
+      },
+      {
+        "byte_length": 5375,
+        "passed": true,
+        "path": "artifacts/tasks/T-039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+        "sha256": "0d871b47bed68fe4cde15a9437fcb1092b55cb5b18567c3824deac1041bdc0a9"
+      },
+      {
+        "byte_length": 21166,
+        "passed": true,
+        "path": "artifacts/fixtures/T-031-production-inquiry-01-reassessment.json",
+        "sha256": "868cbdedbca7859badab1c9f4e1018883a0fe9a2f1973183224142ba4238cf1b"
+      },
+      {
+        "byte_length": 10937,
+        "passed": true,
+        "path": "artifacts/reports/R-20260712-production-inquiry-01-raw-versus-first-difference-reassessment.md",
+        "sha256": "ca3e472b58b0a5e0b384a51424750732e9675cc99379e64aaa68c7b458e28425"
+      },
+      {
+        "byte_length": 1667,
+        "passed": true,
+        "path": "artifacts/decisions/D-20260712-production-inquiry-01-workflow-verdict.md",
+        "sha256": "684835e75b83ed49ad380a31dc7bdb8065d1bb50fb9877ea76dc561310d3cceb"
+      },
+      {
+        "byte_length": 7082,
+        "passed": true,
+        "path": "artifacts/fixtures/T-033-production-inquiry-02-record.json",
+        "sha256": "7b34b7183080929814265e09eb690653d18fac86802343798db1641387e9de49"
+      },
+      {
+        "byte_length": 19632,
+        "passed": true,
+        "path": "artifacts/reports/R-20260712-t033-production-inquiry-02-simplified-workflow-operational-falsification.md",
+        "sha256": "0333d433d8fe5d5bb0d39ee06d05ee034b66842284ccb77ec6246d96eea5186f"
+      },
+      {
+        "byte_length": 2028,
+        "passed": true,
+        "path": "artifacts/decisions/D-20260712-production-inquiry-02-simplified-workflow-verdict.md",
+        "sha256": "f2ecb548fec481578c6626129aafd8a9a7b344744e48e99341ff1669416a6366"
+      },
+      {
+        "byte_length": 41636,
+        "passed": true,
+        "path": "artifacts/fixtures/T-035-demographic-growth-correlation-report-input.json",
+        "sha256": "feba0670ba15967e9a108dd3a9bb514e64585c7f67a6c8c127e4601a588b625f"
+      },
+      {
+        "byte_length": 22639,
+        "passed": true,
+        "path": "artifacts/fixtures/T-036-production-inquiry-03-record.json",
+        "sha256": "e34ec4100306a97d38454481627f5ea2a03e1704f21a66217713c30d22eadb5e"
+      },
+      {
+        "byte_length": 11376,
+        "passed": true,
+        "path": "artifacts/fixtures/T-038-production-inquiry-04-record.json",
+        "sha256": "9516093ae09f3d01899a30a6a240027c0cc78a97c15f9008abc2c991542c8387"
+      }
+    ],
+    "commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+    "locator_count": 130,
+    "locators_resolved": true
+  },
+  "source_snapshot": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "statement_order_sha256": "896527d6d2e95f2b1f8eedc32f6bf3154177505071b87b9e2164df22db5b1f36",
+  "task_id": "TASK-071",
+  "topology": {
+    "governed_columns": 5,
+    "obligations": 5,
+    "paired_rows": 7,
+    "paired_values": 14,
+    "provenance": 8,
+    "qualifications": 27,
+    "sections": 6,
+    "statements": 76
+  }
+}

@@ -1,0 +1,24 @@
+dry_run_report_schema:
+  required_fields:
+    - timestamp
+    - proposal
+    - risk
+    - mode
+    - dry_run_depth
+    - files
+    - commands
+    - validation_plan
+    - rollback_plan
+    - approval_required
+    - context_used
+    - decision_artifacts_checked
+  allowed_risk:
+    - low
+    - medium
+    - high
+  allowed_depth:
+    - none
+    - micro_preflight
+    - standard_dry_run
+    - full_dry_run
+    - full_dry_run_human_review

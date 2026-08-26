@@ -1,0 +1,53 @@
+orchestration_schedule:
+  purpose: >
+    Defines hygiene and control tasks agents or orchestrators should run routinely.
+    Manual invocation remains available for debugging and audit, but routine operation
+    should not depend on the user remembering these commands.
+
+  visibility:
+    mode: compact_log_summary
+    summary_target: logs/derived/orchestrator_hygiene.log
+    notify_user_only_on:
+      - block
+      - L3_blocking_clarification
+      - L4_emergency_stop
+
+  after_task:
+    - name: update_context_summaries_if_changed
+      command: python3 tools/update_context_summaries.py --project {project}
+      required: true
+    - name: check_coherence
+      command: python3 tools/check_coherence.py --project {project}
+      required: true
+
+  before_major_architecture_change:
+    - name: architecture_reality_audit
+      command: python3 tools/architecture_reality_audit.py --project {project} --write-report
+      required: true
+      reason: Prevent architecture, governance, state, templates, and implementation from diverging before changing direction.
+
+  before_major_governance_review:
+    - name: architecture_reality_audit
+      command: python3 tools/architecture_reality_audit.py --project {project} --write-report
+      required: true
+      reason: Establish current reality before broad governance review.
+
+  periodic:
+    - name: architecture_reality_audit
+      command: python3 tools/architecture_reality_audit.py --project {project} --write-report
+      cadence: every_5_to_10_completed_tasks
+      reason: Catch architecture-to-reality drift before it compounds.
+    - name: review_metrics
+      command: python3 tools/review_metrics.py --project {project}
+      cadence: every_10_runs_or_on_failure_cluster
+      reason: Convert repeated failures into routing, skill, template, or agent-improvement proposals.
+
+  auto_fix_policy:
+    safe_auto_fix_allowed:
+      - refresh_context_summaries
+      - regenerate_missing_nonpolicy_summary
+    human_or_governance_review_required:
+      - permission_policy_change
+      - model_routing_policy_change
+      - architecture_change
+      - deletion_or_destructive_action

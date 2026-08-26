@@ -1,0 +1,251 @@
+{
+  "extensions": [],
+  "identity": "candidate:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "CandidatePresentationPackageRecord",
+  "semantic": {
+    "adpm_semantic_version": "1.0.0",
+    "audiences": [
+      {
+        "description": "Synthetic decision reader.",
+        "id": "audience:candidate-decision-c2"
+      }
+    ],
+    "brief_ref": "brief:case-2",
+    "distribution": {
+      "authority_ref": "authority:release-c2",
+      "designation": "public-synthetic",
+      "id": "distribution:c2-public-synthetic"
+    },
+    "exhibits": [
+      {
+        "id": "exhibit:c2-table",
+        "kind": "table",
+        "purpose_ref": "purpose:candidate-c2",
+        "value_ids": [
+          "value:aster-zero",
+          "value:aster-small-nonzero",
+          "value:boreal-missing",
+          "value:boreal-unavailable",
+          "value:boreal-suppressed",
+          "value:not-applicable",
+          "value:conflict-source-a",
+          "value:conflict-source-b"
+        ]
+      }
+    ],
+    "fallbacks": [
+      {
+        "complete": true,
+        "id": "fallback:c2-table",
+        "kind": "static-table"
+      },
+      {
+        "complete": true,
+        "id": "fallback:c2-print",
+        "kind": "print"
+      }
+    ],
+    "material_refs": [
+      "material:case-2"
+    ],
+    "non_scope": "No real company or financial-domain semantics.",
+    "obligations": [
+      {
+        "authority_ref": "authority:presentation",
+        "id": "obligation:c2-synthetic-label",
+        "kind": "label",
+        "target_refs": [
+          "section:c2-root",
+          "statement:c2-recommendation"
+        ]
+      },
+      {
+        "authority_ref": "authority:release-c2",
+        "id": "obligation:c2-distribution",
+        "kind": "distribution",
+        "target_refs": [
+          "candidate:case-2"
+        ]
+      }
+    ],
+    "organizing_purpose": {
+      "brief_purpose_ref": "purpose:brief-c2",
+      "id": "purpose:candidate-c2",
+      "statement": "Communicate a bounded fictional comparison."
+    },
+    "relations": [
+      {
+        "authority_ref": "authority:synthetic-upstream",
+        "id": "relation:c2-caveat",
+        "kind": "limits-target",
+        "source_ref": "statement:c2-caveat",
+        "target_ref": "statement:c2-recommendation"
+      },
+      {
+        "authority_ref": "authority:synthetic-evidence",
+        "id": "relation:c2-uncertainty",
+        "kind": "limits-target",
+        "source_ref": "statement:c2-uncertainty",
+        "target_ref": "statement:c2-interpretation"
+      }
+    ],
+    "renderer_requirements": [
+      {
+        "capability": "table",
+        "fallback_refs": [
+          "fallback:c2-table"
+        ],
+        "id": "requirement:c2-table",
+        "mandatory": true,
+        "permitted_transformations": [
+          "static-layout"
+        ]
+      },
+      {
+        "capability": "print",
+        "fallback_refs": [
+          "fallback:c2-print"
+        ],
+        "id": "requirement:c2-print",
+        "mandatory": true,
+        "permitted_transformations": [
+          "print-layout"
+        ]
+      },
+      {
+        "capability": "standalone-offline",
+        "fallback_refs": [
+          "fallback:c2-table"
+        ],
+        "id": "requirement:c2-standalone",
+        "mandatory": true,
+        "permitted_transformations": []
+      }
+    ],
+    "scope": "Conspicuously fictional fixed-evidence publication.",
+    "sections": [
+      {
+        "children": [
+          "statement:c2-observation",
+          "statement:c2-evidence",
+          "statement:c2-interpretation",
+          "statement:c2-recommendation",
+          "statement:c2-personal",
+          "statement:c2-caveat",
+          "statement:c2-uncertainty"
+        ],
+        "id": "section:c2-root",
+        "title": "FICTIONAL COMPANY COMPARISON"
+      }
+    ],
+    "selection_sets": [],
+    "statements": [
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:synthetic-upstream",
+        "communication_functions": [
+          "orient"
+        ],
+        "id": "statement:c2-observation",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-c2",
+        "text": "Aster Vale Tools has an explicit synthetic zero.",
+        "upstream_refs": [
+          "external:aster-vale-tools"
+        ],
+        "value_ref": "value:aster-zero"
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:synthetic-evidence",
+        "communication_functions": [
+          "substantiate"
+        ],
+        "id": "statement:c2-evidence",
+        "posture": "reusable-evidence",
+        "purpose_ref": "purpose:candidate-c2",
+        "text": "The synthetic comparison retains missing, unavailable, withheld, and conflicting states without imputation.",
+        "upstream_refs": [
+          "external:aster-vale-tools",
+          "external:boreal-kite-systems"
+        ]
+      },
+      {
+        "attention": "primary",
+        "authority_ref": "authority:synthetic-upstream",
+        "communication_functions": [
+          "explain"
+        ],
+        "id": "statement:c2-interpretation",
+        "posture": "interpretation",
+        "purpose_ref": "purpose:candidate-c2",
+        "text": "The retained synthetic evidence is insufficient for an unrestricted comparison.",
+        "upstream_refs": [
+          "external:aster-vale-tools",
+          "external:boreal-kite-systems"
+        ]
+      },
+      {
+        "attention": "primary",
+        "authority_ref": "authority:recommendation",
+        "communication_functions": [
+          "decision"
+        ],
+        "id": "statement:c2-recommendation",
+        "posture": "recommendation",
+        "purpose_ref": "purpose:candidate-c2",
+        "text": "Use the bounded synthetic evidence only for this fictional decision exercise.",
+        "upstream_refs": [
+          "external:aster-vale-tools",
+          "external:boreal-kite-systems"
+        ]
+      },
+      {
+        "attention": "optional",
+        "authority_ref": "authority:personal",
+        "communication_functions": [
+          "annotate"
+        ],
+        "id": "statement:c2-personal",
+        "posture": "personal-annotation",
+        "purpose_ref": "purpose:candidate-c2",
+        "text": "Personal note: the fictional names are memorable.",
+        "upstream_refs": []
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:synthetic-upstream",
+        "communication_functions": [
+          "limit"
+        ],
+        "id": "statement:c2-caveat",
+        "posture": "caveat",
+        "purpose_ref": "purpose:candidate-c2",
+        "text": "All companies and values are synthetic.",
+        "upstream_refs": [
+          "external:aster-vale-tools",
+          "external:boreal-kite-systems"
+        ]
+      },
+      {
+        "attention": "required",
+        "authority_ref": "authority:synthetic-evidence",
+        "communication_functions": [
+          "qualify"
+        ],
+        "id": "statement:c2-uncertainty",
+        "posture": "uncertainty",
+        "purpose_ref": "purpose:candidate-c2",
+        "text": "Conflicting synthetic sources remain unresolved.",
+        "upstream_refs": [
+          "external:aster-vale-tools",
+          "external:boreal-kite-systems"
+        ]
+      }
+    ]
+  }
+}

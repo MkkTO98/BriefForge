@@ -1,0 +1,89 @@
+levels:
+
+  safe:
+    description: "Read-only or low-risk project-local commands."
+
+    commands:
+
+      # shell / inspection
+      - pwd
+      - ls
+      - tree
+      - find
+      - rg
+      - grep
+      - cat
+      - sed
+      - awk
+      - head
+      - tail
+      - wc
+
+      # git inspection
+      - git status
+      - git diff
+      - git log
+
+      # versions / testing
+      - python3 --version
+      - pip --version
+      - pytest
+      - python3 -m pytest
+
+      # Project-local read-only safe operations
+      - python3 tools/check_coherence.py
+      - python3 tools/architecture_reality_audit.py
+      - python3 tools/validate_dry_run.py
+      - python3 tools/select_model.py
+
+  review:
+    description: "Commands that modify project-local files or create commits."
+
+    commands:
+
+      # filesystem mutation
+      - mkdir
+      - touch
+      - cp
+      - mv
+      - rm
+
+      # interpreter execution
+      - python3
+
+      # git local inspection/mutation with possible state changes
+      - git branch
+      - git add
+      - git commit
+
+      # Project-local operational mutation
+      - python3 tools/build_context.py
+      - python3 tools/update_context_summaries.py
+      - python3 tools/review_metrics.py
+      - python3 tools/orchestrator_hygiene.py
+      - python3 tools/escalate.py
+
+  dangerous:
+    description: "Commands that may affect network, dependencies, external systems, services, or irreversible project state."
+
+    commands:
+
+      # dependencies
+      - pip install
+      - pip uninstall
+      - npm install
+
+      # git remote / history mutation
+      - git push
+      - git pull
+      - git merge
+      - git rebase
+
+      # containers / services
+      - docker
+      - systemctl
+      - crontab
+
+      # network access
+      - curl
+      - wget

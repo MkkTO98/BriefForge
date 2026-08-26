@@ -1,0 +1,67 @@
+selection_policy:
+  principle: local_execution_cloud_governance
+  prefer_local_for_execution: true
+  prefer_cloud_for_high_value_governance: true
+  avoid_largest_by_default: true
+
+  context_budgets:
+    local_model_tokens: 24000
+    cloud_governance_tokens: 10000
+    cloud_governance_target_tokens: 8000
+    project_wide_review_tokens: 64000
+    project_wide_review_target_tokens: 32000
+    cloud_requires_context_audit: true
+    project_wide_review_requires_justification: true
+
+  local_execution_tasks:
+    summaries: small_summarizer
+    log_compression: small_summarizer
+    code_search: local_tools_or_local_model
+    routine_implementation: local_coding_model_if_available
+    refactoring: local_coding_model_if_available
+    debugging: local_coding_or_reasoning_model_first
+    tests: local_tools
+    documentation_update: local_model_first
+
+  cloud_governance_tasks:
+    architecture_review: compact_or_project_wide_cloud_audit
+    strategic_planning: compact_or_project_wide_cloud_audit
+    project_audit: compact_or_project_wide_cloud_audit
+    gap_analysis: compact_or_project_wide_cloud_audit
+    redesign: compact_or_project_wide_cloud_audit
+    consistency_review: compact_or_project_wide_cloud_audit
+
+  cloud_escalation_only_if:
+    - architecture_decision_needed
+    - project_audit_or_gap_analysis_needed
+    - strategic_planning_or_redesign_needed
+    - consistency_review_needed
+    - local_model_fails_twice
+    - ambiguity_level_high
+    - user_explicitly_requests_cloud_model
+    - safety_critical_destructive_operation_requires_higher_reasoning
+
+  escalation:
+    capability_failure_chain:
+      - current_model
+      - stronger_local_model
+      - openai_codex_or_premium_model_after_audit
+      - human
+    human_first_for:
+      - permission_required
+      - credential_handling
+      - destructive_command
+      - git_push
+      - money_or_billing_risk
+      - production_data_change
+      - unresolved_specification
+
+  task_size_policy:
+    summarization: small_summarizer
+    folder_summary_update: small_summarizer
+    log_compression: small_summarizer
+    routine_coding: coder_default
+    debugging: coder_or_reviewer
+    architecture_review: planner_or_premium_after_audit
+    project_wide_review: premium_after_justified_context_audit
+    repeated_failure: escalate_after_local_failures_and_context_audit

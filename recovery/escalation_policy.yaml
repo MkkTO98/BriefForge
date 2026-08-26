@@ -1,0 +1,23 @@
+escalation_policy:
+  capability_failure_chain:
+    - local_worker
+    - local_reviewer
+    - stronger_local_model_if_available
+    - codex_or_premium_model_if_configured
+    - human_if_still_blocked
+
+  direct_human_escalation:
+    - secrets
+    - credentials
+    - money
+    - destructive_commands
+    - production_data
+    - legal_or_ethics_risk
+    - git_push
+    - permission_policy_change
+
+  deferred_specification:
+    rule: if a deferred issue blocks the same task twice, create a Level 3 question and store the answer as a decision artifact.
+
+  tooling:
+    create_escalation_record: tools/escalate.py

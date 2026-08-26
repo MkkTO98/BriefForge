@@ -1,0 +1,26 @@
+{
+  "extensions": [],
+  "identity": "judgment:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "ValidationJudgmentRecord",
+  "semantic": {
+    "candidate_fingerprint": "62f79aab2234c99025612fd77618e5f8df9b5fc608e7ca24a41ff3bf93967108",
+    "candidate_ref": "candidate:case-2",
+    "executed_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6"
+    ],
+    "findings": [],
+    "policy_id": "bcrp-validation-policy:1.0.0",
+    "valid": true,
+    "validation_time": "2026-07-16T11:00:00Z"
+  }
+}

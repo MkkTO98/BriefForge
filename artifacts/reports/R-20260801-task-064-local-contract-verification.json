@@ -1,0 +1,219 @@
+{
+  "candidate_created": false,
+  "checks": [
+    {
+      "check": "ledger-counts-and-status",
+      "detail": {
+        "conditional": 2,
+        "excluded": 3,
+        "items": 109,
+        "mandatory": 104,
+        "status": "complete-after-independent-review-remediation"
+      },
+      "passed": true
+    },
+    {
+      "check": "ledger-destinations-declared",
+      "detail": {
+        "unresolved": 0
+      },
+      "passed": true
+    },
+    {
+      "check": "material-source-elements-enumerated",
+      "detail": {
+        "missing": []
+      },
+      "passed": true
+    },
+    {
+      "check": "source-domain-coverage-register",
+      "detail": {
+        "missing": [],
+        "unexpected": []
+      },
+      "passed": true
+    },
+    {
+      "check": "candidate-destination-bcrp-identity-grammar",
+      "detail": {
+        "invalid": []
+      },
+      "passed": true
+    },
+    {
+      "check": "candidate-destination-resolution",
+      "detail": {
+        "known_identities": 117,
+        "unresolved": []
+      },
+      "passed": true
+    },
+    {
+      "check": "classification-role-base-row-binding",
+      "detail": {
+        "bindings": 14
+      },
+      "passed": true
+    },
+    {
+      "check": "seven-explicit-row-provenance-objects",
+      "detail": {
+        "errors": [],
+        "objects": 7
+      },
+      "passed": true
+    },
+    {
+      "check": "source-locator-integrity",
+      "detail": {
+        "investment": [
+          "line 21",
+          "line 34"
+        ],
+        "pooled": [
+          "line 74",
+          "line 117"
+        ],
+        "source_provenance": "/source_commit"
+      },
+      "passed": true
+    },
+    {
+      "check": "table-cardinality-columns-and-source",
+      "detail": {
+        "coefficients": 14,
+        "errors": [],
+        "rows": 7
+      },
+      "passed": true
+    },
+    {
+      "check": "one-row-identity-namespace",
+      "detail": {
+        "blueprint_rows": [
+          "row:T031-DNK-private-credit-broad-money",
+          "row:T033-NOR-fossil-nonhydro-renewables",
+          "row:T035-C1-NOR-fossil-under5-mortality",
+          "row:T035-C1-NOR-life-expectancy-under5-mortality",
+          "row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "row:T036-SWE-private-credit-mobile-subscriptions",
+          "row:T038-DNK-agricultural-land-private-credit"
+        ],
+        "table_rows": [
+          "row:T031-DNK-private-credit-broad-money",
+          "row:T033-NOR-fossil-nonhydro-renewables",
+          "row:T035-C1-NOR-fossil-under5-mortality",
+          "row:T035-C1-NOR-life-expectancy-under5-mortality",
+          "row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "row:T036-SWE-private-credit-mobile-subscriptions",
+          "row:T038-DNK-agricultural-land-private-credit"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "check": "conditional-composition-not-mandatory",
+      "detail": {
+        "conditional": [
+          "statement:task065-coefficient-ranges-if-used",
+          "statement:task065-lens-boundary-if-used"
+        ],
+        "unconditional_conflicts": []
+      },
+      "passed": true
+    },
+    {
+      "check": "blueprint-ledger-index-complete",
+      "detail": {
+        "index_entries": 109
+      },
+      "passed": true
+    },
+    {
+      "check": "all-statement-inventories-deduplicated",
+      "detail": {
+        "duplicates": {},
+        "inventory_sizes": {
+          "framing": 4,
+          "index": 76,
+          "limitations": 10,
+          "qualifications": 7,
+          "rows": 7
+        }
+      },
+      "passed": true
+    },
+    {
+      "check": "bcrp-capacity-scoped",
+      "detail": "sufficient",
+      "passed": true
+    },
+    {
+      "check": "task063-gate-rejection",
+      "detail": {
+        "findings": 6
+      },
+      "passed": true
+    },
+    {
+      "check": "markdown-json-coherence",
+      "detail": {
+        "status_line": "Status: independent-review blockers remediated; final re-review pending"
+      },
+      "passed": true
+    },
+    {
+      "check": "task063-historical-immutability",
+      "detail": {
+        "errors": [],
+        "paths_checked": 49
+      },
+      "passed": true
+    },
+    {
+      "check": "no-task064-publication-authority",
+      "detail": {
+        "forbidden": []
+      },
+      "passed": true
+    },
+    {
+      "check": "provenance-and-obligation-reciprocal-target-closure",
+      "detail": {
+        "forward_errors": [],
+        "ledger_declarations": 218,
+        "obligation_target_counts": {
+          "obligation:display-exclusions-task065": 1,
+          "obligation:display-source-task065": 1,
+          "obligation:future-work-language-task065": 1,
+          "obligation:preserve-source-meaning-task065": 82,
+          "obligation:qualification-attachment-task065": 7
+        },
+        "reverse_errors": [],
+        "source_provenance_targets": 92
+      },
+      "passed": true
+    }
+  ],
+  "checks_passed": 20,
+  "checks_total": 20,
+  "historical_task063_paths_checked": 49,
+  "html_created": false,
+  "release_created": false,
+  "review_blockers_addressed": [
+    "material source exhaustiveness",
+    "attachment namespace closure",
+    "explicit row provenance",
+    "source locator truthfulness",
+    "valid and resolved Candidate destinations",
+    "single row identity namespace",
+    "conditional topology",
+    "JSON/Markdown coherence",
+    "full statement inventory deduplication",
+    "reciprocal non-transitive attachment target closure"
+  ],
+  "schema": "briefforge-task064-local-contract-verification-v4",
+  "status": "pass",
+  "task_id": "TASK-064"
+}

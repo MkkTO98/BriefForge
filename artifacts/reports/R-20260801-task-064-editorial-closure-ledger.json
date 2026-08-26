@@ -1,0 +1,3157 @@
+{
+  "closure_result": "complete",
+  "conditional_item_count": 2,
+  "excluded_item_count": 3,
+  "item_count": 109,
+  "items": [
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "structural-text",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/experimental_brief_candidate/bounded_headline",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "section:task065-root",
+      "intended_rendered_destination": "document title",
+      "item_category": "title",
+      "item_id": "closure:title",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "Seven selected WDI relationships show one recurring warning: level correlations weaken materially in same-year annual changes."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/experimental_brief_candidate/reader_interpretation_change",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-introduction",
+      "intended_rendered_destination": "introductory paragraph",
+      "item_category": "introductory-framing",
+      "item_id": "closure:intro-framing",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand",
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": "Read a strong raw correlation as a prompt for transformation-aware challenge, not as self-sufficient evidence of stable contemporaneous co-movement or mechanism."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": [
+        "/cases/0/relationship",
+        "/cases/0/case_specific_explanations",
+        "/cases/0/common_threats"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-inquiry-denmark-finance",
+      "intended_rendered_destination": "inquiry framing before table",
+      "item_category": "source-inquiry",
+      "item_id": "closure:inquiry-denmark-finance",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [
+        "qualification:T031-DNK-private-credit-broad-money"
+      ],
+      "source_authored_meaning": "Denmark inquiry: private credit versus broad money, preserving shared-GDP-denominator and unresolved-lag qualifications."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": [
+        "/cases/1/relationship",
+        "/cases/1/case_specific_explanations",
+        "/cases/1/common_threats"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-inquiry-norway-energy",
+      "intended_rendered_destination": "inquiry framing before table",
+      "item_category": "source-inquiry",
+      "item_id": "closure:inquiry-norway-energy",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [
+        "qualification:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "source_authored_meaning": "Norway inquiry: fossil electricity share versus non-hydro renewable electricity share, preserving common-total denominator, hydro omission, and unresolved substitution."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/observed_pattern",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-cross-inquiry-synthesis",
+      "intended_rendered_destination": "executive conclusion and synthesis section",
+      "item_category": "cross-inquiry-synthesis",
+      "item_id": "closure:cross-inquiry-synthesis",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:dependence",
+        "closure:selection-nonrandom",
+        "closure:transformation-estimand",
+        "closure:no-general-law"
+      ],
+      "source_authored_meaning": "Every explicitly included relationship has a smaller absolute first-difference coefficient than raw coefficient and was published with the qualitative classification weakens materially."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/estimand_boundary",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-estimand-boundary",
+      "intended_rendered_destination": "interpretation section and table qualification",
+      "item_category": "transformation-aware-interpretation",
+      "item_id": "closure:transformation-estimand",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "closure:cross-inquiry-synthesis"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "Raw and first-difference coefficients answer different estimands: same-period co-movement in levels versus same-period co-movement in annual changes. Attenuation is a transformation-aware reassessment, not a corrected estimate of the same quantity."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/dependence_clusters",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-dependence",
+      "intended_rendered_destination": "dependence section",
+      "item_category": "dependence",
+      "item_id": "closure:dependence",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:no-pooled-inference",
+        "closure:no-general-law"
+      ],
+      "source_authored_meaning": "All seven rows are methodologically dependent; additional T-035, Norway-electricity, private-credit, and selection-lineage clusters must be preserved."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/sample_is_small_selected_and_nonrandom",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-selection-boundary",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selection-and-corpus-bias",
+      "item_id": "closure:selection-nonrandom",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "closure:selected-universe",
+        "closure:limited-corpus"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "The corpus is small, selected, dependent, and nonrandom."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/candidate_universe",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-selected-universe",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selected-universe-limitation",
+      "item_id": "closure:selected-universe",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:no-general-law",
+        "closure:no-pooled-inference"
+      ],
+      "source_authored_meaning": "A narrow admitted inventory of WDI annual-scalar raw Pearson relationships with first-difference companions; not a random sample of economic relationships."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/confidence_by_claim_type/generalization_beyond_current_corpus/basis",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-limited-corpus",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "limited-corpus-status",
+      "item_id": "closure:limited-corpus",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "The sample is small, selected, dependent, method-homogeneous, Nordic, annual, and nonrandom."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/experimental_brief_candidate/evidence_frontier_limitation",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-methodological-limits",
+      "intended_rendered_destination": "limitations section",
+      "item_category": "methodological-limits",
+      "item_id": "closure:methodological-limits",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "The admitted frontier has raw and first-difference Pearson evidence only; no significance, stationarity, rolling, lagged, rank, regression, partial-correlation, subperiod, break, regime, or robustness family is admitted."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "obligation",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/experimental_brief_candidate/unresolved_questions",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-unresolved-questions",
+      "intended_rendered_destination": "unresolved questions section",
+      "item_category": "follow-up-or-future-work",
+      "item_id": "closure:follow-up",
+      "obligation_attachments": [
+        "obligation:future-work-language-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": [
+        "Which explanation dominates in each case?",
+        "Do lagged, nonlinear, subperiod, break, regime, or revision-aware analyses alter interpretation?",
+        "How sensitive are results to windows, missing years, and outliers?"
+      ]
+    },
+    {
+      "authoritative_source_artifact": "BriefForge:artifacts/reports/R-20260801-task-063-source-revalidation.json",
+      "closure_state": "closed",
+      "content_character": "provenance",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/source_commit",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "provenance:t039-source-snapshot-task065",
+      "intended_rendered_destination": "source note and per-row provenance",
+      "item_category": "source-provenance",
+      "item_id": "closure:source-provenance",
+      "obligation_attachments": [
+        "obligation:display-source-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "All displayed analytical content is traceable to admitted T-039 at immutable commit db97c30f2a79f3f1526c5c3347238f7d58be9d12."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/source_boundary",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-evidence-boundary",
+      "intended_rendered_destination": "scope and method note",
+      "item_category": "explicit-exclusions",
+      "item_id": "closure:evidence-boundary-exclusions",
+      "obligation_attachments": [
+        "obligation:display-exclusions-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "No raw source records or upstream database access, recomputation, new relationship selection, or unselected C1/C3 inspection occurred."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": [
+        "line 74",
+        "line 117"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-pooled",
+      "intended_rendered_destination": "limitations section",
+      "item_category": "prohibited-pooled-interpretation",
+      "item_id": "closure:no-pooled-inference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "The seven rows do not support pooled inference or independent replication."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/causality_or_mechanism_established",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-causal",
+      "intended_rendered_destination": "limitations section",
+      "item_category": "prohibited-causal-interpretation",
+      "item_id": "closure:no-causal-interpretation",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "No causal explanation or mechanism is established."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/disposition/forecast_or_recommendation_created",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-forecast",
+      "intended_rendered_destination": "limitations and disposition section",
+      "item_category": "prohibited-forecasting-interpretation",
+      "item_id": "closure:no-forecasting-interpretation",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "No forecast or recommendation is created."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/replication_interpretation",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-general-law",
+      "intended_rendered_destination": "limitations section",
+      "item_category": "prohibited-general-law-interpretation",
+      "item_id": "closure:no-general-law",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "The repeated observation is credible as a workflow-level warning across heterogeneous relationships, but not as seven independent replications of one economic law or one causal explanation."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/8",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-significance",
+      "intended_rendered_destination": "limitations section",
+      "item_category": "prohibited-significance-conclusion",
+      "item_id": "closure:no-significance",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "statistical significance or insignificance, because no significance evidence is admitted"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/decisions/D-20260717-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": [
+        "line 21",
+        "line 34"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-investment",
+      "intended_rendered_destination": "limitations and disposition section",
+      "item_category": "prohibited-investment-conclusion",
+      "item_id": "closure:no-investment",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "No investment relevance or policy/investment recommendation is established or accepted."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/stationarity_established",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-stationarity",
+      "intended_rendered_destination": "limitations section",
+      "item_category": "prohibited-stationarity-interpretation",
+      "item_id": "closure:no-stationarity",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "First differencing does not prove stationarity."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/10",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-prohibited-reversal-null",
+      "intended_rendered_destination": "limitations section",
+      "item_category": "prohibited-reversal-or-null-interpretation",
+      "item_id": "closure:no-reversal-absence",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "causality, reversal, absence, independence, or a predominant cause"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cross_case_assessment/analytical_practice_guidance",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-practice-guidance",
+      "intended_rendered_destination": "practice guidance section",
+      "item_category": "analytical-practice-guidance",
+      "item_id": "closure:analytical-practice-guidance",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:methodological-limits"
+      ],
+      "source_authored_meaning": [
+        "Treat a strong raw correlation as a question generator, not as evidence of a stable short-run relationship.",
+        "Verify source ownership, package identity, method, transformation, aligned periods, counts, and missingness before interpretation.",
+        "Compare raw and transformation-aware evidence before writing a mechanism or decision narrative.",
+        "Describe attenuation as weakening of the raw interpretation, not as proof of spuriousness, reversal, absence, or a predominant trend cause.",
+        "Inspect time-index diagnostics, denominator and composition risks, measurement construction, and coverage when they are admitted, while preserving their diagnostic limits.",
+        "Preserve case-specific alternatives and cross-case dependence instead of counting relationship rows as independent replications.",
+        "Escalate only to admitted evidence capable of discriminating lag, nonlinearity, subperiod, break, regime, outlier, significance, revision, or mechanism alternatives.",
+        "Stop when the available evidence only repeats the same raw-versus-first-difference contrast without adding discrimination."
+      ]
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/disposition",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-disposition",
+      "intended_rendered_destination": "final disposition note",
+      "item_category": "authority-disposition",
+      "item_id": "closure:disposition",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "No finding, hypothesis, thesis, signal, forecast, recommendation, architecture change, new method, transformation, or upstream obligation is created or accepted."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/0/relationship",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-01",
+      "intended_rendered_destination": "table:task065-comparisons/row:T031-DNK-private-credit-broad-money/column:relationship-case",
+      "item_category": "selected-relationship",
+      "item_id": "relationship:T031-DNK-private-credit-broad-money",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "value:T031-DNK-private-credit-broad-money:raw",
+        "value:T031-DNK-private-credit-broad-money:first-difference",
+        "classification:T031-DNK-private-credit-broad-money",
+        "evidence-role:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [
+        "qualification:T031-DNK-private-credit-broad-money"
+      ],
+      "source_authored_meaning": "Domestic credit to private sector (% of GDP) versus broad money (% of GDP)"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/0/evidence/raw",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-01-raw",
+      "intended_rendered_destination": "table:task065-comparisons/row:T031-DNK-private-credit-broad-money/columns:raw-coefficient+raw-state",
+      "item_category": "raw-result",
+      "item_id": "value:T031-DNK-private-credit-broad-money:raw",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [
+        "qualification:T031-DNK-private-credit-broad-money"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "coefficient": "0.316082156476",
+        "transformation_state": "raw"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/0/evidence/first_difference",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-01-first-difference",
+      "intended_rendered_destination": "table:task065-comparisons/row:T031-DNK-private-credit-broad-money/columns:first-difference-coefficient+first-difference-state",
+      "item_category": "first-difference-result",
+      "item_id": "value:T031-DNK-private-credit-broad-money:first-difference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [
+        "qualification:T031-DNK-private-credit-broad-money",
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "coefficient": "-0.083567273412",
+        "transformation_state": "first_difference"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/0/classification",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-01",
+      "intended_rendered_destination": "supporting row note for row:T031-DNK-private-credit-broad-money",
+      "item_category": "classification",
+      "item_id": "classification:T031-DNK-private-credit-broad-money",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "weakens materially"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/0/inclusion_role",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-01",
+      "intended_rendered_destination": "supporting row note for row:T031-DNK-private-credit-broad-money",
+      "item_category": "evidence-role",
+      "item_id": "evidence-role:T031-DNK-private-credit-broad-money",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "core_published_production_inquiry_evidence"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/0",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-qualification-01",
+      "intended_rendered_destination": "qualification block keyed to row:T031-DNK-private-credit-broad-money",
+      "item_category": "case-qualification",
+      "item_id": "qualification:T031-DNK-private-credit-broad-money",
+      "obligation_attachments": [
+        "obligation:qualification-attachment-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "case_specific_explanations": [
+          "both indicators share a GDP denominator",
+          "non-contemporaneous monetary and credit-system linkage remains possible",
+          "modeled-estimation and administrative-reporting construction may contribute"
+        ],
+        "common_threats": [
+          "raw level co-movement may reflect gradual time movement rather than contemporaneous annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window and source-revision sensitivity",
+          "no admitted significance, lag, regime, mechanism, or causal evidence"
+        ],
+        "dependence_notes": [
+          "shares Denmark and private-credit series exposure with T-038",
+          "uses the same WDI/Pearson/first-difference method family and a nearly identical time window as every other case"
+        ],
+        "independence_classification": "heterogeneous relationship but methodologically and partially indicator-dependent",
+        "strongest_defensible_conclusion": "The accepted positive level association does not persist as comparable same-period annual-change co-movement; the cause of attenuation is not identified."
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/1/relationship",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-02",
+      "intended_rendered_destination": "table:task065-comparisons/row:T033-NOR-fossil-nonhydro-renewables/column:relationship-case",
+      "item_category": "selected-relationship",
+      "item_id": "relationship:T033-NOR-fossil-nonhydro-renewables",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "value:T033-NOR-fossil-nonhydro-renewables:raw",
+        "value:T033-NOR-fossil-nonhydro-renewables:first-difference",
+        "classification:T033-NOR-fossil-nonhydro-renewables",
+        "evidence-role:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [
+        "qualification:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "source_authored_meaning": "Electricity production from fossil sources (% of total) versus non-hydro renewable sources (% of total)"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/1/evidence/raw",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-02-raw",
+      "intended_rendered_destination": "table:task065-comparisons/row:T033-NOR-fossil-nonhydro-renewables/columns:raw-coefficient+raw-state",
+      "item_category": "raw-result",
+      "item_id": "value:T033-NOR-fossil-nonhydro-renewables:raw",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [
+        "qualification:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 32,
+        "aligned_period": "1990-2021",
+        "coefficient": "0.315942832953",
+        "transformation_state": "raw"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/1/evidence/first_difference",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-02-first-difference",
+      "intended_rendered_destination": "table:task065-comparisons/row:T033-NOR-fossil-nonhydro-renewables/columns:first-difference-coefficient+first-difference-state",
+      "item_category": "first-difference-result",
+      "item_id": "value:T033-NOR-fossil-nonhydro-renewables:first-difference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [
+        "qualification:T033-NOR-fossil-nonhydro-renewables",
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 31,
+        "aligned_period": "1991-2021",
+        "coefficient": "-0.204185174675",
+        "transformation_state": "first_difference"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/1/classification",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-02",
+      "intended_rendered_destination": "supporting row note for row:T033-NOR-fossil-nonhydro-renewables",
+      "item_category": "classification",
+      "item_id": "classification:T033-NOR-fossil-nonhydro-renewables",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "weakens materially"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/1/inclusion_role",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-02",
+      "intended_rendered_destination": "supporting row note for row:T033-NOR-fossil-nonhydro-renewables",
+      "item_category": "evidence-role",
+      "item_id": "evidence-role:T033-NOR-fossil-nonhydro-renewables",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "core_published_production_inquiry_evidence"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/1",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-qualification-02",
+      "intended_rendered_destination": "qualification block keyed to row:T033-NOR-fossil-nonhydro-renewables",
+      "item_category": "case-qualification",
+      "item_id": "qualification:T033-NOR-fossil-nonhydro-renewables",
+      "obligation_attachments": [
+        "obligation:qualification-attachment-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "case_specific_explanations": [
+          "both indicators are shares of total electricity production",
+          "hydroelectric generation is omitted from the non-hydro renewable indicator",
+          "weather, hydrology, capacity, policy, and compositional substitution remain unresolved"
+        ],
+        "common_threats": [
+          "raw level co-movement may reflect gradual time movement rather than contemporaneous annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-observation, and revision sensitivity",
+          "no admitted significance, lag, regime, mechanism, or causal evidence"
+        ],
+        "dependence_notes": [
+          "shares both Norway electricity indicators and overlapping years with two T-035 mortality cases",
+          "uses the same WDI/Pearson/first-difference method family as every other case"
+        ],
+        "independence_classification": "substantively distinct from finance cases but strongly dependent on the Norway electricity cluster",
+        "strongest_defensible_conclusion": "The positive level association is not preserved as positive annual-change co-movement, but sign change does not establish reversal or substitution."
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/2/relationship",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-03",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-life-expectancy-under5-mortality/column:relationship-case",
+      "item_category": "selected-relationship",
+      "item_id": "relationship:T035-C1-NOR-life-expectancy-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "value:T035-C1-NOR-life-expectancy-under5-mortality:raw",
+        "value:T035-C1-NOR-life-expectancy-under5-mortality:first-difference",
+        "classification:T035-C1-NOR-life-expectancy-under5-mortality",
+        "evidence-role:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "source_authored_meaning": "Life expectancy at birth versus under-5 mortality"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/2/evidence/raw",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-03-raw",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-life-expectancy-under5-mortality/columns:raw-coefficient+raw-state",
+      "item_category": "raw-result",
+      "item_id": "value:T035-C1-NOR-life-expectancy-under5-mortality:raw",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "coefficient": "-0.951151571489",
+        "transformation_state": "raw"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/2/evidence/first_difference",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-03-first-difference",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-life-expectancy-under5-mortality/columns:first-difference-coefficient+first-difference-state",
+      "item_category": "first-difference-result",
+      "item_id": "value:T035-C1-NOR-life-expectancy-under5-mortality:first-difference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-life-expectancy-under5-mortality",
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "coefficient": "-0.207863151096",
+        "transformation_state": "first_difference"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/2/classification",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-03",
+      "intended_rendered_destination": "supporting row note for row:T035-C1-NOR-life-expectancy-under5-mortality",
+      "item_category": "classification",
+      "item_id": "classification:T035-C1-NOR-life-expectancy-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "weakens materially"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/2/inclusion_role",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-03",
+      "intended_rendered_destination": "supporting row note for row:T035-C1-NOR-life-expectancy-under5-mortality",
+      "item_category": "evidence-role",
+      "item_id": "evidence-role:T035-C1-NOR-life-expectancy-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "context_only_result_informed_curation"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/2",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-qualification-03",
+      "intended_rendered_destination": "qualification block keyed to row:T035-C1-NOR-life-expectancy-under5-mortality",
+      "item_category": "case-qualification",
+      "item_id": "qualification:T035-C1-NOR-life-expectancy-under5-mortality",
+      "obligation_attachments": [
+        "obligation:qualification-attachment-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "case_specific_explanations": [
+          "both health indicators may share modeled-data and administrative-reporting processes",
+          "long-run health-system and socioeconomic improvement can move both levels without matching annual shocks",
+          "unmeasured demographic and health-system factors remain unresolved"
+        ],
+        "common_threats": [
+          "strong raw level co-movement need not imply comparable annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window and source-revision sensitivity",
+          "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+        ],
+        "dependence_notes": [
+          "one of three result-informed T-035 C1 relationships sharing Norway, under-5 mortality, method, transformation, and overlapping years",
+          "selected from the same bounded numerical curation exercise as the other two T-035 rows"
+        ],
+        "independence_classification": "not independent of the T-035 C1 cluster",
+        "strongest_defensible_conclusion": "The very strong negative level coefficient is much smaller in annual changes; the published evidence does not identify whether trend, measurement, noise, or omitted factors explain the attenuation."
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/3/relationship",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-04",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-nonhydro-renewables-under5-mortality/column:relationship-case",
+      "item_category": "selected-relationship",
+      "item_id": "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:raw",
+        "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:first-difference",
+        "classification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "evidence-role:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "source_authored_meaning": "Non-hydro renewable electricity share versus under-5 mortality"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/3/evidence/raw",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-04-raw",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-nonhydro-renewables-under5-mortality/columns:raw-coefficient+raw-state",
+      "item_category": "raw-result",
+      "item_id": "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:raw",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 32,
+        "aligned_period": "1990-2021",
+        "coefficient": "-0.652623909096",
+        "transformation_state": "raw"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/3/evidence/first_difference",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-04-first-difference",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-nonhydro-renewables-under5-mortality/columns:first-difference-coefficient+first-difference-state",
+      "item_category": "first-difference-result",
+      "item_id": "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:first-difference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 31,
+        "aligned_period": "1991-2021",
+        "coefficient": "0.3855860099",
+        "transformation_state": "first_difference"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/3/classification",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-04",
+      "intended_rendered_destination": "supporting row note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "item_category": "classification",
+      "item_id": "classification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "weakens materially"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/3/inclusion_role",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-04",
+      "intended_rendered_destination": "supporting row note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "item_category": "evidence-role",
+      "item_id": "evidence-role:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "context_only_result_informed_curation"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/3",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-qualification-04",
+      "intended_rendered_destination": "qualification block keyed to row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "item_category": "case-qualification",
+      "item_id": "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "obligation_attachments": [
+        "obligation:qualification-attachment-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "case_specific_explanations": [
+          "electricity-share denominator and composition effects",
+          "weather and hydro-output variation",
+          "energy variables are contextual correlates rather than admitted mortality mechanisms"
+        ],
+        "common_threats": [
+          "raw level co-movement need not imply comparable annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-ending-year, and source-revision sensitivity",
+          "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+        ],
+        "dependence_notes": [
+          "shares Norway, under-5 mortality, curation procedure, method, and years with the other T-035 C1 rows",
+          "shares the non-hydro renewable series and overlapping years with T-033"
+        ],
+        "independence_classification": "strongly dependent on both the T-035 C1 and Norway electricity clusters",
+        "strongest_defensible_conclusion": "The coefficient changes sign across level and annual-change estimands; this weakens the raw interpretation but does not establish reversal or an energy-to-mortality mechanism."
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/4/relationship",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-05",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-fossil-under5-mortality/column:relationship-case",
+      "item_category": "selected-relationship",
+      "item_id": "relationship:T035-C1-NOR-fossil-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "value:T035-C1-NOR-fossil-under5-mortality:raw",
+        "value:T035-C1-NOR-fossil-under5-mortality:first-difference",
+        "classification:T035-C1-NOR-fossil-under5-mortality",
+        "evidence-role:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "source_authored_meaning": "Fossil electricity share versus under-5 mortality"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/4/evidence/raw",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-05-raw",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-fossil-under5-mortality/columns:raw-coefficient+raw-state",
+      "item_category": "raw-result",
+      "item_id": "value:T035-C1-NOR-fossil-under5-mortality:raw",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 34,
+        "aligned_period": "1990-2023",
+        "coefficient": "-0.618717118858",
+        "transformation_state": "raw"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/4/evidence/first_difference",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-05-first-difference",
+      "intended_rendered_destination": "table:task065-comparisons/row:T035-C1-NOR-fossil-under5-mortality/columns:first-difference-coefficient+first-difference-state",
+      "item_category": "first-difference-result",
+      "item_id": "value:T035-C1-NOR-fossil-under5-mortality:first-difference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-fossil-under5-mortality",
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 33,
+        "aligned_period": "1991-2023",
+        "coefficient": "-0.083376899169",
+        "transformation_state": "first_difference"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/4/classification",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-05",
+      "intended_rendered_destination": "supporting row note for row:T035-C1-NOR-fossil-under5-mortality",
+      "item_category": "classification",
+      "item_id": "classification:T035-C1-NOR-fossil-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "weakens materially"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/4/inclusion_role",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-05",
+      "intended_rendered_destination": "supporting row note for row:T035-C1-NOR-fossil-under5-mortality",
+      "item_category": "evidence-role",
+      "item_id": "evidence-role:T035-C1-NOR-fossil-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "context_only_result_informed_curation"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/4",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-qualification-05",
+      "intended_rendered_destination": "qualification block keyed to row:T035-C1-NOR-fossil-under5-mortality",
+      "item_category": "case-qualification",
+      "item_id": "qualification:T035-C1-NOR-fossil-under5-mortality",
+      "obligation_attachments": [
+        "obligation:qualification-attachment-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "case_specific_explanations": [
+          "electricity-share denominator and composition effects",
+          "weather, hydro-output, policy, and generation-mix variation",
+          "energy variables are contextual correlates rather than admitted mortality mechanisms"
+        ],
+        "common_threats": [
+          "raw level co-movement need not imply comparable annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-ending-year, and source-revision sensitivity",
+          "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+        ],
+        "dependence_notes": [
+          "shares Norway, under-5 mortality, curation procedure, method, and years with the other T-035 C1 rows",
+          "shares the fossil electricity series and overlapping years with T-033"
+        ],
+        "independence_classification": "strongly dependent on both the T-035 C1 and Norway electricity clusters",
+        "strongest_defensible_conclusion": "The negative level coefficient becomes numerically much smaller in annual changes; this does not establish absence, independence, or a mortality mechanism."
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/5/relationship",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-06",
+      "intended_rendered_destination": "table:task065-comparisons/row:T036-SWE-private-credit-mobile-subscriptions/column:relationship-case",
+      "item_category": "selected-relationship",
+      "item_id": "relationship:T036-SWE-private-credit-mobile-subscriptions",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "value:T036-SWE-private-credit-mobile-subscriptions:raw",
+        "value:T036-SWE-private-credit-mobile-subscriptions:first-difference",
+        "classification:T036-SWE-private-credit-mobile-subscriptions",
+        "evidence-role:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [
+        "qualification:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "source_authored_meaning": "Domestic credit to private sector (% of GDP) versus mobile cellular subscriptions (per 100 people)"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/5/evidence/raw",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-06-raw",
+      "intended_rendered_destination": "table:task065-comparisons/row:T036-SWE-private-credit-mobile-subscriptions/columns:raw-coefficient+raw-state",
+      "item_category": "raw-result",
+      "item_id": "value:T036-SWE-private-credit-mobile-subscriptions:raw",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [
+        "qualification:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 35,
+        "aligned_period": "1990-2024",
+        "coefficient": "0.937758474347",
+        "transformation_state": "raw"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/5/evidence/first_difference",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-06-first-difference",
+      "intended_rendered_destination": "table:task065-comparisons/row:T036-SWE-private-credit-mobile-subscriptions/columns:first-difference-coefficient+first-difference-state",
+      "item_category": "first-difference-result",
+      "item_id": "value:T036-SWE-private-credit-mobile-subscriptions:first-difference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [
+        "qualification:T036-SWE-private-credit-mobile-subscriptions",
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 34,
+        "aligned_period": "1991-2024",
+        "coefficient": "0.161115218727",
+        "transformation_state": "first_difference"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/5/classification",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-06",
+      "intended_rendered_destination": "supporting row note for row:T036-SWE-private-credit-mobile-subscriptions",
+      "item_category": "classification",
+      "item_id": "classification:T036-SWE-private-credit-mobile-subscriptions",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "weakens materially"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/5/inclusion_role",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-06",
+      "intended_rendered_destination": "supporting row note for row:T036-SWE-private-credit-mobile-subscriptions",
+      "item_category": "evidence-role",
+      "item_id": "evidence-role:T036-SWE-private-credit-mobile-subscriptions",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "qualified_analytical_byproduct"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/5",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-qualification-06",
+      "intended_rendered_destination": "qualification block keyed to row:T036-SWE-private-credit-mobile-subscriptions",
+      "item_category": "case-qualification",
+      "item_id": "qualification:T036-SWE-private-credit-mobile-subscriptions",
+      "obligation_attachments": [
+        "obligation:qualification-attachment-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "case_specific_explanations": [
+          "mobile-adoption saturation and nonlinear diffusion",
+          "credit cycles may be unrelated to annual subscription changes",
+          "income, technology, regulation, pricing, and demographics remain omitted"
+        ],
+        "common_threats": [
+          "parallel long-run development can produce level co-movement without strong annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window and source-revision sensitivity",
+          "no admitted significance, lag, nonlinearity, regime, mechanism, or causal evidence"
+        ],
+        "dependence_notes": [
+          "shares private-credit indicator family with T-031 and T-038 but uses a different country or paired series",
+          "uses the same WDI/Pearson/first-difference method family and overlapping decades as every other case"
+        ],
+        "independence_classification": "heterogeneous relationship but methodologically and indicator-family dependent",
+        "strongest_defensible_conclusion": "The very strong positive level coefficient is not preserved as comparably strong annual-change co-movement; T-036 retains this analytical byproduct while remaining checkpoint-nonconforming."
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/6/relationship",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-07",
+      "intended_rendered_destination": "table:task065-comparisons/row:T038-DNK-agricultural-land-private-credit/column:relationship-case",
+      "item_category": "selected-relationship",
+      "item_id": "relationship:T038-DNK-agricultural-land-private-credit",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "value:T038-DNK-agricultural-land-private-credit:raw",
+        "value:T038-DNK-agricultural-land-private-credit:first-difference",
+        "classification:T038-DNK-agricultural-land-private-credit",
+        "evidence-role:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [
+        "qualification:T038-DNK-agricultural-land-private-credit"
+      ],
+      "source_authored_meaning": "Agricultural land (% of land area) versus domestic credit to private sector (% of GDP)"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/6/evidence/raw",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-07-raw",
+      "intended_rendered_destination": "table:task065-comparisons/row:T038-DNK-agricultural-land-private-credit/columns:raw-coefficient+raw-state",
+      "item_category": "raw-result",
+      "item_id": "value:T038-DNK-agricultural-land-private-credit:raw",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [
+        "qualification:T038-DNK-agricultural-land-private-credit"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 34,
+        "aligned_period": "1990-2023",
+        "coefficient": "-0.667417505516",
+        "transformation_state": "raw"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/6/evidence/first_difference",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "value:task065-07-first-difference",
+      "intended_rendered_destination": "table:task065-comparisons/row:T038-DNK-agricultural-land-private-credit/columns:first-difference-coefficient+first-difference-state",
+      "item_category": "first-difference-result",
+      "item_id": "value:T038-DNK-agricultural-land-private-credit:first-difference",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [
+        "qualification:T038-DNK-agricultural-land-private-credit",
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": {
+        "aligned_count": 33,
+        "aligned_period": "1991-2023",
+        "coefficient": "0.058190335423",
+        "transformation_state": "first_difference"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/6/classification",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-07",
+      "intended_rendered_destination": "supporting row note for row:T038-DNK-agricultural-land-private-credit",
+      "item_category": "classification",
+      "item_id": "classification:T038-DNK-agricultural-land-private-credit",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "weakens materially"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/6/inclusion_role",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-row-07",
+      "intended_rendered_destination": "supporting row note for row:T038-DNK-agricultural-land-private-credit",
+      "item_category": "evidence-role",
+      "item_id": "evidence-role:T038-DNK-agricultural-land-private-credit",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": "core_published_production_inquiry_evidence"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicitly admitted and required to preserve the accepted T-039 meaning.",
+      "exact_source_locator": "/cases/6",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-qualification-07",
+      "intended_rendered_destination": "qualification block keyed to row:T038-DNK-agricultural-land-private-credit",
+      "item_category": "case-qualification",
+      "item_id": "qualification:T038-DNK-agricultural-land-private-credit",
+      "obligation_attachments": [
+        "obligation:qualification-attachment-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "case_specific_explanations": [
+          "agricultural-land structural change and private-credit financial deepening",
+          "private-credit-to-GDP denominator and financial-cycle variation",
+          "policy and institutional shifts remain unresolved"
+        ],
+        "common_threats": [
+          "opposing long-run structural movement can produce level co-movement without annual-change persistence",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-2024, outlier, and source-revision sensitivity",
+          "no admitted significance, lag, regime, mechanism, or causal evidence"
+        ],
+        "dependence_notes": [
+          "shares Denmark and private-credit series exposure with T-031",
+          "selection was inherited from T-036's published ranking rather than independently regenerated"
+        ],
+        "independence_classification": "analytically distinct but selection-lineage, country, indicator, and method dependent",
+        "strongest_defensible_conclusion": "The negative level coefficient is not preserved as comparable annual-change co-movement; sign change does not establish reversal, and strict compliance applies only to this inherited-selection inquiry."
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "The admitted T-039 boundary expressly excludes this material; explicit display is required to prevent misleading scope expansion.",
+      "exact_source_locator": "/source_boundary/unselected_c1_or_c3_results_inspected",
+      "inclusion_status": "excluded",
+      "intended_candidate_destination": "statement:task065-evidence-boundary",
+      "intended_rendered_destination": "scope and evidence-boundary note",
+      "item_category": "explicit-exclusion",
+      "item_id": "closure:exclude-unselected-results",
+      "obligation_attachments": [
+        "obligation:display-exclusions-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:evidence-boundary-exclusions"
+      ],
+      "source_authored_meaning": "Unselected C1/C3 results remain outside the admitted corpus."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "The admitted T-039 boundary expressly excludes this material; explicit display is required to prevent misleading scope expansion.",
+      "exact_source_locator": "/source_boundary/new_relationship_selected",
+      "inclusion_status": "excluded",
+      "intended_candidate_destination": "statement:task065-evidence-boundary",
+      "intended_rendered_destination": "scope and evidence-boundary note",
+      "item_category": "explicit-exclusion",
+      "item_id": "closure:exclude-new-relationships",
+      "obligation_attachments": [
+        "obligation:display-exclusions-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:evidence-boundary-exclusions"
+      ],
+      "source_authored_meaning": "No additional relationship may be selected."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "The admitted T-039 boundary expressly excludes this material; explicit display is required to prevent misleading scope expansion.",
+      "exact_source_locator": "/disposition/new_method_or_transformation_added",
+      "inclusion_status": "excluded",
+      "intended_candidate_destination": "statement:task065-evidence-boundary",
+      "intended_rendered_destination": "scope and evidence-boundary note",
+      "item_category": "explicit-exclusion",
+      "item_id": "closure:exclude-new-method",
+      "obligation_attachments": [
+        "obligation:display-exclusions-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:evidence-boundary-exclusions"
+      ],
+      "source_authored_meaning": "No new method or transformation is admitted."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/case_count_resolution",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-seven-case-resolution",
+      "intended_rendered_destination": "scope note before table",
+      "item_category": "scope-count-resolution",
+      "item_id": "closure:seven-case-count-resolution",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:evidence-boundary-exclusions"
+      ],
+      "source_authored_meaning": {
+        "explanation": "The instruction enumerates one T-031 case, one T-033 case, three T-035 C1 cases, one T-036 analytical byproduct, and one T-038 case. That is seven relationship-level cases. No explicit inclusion was silently removed to force a six-row matrix.",
+        "explicit_relationship_inclusions": 7,
+        "prompt_numeric_label": 6,
+        "relationship_level_case_count": 7,
+        "resolution_rule": "preserve_every_explicit_required_relationship"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/evidence_hierarchy",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-evidence-hierarchy",
+      "intended_rendered_destination": "scope and evidence hierarchy section",
+      "item_category": "evidence-hierarchy",
+      "item_id": "closure:evidence-hierarchy-aggregate",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": {
+        "context_only_case_count": 3,
+        "context_only_cases": [
+          "T035-C1-NOR-life-expectancy-under5-mortality",
+          "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "T035-C1-NOR-fossil-under5-mortality"
+        ],
+        "context_only_rows_do_not_enlarge_core_governed_sample": true,
+        "core_case_count": 3,
+        "core_cases": [
+          "T031-DNK-private-credit-broad-money",
+          "T033-NOR-fossil-nonhydro-renewables",
+          "T038-DNK-agricultural-land-private-credit"
+        ],
+        "qualified_case_count": 1,
+        "qualified_cases": [
+          "T036-SWE-private-credit-mobile-subscriptions"
+        ]
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/sign_change_cases",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-four-sign-changes",
+      "intended_rendered_destination": "synthesis section",
+      "item_category": "cross-case-pattern",
+      "item_id": "closure:four-sign-changes",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:no-reversal-absence"
+      ],
+      "source_authored_meaning": {
+        "cases": [
+          "T031-DNK-private-credit-broad-money",
+          "T033-NOR-fossil-nonhydro-renewables",
+          "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+          "T038-DNK-agricultural-land-private-credit"
+        ],
+        "count": 4
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/experimental_brief_candidate/most_important_counterinterpretation",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-counterinterpretation",
+      "intended_rendered_destination": "interpretation section",
+      "item_category": "counterinterpretation",
+      "item_id": "closure:counterinterpretation",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "Attenuation may coexist with meaningful long-run level relationships and does not identify trend, spuriousness, reversal, absence, or any predominant cause."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_rules_out",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-rules-out",
+      "intended_rendered_destination": "interpretation section",
+      "item_category": "supported-exclusion",
+      "item_id": "closure:first-differencing-rules-out",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": [
+        "For these published finite windows, the raw coefficient cannot also be described as comparably strong same-period annual-change co-movement."
+      ]
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/0",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-01",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-01",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "a valid bounded descriptive relationship in levels"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/1",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-02",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-02",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "lagged or lead relationships"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/2",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-03",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-03",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "nonlinear relationships"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/3",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-04",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-04",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "subperiod or regime-dependent relationships"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/4",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-05",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-05",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "structural breaks"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/5",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-06",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-06",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "a substantive mechanism not identified by these correlations"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/6",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-07",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-07",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "measurement, denominator, composition, and omitted-variable explanations"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/7",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-first-differencing-open-08",
+      "intended_rendered_destination": "interpretation limits list",
+      "item_category": "preserved-open-interpretation",
+      "item_id": "closure:first-differencing-open-08",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:transformation-estimand"
+      ],
+      "source_authored_meaning": "finite-window or revision sensitivity"
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cross_case_assessment/common_explanations_that_survive",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-surviving-explanations",
+      "intended_rendered_destination": "interpretation section",
+      "item_category": "surviving-explanations",
+      "item_id": "closure:surviving-common-explanations",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": [
+        "gradual common or opposing time movement can create level co-movement without comparable annual-change co-movement",
+        "measurement construction, ratios, denominators, and common modeled or administrative processes can affect raw relationships",
+        "first differencing changes the estimand and may amplify noise",
+        "finite-window, missingness, source-revision, and outlier sensitivity remain unresolved",
+        "lagged, nonlinear, regime-dependent, and structural-break relationships are not tested by contemporaneous Pearson coefficients",
+        "omitted common or separate drivers remain viable"
+      ]
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/upstream_result_conditioning",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-upstream-conditioning",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selection-and-corpus-bias",
+      "item_id": "closure:upstream-result-conditioning",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:selected-universe",
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": "The admitted packages arose from bounded upstream campaigns and acceptance gates; package availability is not neutral population sampling."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/insightforge_selection_modes",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-selection-modes",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selection-and-corpus-bias",
+      "item_id": "closure:selection-modes",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:selected-universe",
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": [
+        "manual/coefficient-independent T-031",
+        "manual/coefficient-independent T-033",
+        "result-informed curation T-035",
+        "execution-trace coefficient-independent but checkpoint-nonconforming T-036",
+        "strict-checkpointed inherited ranking T-038"
+      ]
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/high_trend_selection_risk",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-high-trend-selection-risk",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selection-and-corpus-bias",
+      "item_id": "closure:high-trend-selection-risk",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:selected-universe",
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": "Several governed rows had high admitted time-index associations, making trend-sensitive cases salient; disproportionate examination cannot be estimated from this selected corpus."
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/repeated_weakening_may_reflect_candidate_universe",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-candidate-universe-reflection",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selection-and-corpus-bias",
+      "item_id": "closure:candidate-universe-reflection",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:selected-universe",
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": true
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/population_frequency_estimated",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-no-population-frequency",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selection-and-corpus-bias",
+      "item_id": "closure:no-population-frequency",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:selected-universe",
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": false
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "exclusion",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/selection_and_corpus_bias_assessment/generalization_beyond_current_corpus_supported",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-no-generalization",
+      "intended_rendered_destination": "selection and corpus boundary section",
+      "item_category": "selection-and-corpus-bias",
+      "item_id": "closure:no-generalization",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:selected-universe",
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": false
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/confidence_by_claim_type/exact_cross_inquiry_pattern",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-confidence-exact-cross-inquiry-pattern",
+      "intended_rendered_destination": "confidence section",
+      "item_category": "confidence-by-claim-type",
+      "item_id": "closure:confidence-exact-cross-inquiry-pattern",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": {
+        "basis": "Published coefficients, counts, actual aligned periods, package identities, and classifications are directly transcribed; all seven absolute transformed coefficients are smaller.",
+        "level": "high"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/confidence_by_claim_type/procedural_lesson",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-confidence-procedural-lesson",
+      "intended_rendered_destination": "confidence section",
+      "item_category": "confidence-by-claim-type",
+      "item_id": "closure:confidence-procedural-lesson",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": {
+        "basis": "Within this corpus, transformation-aware review repeatedly narrows the defensible interpretation of raw correlation.",
+        "level": "high"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/confidence_by_claim_type/causal_explanation",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-confidence-causal-explanation",
+      "intended_rendered_destination": "confidence section",
+      "item_category": "confidence-by-claim-type",
+      "item_id": "closure:confidence-causal-explanation",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": {
+        "basis": "No admitted evidence discriminates trend, construction, noise, lag, regime, revision, outlier, or omitted-driver explanations.",
+        "level": "low"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/confidence_by_claim_type/generalization_beyond_current_corpus",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-confidence-generalization-beyond-current-corpus",
+      "intended_rendered_destination": "confidence section",
+      "item_category": "confidence-by-claim-type",
+      "item_id": "closure:confidence-generalization-beyond-current-corpus",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:limited-corpus"
+      ],
+      "source_authored_meaning": {
+        "basis": "The sample is small, selected, dependent, method-homogeneous, Nordic, annual, and nonrandom.",
+        "level": "low"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": [
+        "/cases/0/selection_provenance",
+        "/cases/0/production_inquiry",
+        "/cases/0/governance"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-governance-01",
+      "intended_rendered_destination": "supporting governance note for row:T031-DNK-private-credit-broad-money",
+      "item_category": "selection-and-governance-provenance",
+      "item_id": "governance:T031-DNK-private-credit-broad-money",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money",
+        "evidence-role:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [
+        "qualification:T031-DNK-private-credit-broad-money"
+      ],
+      "source_authored_meaning": {
+        "governance": {
+          "predominant_shared_time_trend_claim_rejected": true,
+          "published_classification_corrected_to_material_weakening": true
+        },
+        "independence_classification": "heterogeneous relationship but methodologically and partially indicator-dependent",
+        "production_inquiry": true,
+        "selection_provenance": "coefficient_independent_production_inquiry_selection"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cases/0/evidence/raw/trend_diagnostics",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-trend-diagnostics-01",
+      "intended_rendered_destination": "supporting diagnostic note for row:T031-DNK-private-credit-broad-money",
+      "item_category": "trend-diagnostics",
+      "item_id": "trend-diagnostics:T031-DNK-private-credit-broad-money",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T031-DNK-private-credit-broad-money"
+      ],
+      "required_qualifications": [
+        "qualification:T031-DNK-private-credit-broad-money",
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": {
+        "availability": "embedded_in_published_raw_package_and_reported_by_t031",
+        "predominant_trend_attribution_established": false,
+        "series_a_vs_time_index": "0.757137531509",
+        "series_b_vs_time_index": "0.521453951784"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": [
+        "/cases/1/selection_provenance",
+        "/cases/1/production_inquiry",
+        "/cases/1/governance"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-governance-02",
+      "intended_rendered_destination": "supporting governance note for row:T033-NOR-fossil-nonhydro-renewables",
+      "item_category": "selection-and-governance-provenance",
+      "item_id": "governance:T033-NOR-fossil-nonhydro-renewables",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables",
+        "evidence-role:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [
+        "qualification:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "source_authored_meaning": {
+        "governance": {
+          "finding_created_or_accepted": false,
+          "simplified_workflow_verdict": "A"
+        },
+        "independence_classification": "substantively distinct from finance cases but strongly dependent on the Norway electricity cluster",
+        "production_inquiry": true,
+        "selection_provenance": "coefficient_independent_production_inquiry_selection"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cases/1/evidence/raw/trend_diagnostics",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-trend-diagnostics-02",
+      "intended_rendered_destination": "supporting diagnostic note for row:T033-NOR-fossil-nonhydro-renewables",
+      "item_category": "trend-diagnostics",
+      "item_id": "trend-diagnostics:T033-NOR-fossil-nonhydro-renewables",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T033-NOR-fossil-nonhydro-renewables"
+      ],
+      "required_qualifications": [
+        "qualification:T033-NOR-fossil-nonhydro-renewables",
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": {
+        "availability": "embedded_in_published_raw_package_and_reported_by_t033",
+        "predominant_trend_attribution_established": false,
+        "series_a_vs_time_index": "0.64921014377",
+        "series_b_vs_time_index": "0.804092533899"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": [
+        "/cases/2/selection_provenance",
+        "/cases/2/production_inquiry",
+        "/cases/2/governance"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-governance-03",
+      "intended_rendered_destination": "supporting governance note for row:T035-C1-NOR-life-expectancy-under5-mortality",
+      "item_category": "selection-and-governance-provenance",
+      "item_id": "governance:T035-C1-NOR-life-expectancy-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-life-expectancy-under5-mortality",
+        "evidence-role:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "source_authored_meaning": {
+        "governance": {
+          "coefficient_blind_or_autonomous_discovery_claimed": false,
+          "result_informed_selection_disclosed": true
+        },
+        "independence_classification": "not independent of the T-035 C1 cluster",
+        "production_inquiry": false,
+        "selection_provenance": "result_informed_report_curation"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cases/2/evidence/raw/trend_diagnostics",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-trend-diagnostics-03",
+      "intended_rendered_destination": "supporting diagnostic note for row:T035-C1-NOR-life-expectancy-under5-mortality",
+      "item_category": "trend-diagnostics",
+      "item_id": "trend-diagnostics:T035-C1-NOR-life-expectancy-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-life-expectancy-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-life-expectancy-under5-mortality",
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": {
+        "availability": "not_reported_in_published_t035_record",
+        "predominant_trend_attribution_established": false
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": [
+        "/cases/3/selection_provenance",
+        "/cases/3/production_inquiry",
+        "/cases/3/governance"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-governance-04",
+      "intended_rendered_destination": "supporting governance note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "item_category": "selection-and-governance-provenance",
+      "item_id": "governance:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "evidence-role:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "source_authored_meaning": {
+        "governance": {
+          "coefficient_blind_or_autonomous_discovery_claimed": false,
+          "result_informed_selection_disclosed": true
+        },
+        "independence_classification": "strongly dependent on both the T-035 C1 and Norway electricity clusters",
+        "production_inquiry": false,
+        "selection_provenance": "result_informed_report_curation"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cases/3/evidence/raw/trend_diagnostics",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-trend-diagnostics-04",
+      "intended_rendered_destination": "supporting diagnostic note for row:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "item_category": "trend-diagnostics",
+      "item_id": "trend-diagnostics:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": {
+        "availability": "not_reported_in_published_t035_record",
+        "predominant_trend_attribution_established": false
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": [
+        "/cases/4/selection_provenance",
+        "/cases/4/production_inquiry",
+        "/cases/4/governance"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-governance-05",
+      "intended_rendered_destination": "supporting governance note for row:T035-C1-NOR-fossil-under5-mortality",
+      "item_category": "selection-and-governance-provenance",
+      "item_id": "governance:T035-C1-NOR-fossil-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-fossil-under5-mortality",
+        "evidence-role:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "source_authored_meaning": {
+        "governance": {
+          "coefficient_blind_or_autonomous_discovery_claimed": false,
+          "result_informed_selection_disclosed": true
+        },
+        "independence_classification": "strongly dependent on both the T-035 C1 and Norway electricity clusters",
+        "production_inquiry": false,
+        "selection_provenance": "result_informed_report_curation"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cases/4/evidence/raw/trend_diagnostics",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-trend-diagnostics-05",
+      "intended_rendered_destination": "supporting diagnostic note for row:T035-C1-NOR-fossil-under5-mortality",
+      "item_category": "trend-diagnostics",
+      "item_id": "trend-diagnostics:T035-C1-NOR-fossil-under5-mortality",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "required_qualifications": [
+        "qualification:T035-C1-NOR-fossil-under5-mortality",
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": {
+        "availability": "not_reported_in_published_t035_record",
+        "predominant_trend_attribution_established": false
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": [
+        "/cases/5/selection_provenance",
+        "/cases/5/production_inquiry",
+        "/cases/5/governance"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-governance-06",
+      "intended_rendered_destination": "supporting governance note for row:T036-SWE-private-credit-mobile-subscriptions",
+      "item_category": "selection-and-governance-provenance",
+      "item_id": "governance:T036-SWE-private-credit-mobile-subscriptions",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T036-SWE-private-credit-mobile-subscriptions",
+        "evidence-role:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [
+        "qualification:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "source_authored_meaning": {
+        "governance": {
+          "analytical_byproduct_completed": true,
+          "checkpoint_nonconformance": true,
+          "governance_disposition": "closed_with_recorded_nonconformance",
+          "strict_capability_demonstrated": false
+        },
+        "independence_classification": "heterogeneous relationship but methodologically and indicator-family dependent",
+        "production_inquiry": true,
+        "selection_provenance": "execution_trace_coefficient_independent_but_checkpoint_nonconforming"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cases/5/evidence/raw/trend_diagnostics",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-trend-diagnostics-06",
+      "intended_rendered_destination": "supporting diagnostic note for row:T036-SWE-private-credit-mobile-subscriptions",
+      "item_category": "trend-diagnostics",
+      "item_id": "trend-diagnostics:T036-SWE-private-credit-mobile-subscriptions",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T036-SWE-private-credit-mobile-subscriptions"
+      ],
+      "required_qualifications": [
+        "qualification:T036-SWE-private-credit-mobile-subscriptions",
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": {
+        "availability": "embedded_in_published_raw_package_and_reported_by_t036",
+        "predominant_trend_attribution_established": false,
+        "series_a_vs_time_index": "0.910525305233",
+        "series_b_vs_time_index": "0.935643810072"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": [
+        "/cases/6/selection_provenance",
+        "/cases/6/production_inquiry",
+        "/cases/6/governance"
+      ],
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-governance-07",
+      "intended_rendered_destination": "supporting governance note for row:T038-DNK-agricultural-land-private-credit",
+      "item_category": "selection-and-governance-provenance",
+      "item_id": "governance:T038-DNK-agricultural-land-private-credit",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T038-DNK-agricultural-land-private-credit",
+        "evidence-role:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [
+        "qualification:T038-DNK-agricultural-land-private-credit"
+      ],
+      "source_authored_meaning": {
+        "governance": {
+          "broad_autonomous_selection_maturity_demonstrated": false,
+          "capability_scope": "one_strictly_checkpointed_inquiry",
+          "pi03_repair_claimed": false,
+          "selection_inherited_not_fresh_autonomous": true,
+          "strict_checkpointed_compliance": true
+        },
+        "independence_classification": "analytically distinct but selection-lineage, country, indicator, and method dependent",
+        "production_inquiry": true,
+        "selection_provenance": "strict_checkpointed_inherited_coefficient_independent_ranking"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "Explicit admitted T-039 meaning required for complete editorial closure.",
+      "exact_source_locator": "/cases/6/evidence/raw/trend_diagnostics",
+      "inclusion_status": "mandatory",
+      "intended_candidate_destination": "statement:task065-trend-diagnostics-07",
+      "intended_rendered_destination": "supporting diagnostic note for row:T038-DNK-agricultural-land-private-credit",
+      "item_category": "trend-diagnostics",
+      "item_id": "trend-diagnostics:T038-DNK-agricultural-land-private-credit",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [
+        "relationship:T038-DNK-agricultural-land-private-credit"
+      ],
+      "required_qualifications": [
+        "qualification:T038-DNK-agricultural-land-private-credit",
+        "closure:no-causal-interpretation"
+      ],
+      "source_authored_meaning": {
+        "availability": "embedded_in_published_raw_package_and_reported_by_t038",
+        "predominant_trend_attribution_established": false,
+        "series_a_vs_time_index": "-0.828711001501",
+        "series_b_vs_time_index": "0.777005621284"
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "T-039 treats lenses as question organizers that supply no evidence; a later Candidate may omit the appendix only if the methodological-limit and no-new-evidence statements remain explicit.",
+      "exact_source_locator": [
+        "/lens_assessment",
+        "/lens_library_expanded"
+      ],
+      "inclusion_status": "conditionally-included",
+      "intended_candidate_destination": "statement:task065-lens-boundary-if-used",
+      "intended_rendered_destination": "optional methodological appendix only if included",
+      "item_category": "analytical-lens-boundary",
+      "item_id": "closure:lens-assessment",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [
+        "closure:methodological-limits"
+      ],
+      "source_authored_meaning": {
+        "lens_assessment": [
+          {
+            "fails_or_is_subset_only": "Time-index diagnostics are absent from published T-035 and do not identify predominant causation.",
+            "lens": "common-trend/spuriousness",
+            "supplies_evidence": false,
+            "useful_where": "Organizes admitted time-index diagnostics and the possibility that slow movement shapes raw levels."
+          },
+          {
+            "fails_or_is_subset_only": "Construction risks differ by indicator and are not measured by the coefficients.",
+            "lens": "measurement construction",
+            "supplies_evidence": false,
+            "useful_where": "Highlights modeled health data, administrative processes, and source revisions."
+          },
+          {
+            "fails_or_is_subset_only": "Not common to every relationship and does not explain attenuation by itself.",
+            "lens": "denominator effects",
+            "supplies_evidence": false,
+            "useful_where": "Relevant to GDP-ratio finance indicators and electricity shares."
+          },
+          {
+            "fails_or_is_subset_only": "Coverage review cannot establish mechanism or robustness.",
+            "lens": "coverage/completeness",
+            "supplies_evidence": false,
+            "useful_where": "Focuses on actual aligned periods, counts, missing ending years, and finite windows."
+          },
+          {
+            "fails_or_is_subset_only": "No admitted regime, break, or subperiod evidence exists.",
+            "lens": "regime dependence",
+            "supplies_evidence": false,
+            "useful_where": "Keeps subperiod, break, and policy-regime alternatives open."
+          },
+          {
+            "fails_or_is_subset_only": "Cannot estimate selection probabilities or population frequencies.",
+            "lens": "selection effects",
+            "supplies_evidence": false,
+            "useful_where": "Separates core, qualified, and context-only rows and exposes the nonrandom candidate universe."
+          }
+        ],
+        "lens_library_expanded": false
+      }
+    },
+    {
+      "authoritative_source_artifact": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "closure_state": "closed",
+      "content_character": "analytical-content",
+      "evidence_backed_status_reason": "The exact seven-row table already preserves every coefficient. The range is permitted only as a derived source-authored summary and is not required when the exact table is displayed.",
+      "exact_source_locator": "report line 117",
+      "inclusion_status": "conditionally-included",
+      "intended_candidate_destination": "statement:task065-coefficient-ranges-if-used",
+      "intended_rendered_destination": "optional table summary only if included",
+      "item_category": "descriptive-summary",
+      "item_id": "closure:descriptive-coefficient-ranges",
+      "obligation_attachments": [
+        "obligation:preserve-source-meaning-task065"
+      ],
+      "provenance_attachments": [
+        "provenance:t039-source-snapshot-task065"
+      ],
+      "related_governed_item_ids": [],
+      "required_qualifications": [],
+      "source_authored_meaning": "Raw absolute coefficients range from 0.315942832953 to 0.951151571489; transformed absolute coefficients range from 0.058190335423 to 0.3855860099."
+    }
+  ],
+  "mandatory_item_count": 104,
+  "schema": "briefforge-task064-editorial-closure-ledger-v1",
+  "source_commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+  "source_coverage_register": [
+    {
+      "ledger_item_ids": [
+        "closure:seven-case-count-resolution"
+      ],
+      "source_locator": "/case_count_resolution"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:evidence-boundary-exclusions",
+        "closure:exclude-unselected-results",
+        "closure:exclude-new-relationships"
+      ],
+      "source_locator": "/source_boundary"
+    },
+    {
+      "ledger_item_rule": "For each case: relationship, raw result, first-difference result, classification, evidence role, case qualification, governance, and trend-diagnostics items.",
+      "source_locator": "/cases/0-6"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:cross-inquiry-synthesis"
+      ],
+      "source_locator": "/cross_case_assessment/observed_pattern"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:four-sign-changes"
+      ],
+      "source_locator": "/cross_case_assessment/sign_change_cases"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:transformation-estimand"
+      ],
+      "source_locator": "/cross_case_assessment/estimand_boundary"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:dependence"
+      ],
+      "source_locator": "/cross_case_assessment/dependence_clusters"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:surviving-common-explanations"
+      ],
+      "source_locator": "/cross_case_assessment/common_explanations_that_survive"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:first-differencing-rules-out"
+      ],
+      "source_locator": "/cross_case_assessment/what_first_differencing_rules_out"
+    },
+    {
+      "ledger_item_rule": "Items closure:first-differencing-open-01 through -08 plus no-significance, no-stationarity, and no-reversal-absence.",
+      "source_locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:analytical-practice-guidance"
+      ],
+      "source_locator": "/cross_case_assessment/analytical_practice_guidance"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:disposition",
+        "closure:no-forecasting-interpretation",
+        "closure:no-investment",
+        "closure:exclude-new-method"
+      ],
+      "source_locator": "/disposition"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:evidence-hierarchy-aggregate"
+      ],
+      "source_locator": "/evidence_hierarchy"
+    },
+    {
+      "ledger_item_rule": "Selected-universe, limited-corpus, nonrandom, upstream-conditioning, selection-modes, trend-risk, universe-reflection, population-frequency, and generalization items.",
+      "source_locator": "/selection_and_corpus_bias_assessment"
+    },
+    {
+      "ledger_item_rule": "Four closure:confidence-* items.",
+      "source_locator": "/confidence_by_claim_type"
+    },
+    {
+      "ledger_item_ids": [
+        "closure:lens-assessment"
+      ],
+      "source_locator": "/lens_assessment and /lens_library_expanded"
+    },
+    {
+      "ledger_item_rule": "Title, exact scope/evidence hierarchy, repeated pattern/sign change, selection qualification, counterinterpretation, reader-change, unresolved questions, methodological limits, and disposition items.",
+      "source_locator": "/experimental_brief_candidate"
+    }
+  ],
+  "source_snapshot_identity": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "status": "complete-after-independent-review-remediation",
+  "task_id": "TASK-064",
+  "unresolved_destination_count": 0
+}

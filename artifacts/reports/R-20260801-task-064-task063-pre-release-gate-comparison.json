@@ -1,0 +1,71 @@
+{
+  "blocking_findings": [
+    {
+      "evidence": "TASK-063 Candidate content inventory contains 10 statements: one structural intro, one short synthesis, seven case statements, and one compressed qualification.",
+      "failure": "Mandatory inquiry framing, complete cross-inquiry dependence, candidate-universe selection boundary, methodological limits, prohibited interpretations, exclusions, and admitted follow-up are absent or compressed below source meaning.",
+      "finding_id": "T064-G01",
+      "gate_step": "ledger-closure-reconciliation"
+    },
+    {
+      "evidence": "TASK-063 frozen map contained mandatory_synthesis, selection_and_corpus_bias_assessment, exclusions, and unresolved questions, but no item-by-item destination/consumption ledger governed Candidate authoring.",
+      "failure": "Mandatory material was present in historical planning evidence but not consumed as mandatory Candidate content.",
+      "finding_id": "T064-G02",
+      "gate_step": "ledger-closure-reconciliation"
+    },
+    {
+      "evidence": "TASK-063 Candidate content inventory held 14 independent value identities; each case statement named only its raw value_ref, while the renderer projection treated value identities as generic rows.",
+      "failure": "No authoritative Candidate row object paired the raw and first-difference values under one relationship identity; fourteen coefficient rows resulted.",
+      "finding_id": "T064-G03",
+      "gate_step": "paired-table-reconciliation"
+    },
+    {
+      "evidence": "TASK-063 historical table metadata asserted seven rows but was not cross-bound to exact Candidate row/value/qualification/provenance identities.",
+      "failure": "Displayed cell semantics and governed supporting content were ambiguous; metadata could not prevent value-slot row interpretation.",
+      "finding_id": "T064-G04",
+      "gate_step": "paired-table-reconciliation"
+    },
+    {
+      "evidence": "One compressed qualification statement targeted only the synthesis through one limits-target relation.",
+      "failure": "Per-row and cross-case qualifications, exclusions, provenance, and obligations were not completely attached to every governed target.",
+      "finding_id": "T064-G05",
+      "gate_step": "qualifier-provenance-obligation-reconciliation"
+    },
+    {
+      "evidence": "The independent editorial reconciliation occurred after Release construction and complete TASK-056 chain execution.",
+      "failure": "No independent pre-promotion editorial closure gate existed to stop the defective Candidate.",
+      "finding_id": "T064-G06",
+      "gate_step": "promotion-authorization"
+    }
+  ],
+  "blueprint_comparison": {
+    "ledger_destinations_resolved": true,
+    "new_analytical_content_added": false,
+    "paired_coefficients": 14,
+    "qualifications_provenance_obligations_attached": true,
+    "result": "complete abstract authoring contract; no Candidate instantiated",
+    "seven_relationship_rows": true
+  },
+  "gate_result": "reject",
+  "historical_evidence_mutation_required": false,
+  "historical_subject": {
+    "artifact_byte_length": 64752,
+    "artifact_sha256": "ccd0c875058c95ce180aaf7e74e9b94aaafd1d9d9c913cf0c44a87e9a89b3202",
+    "candidate_fingerprint": "4b5ffe97616e5dfca11ce943a7da847f415d1ee2c62ee52fc20bb5e04a5c08f2",
+    "candidate_identity": "candidate:accepted-task063",
+    "historical_status": "BLOCKED / NOT RECONCILED",
+    "release_fingerprint": "03fa6cd4807c139d1b40675a2bfd11847aec9718bd5e662247c3802b17bd7ac6",
+    "release_identity": "release:accepted-task063"
+  },
+  "non_findings": [
+    "No source corruption.",
+    "No coefficient transcription failure.",
+    "No renderer nondeterminism.",
+    "No TASK-062 regression.",
+    "No terminal-chain failure."
+  ],
+  "principal_reason": "authored scope or mapping defective",
+  "replacement_candidate_created": false,
+  "schema": "briefforge-task064-task063-gate-comparison-v1",
+  "task_id": "TASK-064",
+  "would_gate_have_prevented_release": true
+}

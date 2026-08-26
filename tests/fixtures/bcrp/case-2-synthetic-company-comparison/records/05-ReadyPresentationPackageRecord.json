@@ -1,0 +1,16 @@
+{
+  "extensions": [],
+  "identity": "ready:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "ReadyPresentationPackageRecord",
+  "semantic": {
+    "candidate_fingerprint": "62f79aab2234c99025612fd77618e5f8df9b5fc608e7ca24a41ff3bf93967108",
+    "candidate_ref": "candidate:case-2",
+    "judgment_ref": "judgment:case-2",
+    "readiness_time": "2026-07-16T11:01:00Z",
+    "ready_fingerprint": "87222f35b33003cd6d70707fe272650258dcea3068dee55e8f4c3e893d646caa"
+  }
+}

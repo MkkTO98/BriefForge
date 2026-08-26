@@ -1,0 +1,27 @@
+{
+  "admission_status": "source-admissible",
+  "commit_subject": "feat: add T-039 cross-inquiry synthesis",
+  "contract": "briefforge:external-source-admission-inventory:1.0.0",
+  "inventory_complete": true,
+  "inventory_fingerprint": "ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "items": [
+    {"byte_length": 36866, "matches_source_commit": true, "path": "artifacts/fixtures/T-039-cross-inquiry-synthesis.json", "sha256": "b2e6dce194e6e489c3b5f20ad0896affb2e1175e1fecf15018a7a4e37da5501b"},
+    {"byte_length": 19396, "matches_source_commit": true, "path": "artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md", "sha256": "5fed49821df242066dca36c9fd60d814950fc34828ab50e48976b9706f4c87a5"},
+    {"byte_length": 2898, "matches_source_commit": true, "path": "artifacts/decisions/D-20260717-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md", "sha256": "a568ccbcccc7bbdb0e03d34423a9913ffe25f247e7e358a1b1f39f242cf838fd"},
+    {"byte_length": 5375, "matches_source_commit": true, "path": "artifacts/tasks/T-039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md", "sha256": "0d871b47bed68fe4cde15a9437fcb1092b55cb5b18567c3824deac1041bdc0a9"},
+    {"byte_length": 21166, "matches_source_commit": true, "path": "artifacts/fixtures/T-031-production-inquiry-01-reassessment.json", "sha256": "868cbdedbca7859badab1c9f4e1018883a0fe9a2f1973183224142ba4238cf1b"},
+    {"byte_length": 10937, "matches_source_commit": true, "path": "artifacts/reports/R-20260712-production-inquiry-01-raw-versus-first-difference-reassessment.md", "sha256": "ca3e472b58b0a5e0b384a51424750732e9675cc99379e64aaa68c7b458e28425"},
+    {"byte_length": 1667, "matches_source_commit": true, "path": "artifacts/decisions/D-20260712-production-inquiry-01-workflow-verdict.md", "sha256": "684835e75b83ed49ad380a31dc7bdb8065d1bb50fb9877ea76dc561310d3cceb"},
+    {"byte_length": 7082, "matches_source_commit": true, "path": "artifacts/fixtures/T-033-production-inquiry-02-record.json", "sha256": "7b34b7183080929814265e09eb690653d18fac86802343798db1641387e9de49"},
+    {"byte_length": 19632, "matches_source_commit": true, "path": "artifacts/reports/R-20260712-t033-production-inquiry-02-simplified-workflow-operational-falsification.md", "sha256": "0333d433d8fe5d5bb0d39ee06d05ee034b66842284ccb77ec6246d96eea5186f"},
+    {"byte_length": 2028, "matches_source_commit": true, "path": "artifacts/decisions/D-20260712-production-inquiry-02-simplified-workflow-verdict.md", "sha256": "f2ecb548fec481578c6626129aafd8a9a7b344744e48e99341ff1669416a6366"},
+    {"byte_length": 41636, "matches_source_commit": true, "path": "artifacts/fixtures/T-035-demographic-growth-correlation-report-input.json", "sha256": "feba0670ba15967e9a108dd3a9bb514e64585c7f67a6c8c127e4601a588b625f"},
+    {"byte_length": 22639, "matches_source_commit": true, "path": "artifacts/fixtures/T-036-production-inquiry-03-record.json", "sha256": "e34ec4100306a97d38454481627f5ea2a03e1704f21a66217713c30d22eadb5e"},
+    {"byte_length": 11376, "matches_source_commit": true, "path": "artifacts/fixtures/T-038-production-inquiry-04-record.json", "sha256": "9516093ae09f3d01899a30a6a240027c0cc78a97c15f9008abc2c991542c8387"}
+  ],
+  "pilot_execution_status": "not-started-capability-blocked",
+  "snapshot_identity": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "source_commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+  "source_repository": "InsightForge",
+  "source_repository_path": "/home/mkkto/srv/EIP/projects/InsightForge"
+}

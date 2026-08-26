@@ -1,0 +1,44 @@
+logging_policy:
+  purpose: raw_operational_record_for_audit_debugging_only
+
+  non_context_rule: >
+    Raw logs, full session JSONL files, full tool outputs, and previous agent
+    conversations must never be included in normal task context. Use compact
+    summaries first. Read raw logs only for failure_investigation, forensic, or
+    incident work when summaries are insufficient.
+
+  levels:
+    minimal:
+      records:
+        - run_summary
+        - errors
+        - decisions_created
+    standard:
+      default: true
+      records:
+        - run_summary
+        - commands_executed
+        - files_changed
+        - tests_run
+        - escalations
+        - compact_session_summary
+    forensic:
+      records:
+        - full_tool_outputs
+        - model_routing_decisions
+        - intermediate_plans
+        - failure_traces
+      context_warning: forensic logs remain excluded from normal context
+
+  derived_summaries:
+    each_task_or_session_updates:
+      - context/latest_handoff.md
+      - logs/derived/session_summaries.jsonl
+      - folder_level_state_summaries
+      - project_level_state_summary
+    summarization_model_policy: local_model_first
+
+  separation_rule: >
+    Logs contain raw events and operational records. Derived performance
+    analysis, success-rate calculations, and recommendations belong in metrics/.
+    Derived compact summaries belong in logs/derived/ and context/latest_handoff.md.

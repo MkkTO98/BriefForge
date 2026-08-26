@@ -1,0 +1,963 @@
+{
+  "accepted_interface_admission": {
+    "accepted_statement_maximum": 32,
+    "exact_table_required_rows": 7,
+    "existing_renderer_rows": 14,
+    "report": "artifacts/reports/R-20260801-task-065-pre-authoring-interface-contradiction.json",
+    "statement_identities_minimum": 74,
+    "status": "BLOCKED"
+  },
+  "admitted_artifact_count": 13,
+  "artifacts": [
+    {
+      "expected_byte_length": 36866,
+      "expected_sha256": "b2e6dce194e6e489c3b5f20ad0896affb2e1175e1fecf15018a7a4e37da5501b",
+      "git_object_byte_length": 36866,
+      "git_object_sha256": "b2e6dce194e6e489c3b5f20ad0896affb2e1175e1fecf15018a7a4e37da5501b",
+      "matched": true,
+      "path": "artifacts/fixtures/T-039-cross-inquiry-synthesis.json"
+    },
+    {
+      "expected_byte_length": 19396,
+      "expected_sha256": "5fed49821df242066dca36c9fd60d814950fc34828ab50e48976b9706f4c87a5",
+      "git_object_byte_length": 19396,
+      "git_object_sha256": "5fed49821df242066dca36c9fd60d814950fc34828ab50e48976b9706f4c87a5",
+      "matched": true,
+      "path": "artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md"
+    },
+    {
+      "expected_byte_length": 2898,
+      "expected_sha256": "a568ccbcccc7bbdb0e03d34423a9913ffe25f247e7e358a1b1f39f242cf838fd",
+      "git_object_byte_length": 2898,
+      "git_object_sha256": "a568ccbcccc7bbdb0e03d34423a9913ffe25f247e7e358a1b1f39f242cf838fd",
+      "matched": true,
+      "path": "artifacts/decisions/D-20260717-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md"
+    },
+    {
+      "expected_byte_length": 5375,
+      "expected_sha256": "0d871b47bed68fe4cde15a9437fcb1092b55cb5b18567c3824deac1041bdc0a9",
+      "git_object_byte_length": 5375,
+      "git_object_sha256": "0d871b47bed68fe4cde15a9437fcb1092b55cb5b18567c3824deac1041bdc0a9",
+      "matched": true,
+      "path": "artifacts/tasks/T-039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md"
+    },
+    {
+      "expected_byte_length": 21166,
+      "expected_sha256": "868cbdedbca7859badab1c9f4e1018883a0fe9a2f1973183224142ba4238cf1b",
+      "git_object_byte_length": 21166,
+      "git_object_sha256": "868cbdedbca7859badab1c9f4e1018883a0fe9a2f1973183224142ba4238cf1b",
+      "matched": true,
+      "path": "artifacts/fixtures/T-031-production-inquiry-01-reassessment.json"
+    },
+    {
+      "expected_byte_length": 10937,
+      "expected_sha256": "ca3e472b58b0a5e0b384a51424750732e9675cc99379e64aaa68c7b458e28425",
+      "git_object_byte_length": 10937,
+      "git_object_sha256": "ca3e472b58b0a5e0b384a51424750732e9675cc99379e64aaa68c7b458e28425",
+      "matched": true,
+      "path": "artifacts/reports/R-20260712-production-inquiry-01-raw-versus-first-difference-reassessment.md"
+    },
+    {
+      "expected_byte_length": 1667,
+      "expected_sha256": "684835e75b83ed49ad380a31dc7bdb8065d1bb50fb9877ea76dc561310d3cceb",
+      "git_object_byte_length": 1667,
+      "git_object_sha256": "684835e75b83ed49ad380a31dc7bdb8065d1bb50fb9877ea76dc561310d3cceb",
+      "matched": true,
+      "path": "artifacts/decisions/D-20260712-production-inquiry-01-workflow-verdict.md"
+    },
+    {
+      "expected_byte_length": 7082,
+      "expected_sha256": "7b34b7183080929814265e09eb690653d18fac86802343798db1641387e9de49",
+      "git_object_byte_length": 7082,
+      "git_object_sha256": "7b34b7183080929814265e09eb690653d18fac86802343798db1641387e9de49",
+      "matched": true,
+      "path": "artifacts/fixtures/T-033-production-inquiry-02-record.json"
+    },
+    {
+      "expected_byte_length": 19632,
+      "expected_sha256": "0333d433d8fe5d5bb0d39ee06d05ee034b66842284ccb77ec6246d96eea5186f",
+      "git_object_byte_length": 19632,
+      "git_object_sha256": "0333d433d8fe5d5bb0d39ee06d05ee034b66842284ccb77ec6246d96eea5186f",
+      "matched": true,
+      "path": "artifacts/reports/R-20260712-t033-production-inquiry-02-simplified-workflow-operational-falsification.md"
+    },
+    {
+      "expected_byte_length": 2028,
+      "expected_sha256": "f2ecb548fec481578c6626129aafd8a9a7b344744e48e99341ff1669416a6366",
+      "git_object_byte_length": 2028,
+      "git_object_sha256": "f2ecb548fec481578c6626129aafd8a9a7b344744e48e99341ff1669416a6366",
+      "matched": true,
+      "path": "artifacts/decisions/D-20260712-production-inquiry-02-simplified-workflow-verdict.md"
+    },
+    {
+      "expected_byte_length": 41636,
+      "expected_sha256": "feba0670ba15967e9a108dd3a9bb514e64585c7f67a6c8c127e4601a588b625f",
+      "git_object_byte_length": 41636,
+      "git_object_sha256": "feba0670ba15967e9a108dd3a9bb514e64585c7f67a6c8c127e4601a588b625f",
+      "matched": true,
+      "path": "artifacts/fixtures/T-035-demographic-growth-correlation-report-input.json"
+    },
+    {
+      "expected_byte_length": 22639,
+      "expected_sha256": "e34ec4100306a97d38454481627f5ea2a03e1704f21a66217713c30d22eadb5e",
+      "git_object_byte_length": 22639,
+      "git_object_sha256": "e34ec4100306a97d38454481627f5ea2a03e1704f21a66217713c30d22eadb5e",
+      "matched": true,
+      "path": "artifacts/fixtures/T-036-production-inquiry-03-record.json"
+    },
+    {
+      "expected_byte_length": 11376,
+      "expected_sha256": "9516093ae09f3d01899a30a6a240027c0cc78a97c15f9008abc2c991542c8387",
+      "git_object_byte_length": 11376,
+      "git_object_sha256": "9516093ae09f3d01899a30a6a240027c0cc78a97c15f9008abc2c991542c8387",
+      "matched": true,
+      "path": "artifacts/fixtures/T-038-production-inquiry-04-record.json"
+    }
+  ],
+  "blocking_reason": "Accepted TASK-062 terminal profile and renderer cannot preserve the exact TASK-064 contract without excluded capability changes.",
+  "candidate_authoring_permitted": false,
+  "conditional_resolutions": [
+    {
+      "condition": "Include only if a bounded methodological appendix presents the admitted lens assessment; otherwise omit both statement and child edge while retaining methodological limits and no-new-evidence boundary.",
+      "ledger_item_id": "closure:lens-assessment",
+      "parent_if_included": "section:task065-interpretation",
+      "resolution": "included-by-exact-composition-rule",
+      "statement_id": "statement:task065-lens-boundary-if-used"
+    },
+    {
+      "condition": "Include only if a source-authored descriptive range summary accompanies the exact table; otherwise omit both statement and child edge because all fourteen exact coefficients remain displayed.",
+      "ledger_item_id": "closure:descriptive-coefficient-ranges",
+      "parent_if_included": "section:task065-interpretation",
+      "resolution": "included-by-exact-composition-rule",
+      "statement_id": "statement:task065-coefficient-ranges-if-used"
+    }
+  ],
+  "contract_checks": {
+    "all_13_git_objects_match": true,
+    "all_ledger_locators_resolve": true,
+    "blueprint_consumes_every_ledger_identity_once": true,
+    "candidate_not_preauthorized_by_task064": true,
+    "conditional_count_exact": true,
+    "gate_is_fail_closed_and_pre_promotion": true,
+    "inventory_fingerprint_reproduced": true,
+    "ledger_counts_exact": true,
+    "no_later_commit_touches_admitted_paths": true,
+    "provenance_inventory_exact": true,
+    "row_identity_and_order_exact": true,
+    "selected_commit_current_head": true,
+    "selected_commit_main": true,
+    "snapshot_identity_unchanged": true,
+    "source_commit_accessible": true,
+    "table_shape_exact": true
+  },
+  "inventory_fingerprint_expected": "ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "inventory_fingerprint_reproduced": "ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "later_commits_touching_admitted_paths": [],
+  "locator_results": [
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:title",
+      "locator": "/experimental_brief_candidate/bounded_headline",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:intro-framing",
+      "locator": "/experimental_brief_candidate/reader_interpretation_change",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:inquiry-denmark-finance",
+      "locator": "/cases/0/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:inquiry-denmark-finance",
+      "locator": "/cases/0/case_specific_explanations",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:inquiry-denmark-finance",
+      "locator": "/cases/0/common_threats",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:inquiry-norway-energy",
+      "locator": "/cases/1/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:inquiry-norway-energy",
+      "locator": "/cases/1/case_specific_explanations",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:inquiry-norway-energy",
+      "locator": "/cases/1/common_threats",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:cross-inquiry-synthesis",
+      "locator": "/cross_case_assessment/observed_pattern",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:transformation-estimand",
+      "locator": "/cross_case_assessment/estimand_boundary",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:dependence",
+      "locator": "/cross_case_assessment/dependence_clusters",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:selection-nonrandom",
+      "locator": "/selection_and_corpus_bias_assessment/sample_is_small_selected_and_nonrandom",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:selected-universe",
+      "locator": "/selection_and_corpus_bias_assessment/candidate_universe",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:limited-corpus",
+      "locator": "/confidence_by_claim_type/generalization_beyond_current_corpus/basis",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:methodological-limits",
+      "locator": "/experimental_brief_candidate/evidence_frontier_limitation",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:follow-up",
+      "locator": "/experimental_brief_candidate/unresolved_questions",
+      "resolved": true
+    },
+    {
+      "authority": "BriefForge:artifacts/reports/R-20260801-task-063-source-revalidation.json",
+      "item_id": "closure:source-provenance",
+      "locator": "/source_commit",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:evidence-boundary-exclusions",
+      "locator": "/source_boundary",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "item_id": "closure:no-pooled-inference",
+      "locator": "line 74",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "item_id": "closure:no-pooled-inference",
+      "locator": "line 117",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-causal-interpretation",
+      "locator": "/cross_case_assessment/causality_or_mechanism_established",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-forecasting-interpretation",
+      "locator": "/disposition/forecast_or_recommendation_created",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-general-law",
+      "locator": "/cross_case_assessment/replication_interpretation",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-significance",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/8",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/decisions/D-20260717-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "item_id": "closure:no-investment",
+      "locator": "line 21",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/decisions/D-20260717-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "item_id": "closure:no-investment",
+      "locator": "line 34",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-stationarity",
+      "locator": "/cross_case_assessment/stationarity_established",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-reversal-absence",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/10",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:analytical-practice-guidance",
+      "locator": "/cross_case_assessment/analytical_practice_guidance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:disposition",
+      "locator": "/disposition",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "relationship:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T031-DNK-private-credit-broad-money:raw",
+      "locator": "/cases/0/evidence/raw",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T031-DNK-private-credit-broad-money:first-difference",
+      "locator": "/cases/0/evidence/first_difference",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "classification:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0/classification",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "evidence-role:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0/inclusion_role",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "qualification:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "relationship:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T033-NOR-fossil-nonhydro-renewables:raw",
+      "locator": "/cases/1/evidence/raw",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T033-NOR-fossil-nonhydro-renewables:first-difference",
+      "locator": "/cases/1/evidence/first_difference",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "classification:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1/classification",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "evidence-role:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1/inclusion_role",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "qualification:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "relationship:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T035-C1-NOR-life-expectancy-under5-mortality:raw",
+      "locator": "/cases/2/evidence/raw",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T035-C1-NOR-life-expectancy-under5-mortality:first-difference",
+      "locator": "/cases/2/evidence/first_difference",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "classification:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2/classification",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "evidence-role:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2/inclusion_role",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "qualification:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "relationship:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:raw",
+      "locator": "/cases/3/evidence/raw",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T035-C1-NOR-nonhydro-renewables-under5-mortality:first-difference",
+      "locator": "/cases/3/evidence/first_difference",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "classification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3/classification",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "evidence-role:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3/inclusion_role",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "qualification:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "relationship:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T035-C1-NOR-fossil-under5-mortality:raw",
+      "locator": "/cases/4/evidence/raw",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T035-C1-NOR-fossil-under5-mortality:first-difference",
+      "locator": "/cases/4/evidence/first_difference",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "classification:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4/classification",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "evidence-role:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4/inclusion_role",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "qualification:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "relationship:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T036-SWE-private-credit-mobile-subscriptions:raw",
+      "locator": "/cases/5/evidence/raw",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T036-SWE-private-credit-mobile-subscriptions:first-difference",
+      "locator": "/cases/5/evidence/first_difference",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "classification:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5/classification",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "evidence-role:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5/inclusion_role",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "qualification:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "relationship:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6/relationship",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T038-DNK-agricultural-land-private-credit:raw",
+      "locator": "/cases/6/evidence/raw",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "value:T038-DNK-agricultural-land-private-credit:first-difference",
+      "locator": "/cases/6/evidence/first_difference",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "classification:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6/classification",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "evidence-role:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6/inclusion_role",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "qualification:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:exclude-unselected-results",
+      "locator": "/source_boundary/unselected_c1_or_c3_results_inspected",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:exclude-new-relationships",
+      "locator": "/source_boundary/new_relationship_selected",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:exclude-new-method",
+      "locator": "/disposition/new_method_or_transformation_added",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:seven-case-count-resolution",
+      "locator": "/case_count_resolution",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:evidence-hierarchy-aggregate",
+      "locator": "/evidence_hierarchy",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:four-sign-changes",
+      "locator": "/cross_case_assessment/sign_change_cases",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:counterinterpretation",
+      "locator": "/experimental_brief_candidate/most_important_counterinterpretation",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-rules-out",
+      "locator": "/cross_case_assessment/what_first_differencing_rules_out",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-01",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/0",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-02",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/1",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-03",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/2",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-04",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/3",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-05",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/4",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-06",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/5",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-07",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/6",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:first-differencing-open-08",
+      "locator": "/cross_case_assessment/what_first_differencing_does_not_rule_out/7",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:surviving-common-explanations",
+      "locator": "/cross_case_assessment/common_explanations_that_survive",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:upstream-result-conditioning",
+      "locator": "/selection_and_corpus_bias_assessment/upstream_result_conditioning",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:selection-modes",
+      "locator": "/selection_and_corpus_bias_assessment/insightforge_selection_modes",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:high-trend-selection-risk",
+      "locator": "/selection_and_corpus_bias_assessment/high_trend_selection_risk",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:candidate-universe-reflection",
+      "locator": "/selection_and_corpus_bias_assessment/repeated_weakening_may_reflect_candidate_universe",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-population-frequency",
+      "locator": "/selection_and_corpus_bias_assessment/population_frequency_estimated",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:no-generalization",
+      "locator": "/selection_and_corpus_bias_assessment/generalization_beyond_current_corpus_supported",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:confidence-exact-cross-inquiry-pattern",
+      "locator": "/confidence_by_claim_type/exact_cross_inquiry_pattern",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:confidence-procedural-lesson",
+      "locator": "/confidence_by_claim_type/procedural_lesson",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:confidence-causal-explanation",
+      "locator": "/confidence_by_claim_type/causal_explanation",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:confidence-generalization-beyond-current-corpus",
+      "locator": "/confidence_by_claim_type/generalization_beyond_current_corpus",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0/selection_provenance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0/production_inquiry",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0/governance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "trend-diagnostics:T031-DNK-private-credit-broad-money",
+      "locator": "/cases/0/evidence/raw/trend_diagnostics",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1/selection_provenance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1/production_inquiry",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1/governance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "trend-diagnostics:T033-NOR-fossil-nonhydro-renewables",
+      "locator": "/cases/1/evidence/raw/trend_diagnostics",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2/selection_provenance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2/production_inquiry",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2/governance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "trend-diagnostics:T035-C1-NOR-life-expectancy-under5-mortality",
+      "locator": "/cases/2/evidence/raw/trend_diagnostics",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3/selection_provenance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3/production_inquiry",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3/governance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "trend-diagnostics:T035-C1-NOR-nonhydro-renewables-under5-mortality",
+      "locator": "/cases/3/evidence/raw/trend_diagnostics",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4/selection_provenance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4/production_inquiry",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4/governance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "trend-diagnostics:T035-C1-NOR-fossil-under5-mortality",
+      "locator": "/cases/4/evidence/raw/trend_diagnostics",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5/selection_provenance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5/production_inquiry",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5/governance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "trend-diagnostics:T036-SWE-private-credit-mobile-subscriptions",
+      "locator": "/cases/5/evidence/raw/trend_diagnostics",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6/selection_provenance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6/production_inquiry",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "governance:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6/governance",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "trend-diagnostics:T038-DNK-agricultural-land-private-credit",
+      "locator": "/cases/6/evidence/raw/trend_diagnostics",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:lens-assessment",
+      "locator": "/lens_assessment",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/fixtures/T-039-cross-inquiry-synthesis.json",
+      "item_id": "closure:lens-assessment",
+      "locator": "/lens_library_expanded",
+      "resolved": true
+    },
+    {
+      "authority": "InsightForge@db97c30f2a79f3f1526c5c3347238f7d58be9d12:artifacts/reports/R-20260717-t039-cross-inquiry-synthesis-raw-level-relationships-after-first-differencing.md",
+      "item_id": "closure:descriptive-coefficient-ranges",
+      "locator": "report line 117",
+      "resolved": true
+    }
+  ],
+  "schema": "briefforge-task065-source-and-contract-admission:1.0.0",
+  "source_and_contract_checks_status": "PASS",
+  "source_boundary_exclusions": [
+    {
+      "destination": "statement:task065-evidence-boundary",
+      "item_id": "closure:exclude-unselected-results",
+      "rendered_destination": "scope and evidence-boundary note"
+    },
+    {
+      "destination": "statement:task065-evidence-boundary",
+      "item_id": "closure:exclude-new-relationships",
+      "rendered_destination": "scope and evidence-boundary note"
+    },
+    {
+      "destination": "statement:task065-evidence-boundary",
+      "item_id": "closure:exclude-new-method",
+      "rendered_destination": "scope and evidence-boundary note"
+    }
+  ],
+  "source_commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+  "source_head": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+  "source_main": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+  "source_snapshot_identity": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+  "status": "BLOCKED",
+  "task_id": "TASK-065"
+}

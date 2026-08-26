@@ -1,0 +1,27 @@
+{
+  "extensions": [],
+  "identity": "release:case-3",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "PublicationReleaseRecord",
+  "semantic": {
+    "distribution_authorized": true,
+    "distribution_scope": "public-synthetic",
+    "evidence_snapshot_refs": [
+      "snapshot:synthetic-c3"
+    ],
+    "evidence_snapshot_versions": {
+      "snapshot:synthetic-c3": "1"
+    },
+    "includes_recommendations": false,
+    "lifecycle_status": "active",
+    "publication_lineage_id": "publication-lineage:c3",
+    "publication_time": "2026-07-16T12:02:00Z",
+    "ready_fingerprint": "36be0c00f6d51595e9e9d78119635e1fd2b389c1e8a7f26c2267303a659a75d2",
+    "ready_ref": "ready:case-3",
+    "release_authority_ref": "authority:release-c3",
+    "semantic_publication_version": "1.0.0"
+  }
+}

@@ -1,0 +1,133 @@
+routing:
+  default_policy: local_execution_cloud_governance
+
+  context_requirements:
+    cloud_governance_budget_tokens: 10000
+    cloud_governance_target_tokens: 8000
+    project_wide_review_budget_tokens: 64000
+    project_wide_review_target_tokens: 32000
+    cloud_requires_context_audit: true
+    project_wide_review_requires_justification: true
+    raw_logs_forbidden_in_normal_context: true
+    summary_first_retrieval: true
+
+  by_agent:
+    brain_orchestrator:
+      preferred: [hermes_default, deepseek_r1_14b, qwen3_14b]
+      escalation_after_failures: 2
+    planner:
+      preferred: [hermes_default, deepseek_r1_14b, qwen3_14b, codex_supervisor]
+      escalation_after_failures: 2
+    coder:
+      preferred: [qwen_coder, deepseek_coder_v2, hermes_default]
+      escalation_after_failures: 2
+    reviewer:
+      preferred: [hermes_default, deepseek_r1_14b, qwen3_14b, codex_supervisor]
+      escalation_after_failures: 2
+    auditor:
+      preferred: [hermes_default, qwen3_14b, deepseek_r1_14b, codex_supervisor]
+      escalation_after_failures: 2
+    summarizer:
+      preferred: [small_summarizer, qwen3_4b, llama32_3b, hermes_default]
+      escalation_after_failures: 4
+    context_manager:
+      preferred: [small_summarizer, qwen3_4b, llama32_3b, hermes_default]
+      escalation_after_failures: 4
+    bootstrapper:
+      preferred: [hermes_default, deepseek_r1_14b, codex_supervisor]
+      escalation_after_failures: 2
+    metrics_reviewer:
+      preferred: [qwen3_14b, deepseek_r1_14b, hermes_default]
+      escalation_after_failures: 3
+    dry_run_validator:
+      preferred: [hermes_default, qwen3_14b]
+      escalation_after_failures: 3
+
+  by_task:
+    project_creation_interview:
+      preferred: [hermes_default, deepseek_r1_14b, codex_supervisor]
+    scaffold_rendering:
+      preferred: [hermes_default]
+    summarization:
+      preferred: [small_summarizer, qwen3_4b, llama32_3b, hermes_default]
+    log_compression:
+      preferred: [small_summarizer, qwen3_4b, llama32_3b, hermes_default]
+    folder_summary_update:
+      preferred: [small_summarizer, qwen3_4b, llama32_3b, hermes_default]
+    documentation_update:
+      preferred: [small_summarizer, qwen3_4b, hermes_default]
+    code_search:
+      preferred: [hermes_default, qwen3_4b]
+    simple_code_edit:
+      preferred: [qwen_coder, deepseek_coder_v2, hermes_default]
+    routine_implementation:
+      preferred: [qwen_coder, deepseek_coder_v2, hermes_default]
+    refactoring:
+      preferred: [qwen_coder, deepseek_coder_v2, hermes_default]
+    debugging:
+      preferred: [qwen_coder, deepseek_coder_v2, hermes_default, deepseek_r1_14b]
+    tests:
+      preferred: [hermes_default]
+    architecture_decision:
+      preferred: [hermes_default, deepseek_r1_14b, qwen3_14b, codex_supervisor]
+    project_audit:
+      preferred: [hermes_default, qwen3_14b, deepseek_r1_14b, codex_supervisor]
+    strategic_planning:
+      preferred: [hermes_default, deepseek_r1_14b, qwen3_14b, codex_supervisor]
+    gap_analysis:
+      preferred: [hermes_default, qwen3_14b, deepseek_r1_14b, codex_supervisor]
+    redesign:
+      preferred: [hermes_default, deepseek_r1_14b, qwen3_14b, codex_supervisor]
+    consistency_review:
+      preferred: [hermes_default, qwen3_14b, deepseek_r1_14b, codex_supervisor]
+    repeated_failure_debugging:
+      preferred: [hermes_default, deepseek_r1_14b, qwen3_14b, codex_supervisor]
+    security_or_secret_handling:
+      preferred: [hermes_default, codex_supervisor]
+
+  local_execution_tasks:
+    - summarization
+    - log_compression
+    - folder_summary_update
+    - documentation_update
+    - code_search
+    - simple_code_edit
+    - routine_implementation
+    - refactoring
+    - debugging
+    - tests
+
+  cloud_governance_tasks:
+    - architecture_decision
+    - project_audit
+    - strategic_planning
+    - gap_analysis
+    - redesign
+    - consistency_review
+
+  cloud_escalation_only_if:
+    - architecture_decision
+    - project_audit
+    - strategic_planning
+    - gap_analysis
+    - redesign
+    - consistency_review
+    - local_failed_twice
+    - high_ambiguity
+    - explicit_user_request
+    - safety_critical_destructive_operation
+
+  escalation:
+    capability_failure_chain:
+      - current_hermes_session
+      - stronger_local_model_if_configured
+      - codex_or_premium_model_after_context_audit
+      - human_if_still_blocked
+    human_first_for:
+      - permission_required
+      - credential_handling
+      - destructive_command
+      - git_push
+      - money_or_billing_risk
+      - production_data_change
+      - unresolved_specification

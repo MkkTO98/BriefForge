@@ -1,0 +1,100 @@
+{
+  "attempts_consumed": 0,
+  "authoring_calls_made": 0,
+  "authority_reconciliation": {
+    "candidate_stage": "author_candidate_bundle only",
+    "publication_stage": "TASK-067 Release + Plan + PairedUpstreamAdmissionToken remains unchanged",
+    "task067_architecture_modified": false
+  },
+  "candidate_exists": false,
+  "candidate_identity": "candidate:task065-cross-inquiry",
+  "candidate_stage_negative_gate": {
+    "extension_count": 1,
+    "forbidden_state_or_invocation_keys": [],
+    "lifecycle_extension_names": [],
+    "passed": true,
+    "record_count": 3,
+    "record_identities": [
+      "brief:task065-cross-inquiry",
+      "material:task065-t039",
+      "candidate:task065-cross-inquiry"
+    ]
+  },
+  "checked_at_utc": "2026-08-08T07:09:57Z",
+  "exact_authoritative_semantics": true,
+  "focused_tests": "11 passed",
+  "independent_pre_attempt_reviews": [
+    "authority/one-call safety: PASS",
+    "semantic/traceability: PASS"
+  ],
+  "prohibited_actions_absent": [
+    "Judgment",
+    "Ready package",
+    "Publication Release",
+    "compatibility Plan",
+    "PairedUpstreamAdmissionToken",
+    "projection",
+    "rendering",
+    "conformance",
+    "Manifest",
+    "delivery",
+    "deployment",
+    "HTTP evidence",
+    "TASK-056 evidence",
+    "TASK-051 work",
+    "AtlasForge work",
+    "successor activation"
+  ],
+  "protected_history": {
+    "TASK-051": "inactive and unchanged against authenticated TASK-068 endpoint",
+    "TASK-065": "BLOCKED historical result; zero attempts; unchanged against authenticated TASK-068 endpoint",
+    "TASK-068": "BLOCKED / NOT RECONCILED; zero attempts; authenticated endpoint"
+  },
+  "schema": "briefforge-task069-pre-attempt-gate:1.0.0",
+  "semantic_traceability_passed": true,
+  "source_authentication": {
+    "all_locators_resolved": true,
+    "all_object_bytes_and_sha256_passed": true,
+    "artifact_count": 13,
+    "commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+    "locator_count": 130
+  },
+  "status": "PASS",
+  "task_id": "TASK-069",
+  "terminal_authority_boundary_directories": [
+    {
+      "device": 66306,
+      "inode": 16140483,
+      "path": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task069/terminal-boundaries/delivery",
+      "role": "delivery"
+    },
+    {
+      "device": 66306,
+      "inode": 16140484,
+      "path": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task069/terminal-boundaries/delivery-ledger",
+      "role": "delivery-ledger"
+    },
+    {
+      "device": 66306,
+      "inode": 16140485,
+      "path": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task069/terminal-boundaries/deployment-ledger",
+      "role": "deployment-ledger"
+    },
+    {
+      "device": 66306,
+      "inode": 16140486,
+      "path": "/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task069/terminal-boundaries/verification-ledger",
+      "role": "verification-ledger"
+    }
+  ],
+  "topology": {
+    "columns": 5,
+    "obligations": 5,
+    "provenance": 8,
+    "qualifications": 27,
+    "rows": 7,
+    "sections": 6,
+    "statements": 76,
+    "values": 14
+  }
+}

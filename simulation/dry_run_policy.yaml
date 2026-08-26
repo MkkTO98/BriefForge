@@ -1,0 +1,40 @@
+dry_run_policy:
+  default_mode: balanced
+  modes:
+    balanced:
+      low: micro_preflight
+      medium: standard_dry_run
+      high: full_dry_run
+    aggressive_safe:
+      low: standard_dry_run
+      medium: full_dry_run
+      high: full_dry_run_human_review
+    speed:
+      low: none
+      medium: micro_preflight
+      high: full_dry_run
+
+  mandatory_for:
+    - dangerous_commands
+    - destructive_filesystem_changes
+    - git_push
+    - dependency_install
+    - schema_change
+    - permission_change
+    - agent_config_change
+    - model_routing_change
+    - large_refactor
+    - production_data_change
+    - workspace_policy_change
+
+  report_must_include:
+    - files
+    - commands
+    - risk
+    - validation_plan
+    - rollback_plan
+    - context_used
+    - decision_artifacts_checked
+    - approval_required
+
+  validator: tools/validate_dry_run.py

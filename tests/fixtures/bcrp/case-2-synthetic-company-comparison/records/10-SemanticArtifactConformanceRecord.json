@@ -1,0 +1,21 @@
+{
+  "extensions": [],
+  "identity": "artifact-conformance:case-2",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "SemanticArtifactConformanceRecord",
+  "semantic": {
+    "audit_link_pass": true,
+    "audit_ref": "artifact-audit:case-2",
+    "conformance_time": "2026-07-16T11:04:00Z",
+    "evidence": {
+      "id": "evidence:c2-semantic-inspection",
+      "inspection_identity": "inspection:c2",
+      "kind": "semantic-inspection"
+    },
+    "ready_ref": "ready:case-2",
+    "semantic_pass": true
+  }
+}

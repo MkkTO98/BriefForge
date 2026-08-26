@@ -1,0 +1,35 @@
+sufficiency_policy:
+  version: 1
+  principle: "Ask until operational sufficiency is reached; defer everything else explicitly."
+  bootstrap_is_sufficient_when:
+    required_question_ids_resolved_or_deferred:
+      - purpose
+      - success
+      - project_type
+      - autonomy
+      - command_policy
+      - secrets
+      - logging
+      - folder_summaries
+    required_files_exist:
+      - state/active_goal.md
+      - state/project_state.md
+      - state/architecture.md
+      - permissions/allowlist.yaml
+      - permissions/denylist.yaml
+      - permissions/escalation_rules.yaml
+      - artifacts/decisions
+      - logs
+    allowed_deferred_domains:
+      - storage
+      - deployment
+      - branch_strategy
+      - specialized_agents
+      - available_models
+      - external_services
+  must_pause_if_unresolved:
+    - secrets
+    - command_policy
+    - destructive_operation
+    - external_billing
+    - production_access

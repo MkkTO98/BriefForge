@@ -1,0 +1,186 @@
+{
+  "candidate": {
+    "identity": {
+      "non_scope": "No automatic report generation, AI generation, analysis, data ownership, renderer-internal dependency, template, dashboard, portal, browser application, CSS, JavaScript, visualization, API, networking, or bidirectional coupling.",
+      "package_id": "briefforge-task-020-insightforge-finding-proof",
+      "purpose_summary": "A minimal one-way integration proof presenting an existing reviewed InsightForge finding without BriefForge changing the analytical conclusion.",
+      "scope": "Presentation-level organization of one existing InsightForge finding, its confidence, caveats, evidence ownership, and reproducibility method.",
+      "title": "InsightForge finding memo: Eurostat Germany and France quarterly GDP direction of change, 2023 Q1 to 2023 Q2"
+    },
+    "obligations": [
+      {
+        "applies_to": [
+          "stmt-insightforge-conclusion"
+        ],
+        "category": "analytical-boundary",
+        "obligation_id": "obl-preserve-insightforge-conclusion",
+        "requirement": "Preserve the InsightForge-authored conclusion without rewriting it into a new analytical claim."
+      },
+      {
+        "applies_to": [
+          "stmt-insightforge-confidence",
+          "stmt-insightforge-caveats"
+        ],
+        "category": "caveat-preservation",
+        "obligation_id": "obl-preserve-caveats",
+        "requirement": "Present caveats and confidence with the finding; do not strip uncertainty for readability."
+      },
+      {
+        "applies_to": [
+          "ref-insightforge-finding-if-a-20260619-002",
+          "ref-macroforge-canonical-gdp-snapshot",
+          "stmt-insightforge-evidence-boundary"
+        ],
+        "category": "source-ownership",
+        "obligation_id": "obl-keep-source-ownership-visible",
+        "requirement": "Keep InsightForge as conclusion owner and MacroForge as evidence owner."
+      }
+    ],
+    "organizing_purpose": {
+      "non_scope": "Do not create, revise, summarize into a new conclusion, or validate the analytical truth of the finding.",
+      "scope": "Compose the finding question, conclusion, confidence, caveats, and reproducibility into one package.",
+      "statement": "Allow a reader to encounter the upstream InsightForge finding as reviewed analytical content while BriefForge owns only presentation organization and obligation preservation."
+    },
+    "statements": [
+      {
+        "belongs_to_purpose": "IF-A-20260619-002",
+        "encounter_meaning": "InsightForge question: Within the Eurostat quarterly GDP rows in MacroForge's canonical GDP snapshot, what descriptive direction-of-change conclusion is justified for Germany and France from 2023 Q1 to 2023 Q2?",
+        "encounter_semantics": {
+          "description": "Establish the upstream analytical question before presenting the conclusion.",
+          "mode": "finding-question",
+          "related_statement_ids": [
+            "stmt-insightforge-conclusion"
+          ]
+        },
+        "obligation_ids": [
+          "obl-keep-source-ownership-visible"
+        ],
+        "statement_id": "stmt-insightforge-question",
+        "upstream_reference_ids": [
+          "ref-insightforge-finding-if-a-20260619-002"
+        ]
+      },
+      {
+        "belongs_to_purpose": "IF-A-20260619-002",
+        "encounter_meaning": "InsightForge conclusion: In the Eurostat quarterly GDP rows included in MacroForge's canonical GDP snapshot, Germany's value is lower in 2023 Q2 than in 2023 Q1, while France's value is higher in 2023 Q2 than in 2023 Q1. Germany changes from 1043520.0 to 1031880.0 CP_MEUR. France changes from 684762.7 to 706147.7 CP_MEUR. This supports only a same-source, same-frequency, same-unit descriptive finding.",
+        "encounter_semantics": {
+          "description": "Present the upstream-authored conclusion without BriefForge alteration.",
+          "mode": "finding-conclusion",
+          "related_statement_ids": [
+            "stmt-insightforge-question",
+            "stmt-insightforge-confidence",
+            "stmt-insightforge-caveats"
+          ]
+        },
+        "obligation_ids": [
+          "obl-preserve-insightforge-conclusion"
+        ],
+        "statement_id": "stmt-insightforge-conclusion",
+        "upstream_reference_ids": [
+          "ref-insightforge-finding-if-a-20260619-002"
+        ]
+      },
+      {
+        "belongs_to_purpose": "IF-A-20260619-002",
+        "encounter_meaning": "InsightForge confidence: medium. Justification: The same-source, same-unit, same-frequency direction comparison is direct and reproducible from four observed Eurostat rows in a succeeded MacroForge report with passing checks, but confidence remains medium because Eurostat mapping status is provisional and broader comparison/conversion policy is deferred.",
+        "encounter_semantics": {
+          "description": "Carry upstream confidence as routing metadata, not as BriefForge truth certification.",
+          "mode": "finding-confidence",
+          "related_statement_ids": [
+            "stmt-insightforge-conclusion",
+            "stmt-insightforge-caveats"
+          ]
+        },
+        "obligation_ids": [
+          "obl-preserve-caveats"
+        ],
+        "statement_id": "stmt-insightforge-confidence",
+        "upstream_reference_ids": [
+          "ref-insightforge-finding-if-a-20260619-002"
+        ]
+      },
+      {
+        "belongs_to_purpose": "IF-A-20260619-002",
+        "encounter_meaning": "InsightForge caveats: This is a Eurostat-only descriptive finding over four quarterly rows in one MacroForge snapshot. It covers only 2023 Q1 and 2023 Q2 for Germany and France. It does not annualize quarterly data or aggregate frequency. It does not compare Eurostat to WDI, OECD, or any other source. It does not perform currency conversion, inflation adjustment, seasonal adjustment review, or forecasting. MacroForge's canonical asset manifest says the Eurostat mapping state is provisional and current-price million euro values require conversion policy before broader comparison. The conclusion must not be treated as an investment signal, thesis, or causal explanation.",
+        "encounter_semantics": {
+          "description": "Preserve scope limits before any reader treats the finding as broadly comparable or causal.",
+          "mode": "finding-caveats",
+          "related_statement_ids": [
+            "stmt-insightforge-conclusion",
+            "stmt-insightforge-evidence-boundary"
+          ]
+        },
+        "obligation_ids": [
+          "obl-preserve-caveats"
+        ],
+        "statement_id": "stmt-insightforge-caveats",
+        "upstream_reference_ids": [
+          "ref-insightforge-finding-if-a-20260619-002"
+        ]
+      },
+      {
+        "belongs_to_purpose": "IF-A-20260619-002",
+        "encounter_meaning": "Evidence boundary: InsightForge cites MacroForge-owned canonical GDP evidence; BriefForge presents the reference relationship but does not verify, canonicalize, or reinterpret the GDP data.",
+        "encounter_semantics": {
+          "description": "Make one-way ownership visible: InsightForge conclusion, MacroForge evidence, BriefForge presentation.",
+          "mode": "source-ownership-boundary",
+          "related_statement_ids": [
+            "stmt-insightforge-conclusion",
+            "stmt-insightforge-reproducibility"
+          ]
+        },
+        "obligation_ids": [
+          "obl-keep-source-ownership-visible"
+        ],
+        "statement_id": "stmt-insightforge-evidence-boundary",
+        "upstream_reference_ids": [
+          "ref-insightforge-finding-if-a-20260619-002",
+          "ref-macroforge-canonical-gdp-snapshot"
+        ]
+      },
+      {
+        "belongs_to_purpose": "IF-A-20260619-002",
+        "encounter_meaning": "InsightForge reproducibility method: Read the four Eurostat rows for DEU and FRA in periods 2023 Q1 and 2023 Q2; compare each territory's Q2 value numerically against its Q1 value; conclude higher/lower direction only.",
+        "encounter_semantics": {
+          "description": "Expose the upstream reproducibility method without creating a BriefForge analysis step.",
+          "mode": "finding-reproducibility",
+          "related_statement_ids": [
+            "stmt-insightforge-evidence-boundary"
+          ]
+        },
+        "obligation_ids": [
+          "obl-keep-source-ownership-visible"
+        ],
+        "statement_id": "stmt-insightforge-reproducibility",
+        "upstream_reference_ids": [
+          "ref-insightforge-finding-if-a-20260619-002"
+        ]
+      }
+    ],
+    "upstream_references": [
+      {
+        "locator": "/home/mkkto/srv/EIP/projects/InsightForge/artifacts/analytical/IF-A-20260619-002-eurostat-deu-fra-quarterly-direction.md",
+        "owned_meaning": "InsightForge owns the reviewed question, conclusion, confidence, caveats, and reproducibility method for this finding.",
+        "owning_project": "InsightForge",
+        "reference_id": "ref-insightforge-finding-if-a-20260619-002",
+        "reference_kind": "reviewed-analytical-finding"
+      },
+      {
+        "locator": "/home/mkkto/srv/EIP/projects/MacroForge/artifacts/reports/canonical-gdp-snapshot-20260604.json",
+        "owned_meaning": "MacroForge owns the canonical GDP observations and source lineage cited by InsightForge.",
+        "owning_project": "MacroForge",
+        "reference_id": "ref-macroforge-canonical-gdp-snapshot",
+        "reference_kind": "upstream-evidence-artifact"
+      }
+    ]
+  },
+  "semantic_fingerprint": "19e3cf57c9f3dd252f7612043b2f65ec8f0ebce15461e140f8354700cbb8929a",
+  "validation_judgment": {
+    "candidate_package_id": "briefforge-task-020-insightforge-finding-proof",
+    "candidate_semantic_fingerprint": "19e3cf57c9f3dd252f7612043b2f65ec8f0ebce15461e140f8354700cbb8929a",
+    "findings": [],
+    "valid": true,
+    "validation_policy_id": "briefforge-constitutional-validation-policy:v1"
+  },
+  "validation_policy_id": "briefforge-constitutional-validation-policy:v1"
+}

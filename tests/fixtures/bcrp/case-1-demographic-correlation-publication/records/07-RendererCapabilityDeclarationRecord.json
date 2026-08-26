@@ -1,0 +1,22 @@
+{
+  "extensions": [],
+  "identity": "renderer-capability:case-1",
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "record_kind": "RendererCapabilityDeclarationRecord",
+  "semantic": {
+    "capabilities": [
+      "static-html-svg",
+      "table",
+      "print",
+      "standalone-offline",
+      "scoped-styles",
+      "deep-links"
+    ],
+    "renderer_id": "renderer:static-html-svg",
+    "renderer_version": "1.0.0",
+    "verification_evidence": "offline-test"
+  }
+}

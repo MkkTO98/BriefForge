@@ -1,0 +1,1 @@
+{"authority_digest":"9870ff3aca5630de86a97de815415b9d183782e7255a0340640b47e9a226fe04","detail":{"stage_receipt_sha256":"51d2c7712915aa98011fa93a03a3429a4ae90b4b3f3f8911c467280351c4b798"},"format":"briefforge-candidate-attempt-state-v1","prior_state_digest":"29bf6f5e26bc5dff0e6d2705221541ad6b83727a98ec31aaf16c521a67eaebe9","sequence":3,"state":"VALIDATION_PENDING"}

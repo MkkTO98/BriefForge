@@ -1,0 +1,282 @@
+context_policy:
+  mode: local_execution_cloud_governance
+
+  budgets:
+    local_model_tokens: 24000
+    cloud_governance_tokens: 10000
+    cloud_governance_target_tokens: 8000
+    project_wide_review_tokens: 64000
+    project_wide_review_target_tokens: 32000
+
+  budget_intent:
+    local_model_tokens: routine local execution and implementation context
+    cloud_governance_tokens: default compact cloud reasoning bundle for high-leverage decisions
+    project_wide_review_tokens: justified cloud governance mode for audits, redesigns, strategic reviews, and gap analysis
+
+  context_modes:
+    normal:
+      purpose: local execution or narrow task work
+      default_model_target: local
+      includes: [project_summary, active_task_file, relevant_folder_summaries, relevant_decision_records, explicitly_retrieved_source_files, short_recent_handoff_summary]
+    governance:
+      purpose: compact cloud architecture/strategy reasoning over selected evidence
+      default_model_target: cloud
+      requires_context_audit: true
+      budget: cloud_governance_tokens
+    project_wide_review:
+      purpose: larger cloud governance review for architecture audit, redesign, strategic planning, gap analysis, and consistency review
+      default_model_target: cloud
+      requires_context_audit: true
+      requires_review_justification: true
+      budget: project_wide_review_tokens
+      starts_with_all_folder_summaries: true
+      still_excludes_raw_logs_by_default: true
+
+
+  context_loading_hierarchy:
+    priority_1:
+      purpose: "mandatory smallest sufficient startup context: project identity plus concise current-state pointers"
+      files:
+        - CONSTITUTION.md
+        - state/active_goal.md
+        - state/project_state.md
+        - state/architecture.md
+        - context/latest_handoff.md
+    priority_2:
+      purpose: task-scoped durable context loaded only when relevant
+      includes:
+        - active_task_files
+        - relevant_decision_records
+        - relevant_folder_summaries
+    priority_3:
+      purpose: broader context loaded only after justified expansion
+      includes:
+        - broader_documentation
+        - reports
+        - design_notes
+        - roadmap_files
+        - historical_artifacts
+    rule: >-
+      Agents start with Priority 1, add Priority 2 only for the active task,
+      and use Priority 3 only when the narrower context is insufficient or when
+      an explicitly justified governance/project-wide review requires it.
+      Repository-wide exploration is never the default.
+
+  normal_context_may_include:
+    - project_summary
+    - active_task_file
+    - relevant_folder_summaries
+    - relevant_decision_records
+    - explicitly_retrieved_source_files
+    - short_recent_handoff_summary
+
+  normal_context_must_not_include:
+    - raw_logs
+    - entire_previous_conversations
+    - full_session_jsonl_files
+    - whole_project_file_dumps
+    - unrelated_folders
+    - large_tool_outputs
+    - generated_artifacts_unless_explicitly_relevant
+
+  retrieval_order:
+    - read_project_summary
+    - identify_relevant_folders
+    - read_relevant_folder_summaries
+    - read_relevant_decision_records
+    - retrieve_only_relevant_files
+    - expand_context_incrementally_if_audit_or_reasoning_need_justifies_it
+    - read_raw_logs_only_for_failure_investigation_or_summary_gap
+
+  folder_summaries:
+    enabled: true
+    filename: _SUMMARY.md
+    maintained_by: context_manager
+    use_before_deep_file_reads: true
+
+  generated_context_artifacts:
+    active_context_md: generated_task_bundle_not_startup_context
+    context_manifest_json: generated_task_bundle_manifest
+    context_audit_json: generated_context_audit
+    context_audit_md: generated_context_audit
+    rule: >-
+      `context/active_context.md` is an output of `tools/build_context.py` for a
+      specific task/model target. Do not read stale `context/active_context.md`
+      as mandatory startup context. For normal work, start from concise state,
+      relevant task/decision artifacts, and folder summaries; rebuild a fresh
+      task-specific bundle when explicit context bundling or cloud governance is
+      needed.
+
+  artifact_responsibilities:
+    current_state_pointers:
+      - state/active_goal.md
+      - state/project_state.md
+      - state/architecture.md
+    recovery_handoff_artifacts:
+      - context/latest_handoff.md
+      - recovery/continuity_framework.md
+    generated_context_bundles:
+      - context/active_context.md
+      - context/context_manifest.json
+      - context/context_audit.json
+      - context/context_audit.md
+    summary_navigation_artifacts:
+      - "**/_SUMMARY.md"
+    durable_historical_artifacts:
+      - artifacts/tasks/
+      - artifacts/decisions/
+      - artifacts/reports/
+      - artifacts/handoffs/
+      - logs/derived/
+    normal_startup_excludes:
+      - raw_logs
+      - stale_active_context_bundles
+      - whole_repository_scans
+    rule: >-
+      State files are concise current-state pointers, not historical ledgers.
+      Historical evidence belongs in artifacts/tasks, artifacts/decisions,
+      artifacts/reports, artifacts/handoffs, or derived logs. Summaries are
+      navigation aids, not authoritative doctrine. Generated context bundles are
+      task/model-specific outputs and must not be treated as mandatory startup
+      context.
+
+  context_health:
+    active_goal_chars: 6000
+    project_state_chars: 12000
+    architecture_chars: 12000
+    recent_changes_chars: 6000
+    handoff_warn_chars: 3000
+    handoff_block_chars: 9000
+    generated_context_stale_hours: 168
+
+  task_completion:
+    update_summaries: true
+    summary_mode: affected_only
+    require_summary_inspection: true
+    require_final_verification_after_summary_updates: true
+    rule: >-
+      When a task is completed, update task outcome/status, state, handoff,
+      and affected folder summaries. Prefer affected-only summary refresh;
+      inspect refreshed summaries for stale curated Active Work, Needs
+      Attention, or task status sections; patch manually if needed; then run
+      final verification after governance and summary edits.
+
+  continuity_recovery:
+    tool: tools/recover_session.py
+    framework_doc: recovery/continuity_framework.md
+    startup_command: python3 tools/recover_session.py --project . --json
+    bounded_inputs:
+      - CONSTITUTION.md
+      - state/active_goal.md
+      - state/project_state.md
+      - state/architecture.md
+      - context/latest_handoff.md
+      - recent artifacts/tasks/*.md only when needed
+      - recent artifacts/decisions/*.md only when needed
+      - question_queue/pending/* only when needed
+    must_answer:
+      - current_project_state
+      - active_goal_or_task
+      - recent_decisions
+      - current_blockers
+      - next_recommended_actions
+      - recommended_resume_procedure
+    standard_closeout_command: Perform standard project closeout. Follow the continuity framework. Run required verification if project files changed. Then stop.
+    standard_closeout_order:
+      - identify_active_task_from_state_handoff_or_recovery_report
+      - update_active_task_status_outcome_blockers_incomplete_acceptance_criteria_and_next_action
+      - update_context_latest_handoff_with_context_files_changed_verification_blockers_next_actions_and_resume_command
+      - update_active_goal_and_project_state_current_pointers_if_changed
+      - refresh_affected_summaries_and_inspect_curated_sections
+      - run_final_verification_after_task_state_handoff_and_summary_edits
+      - replace_pending_verification_placeholders_or_record_remaining_verification_as_blocker
+    near_quota_shutdown_order:
+      - update_active_task_status_and_incomplete_acceptance_criteria
+      - record_blockers_open_questions_or_approval_needs
+      - update_context_latest_handoff_with_resume_command
+      - update_current_state_pointers_if_changed
+      - refresh_affected_summaries_and_run_final_verification_if_budget_remains
+    rule: >-
+      A fresh session should recover from bounded file-backed state before any
+      broad repository exploration. Standard closeout must preserve continuity
+      in the existing project-owned task, handoff, state, summary, blocker, next-action,
+      and verification artifacts without requiring the user to provide an ad hoc checklist.
+      Near token, tool, time, or quota exhaustion, continuity updates take
+      priority over optional cleanup, broad scans, raw-log reads, or narrative
+      polish.
+
+  architecture_reality_audit:
+    name: Architecture-to-Reality Audit
+    purpose: >-
+      Periodically compare documented architecture, governance, operating
+      procedures, state artifacts, templates, automation, logging/context
+      systems, and actual implementation so generated projects do not drift
+      into documentation-only or implementation-only behavior.
+    cadence:
+      - every_5_to_10_completed_tasks
+      - before_major_architecture_changes
+      - before_major_governance_reviews
+    command: python3 tools/architecture_reality_audit.py --project . --write-report
+    report_location: artifacts/reports/R-YYYYMMDD-architecture-reality-audit.md
+    categories:
+      - architecture_vs_implementation
+      - state_files_vs_reality
+      - agent_instructions_vs_behavior
+      - logging_systems
+      - context_management_systems
+      - governance_processes
+      - automation_workflows
+      - templates_vs_generated_projects
+    drift_types:
+      - drift
+      - obsolete_documentation
+      - duplicated_systems
+      - unused_systems
+      - missing_implementation
+      - implementation_without_documentation
+      - documentation_without_implementation
+    remediation_rule: >-
+      Blocks must be fixed before major architecture or governance work
+      continues. Durable corrections require decision artifacts when they change
+      policy, architecture, scope, model routing, permissions, templates, or
+      operating procedure. After remediation, refresh affected summaries and run
+      architecture_reality_audit, check_coherence, and relevant tests again.
+
+  limits:
+    summary_file_chars: 4000
+    handoff_chars: 3000
+    active_task_chars: 8000
+    decision_record_chars: 6000
+    explicit_source_file_chars: 20000
+    project_wide_source_file_chars: 12000
+    project_wide_folder_summary_count: 200
+
+  raw_logs:
+    stored_for: audit_debugging_only
+    include_in_normal_context: false
+    allowed_contexts:
+      - failure_investigation
+      - forensic
+      - incident
+    rule: Raw logs are never included in normal context bundles. Governance reviews use summaries and decision history first.
+
+  cloud_audit:
+    required_before_cloud_model: true
+    report_paths:
+      json: context/context_audit.json
+      markdown: context/context_audit.md
+    required_fields:
+      - total_estimated_tokens
+      - context_mode
+      - review_justification_when_project_wide
+      - included_files_with_reasons
+      - excluded_files_with_reasons
+      - raw_logs_excluded
+      - summaries_used
+      - model_selected_and_reason
+
+  compression:
+    summarize_large_files: true
+    large_file_line_threshold: 250
+    prefer_summaries_for_non_target_folders: true
+    summaries_and_log_compression_use_local_model: true

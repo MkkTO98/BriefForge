@@ -1,0 +1,1026 @@
+{
+  "artifact": {
+    "accepted_path": "artifacts/pilots/task063/accepted/artifact/brief.html",
+    "byte_length": 64752,
+    "delivered_path": "artifacts/pilots/task063/destination/brief.html/brief.html",
+    "http_route": "/brief.html",
+    "media_type": "text/html",
+    "sha256": "ccd0c875058c95ce180aaf7e74e9b94aaafd1d9d9c913cf0c44a87e9a89b3202"
+  },
+  "attempts": [
+    {
+      "attempt_identity": "task063-pilot-attempt-001",
+      "chain_outcome": "accepted-chain-complete",
+      "hidden_retry": false,
+      "preserved_evidence": true,
+      "tool_wrapper_outcome": "timeout-after-chain-before-summary-write"
+    }
+  ],
+  "authority_consumption": {
+    "content_authorities": [
+      {
+        "id": "authority:briefforge-task063-presentation-structure",
+        "owner_identity": "project:BriefForge",
+        "role": "presentation-content-authority",
+        "scope": "non-analytical organization, headings, introduction, deterministic ordering, table projection, provenance display, and publication presentation"
+      },
+      {
+        "id": "authority:insightforge-t039-analytical-content",
+        "owner_identity": "project:InsightForge",
+        "role": "presentation-content-authority",
+        "scope": "exact admitted T-039 analytical content at source snapshot source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689"
+      }
+    ],
+    "delivery_scope": "{\"contract\":{\"atomic\":\"renameat2-noreplace\",\"collision\":\"nfc-casefold-no-alias\",\"no_overwrite\":true,\"rollback\":\"verified-or-indeterminate\"},\"destination_parent\":{\"canonical_path\":\"/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task063/destination\",\"device\":66306,\"inode\":14455031},\"final_basename\":\"brief.html\",\"implementation\":\"briefforge.publication_distribution_delivery\",\"ledger\":{\"canonical_path\":\"/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task063/delivery-ledger\",\"device\":66306,\"inode\":14455032},\"policy\":\"briefforge-controlled-local-delivery-policy:1.0.0\",\"profile\":\"briefforge-controlled-local-directory-delivery-profile:1.0.0\",\"version\":\"1.0.0\"}",
+    "deployment_scope": "{\"contract\":{\"bounded\":true,\"no_runtime_fallback\":true,\"one_act\":true,\"public_binding\":false},\"implementation\":\"briefforge.bounded_loopback_deployment\",\"ledger\":{\"canonical_path\":\"/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task063/deployment-ledger\",\"device\":66306,\"inode\":14455033},\"policy\":\"briefforge-bounded-loopback-deployment-policy:1.0.0\",\"profile\":\"briefforge-bounded-loopback-static-http-profile:1.0.0\",\"routes\":[{\"logical_filename\":\"brief.html\",\"media_type\":\"text/html\",\"path\":\"/brief.html\"}],\"transport\":{\"address\":\"127.0.0.1\",\"family\":\"AF_INET\",\"origin\":\"http://127.0.0.1:52119\",\"port\":52119,\"scheme\":\"http\",\"type\":\"SOCK_STREAM\"},\"version\":\"1.0.0\"}",
+    "displayed_operational_authority_count": 0,
+    "operational_authorities": [
+      {
+        "id": "authority:briefforge-bcrp-validation",
+        "owner_identity": "project:BriefForge",
+        "role": "validation-authority",
+        "scope": "BCRP-L0-L6"
+      },
+      {
+        "id": "authority:briefforge-publication-release",
+        "owner_identity": "project:BriefForge",
+        "role": "publication-release-authority",
+        "scope": "fixed-evidence-publication-release"
+      },
+      {
+        "id": "authority:briefforge-controlled-renderer-invocation",
+        "owner_identity": "project:BriefForge",
+        "role": "renderer-invocation-authority",
+        "scope": "one-controlled-renderer-invocation-act"
+      },
+      {
+        "id": "authority:briefforge-semantic-artifact-conformance",
+        "owner_identity": "project:BriefForge",
+        "role": "semantic-artifact-conformance-assessor",
+        "scope": "one-semantic-artifact-conformance-assessment"
+      },
+      {
+        "id": "authority:briefforge-publication-manifest-projector",
+        "owner_identity": "project:BriefForge",
+        "role": "publication-manifest-projector",
+        "scope": "one-publication-manifest-production"
+      },
+      {
+        "id": "authority:briefforge-controlled-local-delivery",
+        "owner_identity": "project:BriefForge",
+        "role": "controlled-local-delivery-authority",
+        "scope": "{\"contract\":{\"atomic\":\"renameat2-noreplace\",\"collision\":\"nfc-casefold-no-alias\",\"no_overwrite\":true,\"rollback\":\"verified-or-indeterminate\"},\"destination_parent\":{\"canonical_path\":\"/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task063/destination\",\"device\":66306,\"inode\":14455031},\"final_basename\":\"brief.html\",\"implementation\":\"briefforge.publication_distribution_delivery\",\"ledger\":{\"canonical_path\":\"/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task063/delivery-ledger\",\"device\":66306,\"inode\":14455032},\"policy\":\"briefforge-controlled-local-delivery-policy:1.0.0\",\"profile\":\"briefforge-controlled-local-directory-delivery-profile:1.0.0\",\"version\":\"1.0.0\"}"
+      },
+      {
+        "id": "authority:briefforge-bounded-loopback-deployment",
+        "owner_identity": "project:BriefForge",
+        "role": "bounded-loopback-deployment-authority",
+        "scope": "{\"contract\":{\"bounded\":true,\"no_runtime_fallback\":true,\"one_act\":true,\"public_binding\":false},\"implementation\":\"briefforge.bounded_loopback_deployment\",\"ledger\":{\"canonical_path\":\"/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task063/deployment-ledger\",\"device\":66306,\"inode\":14455033},\"policy\":\"briefforge-bounded-loopback-deployment-policy:1.0.0\",\"profile\":\"briefforge-bounded-loopback-static-http-profile:1.0.0\",\"routes\":[{\"logical_filename\":\"brief.html\",\"media_type\":\"text/html\",\"path\":\"/brief.html\"}],\"transport\":{\"address\":\"127.0.0.1\",\"family\":\"AF_INET\",\"origin\":\"http://127.0.0.1:52119\",\"port\":52119,\"scheme\":\"http\",\"type\":\"SOCK_STREAM\"},\"version\":\"1.0.0\"}"
+      },
+      {
+        "id": "authority:briefforge-technical-publication-verifier",
+        "owner_identity": "project:BriefForge",
+        "role": "technical-publication-verification-authority",
+        "scope": "{\"contract\":{\"actual_raw_transport\":true,\"historical_only\":true,\"one_act\":true},\"implementation\":\"briefforge.technical_publication_verification\",\"ledger\":{\"canonical_path\":\"/home/mkkto/srv/EIP/projects/BriefForge/artifacts/pilots/task063/verification-ledger\",\"device\":66306,\"inode\":14455034},\"policy\":\"briefforge-technical-publication-verification-policy:1.0.0\",\"profile\":\"briefforge-raw-http-technical-publication-profile:1.0.0\",\"routes\":[{\"logical_filename\":\"brief.html\",\"media_type\":\"text/html\",\"path\":\"/brief.html\"}],\"target\":{\"address\":\"127.0.0.1\",\"origin\":\"http://127.0.0.1:52119\",\"port\":52119},\"version\":\"1.0.0\"}"
+      }
+    ],
+    "operational_authority_count": 8,
+    "technical_scope_verified_by_authorization": true
+  },
+  "content_inventory": {
+    "case_count": 7,
+    "cases": [
+      {
+        "case_id": "T031-DNK-private-credit-broad-money",
+        "case_specific_explanations": [
+          "both indicators share a GDP denominator",
+          "non-contemporaneous monetary and credit-system linkage remains possible",
+          "modeled-estimation and administrative-reporting construction may contribute"
+        ],
+        "classification": "weakens materially",
+        "common_threats": [
+          "raw level co-movement may reflect gradual time movement rather than contemporaneous annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window and source-revision sensitivity",
+          "no admitted significance, lag, regime, mechanism, or causal evidence"
+        ],
+        "content_class": "faithfully projected external analytical content",
+        "dependence_notes": [
+          "shares Denmark and private-credit series exposure with T-038",
+          "uses the same WDI/Pearson/first-difference method family and a nearly identical time window as every other case"
+        ],
+        "evidence_role": "core governed inquiry",
+        "first_difference": {
+          "aligned_count": 34,
+          "aligned_period": "1991-2024",
+          "coefficient": "-0.083567273412",
+          "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-first-difference-pearson-companion-v1",
+          "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+          "transformation_state": "first_difference"
+        },
+        "geography": "Denmark",
+        "order": 1,
+        "raw": {
+          "aligned_count": 35,
+          "aligned_period": "1990-2024",
+          "coefficient": "0.316082156476",
+          "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign40-finance-credit-broad-money-dnk-pearson-correlation-v1",
+          "transformation_state": "raw",
+          "trend_diagnostics": {
+            "availability": "embedded_in_published_raw_package_and_reported_by_t031",
+            "predominant_trend_attribution_established": false,
+            "series_a_vs_time_index": "0.757137531509",
+            "series_b_vs_time_index": "0.521453951784"
+          }
+        },
+        "relationship": "Domestic credit to private sector (% of GDP) versus broad money (% of GDP)",
+        "source_inclusion_role": "core_published_production_inquiry_evidence",
+        "source_task": "T-031",
+        "strongest_defensible_conclusion": "The accepted positive level association does not persist as comparable same-period annual-change co-movement; the cause of attenuation is not identified."
+      },
+      {
+        "case_id": "T033-NOR-fossil-nonhydro-renewables",
+        "case_specific_explanations": [
+          "both indicators are shares of total electricity production",
+          "hydroelectric generation is omitted from the non-hydro renewable indicator",
+          "weather, hydrology, capacity, policy, and compositional substitution remain unresolved"
+        ],
+        "classification": "weakens materially",
+        "common_threats": [
+          "raw level co-movement may reflect gradual time movement rather than contemporaneous annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-observation, and revision sensitivity",
+          "no admitted significance, lag, regime, mechanism, or causal evidence"
+        ],
+        "content_class": "faithfully projected external analytical content",
+        "dependence_notes": [
+          "shares both Norway electricity indicators and overlapping years with two T-035 mortality cases",
+          "uses the same WDI/Pearson/first-difference method family as every other case"
+        ],
+        "evidence_role": "core governed inquiry",
+        "first_difference": {
+          "aligned_count": 31,
+          "aligned_period": "1991-2021",
+          "coefficient": "-0.204185174675",
+          "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-first-difference-pearson-companion-v1",
+          "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+          "transformation_state": "first_difference"
+        },
+        "geography": "Norway",
+        "order": 2,
+        "raw": {
+          "aligned_count": 32,
+          "aligned_period": "1990-2021",
+          "coefficient": "0.315942832953",
+          "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign40-energy-fossil-nonhydro-renewables-nor-pearson-correlation-v1",
+          "transformation_state": "raw",
+          "trend_diagnostics": {
+            "availability": "embedded_in_published_raw_package_and_reported_by_t033",
+            "predominant_trend_attribution_established": false,
+            "series_a_vs_time_index": "0.64921014377",
+            "series_b_vs_time_index": "0.804092533899"
+          }
+        },
+        "relationship": "Electricity production from fossil sources (% of total) versus non-hydro renewable sources (% of total)",
+        "source_inclusion_role": "core_published_production_inquiry_evidence",
+        "source_task": "T-033",
+        "strongest_defensible_conclusion": "The positive level association is not preserved as positive annual-change co-movement, but sign change does not establish reversal or substitution."
+      },
+      {
+        "case_id": "T035-C1-NOR-life-expectancy-under5-mortality",
+        "case_specific_explanations": [
+          "both health indicators may share modeled-data and administrative-reporting processes",
+          "long-run health-system and socioeconomic improvement can move both levels without matching annual shocks",
+          "unmeasured demographic and health-system factors remain unresolved"
+        ],
+        "classification": "weakens materially",
+        "common_threats": [
+          "strong raw level co-movement need not imply comparable annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window and source-revision sensitivity",
+          "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+        ],
+        "content_class": "faithfully projected external analytical content",
+        "dependence_notes": [
+          "one of three result-informed T-035 C1 relationships sharing Norway, under-5 mortality, method, transformation, and overlapping years",
+          "selected from the same bounded numerical curation exercise as the other two T-035 rows"
+        ],
+        "evidence_role": "context-only relationship",
+        "first_difference": {
+          "aligned_count": 34,
+          "aligned_period": "1991-2024",
+          "coefficient": "-0.207863151096",
+          "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-first-difference-pearson-companion-v1",
+          "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+          "transformation_state": "first_difference"
+        },
+        "geography": "Norway",
+        "order": 3,
+        "raw": {
+          "aligned_count": 35,
+          "aligned_period": "1990-2024",
+          "coefficient": "-0.951151571489",
+          "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign40-health-life-expectancy-under5-mortality-nor-pearson-correlation-v1",
+          "transformation_state": "raw",
+          "trend_diagnostics": {
+            "availability": "not_reported_in_published_t035_record",
+            "predominant_trend_attribution_established": false
+          }
+        },
+        "relationship": "Life expectancy at birth versus under-5 mortality",
+        "source_inclusion_role": "context_only_result_informed_curation",
+        "source_task": "T-035",
+        "strongest_defensible_conclusion": "The very strong negative level coefficient is much smaller in annual changes; the published evidence does not identify whether trend, measurement, noise, or omitted factors explain the attenuation."
+      },
+      {
+        "case_id": "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "case_specific_explanations": [
+          "electricity-share denominator and composition effects",
+          "weather and hydro-output variation",
+          "energy variables are contextual correlates rather than admitted mortality mechanisms"
+        ],
+        "classification": "weakens materially",
+        "common_threats": [
+          "raw level co-movement need not imply comparable annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-ending-year, and source-revision sensitivity",
+          "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+        ],
+        "content_class": "faithfully projected external analytical content",
+        "dependence_notes": [
+          "shares Norway, under-5 mortality, curation procedure, method, and years with the other T-035 C1 rows",
+          "shares the non-hydro renewable series and overlapping years with T-033"
+        ],
+        "evidence_role": "context-only relationship",
+        "first_difference": {
+          "aligned_count": 31,
+          "aligned_period": "1991-2021",
+          "coefficient": "0.3855860099",
+          "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-first-difference-pearson-companion-v1",
+          "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+          "transformation_state": "first_difference"
+        },
+        "geography": "Norway",
+        "order": 4,
+        "raw": {
+          "aligned_count": 32,
+          "aligned_period": "1990-2021",
+          "coefficient": "-0.652623909096",
+          "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-nor-nonhydro-renewable-electricity-under5-mortality-pearson-correlation-v1",
+          "transformation_state": "raw",
+          "trend_diagnostics": {
+            "availability": "not_reported_in_published_t035_record",
+            "predominant_trend_attribution_established": false
+          }
+        },
+        "relationship": "Non-hydro renewable electricity share versus under-5 mortality",
+        "source_inclusion_role": "context_only_result_informed_curation",
+        "source_task": "T-035",
+        "strongest_defensible_conclusion": "The coefficient changes sign across level and annual-change estimands; this weakens the raw interpretation but does not establish reversal or an energy-to-mortality mechanism."
+      },
+      {
+        "case_id": "T035-C1-NOR-fossil-under5-mortality",
+        "case_specific_explanations": [
+          "electricity-share denominator and composition effects",
+          "weather, hydro-output, policy, and generation-mix variation",
+          "energy variables are contextual correlates rather than admitted mortality mechanisms"
+        ],
+        "classification": "weakens materially",
+        "common_threats": [
+          "raw level co-movement need not imply comparable annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-ending-year, and source-revision sensitivity",
+          "no admitted significance, stationarity, outlier, lag, subperiod, mechanism, or causal evidence"
+        ],
+        "content_class": "faithfully projected external analytical content",
+        "dependence_notes": [
+          "shares Norway, under-5 mortality, curation procedure, method, and years with the other T-035 C1 rows",
+          "shares the fossil electricity series and overlapping years with T-033"
+        ],
+        "evidence_role": "context-only relationship",
+        "first_difference": {
+          "aligned_count": 33,
+          "aligned_period": "1991-2023",
+          "coefficient": "-0.083376899169",
+          "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-first-difference-pearson-companion-v1",
+          "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+          "transformation_state": "first_difference"
+        },
+        "geography": "Norway",
+        "order": 5,
+        "raw": {
+          "aligned_count": 34,
+          "aligned_period": "1990-2023",
+          "coefficient": "-0.618717118858",
+          "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-nor-fossil-electricity-under5-mortality-pearson-correlation-v1",
+          "transformation_state": "raw",
+          "trend_diagnostics": {
+            "availability": "not_reported_in_published_t035_record",
+            "predominant_trend_attribution_established": false
+          }
+        },
+        "relationship": "Fossil electricity share versus under-5 mortality",
+        "source_inclusion_role": "context_only_result_informed_curation",
+        "source_task": "T-035",
+        "strongest_defensible_conclusion": "The negative level coefficient becomes numerically much smaller in annual changes; this does not establish absence, independence, or a mortality mechanism."
+      },
+      {
+        "case_id": "T036-SWE-private-credit-mobile-subscriptions",
+        "case_specific_explanations": [
+          "mobile-adoption saturation and nonlinear diffusion",
+          "credit cycles may be unrelated to annual subscription changes",
+          "income, technology, regulation, pricing, and demographics remain omitted"
+        ],
+        "classification": "weakens materially",
+        "common_threats": [
+          "parallel long-run development can produce level co-movement without strong annual-change co-movement",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window and source-revision sensitivity",
+          "no admitted significance, lag, nonlinearity, regime, mechanism, or causal evidence"
+        ],
+        "content_class": "faithfully projected external analytical content",
+        "dependence_notes": [
+          "shares private-credit indicator family with T-031 and T-038 but uses a different country or paired series",
+          "uses the same WDI/Pearson/first-difference method family and overlapping decades as every other case"
+        ],
+        "evidence_role": "qualified analytical byproduct",
+        "first_difference": {
+          "aligned_count": 34,
+          "aligned_period": "1991-2024",
+          "coefficient": "0.161115218727",
+          "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-first-difference-pearson-companion-v1",
+          "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+          "transformation_state": "first_difference"
+        },
+        "geography": "Sweden",
+        "order": 6,
+        "raw": {
+          "aligned_count": 35,
+          "aligned_period": "1990-2024",
+          "coefficient": "0.937758474347",
+          "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-swe-private-credit-mobile-cellular-pearson-correlation-v1",
+          "transformation_state": "raw",
+          "trend_diagnostics": {
+            "availability": "embedded_in_published_raw_package_and_reported_by_t036",
+            "predominant_trend_attribution_established": false,
+            "series_a_vs_time_index": "0.910525305233",
+            "series_b_vs_time_index": "0.935643810072"
+          }
+        },
+        "relationship": "Domestic credit to private sector (% of GDP) versus mobile cellular subscriptions (per 100 people)",
+        "source_inclusion_role": "qualified_analytical_byproduct",
+        "source_task": "T-036",
+        "strongest_defensible_conclusion": "The very strong positive level coefficient is not preserved as comparably strong annual-change co-movement; T-036 retains this analytical byproduct while remaining checkpoint-nonconforming."
+      },
+      {
+        "case_id": "T038-DNK-agricultural-land-private-credit",
+        "case_specific_explanations": [
+          "agricultural-land structural change and private-credit financial deepening",
+          "private-credit-to-GDP denominator and financial-cycle variation",
+          "policy and institutional shifts remain unresolved"
+        ],
+        "classification": "weakens materially",
+        "common_threats": [
+          "opposing long-run structural movement can produce level co-movement without annual-change persistence",
+          "first differencing changes the estimand and may amplify noise",
+          "finite-window, missing-2024, outlier, and source-revision sensitivity",
+          "no admitted significance, lag, regime, mechanism, or causal evidence"
+        ],
+        "content_class": "faithfully projected external analytical content",
+        "dependence_notes": [
+          "shares Denmark and private-credit series exposure with T-031",
+          "selection was inherited from T-036's published ranking rather than independently regenerated"
+        ],
+        "evidence_role": "core governed inquiry",
+        "first_difference": {
+          "aligned_count": 33,
+          "aligned_period": "1991-2023",
+          "coefficient": "0.058190335423",
+          "method_ref": "wdi_annual_scalar_first_difference_pearson_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-first-difference-pearson-companion-v1",
+          "transformation_ref": "wdi_annual_scalar_first_difference_v1@1.0",
+          "transformation_state": "first_difference"
+        },
+        "geography": "Denmark",
+        "order": 7,
+        "raw": {
+          "aligned_count": 34,
+          "aligned_period": "1990-2023",
+          "coefficient": "-0.667417505516",
+          "method_ref": "wdi_annual_scalar_pearson_correlation_v1@1.0",
+          "package_id": "pkg-object-srcpkg-campaign41-dnk-agricultural-land-private-credit-pearson-correlation-v1",
+          "transformation_state": "raw",
+          "trend_diagnostics": {
+            "availability": "embedded_in_published_raw_package_and_reported_by_t038",
+            "predominant_trend_attribution_established": false,
+            "series_a_vs_time_index": "-0.828711001501",
+            "series_b_vs_time_index": "0.777005621284"
+          }
+        },
+        "relationship": "Agricultural land (% of land area) versus domestic credit to private sector (% of GDP)",
+        "source_inclusion_role": "core_published_production_inquiry_evidence",
+        "source_task": "T-038",
+        "strongest_defensible_conclusion": "The negative level coefficient is not preserved as comparable annual-change co-movement; sign change does not establish reversal, and strict compliance applies only to this inherited-selection inquiry."
+      }
+    ],
+    "external_references": [
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "external:insightforge-t039-task063",
+        "provenance_ref": "provenance:insightforge-task063",
+        "reference_kind": "accepted-source-snapshot",
+        "snapshot_ref": "snapshot:task063-t039-frozen",
+        "upstream_object_identity": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689"
+      },
+      {
+        "authority_ref": "authority:briefforge-task063-presentation-structure",
+        "id": "external:briefforge-frozen-map-task063",
+        "provenance_ref": "provenance:briefforge-task063",
+        "reference_kind": "frozen-editorial-map",
+        "snapshot_ref": "snapshot:task063-t039-frozen",
+        "upstream_object_identity": "briefforge-task063-frozen-editorial-scope:1.0.0"
+      }
+    ],
+    "obligations": [
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "obligation:source-display-task063",
+        "kind": "source-display",
+        "target_refs": [
+          "external:insightforge-t039-task063",
+          "statement:synthesis-task063"
+        ]
+      },
+      {
+        "authority_ref": "authority:briefforge-task063-presentation-structure",
+        "id": "obligation:structural-label-task063",
+        "kind": "label",
+        "target_refs": [
+          "section:task063-root",
+          "exhibit:task063-comparisons"
+        ]
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "obligation:qualification-task063",
+        "kind": "qualification-required",
+        "target_refs": [
+          "statement:qualification-task063",
+          "relation:qualification-synthesis-task063"
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "citation": "InsightForge T-039 accepted source snapshot source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689 at commit db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+        "id": "provenance:insightforge-task063"
+      },
+      {
+        "authority_ref": "authority:briefforge-task063-presentation-structure",
+        "citation": "BriefForge TASK-063 frozen complete editorial mapping and structural presentation authority.",
+        "id": "provenance:briefforge-task063"
+      }
+    ],
+    "relations": [
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "relation:qualification-synthesis-task063",
+        "kind": "limits-target",
+        "source_ref": "statement:qualification-task063",
+        "target_ref": "statement:synthesis-task063"
+      }
+    ],
+    "sections": [
+      {
+        "children": [
+          "section:task063-comparisons",
+          "section:task063-interpretation"
+        ],
+        "id": "section:task063-root",
+        "title": "When Level Correlations Weaken in Annual Changes: Seven Accepted InsightForge Comparisons"
+      },
+      {
+        "children": [
+          "statement:synthesis-task063",
+          "statement:case-01-task063",
+          "statement:case-02-task063",
+          "statement:case-03-task063",
+          "statement:case-04-task063",
+          "statement:case-05-task063",
+          "statement:case-06-task063",
+          "statement:case-07-task063",
+          "exhibit:task063-comparisons"
+        ],
+        "id": "section:task063-comparisons",
+        "title": "Seven accepted raw-to-first-difference comparisons"
+      },
+      {
+        "children": [
+          "statement:intro-task063",
+          "statement:qualification-task063"
+        ],
+        "id": "section:task063-interpretation",
+        "title": "Interpretation, qualifications, and provenance"
+      }
+    ],
+    "statement_count": 10,
+    "statements": [
+      {
+        "attention": "primary",
+        "authority_ref": "authority:briefforge-task063-presentation-structure",
+        "communication_functions": [
+          "orient",
+          "trace"
+        ],
+        "id": "statement:intro-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "This BriefForge presentation organizes accepted InsightForge T-039 findings without recomputing, reassessing, or changing their analytical authority.",
+        "upstream_refs": [
+          "external:briefforge-frozen-map-task063"
+        ]
+      },
+      {
+        "attention": "primary",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "summarize",
+          "compare"
+        ],
+        "id": "statement:synthesis-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "Seven selected WDI relationships show one recurring warning: level correlations weaken materially in same-year annual changes. Every explicitly included relationship has a smaller absolute first-difference coefficient than raw coefficient and was published with the qualitative classification weakens materially.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ]
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "compare",
+          "trace"
+        ],
+        "id": "statement:case-01-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "T031-DNK-private-credit-broad-money \u2014 Domestic credit to private sector (% of GDP) versus broad money (% of GDP); raw Pearson 0.316082156476 (raw, 1990-2024, n=35); first-difference Pearson -0.083567273412 (first_difference, 1991-2024, n=34); classification: weakens materially; evidence role: core governed inquiry. The accepted positive level association does not persist as comparable same-period annual-change co-movement; the cause of attenuation is not identified.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ],
+        "value_ref": "value:task063-01-raw"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "compare",
+          "trace"
+        ],
+        "id": "statement:case-02-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "T033-NOR-fossil-nonhydro-renewables \u2014 Electricity production from fossil sources (% of total) versus non-hydro renewable sources (% of total); raw Pearson 0.315942832953 (raw, 1990-2021, n=32); first-difference Pearson -0.204185174675 (first_difference, 1991-2021, n=31); classification: weakens materially; evidence role: core governed inquiry. The positive level association is not preserved as positive annual-change co-movement, but sign change does not establish reversal or substitution.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ],
+        "value_ref": "value:task063-02-raw"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "compare",
+          "trace"
+        ],
+        "id": "statement:case-03-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "T035-C1-NOR-life-expectancy-under5-mortality \u2014 Life expectancy at birth versus under-5 mortality; raw Pearson -0.951151571489 (raw, 1990-2024, n=35); first-difference Pearson -0.207863151096 (first_difference, 1991-2024, n=34); classification: weakens materially; evidence role: context-only relationship. The very strong negative level coefficient is much smaller in annual changes; the published evidence does not identify whether trend, measurement, noise, or omitted factors explain the attenuation.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ],
+        "value_ref": "value:task063-03-raw"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "compare",
+          "trace"
+        ],
+        "id": "statement:case-04-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "T035-C1-NOR-nonhydro-renewables-under5-mortality \u2014 Non-hydro renewable electricity share versus under-5 mortality; raw Pearson -0.652623909096 (raw, 1990-2021, n=32); first-difference Pearson 0.3855860099 (first_difference, 1991-2021, n=31); classification: weakens materially; evidence role: context-only relationship. The coefficient changes sign across level and annual-change estimands; this weakens the raw interpretation but does not establish reversal or an energy-to-mortality mechanism.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ],
+        "value_ref": "value:task063-04-raw"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "compare",
+          "trace"
+        ],
+        "id": "statement:case-05-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "T035-C1-NOR-fossil-under5-mortality \u2014 Fossil electricity share versus under-5 mortality; raw Pearson -0.618717118858 (raw, 1990-2023, n=34); first-difference Pearson -0.083376899169 (first_difference, 1991-2023, n=33); classification: weakens materially; evidence role: context-only relationship. The negative level coefficient becomes numerically much smaller in annual changes; this does not establish absence, independence, or a mortality mechanism.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ],
+        "value_ref": "value:task063-05-raw"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "compare",
+          "trace"
+        ],
+        "id": "statement:case-06-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "T036-SWE-private-credit-mobile-subscriptions \u2014 Domestic credit to private sector (% of GDP) versus mobile cellular subscriptions (per 100 people); raw Pearson 0.937758474347 (raw, 1990-2024, n=35); first-difference Pearson 0.161115218727 (first_difference, 1991-2024, n=34); classification: weakens materially; evidence role: qualified analytical byproduct. The very strong positive level coefficient is not preserved as comparably strong annual-change co-movement; T-036 retains this analytical byproduct while remaining checkpoint-nonconforming.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ],
+        "value_ref": "value:task063-06-raw"
+      },
+      {
+        "attention": "supporting",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "compare",
+          "trace"
+        ],
+        "id": "statement:case-07-task063",
+        "posture": "observation",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "T038-DNK-agricultural-land-private-credit \u2014 Agricultural land (% of land area) versus domestic credit to private sector (% of GDP); raw Pearson -0.667417505516 (raw, 1990-2023, n=34); first-difference Pearson 0.058190335423 (first_difference, 1991-2023, n=33); classification: weakens materially; evidence role: core governed inquiry. The negative level coefficient is not preserved as comparable annual-change co-movement; sign change does not establish reversal, and strict compliance applies only to this inherited-selection inquiry.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ],
+        "value_ref": "value:task063-07-raw"
+      },
+      {
+        "attention": "primary",
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "communication_functions": [
+          "qualify",
+          "trace"
+        ],
+        "id": "statement:qualification-task063",
+        "posture": "caveat",
+        "purpose_ref": "purpose:candidate-task063",
+        "requires_comparison_universe": false,
+        "text": "The rows are small, selected, nonrandom, and dependent. T-035 does not enlarge the core governed sample; T-036 remains qualified; T-038 uses inherited selection. Raw and first-difference coefficients answer different estimands: same-period co-movement in levels versus same-period co-movement in annual changes. Attenuation is a transformation-aware reassessment, not a corrected estimate of the same quantity. The admitted frontier has raw and first-difference Pearson evidence only; no significance, stationarity, rolling, lagged, rank, regression, partial-correlation, subperiod, break, regime, or robustness family is admitted.",
+        "upstream_refs": [
+          "external:insightforge-t039-task063"
+        ]
+      }
+    ],
+    "table": {
+      "columns": [
+        "Relationship case",
+        "Raw Pearson coefficient",
+        "Raw state",
+        "First-difference Pearson coefficient",
+        "First-difference state"
+      ],
+      "count": 1,
+      "encounter_order": [
+        "T031-DNK-private-credit-broad-money",
+        "T033-NOR-fossil-nonhydro-renewables",
+        "T035-C1-NOR-life-expectancy-under5-mortality",
+        "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "T035-C1-NOR-fossil-under5-mortality",
+        "T036-SWE-private-credit-mobile-subscriptions",
+        "T038-DNK-agricultural-land-private-credit"
+      ],
+      "kind": "fixed-static-table",
+      "row_count": 7
+    },
+    "table_count": 1,
+    "value_count": 14,
+    "values": [
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-01-raw",
+        "payload": {
+          "coefficient": "316082156476",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-01-first-difference",
+        "payload": {
+          "coefficient": "-83567273412",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-02-raw",
+        "payload": {
+          "coefficient": "315942832953",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-02-first-difference",
+        "payload": {
+          "coefficient": "-204185174675",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-03-raw",
+        "payload": {
+          "coefficient": "-951151571489",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-03-first-difference",
+        "payload": {
+          "coefficient": "-207863151096",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-04-raw",
+        "payload": {
+          "coefficient": "-652623909096",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-04-first-difference",
+        "payload": {
+          "coefficient": "3855860099",
+          "scale": 10
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-05-raw",
+        "payload": {
+          "coefficient": "-618717118858",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-05-first-difference",
+        "payload": {
+          "coefficient": "-83376899169",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-06-raw",
+        "payload": {
+          "coefficient": "937758474347",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-06-first-difference",
+        "payload": {
+          "coefficient": "161115218727",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-07-raw",
+        "payload": {
+          "coefficient": "-667417505516",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      },
+      {
+        "authority_ref": "authority:insightforge-t039-analytical-content",
+        "id": "value:task063-07-first-difference",
+        "payload": {
+          "coefficient": "58190335423",
+          "scale": 12
+        },
+        "semantic_type_ref": "semantic-type:pearson-coefficient-task063",
+        "source_ref": "external:insightforge-t039-task063",
+        "unit_ref": "unit:pearson-correlation-task063",
+        "value_state": "present"
+      }
+    ]
+  },
+  "fingerprints": {
+    "artifact_set": "9365a7c0617102cd462d8abf2204b9893d7b50930e1c84ecd017583880c27994",
+    "bcrp_candidate": "4b5ffe97616e5dfca11ce943a7da847f415d1ee2c62ee52fc20bb5e04a5c08f2",
+    "conformance": "49924c49fbf0357ddc1f9f217e87ba6ed2b31910c96a18bf317bedcbde7a29c4",
+    "delivery": "3e3944e8c53dc85d6fef3c51d27447357affe2acff747700ec1e29968071c914",
+    "deployment": "3a79c554b3eb1227f358cddd871cbc12e03fca4045a9870a646e930af46b67d5",
+    "deployment_stop": "a144328670b0fb042e1a50ea1b3658ebb1273a06bc20b327e8c595008b890749",
+    "governed_ready_closure": "7ec96c219582e08151c0f61d7c427ca995a220425e690cf36b0322c4c8a4a71a",
+    "invocation": "52bf44b3abf7649ddfc6d132f3afe090b67051caaae5fb19f145fed792024f4d",
+    "legacy_candidate": "c467cc0fbfe50b1da4362a0832b56888a8de088f1c95ea1400e540c0fe70444f",
+    "lifecycle_inventory": "94a0c50003864a095f4f5ac48be27ac187d4701ad08a3202791dba70dc7d75f2",
+    "manifest": "bb23a5587002bad9dc654c0a215b24b044c0d6dbdde23573340db3c986dd36dd",
+    "manifest_authorization": "903c6d00b6aba349ba7a962304daeed605bcdf53bcecb07cf1e2bf00743e88ed",
+    "plan": "169564ac92b8bb20fa6120d97a653a24f9641fe3c783258d4a3ed9765fa47e7a",
+    "release": "03fa6cd4807c139d1b40675a2bfd11847aec9718bd5e662247c3802b17bd7ac6",
+    "renderer_declaration": "149bcfeee863b22652ef4a9bb473a0d4bc24fb19f413b288e88621a69986137b",
+    "source_inventory": "ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+    "source_snapshot_inventory": "4a9f960d0ec4448a1db8badc91a2db26fc624d77984627d0de4bef006b4c6243",
+    "technical_verification": "f9f6346eeb517e91edde1da43ba2c459cebb7717c40c7fd7630d81532a362550",
+    "terminal_projection": "053626cf71a54339a259f400eecbca39acfc3e81f6bbba6381936a679f28193e",
+    "translated_projection": "6962327ed1c5338619e5574823c69bb44734bcd159afb7b9a4a02cc27b39256e"
+  },
+  "identities": {
+    "artifact": "artifact:task063",
+    "bcrp_candidate": "candidate:accepted-task063",
+    "delivery": "delivery-evidence:task063",
+    "deployment": "deployment-evidence:task063",
+    "manifest": "manifest:accepted-task063",
+    "mapped_judgment": "judgment:mapped-task063",
+    "mapped_ready": "ready:mapped-task063",
+    "plan": "plan:task063",
+    "release": "release:accepted-task063",
+    "source_snapshot": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689",
+    "technical_verification": "verification-evidence:task063"
+  },
+  "independent_reconciliation": {
+    "all_classifications_preserved": true,
+    "all_fourteen_exact_decimals_present": true,
+    "all_seven_cases_present": true,
+    "evidence_hierarchy": {
+      "context_only_case_count": 3,
+      "context_only_cases": [
+        "T035-C1-NOR-life-expectancy-under5-mortality",
+        "T035-C1-NOR-nonhydro-renewables-under5-mortality",
+        "T035-C1-NOR-fossil-under5-mortality"
+      ],
+      "context_only_rows_do_not_enlarge_core_governed_sample": true,
+      "core_case_count": 3,
+      "core_cases": [
+        "T031-DNK-private-credit-broad-money",
+        "T033-NOR-fossil-nonhydro-renewables",
+        "T038-DNK-agricultural-land-private-credit"
+      ],
+      "qualified_case_count": 1,
+      "qualified_cases": [
+        "T036-SWE-private-credit-mobile-subscriptions"
+      ]
+    },
+    "fixed_table_column_count": 5,
+    "fixed_table_count": 1,
+    "freeze_result": "complete and non-cherry-picked",
+    "manifest_distribution_authority": "absent",
+    "manifest_successful_publication": "not-asserted",
+    "operational_semantics_absent": true,
+    "source_commit": "db97c30f2a79f3f1526c5c3347238f7d58be9d12",
+    "source_snapshot_identity": "source-snapshot:insightforge-t039:ab61ed6d7cde638ca8433e71a13480981a5a45364523d16cc9ee77b6d73da689"
+  },
+  "interfaces": {
+    "candidate_authoring": "RecordDraft + author_candidate_bundle",
+    "delivery_profile": "briefforge-controlled-local-directory-delivery-profile:1.0.0",
+    "deployment_profile": "briefforge-bounded-loopback-static-http-profile:1.0.0",
+    "legacy_authoring": "PresentationPackageBuilder",
+    "legacy_mapping": "map_legacy_ready_to_bcrp",
+    "manifest_version": "2.0.0",
+    "renderer": "renderer:representative-static-html@1.0.0",
+    "terminal_profile": "briefforge:representative-terminal-static-html-profile:2.0.0",
+    "verification_profile": "briefforge-raw-http-technical-publication-profile:1.0.0"
+  },
+  "paths": {
+    "accepted_html": "artifacts/pilots/task063/accepted/artifact/brief.html",
+    "conformance_evidence": "artifacts/pilots/task063/conformance/terminal-semantic-conformance-evidence.json",
+    "delivery_evidence": "artifacts/pilots/task063/destination/brief.html/controlled-local-delivery-evidence.json",
+    "deployment_evidence": "artifacts/pilots/task063/deployment-ledger/328ce7f00b2f1c3b146910f3f10286635dfcf221d5930cfcfa35c964144bb854.deployment-evidence.json",
+    "invocation_evidence": "artifacts/pilots/task063/accepted/evidence/terminal-invocation-evidence.json",
+    "manifest_evidence": "artifacts/pilots/task063/manifest/publication-manifest.json",
+    "result": "artifacts/pilots/task063/pilot-result.json",
+    "shutdown_evidence": "artifacts/pilots/task063/deployment-ledger/328ce7f00b2f1c3b146910f3f10286635dfcf221d5930cfcfa35c964144bb854.deployment-stop-evidence.json",
+    "technical_evidence": "artifacts/pilots/task063/verification-ledger/32fbe6414e2a95c2aba0fabc1ef6eab20e9a7ed8c2e198dce27b9ba0eb44907f.technical-observation-evidence.json"
+  },
+  "reload_checks": {
+    "basis": "the execution reached shutdown evidence only after every explicit persisted reload assertion in /tmp/task063_pilot.py passed",
+    "conformance": true,
+    "delivery": true,
+    "deployment": true,
+    "invocation": true,
+    "manifest": true,
+    "technical_verification": true
+  },
+  "same_bytes": {
+    "accepted_to_delivered": true,
+    "accepted_to_delivery": true,
+    "accepted_to_deployment": true,
+    "accepted_to_manifest": true,
+    "accepted_to_raw_http": true
+  },
+  "same_release": {
+    "all_stages_bound": true,
+    "release_fingerprint": "03fa6cd4807c139d1b40675a2bfd11847aec9718bd5e662247c3802b17bd7ac6",
+    "release_identity": "release:accepted-task063"
+  },
+  "schema": "briefforge-task063-representative-accepted-chain-pilot-result:1.0.0",
+  "shutdown": {
+    "fresh_socket_connect_ex": 111,
+    "fresh_socket_refused": true,
+    "post_shutdown_availability": "not-established",
+    "residue_probe": "loopback-port-refused",
+    "socket_closed": true,
+    "state": "shutdown-verified",
+    "thread_joined": true
+  },
+  "status": "BLOCKED / NOT RECONCILED",
+  "task_id": "TASK-063",
+  "tooling_note": "The delegated execution wrapper reached its 600-second orchestration limit after the accepted chain, persisted reloads, coordinated shutdown, and socket-refusal proof had completed, but before its final summary write. This result is independently reconstructed from the immutable persisted evidence and bytes; the wrapper timeout is classified separately from repository and chain execution. Mechanical chain execution passed, but TASK-063 is BLOCKED / NOT RECONCILED because independent editorial review found that the authored Candidate omitted mandatory frozen synthesis/dependence/selection material and the rendered table did not realize the frozen seven-row editorial table."
+}

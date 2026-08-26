@@ -1,0 +1,136 @@
+{
+  "schema": "briefforge.public-source-policy.v1",
+  "authority": "The public Git repository is the authoritative distributable source repository, not a complete archive of restricted inputs or generated runtime material.",
+  "default": "PUBLIC_CANDIDATE",
+  "public_material": [
+    "original BriefForge source code without embedded restricted upstream content",
+    "tests using synthetic, public, or explicitly supplied local-only fixtures",
+    "schemas and portable configuration templates",
+    "documentation and governance that do not reproduce restricted payloads",
+    "reusable renderer assets",
+    "canonical source artifacts proven safe for redistribution"
+  ],
+  "local_only_globs": [
+    "artifacts/external-release-handoffs/**",
+    "artifacts/inputs/**",
+    "artifacts/presentations/**",
+    "artifacts/publications/**",
+    "artifacts/replays/**",
+    "artifacts/verification/**",
+    "artifacts/reports/R-20260824-task-078-*",
+    "artifacts/reports/R-20260824-task-079-*",
+    "artifacts/reports/R-20260824-task-080-*",
+    "artifacts/reports/task081-*",
+    "artifacts/reports/task082-*",
+    "hardware/profile.yaml",
+    "src/briefforge/task078_four_company_report.py",
+    "src/briefforge/task079_four_company_deep_report_v2.py",
+    "src/briefforge/task080_four_company_financial_usability_report_v3.py",
+    "tests/test_task078_four_company_browser_report.py",
+    "tests/test_task079_four_company_deep_browser_report_v2.py",
+    "tests/test_task080_four_company_financial_usability_report_v3.py",
+    "tests/test_task082_four_company_standardized_corporate_report_v5.py",
+    "tools/build_task078_report.py",
+    "tools/build_task079_report_v2.py",
+    "tools/task079_brave_visual_qa.js",
+    "tools/build_task080_report_v3.py",
+    "tools/finalize_task080_qa.py",
+    "tools/task080_brave_visual_qa.js",
+    "tools/verify_task080_financial_content.py",
+    "tools/build_task081_report_v4.py",
+    "tools/verify_task081_source_instances.py",
+    "tools/build_task082_report_v5.py",
+    "tools/finalize_task082_publication.py",
+    "tools/verify_task082_source_instances.py"
+  ],
+  "blocked_globs": [
+    ".env",
+    ".env.*",
+    "**/.env",
+    "**/.env.*",
+    "**/*.pem",
+    "**/*.key",
+    "**/*.p12",
+    "**/*.pfx",
+    "**/id_rsa",
+    "**/id_ed25519",
+    "**/credentials*",
+    "**/cookies*",
+    "**/session*",
+    "**/*.sqlite",
+    "**/*.sqlite3",
+    "**/*.db",
+    "**/*.dump"
+  ],
+  "sensitive_patterns": [
+    {
+      "name": "private_key",
+      "pattern": "-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----"
+    },
+    {
+      "name": "github_token",
+      "pattern": "(?:ghp|github_pat|gho|ghu|ghs|ghr)_[A-Za-z0-9_]{20,}"
+    },
+    {
+      "name": "aws_access_key",
+      "pattern": "(?:AKIA|ASIA)[A-Z0-9]{16}"
+    },
+    {
+      "name": "credential_assignment",
+      "pattern": "(?i)(?:api[_-]?key|access[_-]?token|auth[_-]?token|password|passwd|client[_-]?secret)\\s*[:=]\\s*[A-Za-z0-9_./+\\-=]{12,}"
+    },
+    {
+      "name": "connection_string_with_credentials",
+      "pattern": "(?i)(?:postgres(?:ql)?|mysql|mongodb(?:\\+srv)?|redis)://[^\\s/:]+:[^\\s/@]+@"
+    },
+    {
+      "name": "cookie_header",
+      "pattern": "(?im)^(?:cookie|set-cookie):\\s*[^\\r\\n]+"
+    }
+  ],
+  "directory_evidence": {
+    "artifacts/external-release-handoffs": "handoff payloads cross project boundaries and include restricted campaign material",
+    "artifacts/inputs": "admitted upstream payloads; current contents are restricted campaign inputs",
+    "artifacts/presentations": "generated rendered publications, not authoritative source assets",
+    "artifacts/publications": "generated operational publications, including restricted derived output",
+    "artifacts/replays": "generated replay evidence and payload copies",
+    "artifacts/verification": "runtime screenshots and generated verification evidence"
+  },
+  "reviewed_files": [
+    {
+      "path": "artifacts/tasks/TASK-078-four-company-financial-browser-report.md",
+      "classification": "PUBLIC_SAFE_ORIGINAL",
+      "evidence": "Original task-governance record containing identities, counts, requirements, and restriction enforcement; it does not reproduce financial claims or upstream payloads."
+    },
+    {
+      "path": "context/latest_handoff.md",
+      "classification": "PUBLIC_SAFE_ORIGINAL",
+      "evidence": "Concise governance handoff stating hashes, disposition, and rights boundary without restricted analytical content."
+    },
+    {
+      "path": "src/briefforge/task078_four_company_report.py",
+      "classification": "LOCAL_ONLY_RESTRICTED",
+      "evidence": "Inquiry-specific renderer embeds derived financial values, comparisons, interpretations, dates, and report narrative from the restricted T-040 analysis."
+    },
+    {
+      "path": "src/briefforge/task081_four_company_corporate_financial_report_v4.py",
+      "classification": "PUBLIC_SAFE_ORIGINAL",
+      "evidence": "Original renderer and rights-authentication mechanism; restricted statement lines, ratios, and strategy payloads are read only from an external local input and are not embedded in source."
+    },
+    {
+      "path": "src/briefforge/task082_four_company_standardized_corporate_report_v5.py",
+      "classification": "PUBLIC_SAFE_ORIGINAL",
+      "evidence": "Original standardized renderer and portable contract; source contains generic presentation and evidence-boundary language while restricted facts remain external input data."
+    },
+    {
+      "path": "tests/test_task078_four_company_browser_report.py",
+      "classification": "LOCAL_ONLY_RESTRICTED",
+      "evidence": "Assertions reproduce exact restricted derived values, dates, findings, and report sentences."
+    },
+    {
+      "path": "tests/test_task081_four_company_corporate_financial_report_v4.py",
+      "classification": "PUBLIC_SAFE_AFTER_SEPARATION",
+      "evidence": "Original integration tests and metadata are distributable after replacing machine-specific fixture locations with explicit BRIEFFORGE_LOCAL_* local-only input paths; no restricted payload is embedded."
+    }
+  ]
+}

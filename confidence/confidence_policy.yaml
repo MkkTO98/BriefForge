@@ -1,0 +1,24 @@
+confidence_policy:
+  required_reporting: true
+  scale:
+    high: '>=0.80'
+    medium: '0.50-0.79'
+    low: '<0.50'
+
+  capability_failure_escalation:
+    - local_reviewer
+    - stronger_local_model_if_available
+    - codex_or_premium_model
+    - human_if_still_blocked
+
+  human_direct:
+    - secrets
+    - destructive_operations
+    - money
+    - production_data
+    - git_push
+    - credential_handling
+
+  rule: >
+    Low confidence does not justify guessing. It requires context expansion,
+    stronger model review, Codex/premium escalation, or human clarification.

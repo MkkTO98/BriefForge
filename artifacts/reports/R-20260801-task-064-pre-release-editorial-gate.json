@@ -1,0 +1,97 @@
+{
+  "abstract_task064_blueprint_expected_result": "complete design; not executable and not itself a Candidate",
+  "fail_closed": true,
+  "failure_semantics": "Any missing, weakened, duplicated, misattached, structurally misrepresented, unsupported, stale, or ambiguous mandatory item blocks promotion and Release construction. Renderer success and terminal-chain success are irrelevant to this gate.",
+  "gate_position": "after Candidate authoring and before promotion, Judgment, Ready, or Release construction",
+  "historical_task063_expected_result": "reject",
+  "inputs": [
+    "exact fresh Candidate bundle",
+    "TASK-064 editorial-closure ledger",
+    "TASK-064 seven-row paired-table contract",
+    "TASK-064 authoring blueprint",
+    "immutable admitted T-039 source snapshot"
+  ],
+  "prohibited_outputs": [
+    "Judgment",
+    "Ready record",
+    "Release",
+    "projection",
+    "HTML",
+    "Manifest",
+    "delivery",
+    "deployment",
+    "TASK-056 evidence"
+  ],
+  "schema": "briefforge-task064-pre-release-editorial-gate-v1",
+  "steps": [
+    {
+      "check": "candidate-freshness-and-authority",
+      "order": 1,
+      "requirements": [
+        "fresh identity not present in TASK-063",
+        "no reused or modified TASK-063 Candidate",
+        "exact admitted T-039 snapshot and TASK-064 contract bindings"
+      ]
+    },
+    {
+      "check": "ledger-closure-reconciliation",
+      "order": 2,
+      "requirements": [
+        "every mandatory ledger item present at exact destination",
+        "every exclusion explicitly represented where omission could mislead",
+        "no mandatory meaning weakened, merged away, duplicated, misattached, or unsupported"
+      ]
+    },
+    {
+      "check": "paired-table-reconciliation",
+      "order": 3,
+      "requirements": [
+        "exactly-one-table",
+        "exactly-five-governed-columns-in-listed-order",
+        "exactly-seven-body-rows",
+        "exactly-one-stable-relationship-identity-per-row",
+        "exactly-one-raw-and-one-first-difference-value-per-row",
+        "exactly-fourteen-coefficients-total",
+        "no-coefficient-as-relationship-row",
+        "no-generic-value-slot-row-identity",
+        "canonical-relationship-order",
+        "exact-lexical-sign-and-precision",
+        "matching-period-and-aligned-count",
+        "preserved-evidence-role",
+        "attached-qualification",
+        "attached-provenance",
+        "no-six-or-eight-row-contract",
+        "no-cross-paired-coefficients",
+        "no-duplicated-relationship"
+      ]
+    },
+    {
+      "check": "qualifier-provenance-obligation-reconciliation",
+      "order": 4,
+      "requirements": [
+        "all case and cross-case qualifications attached to exact targets",
+        "all provenance attachments resolve",
+        "all obligations attach to exact targets",
+        "dependence and selected-universe limits remain visible"
+      ]
+    },
+    {
+      "check": "analytical-authority-boundary",
+      "order": 5,
+      "requirements": [
+        "no new analytical content",
+        "structural prose contains no smuggled interpretation",
+        "no operational authority in displayed semantics"
+      ]
+    },
+    {
+      "check": "promotion-authorization",
+      "order": 6,
+      "requirements": [
+        "zero blocking findings",
+        "independent reviewer approval binds exact Candidate fingerprint"
+      ]
+    }
+  ],
+  "task_id": "TASK-064"
+}

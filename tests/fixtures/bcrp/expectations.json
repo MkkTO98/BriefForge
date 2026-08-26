@@ -1,0 +1,431 @@
+{
+  "format": "briefforge-bcrp-golden-expectations-v1",
+  "invalid_variants": {
+    "case-1-demographic-correlation-publication": {
+      "C1-I01": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate construction/promotion",
+            "family": "intake-completeness-or-scope",
+            "layer": "L0",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "Candidate construction/promotion",
+            "family": "intake-completeness-or-scope",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I02": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "identity-or-reference-integrity",
+            "layer": "L1",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "identity-or-reference-integrity",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I03": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "obligation-or-qualifier-attachment",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I04": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion/render plan",
+            "family": "composition-or-narrative-integrity",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I05": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "authority-or-provenance",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I06": {
+        "required_findings": [
+          {
+            "blocked_transition": "rendering",
+            "family": "transformation-or-fallback",
+            "layer": "L5",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I07": {
+        "required_findings": [
+          {
+            "blocked_transition": "manifest/artifact catalogue acceptance",
+            "family": "lifecycle-or-version-linkage",
+            "layer": "L3",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "manifest/artifact catalogue acceptance",
+            "family": "lifecycle-or-version-linkage",
+            "layer": "L6",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I08": {
+        "required_findings": [
+          {
+            "blocked_transition": "artifact acceptance",
+            "family": "semantic-artifact-conformance",
+            "layer": "L6",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C1-I09": {
+        "required_findings": [
+          {
+            "blocked_transition": "artifact acceptance",
+            "family": "audit-link-conformance",
+            "layer": "L6",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      }
+    },
+    "case-2-synthetic-company-comparison": {
+      "C2-I01": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "authority-or-provenance",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I02": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "semantic-state-integrity",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I03": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "semantic-state-integrity",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I04": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "semantic-state-integrity",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I05": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "profile-structure-or-version",
+            "layer": "L1",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "semantic-state-integrity",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I06": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "authority-or-provenance",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I07": {
+        "required_findings": [
+          {
+            "blocked_transition": "promotion/release",
+            "family": "authority-or-provenance",
+            "layer": "L2",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "promotion/release",
+            "family": "authority-or-provenance",
+            "layer": "L4",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I08": {
+        "required_findings": [
+          {
+            "blocked_transition": "release",
+            "family": "governance-or-distribution-authority",
+            "layer": "L4",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I09": {
+        "required_findings": [
+          {
+            "blocked_transition": "rendering",
+            "family": "renderer-capability-or-plan",
+            "layer": "L5",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I10": {
+        "required_findings": [
+          {
+            "blocked_transition": "all dependent processing",
+            "family": "extension-boundary",
+            "layer": "L1",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C2-I11": {
+        "required_findings": [
+          {
+            "blocked_transition": "profile admission/Candidate promotion",
+            "family": "domain-ownership-prohibition",
+            "layer": "L1",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "profile admission/Candidate promotion",
+            "family": "domain-ownership-prohibition",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      }
+    },
+    "case-3-synthetic-company-macro-selection": {
+      "C3-I01": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion/selector release",
+            "family": "selection-closure-or-state-narrative",
+            "layer": "L1",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "Candidate promotion/selector release",
+            "family": "selection-closure-or-state-narrative",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I02": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "selection-closure-or-state-narrative",
+            "layer": "L1",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "selection-closure-or-state-narrative",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I03": {
+        "required_findings": [
+          {
+            "blocked_transition": "selector publication",
+            "family": "selection-closure-or-state-narrative",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I04": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion/selector publication",
+            "family": "composition-or-narrative-integrity",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I05": {
+        "required_findings": [
+          {
+            "blocked_transition": "artifact acceptance",
+            "family": "semantic-artifact-conformance",
+            "layer": "L6",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I06": {
+        "required_findings": [
+          {
+            "blocked_transition": "promotion, plan, or artifact acceptance",
+            "family": "transformation-or-fallback",
+            "layer": "L2",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "promotion, plan, or artifact acceptance",
+            "family": "transformation-or-fallback",
+            "layer": "L5",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "promotion, plan, or artifact acceptance",
+            "family": "transformation-or-fallback",
+            "layer": "L6",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I07": {
+        "required_findings": [
+          {
+            "blocked_transition": "native selection rendering",
+            "family": "renderer-capability-or-plan",
+            "layer": "L5",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I08": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion/rendering",
+            "family": "transformation-or-fallback",
+            "layer": "L2",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "Candidate promotion/rendering",
+            "family": "transformation-or-fallback",
+            "layer": "L5",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I09": {
+        "required_findings": [
+          {
+            "blocked_transition": "promotion/release",
+            "family": "lifecycle-or-version-linkage",
+            "layer": "L2",
+            "severity": "blocking"
+          },
+          {
+            "blocked_transition": "promotion/release",
+            "family": "lifecycle-or-version-linkage",
+            "layer": "L3",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      },
+      "C3-I10": {
+        "required_findings": [
+          {
+            "blocked_transition": "Candidate promotion",
+            "family": "selection-closure-or-state-narrative",
+            "layer": "L2",
+            "severity": "blocking"
+          }
+        ],
+        "valid": false
+      }
+    }
+  },
+  "profile": {
+    "identity": "briefforge-core-representation-profile",
+    "version": "1.0.0"
+  },
+  "valid_cases": {
+    "case-1-demographic-correlation-publication": {
+      "expected_blocking_findings": [],
+      "valid": true
+    },
+    "case-2-synthetic-company-comparison": {
+      "expected_blocking_findings": [],
+      "valid": true
+    },
+    "case-3-synthetic-company-macro-selection": {
+      "expected_blocking_findings": [],
+      "valid": true
+    }
+  }
+}

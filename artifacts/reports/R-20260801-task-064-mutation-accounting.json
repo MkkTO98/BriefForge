@@ -1,0 +1,144 @@
+{
+  "additions": 15,
+  "all_changes_classified": true,
+  "baseline_included_paths": 872,
+  "baseline_manifest": "/tmp/briefforge-before-task064-20260801.json",
+  "changed_path_count": 24,
+  "changed_paths": [
+    {
+      "change": "added",
+      "classification": "TASK-064 accepted decision",
+      "path": "artifacts/decisions/D-20260801-representative-editorial-closure-and-paired-table-gate.md"
+    },
+    {
+      "change": "modified",
+      "classification": "affected-folder navigation summary refresh",
+      "path": "artifacts/decisions/_SUMMARY.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-architecture-reality-audit.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-completion.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-editorial-closure-and-table-contract.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-editorial-closure-ledger.json"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-independent-editorial-and-mapping-review.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-local-contract-verification.json"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-mutation-accounting.json"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-pre-release-editorial-gate.json"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-seven-row-paired-table-contract.json"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-source-to-candidate-authoring-blueprint.json"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-task063-editorial-failure-diagnosis.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 report, contract, review, verification, audit, or mutation evidence",
+      "path": "artifacts/reports/R-20260801-task-064-task063-pre-release-gate-comparison.json"
+    },
+    {
+      "change": "modified",
+      "classification": "affected-folder navigation summary refresh",
+      "path": "artifacts/reports/_SUMMARY.md"
+    },
+    {
+      "change": "modified",
+      "classification": "affected-folder navigation summary refresh",
+      "path": "artifacts/specifications/_SUMMARY.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 accepted specification",
+      "path": "artifacts/specifications/representative-editorial-closure-and-paired-table-pre-release-gate-1.0.0.md"
+    },
+    {
+      "change": "added",
+      "classification": "TASK-064 task authority",
+      "path": "artifacts/tasks/TASK-064-representative-editorial-closure-and-table-mapping-correction-proof.md"
+    },
+    {
+      "change": "modified",
+      "classification": "affected-folder navigation summary refresh",
+      "path": "artifacts/tasks/_SUMMARY.md"
+    },
+    {
+      "change": "modified",
+      "classification": "bounded recovery handoff reconciled for TASK-064 closeout",
+      "path": "context/latest_handoff.md"
+    },
+    {
+      "change": "modified",
+      "classification": "current-state pointer reconciled for TASK-064 closeout",
+      "path": "state/active_goal.md"
+    },
+    {
+      "change": "modified",
+      "classification": "current-state pointer reconciled for TASK-064 closeout",
+      "path": "state/architecture.md"
+    },
+    {
+      "change": "modified",
+      "classification": "current-state pointer reconciled for TASK-064 closeout",
+      "path": "state/project_state.md"
+    },
+    {
+      "change": "modified",
+      "classification": "current-state pointer reconciled for TASK-064 closeout",
+      "path": "state/recent_changes.md"
+    }
+  ],
+  "deletions": 0,
+  "expected_final_included_paths": 887,
+  "final_manifest": "/tmp/briefforge-after-task064-20260801.json",
+  "fixture_changes": false,
+  "historical_task063_changes": false,
+  "modifications": 9,
+  "note": "This report includes and classifies its own anticipated addition; the final manifest is generated only after this report is persisted.",
+  "production_changes": false,
+  "schema": "briefforge-task064-mutation-accounting-v1",
+  "sibling_changes": false,
+  "symlink_changes": 0,
+  "task_id": "TASK-064",
+  "test_changes": false,
+  "type_changes": 0,
+  "unexpected_differences": 0
+}

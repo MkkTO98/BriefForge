@@ -1,0 +1,27 @@
+metrics_policy:
+  storage: jsonl_first
+  sqlite_default: false
+  event_file: metrics/events.jsonl
+  reports_dir: metrics/reports
+
+  separation:
+    logs: raw_operational_records
+    metrics: derived_performance_evidence
+
+  review_cadence:
+    periodic_every_n_runs: 10
+    event_driven_triggers:
+      - repeated_failure
+      - specialized_agent_request
+      - routing_instability
+      - model_underperformance
+
+  improvement_policy:
+    propose_only: true
+    no_auto_template_changes: true
+    specialized_agent_generation_requires_user_approval: true
+
+  tools:
+    record_event: tools/record_metric.py
+    rollup: tools/analyze_metrics.py
+    review: tools/review_metrics.py

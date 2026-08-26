@@ -1,0 +1,28 @@
+{
+  "authority_decision_binding_exact": true,
+  "cache_or_bytecode": [],
+  "candidate_record_kinds": [
+    "CandidatePresentationPackageRecord",
+    "PortablePresentationMaterialRecord",
+    "PresentationBriefRecord"
+  ],
+  "canonical_roots_safe_no_symlinks": true,
+  "dangerous_ast_calls": [],
+  "downstream_records": [],
+  "format": "briefforge-task071-static-security-boundary-verification-v1",
+  "git_repository_present": false,
+  "production_source_neutral": true,
+  "protected_sha256": {
+    "TASK-051": "2c33b7a777ef68660534d37998909adf5e29646113861435c42976f83b249245",
+    "TASK-069": "cd20d6b65bcc8d22f5955ac9f5866e86b7a16b100cde96732aa430db18689561",
+    "TASK-069-marker": "05d7d994a64b798417e21b26ba5782cbc31d87a68af39e0a13f282a073e8a70f",
+    "TASK-069-reconciliation": "a9d29c7235d5a1f21ea12f49dc1b13a1921c593f8263d090bf5a8f845bedfb12"
+  },
+  "status": "PASS",
+  "successor_files": [],
+  "task071_authorities": 1,
+  "task071_ledgers": 1,
+  "task071_outputs": 1,
+  "task071_wrapper_no_direct_constructor": true,
+  "task071_wrapper_single_governed_author_call_site": true
+}

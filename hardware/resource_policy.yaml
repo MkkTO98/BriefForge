@@ -1,0 +1,11 @@
+resource_policy:
+  model_selection_principle: smallest_sufficient_model
+  prefer_local_models: true
+  escalate_to_remote_when:
+    - repeated_local_failure
+    - architecture_review_required
+    - high_complexity_debugging
+  avoid:
+    - loading_multiple_large_models_without_need
+    - using largest_model_for_summarization
+    - parallel_large_model_runs_on_low_memory_machines

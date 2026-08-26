@@ -1,0 +1,148 @@
+questionnaire:
+  version: 1
+  policy:
+    primary_interviewer: hermes_agent
+    use_as: coverage_map_not_rigid_script
+    ask_style: one_focused_topic_at_a_time
+    explain_why_when: [architecture, safety, dependencies, scope, cost]
+    allow_undecided: true
+    undecided_values: ["", "?", "unsure", "undecided", "ask later", "project specific", "project-specific", "later"]
+    unanswered_action: "create_deferred_decision"
+    store_all_answers_as_decisions: true
+
+  sections:
+    - id: identity
+      title: "Project Identity"
+      questions:
+        - id: purpose
+          severity: L3
+          required_for_bootstrap: true
+          text: "What is the project's primary purpose?"
+        - id: success
+          severity: L3
+          required_for_bootstrap: true
+          text: "What counts as success for v1?"
+        - id: users
+          severity: L2
+          required_for_bootstrap: false
+          text: "Who uses this project: only you, agents, public users, clients, or another group?"
+        - id: scope
+          severity: L2
+          required_for_bootstrap: false
+          text: "What work is explicitly in scope for v1?"
+        - id: non_goals
+          severity: L2
+          required_for_bootstrap: false
+          text: "What should this project explicitly not try to do in v1?"
+        - id: responsibility_boundaries
+          severity: L2
+          required_for_bootstrap: false
+          text: "What responsibilities, external systems, or neighboring projects should this project explicitly not own?"
+
+    - id: architecture
+      title: "Architecture and Runtime"
+      questions:
+        - id: project_type
+          severity: L3
+          required_for_bootstrap: true
+          text: "Which type best describes the project: data, web, research, infra, writing, mixed, or other?"
+        - id: language
+          severity: L2
+          required_for_bootstrap: false
+          text: "Primary programming language or runtime?"
+        - id: storage
+          severity: L3
+          required_for_bootstrap: false
+          text: "Does the project need persistent storage? If yes, which kind?"
+        - id: deployment
+          severity: L2
+          required_for_bootstrap: false
+          text: "Local only, server, web, cloud, mobile, or undecided?"
+        - id: external_services
+          severity: L3
+          required_for_bootstrap: false
+          text: "Will the project depend on external APIs, cloud services, databases, or paid services?"
+
+    - id: operating_model
+      title: "Agent Operating Model"
+      questions:
+        - id: autonomy
+          severity: L3
+          required_for_bootstrap: true
+          text: "Agent autonomy: conservative, balanced, aggressive, or project-specific?"
+        - id: specialized_agents
+          severity: L2
+          required_for_bootstrap: false
+          text: "Which project-specialized agents seem useful, if any?"
+        - id: clarification_channel
+          severity: L2
+          required_for_bootstrap: false
+          text: "Where should blocking questions go: local queue only, Telegram later, email later, or other?"
+        - id: unanswered_blocking_policy
+          severity: L3
+          required_for_bootstrap: false
+          text: "If a blocking question is unanswered, should the agent pause indefinitely, make conservative fallback, or stop the run?"
+
+    - id: governance
+      title: "Governance, Git, and Permissions"
+      questions:
+        - id: git_remote
+          severity: L3
+          required_for_bootstrap: false
+          text: "Should git remote/push be configured now or deferred?"
+        - id: branch_strategy
+          severity: L2
+          required_for_bootstrap: false
+          text: "Branch strategy: single branch, feature branches, agent branches, or defer until needed?"
+        - id: command_policy
+          severity: L3
+          required_for_bootstrap: true
+          text: "Command permission model: layered default, restrictive allowlist, or project-specific?"
+        - id: secrets
+          severity: L4
+          required_for_bootstrap: true
+          text: "Will the project handle secrets/API keys/credentials? If yes, specify where they should live."
+        - id: approval_boundaries
+          severity: L3
+          required_for_bootstrap: false
+          text: "Any project-specific approval boundaries beyond destructive actions, external publication, remote pushes, paid resources, credentials/production data, major scope changes, and architecture changes beyond existing doctrine?"
+
+    - id: quality
+      title: "Quality, Logging, and Documentation"
+      questions:
+        - id: testing
+          severity: L2
+          required_for_bootstrap: false
+          text: "Testing standard for v1?"
+        - id: logging
+          severity: L2
+          required_for_bootstrap: true
+          text: "Any logging needs beyond the project-local default?"
+        - id: folder_summaries
+          severity: L2
+          required_for_bootstrap: true
+          text: "Should every core folder maintain a _SUMMARY.md for agent navigation?"
+        - id: documentation_standard
+          severity: L2
+          required_for_bootstrap: false
+          text: "Documentation standard: minimal, normal, rigorous, or project-specific?"
+        - id: implementation_methodology
+          severity: L2
+          required_for_bootstrap: false
+          text: "Any project-specific implementation methodology constraints beyond bounded slices, explicit non-goals, and smallest useful implementation?"
+
+    - id: model_routing
+      title: "Local Model Routing"
+      questions:
+        - id: available_models
+          severity: L2
+          required_for_bootstrap: false
+          text: "Which local models are installed or expected?"
+        - id: model_policy
+          severity: L2
+          required_for_bootstrap: false
+          text: "Model policy: smallest sufficient, fastest, highest quality, or project-specific?"
+        - id: premium_escalation
+          severity: L3
+          required_for_bootstrap: false
+          text: "When should Codex/OpenAI be used instead of local models?"
