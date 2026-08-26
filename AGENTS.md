@@ -78,6 +78,7 @@ Project-local tools are helpers, not a replacement for Hermes:
 - `tools/check_coherence.py` checks scaffold conventions.
 - `tools/update_context_summaries.py` refreshes folder summaries.
 - `tools/run.py` is an audit/policy wrapper for manual or non-Hermes command execution.
+- `tools/public_persistence.py` is the mandatory exact-path Git persistence gate for eligible completed tasks and explicitly persistence-eligible milestones. It enforces `publication/public-source-policy.json`; it is coordination tooling, not a BriefForge runtime dependency.
 
 ## Safety rules
 
@@ -101,6 +102,7 @@ When completing a task, follow the project `context/context_policy.yaml` task-co
 - Refresh only affected folder `_SUMMARY.md` files when possible, not the whole project by default.
 - Inspect refreshed summaries for stale curated sections such as `Active Work`, `Needs Attention`, and task status notes; patch them manually if needed.
 - Run final verification after task/state/handoff/summary edits.
+- When the authoritative task is `COMPLETED`, `ACCEPTED`, or fully reconciled `CLOSED`, or a milestone is explicitly persistence-eligible, create a `briefforge.public-closeout.v1` signal containing the exact task-owned paths and invoke `python3 tools/public_persistence.py <signal> --root .` as the final closeout act. The gate must use `publication/public-source-policy.json`; do not substitute broad Git staging.
 
 Every substantive handoff should include:
 

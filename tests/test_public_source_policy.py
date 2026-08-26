@@ -80,6 +80,22 @@ class PublicSourcePolicyTests(unittest.TestCase):
         self.assertEqual(manifest["candidate_digest"], hashlib.sha256(digest_payload).hexdigest())
         self.assertEqual(len(entries) + 1, manifest["candidate_count_including_manifest"])
 
+    def test_standard_closeout_contract_activates_public_persistence(self) -> None:
+        agents = (ROOT / "AGENTS.md").read_text()
+        recovery = (ROOT / "recovery/continuity_framework.md").read_text()
+        policy_text = (ROOT / "context/context_policy.yaml").read_text()
+        for text in (agents, recovery, policy_text):
+            self.assertIn("tools/public_persistence.py", text)
+            self.assertIn("publication/public-source-policy.json", text)
+        for outcome in (
+            "REMOTE_SAVED",
+            "REMOTE_SAVED_WITH_LOCAL_ONLY_MATERIAL",
+            "LOCAL_ONLY_COMPLETION",
+            "REMOTE_SAVE_PENDING",
+            "PUBLICATION_BLOCKED",
+        ):
+            self.assertIn(outcome, recovery)
+
     def test_separated_public_test_has_no_machine_specific_fixture_path(self) -> None:
         text = (ROOT / "tests/test_task081_four_company_corporate_financial_report_v4.py").read_text()
         self.assertNotIn("/home/mkkto", text)

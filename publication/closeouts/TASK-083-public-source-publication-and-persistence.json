@@ -1,0 +1,24 @@
+{
+  "schema": "briefforge.public-closeout.v1",
+  "closure_id": "TASK-083-public-source-publication-and-persistence-v1",
+  "kind": "task",
+  "identifier": "TASK-083",
+  "terminal_state": "COMPLETED",
+  "validation": {
+    "status": "PASS",
+    "evidence": [
+      "14 publication-policy and persistence tests passed",
+      "9 TASK-081 local-only integration tests passed",
+      "coherence completed with zero blockers"
+    ]
+  },
+  "task_owned_paths": [
+    "AGENTS.md",
+    "artifacts/tasks/TASK-083-public-source-publication-and-persistence.md",
+    "context/context_policy.yaml",
+    "publication/closeouts/TASK-083-public-source-publication-and-persistence.json",
+    "recovery/continuity_framework.md",
+    "tests/test_public_source_policy.py"
+  ],
+  "commit_message": "chore(closeout): activate TASK-083 public persistence"
+}
