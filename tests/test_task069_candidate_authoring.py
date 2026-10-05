@@ -121,21 +121,6 @@ class Task069CandidateAuthoringTests(unittest.TestCase):
         provenance[0] = replace(provenance[0], citation="mutated citation")
         self._rejected(replace(semantics, provenance=tuple(provenance)))
 
-    def test_ast_has_one_author_call_no_private_or_publication_machinery(self) -> None:
-        tree = ast.parse(SCRIPT.read_text(encoding="utf-8"))
-        calls = [node for node in ast.walk(tree) if isinstance(node, ast.Call)
-                 and isinstance(node.func, ast.Name)
-                 and node.func.id == "_task069_author_once"]
-        self.assertEqual(1, len(calls))
-        imports = " ".join((node.module or "") for node in ast.walk(tree)
-                           if isinstance(node, ast.ImportFrom))
-        for prohibited in ("publication_release", ".projection", "renderer_adapter",
-                           "manifest_admission", "publication_lifecycle"):
-            self.assertNotIn(prohibited, imports)
-        function = next(node for node in tree.body if isinstance(node, ast.FunctionDef)
-                        and node.name == "_consume_attempt_and_author")
-        self.assertEqual(2, sum(isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute)
-                                and node.func.attr == "fsync" for node in ast.walk(function)))
 
     def test_durable_marker_precedes_exactly_one_fake_call_and_survives_failure(self) -> None:
         original_marker = PROGRAM.MARKER
@@ -165,6 +150,28 @@ class Task069CandidateAuthoringTests(unittest.TestCase):
                 PROGRAM._task069_author_once = original_author
         self.assertEqual(original_marker_existed, original_marker.exists())
 
+
+
+
+
+
+class Task069PortableSoftwareTests(unittest.TestCase):
+    def test_ast_has_one_author_call_no_private_or_publication_machinery(self) -> None:
+        tree = ast.parse(SCRIPT.read_text(encoding="utf-8"))
+        calls = [node for node in ast.walk(tree) if isinstance(node, ast.Call)
+                 and isinstance(node.func, ast.Name)
+                 and node.func.id == "_task069_author_once"]
+        self.assertEqual(1, len(calls))
+        imports = " ".join((node.module or "") for node in ast.walk(tree)
+                           if isinstance(node, ast.ImportFrom))
+        for prohibited in ("publication_release", ".projection", "renderer_adapter",
+                           "manifest_admission", "publication_lifecycle"):
+            self.assertNotIn(prohibited, imports)
+        function = next(node for node in tree.body if isinstance(node, ast.FunctionDef)
+                        and node.name == "_consume_attempt_and_author")
+        self.assertEqual(2, sum(isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute)
+                                and node.func.attr == "fsync" for node in ast.walk(function)))
+
     def test_staging_directory_rename_is_whole_and_failure_leaves_no_final(self) -> None:
         originals = (PROGRAM.CANDIDATE_DIR, PROGRAM.STAGING_DIR)
         with tempfile.TemporaryDirectory() as directory:
@@ -186,6 +193,9 @@ class Task069CandidateAuthoringTests(unittest.TestCase):
             finally:
                 PROGRAM.CANDIDATE_DIR, PROGRAM.STAGING_DIR = originals
 
+
+
+class Task069LocalRecordedStateTests(unittest.TestCase):
     def test_governed_attempt_state_is_internally_consistent(self) -> None:
         if not PROGRAM.MARKER.exists():
             self.assertFalse(PROGRAM.CANDIDATE_DIR.exists())
@@ -203,6 +213,7 @@ class Task069CandidateAuthoringTests(unittest.TestCase):
         else:
             self.assertFalse(PROGRAM.CANDIDATE_DIR.exists())
             self.assertTrue(PROGRAM.STAGING_DIR.is_dir())
+
 
 
 if __name__ == "__main__":

@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import copy
+import ctypes
 from dataclasses import replace
+import errno
 import hashlib
 import inspect
 import json
@@ -14,6 +16,7 @@ import unittest
 from unittest import mock
 
 from briefforge.bcrp.model import BCRPBundle, BCRPRecord
+import briefforge.bcrp_renderer_compatibility_planning_v2 as planning_v2
 from briefforge.bcrp_paired_derivation_evidence_v2 import construct_envelope
 from briefforge.bcrp_paired_terminal_admission import (
     NativeBCRPPairedTerminalAdmissionHandle,
@@ -141,6 +144,139 @@ def replace_record(bundle: BCRPBundle, position: int, record: BCRPRecord) -> BCR
     records = list(bundle.records)
     records[position] = record
     return BCRPBundle(bundle.profile_identity, bundle.profile_version, tuple(records))
+
+
+class Task077AnonymousPublicationTests(unittest.TestCase):
+    """Exercise the real anonymous inode independently of Plan fixture admission."""
+
+    def test_procfd_linkat_arguments_real_bytes_and_inode(self):
+        payload = b"plan-v2 anonymous publication exact bytes\n"
+        with tempfile.TemporaryDirectory() as name:
+            directory = Path(name)
+            directory_fd = os.open(directory, os.O_RDONLY | os.O_DIRECTORY)
+            descriptor = os.open(".", os.O_RDWR | os.O_TMPFILE, 0o600,
+                                 dir_fd=directory_fd)
+            try:
+                self.assertEqual(os.write(descriptor, payload), len(payload))
+                os.fsync(descriptor)
+                self.assertEqual(os.lseek(descriptor, 0, os.SEEK_SET), 0)
+                self.assertEqual(os.read(descriptor, len(payload)), payload)
+                initial = os.fstat(descriptor)
+                self.assertEqual(initial.st_nlink, 0)
+                libc = ctypes.CDLL(None, use_errno=True)
+                actual_linkat = libc.linkat
+                actual_linkat.argtypes = (ctypes.c_int, ctypes.c_char_p,
+                                          ctypes.c_int, ctypes.c_char_p, ctypes.c_int)
+                actual_linkat.restype = ctypes.c_int
+                calls = []
+
+                def recording_linkat(old_fd, old_path, new_fd, new_path, flags):
+                    calls.append((old_fd, old_path, new_fd, new_path, flags))
+                    self.assertEqual(os.fstat(descriptor).st_ino, initial.st_ino)
+                    self.assertEqual(os.fstat(directory_fd).st_ino,
+                                     directory.stat().st_ino)
+                    return actual_linkat(old_fd, old_path, new_fd, new_path, flags)
+
+                stub = mock.Mock(side_effect=recording_linkat)
+                with mock.patch.object(planning_v2.ctypes, "CDLL",
+                                       return_value=mock.Mock(linkat=stub)):
+                    planning_v2._plan_v2_publish_anonymous(
+                        descriptor, directory_fd, "plan.json")
+                self.assertEqual(calls, [(-100, os.fsencode(f"/proc/self/fd/{descriptor}"),
+                                          directory_fd, b"plan.json", 0x400)])
+                published = directory / "plan.json"
+                self.assertEqual(published.read_bytes(), payload)
+                self.assertEqual((published.stat().st_dev, published.stat().st_ino),
+                                 (initial.st_dev, initial.st_ino))
+                self.assertEqual(os.fstat(descriptor).st_nlink, 1)
+                self.assertEqual(list(directory.iterdir()), [published])
+            finally:
+                os.close(descriptor)
+                os.close(directory_fd)
+
+    def test_unavailable_procfd_fails_closed_and_cleans_public_persistence(self):
+        fixture, subject = closure_fixture(8)
+        _, control = closure_fixture(8)
+        with tempfile.TemporaryDirectory() as name:
+            directory = Path(name)
+            before_fds = set(os.listdir("/proc/self/fd"))
+            calls = []
+
+            def missing_procfd(old_fd, old_path, new_fd, new_path, flags):
+                calls.append((old_fd, old_path, new_fd, new_path, flags))
+                ctypes.set_errno(errno.ENOENT)
+                return -1
+
+            stub = mock.Mock(side_effect=missing_procfd)
+            with mock.patch.object(planning_v2.ctypes, "CDLL",
+                                   return_value=mock.Mock(linkat=stub)):
+                with self.assertRaises(PlanV2Rejected) as caught:
+                    persist_renderer_compatibility_plan_v2(
+                        subject, directory=directory, expected_bundle=control,
+                        root_identity=fixture["root"],
+                        allow_publication_successors=False)
+            self.assertEqual(caught.exception.code, "PLAN_V2_PERSISTENCE_REJECTED")
+            self.assertIsInstance(caught.exception.__cause__, FileNotFoundError)
+            self.assertEqual(caught.exception.__cause__.errno, errno.ENOENT)
+            self.assertEqual(len(calls), 1)
+            self.assertEqual(calls[0][0], -100)
+            self.assertTrue(calls[0][1].startswith(b"/proc/self/fd/"))
+            self.assertEqual(calls[0][2] >= 0, True)
+            self.assertEqual(calls[0][3:], (b"renderer-compatibility-plan-v2.json", 0x400))
+            self.assertEqual(list(directory.iterdir()), [])
+            self.assertEqual(set(os.listdir("/proc/self/fd")), before_fds)
+
+    def test_existing_destination_never_overwritten(self):
+        with tempfile.TemporaryDirectory() as name:
+            directory = Path(name)
+            target = directory / "plan.json"
+            target.write_bytes(b"foreign bytes")
+            foreign = target.stat()
+            directory_fd = os.open(directory, os.O_RDONLY | os.O_DIRECTORY)
+            descriptor = os.open(".", os.O_RDWR | os.O_TMPFILE, 0o600,
+                                 dir_fd=directory_fd)
+            try:
+                os.write(descriptor, b"new bytes")
+                os.fsync(descriptor)
+                with self.assertRaises(FileExistsError) as caught:
+                    planning_v2._plan_v2_publish_anonymous(
+                        descriptor, directory_fd, target.name)
+                self.assertEqual(caught.exception.errno, errno.EEXIST)
+                self.assertEqual(target.read_bytes(), b"foreign bytes")
+                self.assertEqual(target.stat().st_ino, foreign.st_ino)
+                self.assertEqual(os.fstat(descriptor).st_nlink, 0)
+                self.assertEqual(list(directory.iterdir()), [target])
+            finally:
+                os.close(descriptor)
+                os.close(directory_fd)
+
+    def test_linkat_failure_captures_errno_and_leaves_no_entry(self):
+        with tempfile.TemporaryDirectory() as name:
+            directory = Path(name)
+            directory_fd = os.open(directory, os.O_RDONLY | os.O_DIRECTORY)
+            descriptor = os.open(".", os.O_RDWR | os.O_TMPFILE, 0o600,
+                                 dir_fd=directory_fd)
+            try:
+                os.write(descriptor, b"unpublished")
+                os.fsync(descriptor)
+
+                def failing_linkat(*args):
+                    ctypes.set_errno(errno.EIO)
+                    return -1
+
+                stub = mock.Mock(side_effect=failing_linkat)
+                with mock.patch.object(planning_v2.ctypes, "CDLL",
+                                       return_value=mock.Mock(linkat=stub)):
+                    with self.assertRaises(OSError) as caught:
+                        planning_v2._plan_v2_publish_anonymous(
+                            descriptor, directory_fd, "plan.json")
+                self.assertEqual(caught.exception.errno, errno.EIO)
+                self.assertEqual(stub.call_count, 1)
+                self.assertEqual(list(directory.iterdir()), [])
+                self.assertEqual(os.fstat(descriptor).st_nlink, 0)
+            finally:
+                os.close(descriptor)
+                os.close(directory_fd)
 
 
 class Task077PlanV2CompletenessTests(unittest.TestCase):
