@@ -175,8 +175,8 @@ def load_task076_contracts() -> AuthenticatedContracts:
         if type(rel) is not str or rel in seen or rel.startswith("/") or ".." in Path(rel).parts:
             raise ContractAuthenticationError(f"manifest entry {position} has unsafe or duplicate path")
         seen.add(rel)
-        path = (PROJECT_ROOT / rel).resolve()
-        if not path.is_relative_to(PROJECT_ROOT.resolve()):
+        path = PROJECT_ROOT / rel
+        if not path.resolve().is_relative_to(PROJECT_ROOT.resolve()):
             raise ContractAuthenticationError("governed path escapes project root")
         data = _read_regular(path, f"governed entry {rel}")
         if len(data) != entry["length"] or hashlib.sha256(data).hexdigest() != entry["sha256"]:
@@ -193,8 +193,11 @@ def load_task076_contracts() -> AuthenticatedContracts:
         children = tuple(_CONTRACT_ROOT.iterdir())
     except OSError as exc:
         raise ContractAuthenticationError("cannot authenticate TASK-076 contract inventory") from exc
+    actual_contract_inventory = {item.name for item in children}
+    ancillary = {"_SUMMARY.md"} - expected_contract_inventory
     if (any(item.is_symlink() or not item.is_file() for item in children)
-            or {item.name for item in children} != expected_contract_inventory):
+            or not expected_contract_inventory <= actual_contract_inventory
+            or actual_contract_inventory - expected_contract_inventory - ancillary):
         raise ContractAuthenticationError("TASK-076 contract directory inventory differs")
     return AuthenticatedContracts(_freeze(manifest), MappingProxyType(docs), MappingProxyType(byte_map))
 

@@ -2047,7 +2047,8 @@ def _plan_v2_publish_anonymous(
         ctypes.c_int, ctypes.c_char_p, ctypes.c_int, ctypes.c_char_p, ctypes.c_int)
     linkat.restype = ctypes.c_int
     ctypes.set_errno(0)
-    if linkat(descriptor, b"", directory_fd, encoded_name, 0x1000) != 0:
+    if linkat(-100, os.fsencode(f"/proc/self/fd/{descriptor}"),
+              directory_fd, encoded_name, 0x400) != 0:
         error_number = ctypes.get_errno() or errno.EIO
         raise OSError(error_number, os.strerror(error_number), filename)
 

@@ -18,19 +18,6 @@ class ReusableInteractiveFoundationTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.data = json.loads(FIXTURE.read_text(encoding="utf-8"))
 
-    def test_macro_has_required_shape_controls_and_chart_grammar(self) -> None:
-        config = macro_config()
-        self.assertEqual(7, len(config["divisions"]))
-        self.assertTrue(all(len(x["pages"]) == 4 for x in config["divisions"]))
-        self.assertEqual(6, len(config["controls"]))
-        kinds = {c["kind"] for d in config["divisions"] for p in d["pages"] for c in p.get("charts", [])}
-        self.assertEqual(CHART_KINDS, kinds)
-        html = render_report(config)
-        self.assertIn("illustrative only; not analytical evidence", html)
-        self.assertIn("history.pushState", html)
-        self.assertIn("mobile-drawer", html)
-        self.assertIn("set.delete", html)
-        self.assertIn("set.add", html)
 
     def test_norway_uses_exact_t035_values_and_one_evidence_table(self) -> None:
         config = norway_config(self.data, FIXTURE)
@@ -58,20 +45,6 @@ class ReusableInteractiveFoundationTests(unittest.TestCase):
         self.assertIn("mobile-subnav", html)
         self.assertNotIn("subs=[['summary'", html)
 
-    def test_macro_controls_have_functional_types_and_ten_point_data(self) -> None:
-        config = macro_config()
-        self.assertEqual("Nordic Macroeconomic Monitor — Interactive Model Report", config["title"])
-        controls = {c["id"]: c for c in config["controls"]}
-        self.assertEqual("primary-geography", controls["geography"]["type"])
-        self.assertEqual("multi-checkbox", controls["compare"]["type"])
-        self.assertEqual({"type": "range", "min": 0, "max": 2, "step": 1}, {k: controls["horizon"][k] for k in ("type", "min", "max", "step")})
-        self.assertEqual("segmented", controls["display"]["type"])
-        timelines = [c for d in config["divisions"] for p in d["pages"] for c in p.get("charts", []) if c["kind"] == "timeline"]
-        self.assertTrue(timelines)
-        self.assertTrue(all(len(c["labels"]) == 10 and all(len(s["values"]) == 10 for s in c["data"]) for c in timelines))
-        html = render_report(config)
-        for contract in ("previousPrimary", "validComparators", "slice(-horizonCount", "indexedValues", "relevantData", "scenario-emphasis", 'type="range"', 'type="checkbox"'):
-            self.assertIn(contract, html)
 
     def test_norway_only_exposes_appearance_and_exact_chart_metadata(self) -> None:
         config = norway_config(self.data, FIXTURE)
@@ -98,6 +71,60 @@ class ReusableInteractiveFoundationTests(unittest.TestCase):
         self.assertIn("Raw level", html)
         self.assertIn("First difference", html)
 
+
+
+    def test_mobile_page_transitions_reset_reading_position_and_source_hash_wraps(self) -> None:
+        html = render_report(norway_config(self.data, FIXTURE))
+        self.assertIn("scrollTarget", html)
+        self.assertIn("window.scrollTo(0,0)", html)
+        self.assertIn(".source-note{overflow-wrap:anywhere}", html)
+
+    def test_keyboard_focus_is_preserved_after_rerender_and_drawer_close(self) -> None:
+        html = render_report(norway_config(self.data, FIXTURE))
+        self.assertIn("focusTarget", html)
+        self.assertIn("restoreFocus", html)
+        self.assertIn("wasOpen", html)
+        self.assertIn("menu.focus()", html)
+
+
+
+
+
+
+
+
+
+
+class PortableInteractiveFoundationTests(unittest.TestCase):
+    def test_macro_has_required_shape_controls_and_chart_grammar(self) -> None:
+        config = macro_config()
+        self.assertEqual(7, len(config["divisions"]))
+        self.assertTrue(all(len(x["pages"]) == 4 for x in config["divisions"]))
+        self.assertEqual(6, len(config["controls"]))
+        kinds = {c["kind"] for d in config["divisions"] for p in d["pages"] for c in p.get("charts", [])}
+        self.assertEqual(CHART_KINDS, kinds)
+        html = render_report(config)
+        self.assertIn("illustrative only; not analytical evidence", html)
+        self.assertIn("history.pushState", html)
+        self.assertIn("mobile-drawer", html)
+        self.assertIn("set.delete", html)
+        self.assertIn("set.add", html)
+
+    def test_macro_controls_have_functional_types_and_ten_point_data(self) -> None:
+        config = macro_config()
+        self.assertEqual("Nordic Macroeconomic Monitor — Interactive Model Report", config["title"])
+        controls = {c["id"]: c for c in config["controls"]}
+        self.assertEqual("primary-geography", controls["geography"]["type"])
+        self.assertEqual("multi-checkbox", controls["compare"]["type"])
+        self.assertEqual({"type": "range", "min": 0, "max": 2, "step": 1}, {k: controls["horizon"][k] for k in ("type", "min", "max", "step")})
+        self.assertEqual("segmented", controls["display"]["type"])
+        timelines = [c for d in config["divisions"] for p in d["pages"] for c in p.get("charts", []) if c["kind"] == "timeline"]
+        self.assertTrue(timelines)
+        self.assertTrue(all(len(c["labels"]) == 10 and all(len(s["values"]) == 10 for s in c["data"]) for c in timelines))
+        html = render_report(config)
+        for contract in ("previousPrimary", "validComparators", "slice(-horizonCount", "indexedValues", "relevantData", "scenario-emphasis", 'type="range"', 'type="checkbox"'):
+            self.assertIn(contract, html)
+
     def test_kpi_counts_are_page_variable(self) -> None:
         pages = [p for d in macro_config()["divisions"] for p in d["pages"]]
         counts = [len(p.get("kpis", [])) for p in pages]
@@ -117,19 +144,6 @@ class ReusableInteractiveFoundationTests(unittest.TestCase):
         executive = config["divisions"][0]["pages"][0]
         self.assertTrue(all(set(k["values_by_geography"]) == {"Norway", "Denmark", "Sweden"} for k in executive["kpis"]))
         self.assertIn("values_by_geography", render_report(config))
-
-    def test_mobile_page_transitions_reset_reading_position_and_source_hash_wraps(self) -> None:
-        html = render_report(norway_config(self.data, FIXTURE))
-        self.assertIn("scrollTarget", html)
-        self.assertIn("window.scrollTo(0,0)", html)
-        self.assertIn(".source-note{overflow-wrap:anywhere}", html)
-
-    def test_keyboard_focus_is_preserved_after_rerender_and_drawer_close(self) -> None:
-        html = render_report(norway_config(self.data, FIXTURE))
-        self.assertIn("focusTarget", html)
-        self.assertIn("restoreFocus", html)
-        self.assertIn("wasOpen", html)
-        self.assertIn("menu.focus()", html)
 
     def test_reader_charts_expose_units_latest_labels_and_endpoint_values(self) -> None:
         html = render_report(macro_config())
@@ -202,6 +216,7 @@ class ReusableInteractiveFoundationTests(unittest.TestCase):
             self.assertNotIn("<script src=", html)
             self.assertNotIn("<link rel=\"stylesheet\"", html)
             self.assertEqual(html, render_report(macro_config()))
+
 
 
 if __name__ == "__main__":
